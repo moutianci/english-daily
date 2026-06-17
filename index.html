@@ -675,6 +675,7 @@ document.addEventListener('click', e => {
 const tooltip = document.getElementById('wordTooltip');
 let lookupTimeout = null;
 let isTooltipVisible = false;
+let lastRect = null;
 
 function hideTooltip() {
   tooltip.classList.remove('show');
@@ -740,9 +741,10 @@ function handleSelection() {
   const word = getSelectedWord();
   const rect = getSelectionRect();
   if (word && rect) {
-    positionTooltip(rect);
+    lastRect = rect; // save for repositioning after content loads
     tooltip.classList.add('show');
     isTooltipVisible = true;
+    positionTooltip(rect);
     clearTimeout(lookupTimeout);
     lookupTimeout = setTimeout(() => lookupWord(word), 200);
   } else {
@@ -800,6 +802,11 @@ async function lookupWord(word) {
 
   html += `<div class="lookup-source">📖 MyMemory + dictionaryapi.dev</div>`;
   tooltip.innerHTML = html;
+  // Reposition after content loaded (height may have changed)
+  const currentRect = getSelectionRect() || lastRect;
+  if (currentRect) {
+    positionTooltip(currentRect);
+  }
 }
 
 // iOS / touch / desktop: selectionchange is the single source of truth
