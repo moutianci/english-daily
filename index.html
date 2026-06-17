@@ -144,19 +144,7 @@ body {
   font-size: 19px;
   line-height: 1.9;
   color: var(--text);
-  cursor: pointer;
 }
-
-.en-text:hover .show-hint {
-  opacity: 1;
-}
-
-.show-hint {
-  display: inline;
-  opacity: 0;
-  transition: opacity 0.2s;
-  font-size: 13px;
-  color: var(--text-light);
   margin-left: 8px;
 }
 
@@ -548,7 +536,7 @@ function renderArticle(article) {
     const enHighlighted = highlightVocab(p.en, p.vocabulary);
     html += `
     <div class="paragraph">
-      <div class="en-text" onclick="toggleTranslation(${i})">${enHighlighted}<span class="show-hint">点击查看翻译</span></div>
+      <div class="en-text">${enHighlighted}</div>
       <div class="translation-toggle" onclick="toggleTranslation(${i})">📖 显示中文翻译</div>
       <div class="translation-content" id="trans-${i}">${p.zh}</div>`;
 
