@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-17",
+  "source": "The Economist",
+  "title": "The Battle for Artificial General Intelligence",
+  "url": "https://www.economist.com/leaders/2026/06/15/the-battle-for-artificial-general-intelligence",
+  "paragraphs": [
+    {
+      "en": "The race to build artificial general intelligence (AGI) has become the defining technological contest of the 2020s. A handful of firms, chiefly OpenAI, Google DeepMind and Anthropic, are pouring tens of billions of dollars into training ever-larger models. Their premise is simple: scale is all you need. Feed enough data and computing power into a neural network, and genuine reasoning will eventually emerge.",
+      "zh": "构建通用人工智能（AGI）的竞赛已成为2020年代最具决定性的技术角逐。少数几家公司——主要是OpenAI、Google DeepMind和Anthropic——正在向训练越来越大的模型投入数百亿美元。它们的前提很简单：规模就是你需要的一切。将足够的数据和算力输入神经网络，真正的推理能力终将涌现。",
+      "vocabulary": [
+        { "word": "defining", "phonetic": "/dɪˈfaɪnɪŋ/", "meaning": "adj. 决定性的；最具代表性的", "example": "Climate change is the defining issue of our generation." },
+        { "word": "contest", "phonetic": "/ˈkɒntest/", "meaning": "n. 竞赛；角逐", "example": "The leadership contest was closely watched by investors." },
+        { "word": "premise", "phonetic": "/ˈpremɪs/", "meaning": "n. 前提；假设", "example": "The argument rests on a false premise." },
+        { "word": "eventually", "phonetic": "/ɪˈventʃuəli/", "meaning": "adv. 最终；终于", "example": "She eventually found a job after months of searching." }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Their premise is simple: scale is all you need.",
+          "zh": "它们的前提很简单：规模就是一切。这里的 'scale' 指模型参数量、训练数据量和计算资源的规模。'all you need' 是口语化表达，意为'唯一需要的要素'。",
+          "grammar": "冒号后接同位语/解释说明；'all you need' 是省略了 that 的定语从句，修饰前面的 scale 概念。"
+        }
+      ]
+    },
+    {
+      "en": "Sceptics counter that scaling alone will hit diminishing returns. They point to the growing gap between benchmark performance and real-world usefulness. A model that aces a graduate-level mathematics exam may still struggle to draft a coherent email or plan a week of meals. The gap between 'knowing' and 'doing' remains stubbornly wide.",
+      "zh": "怀疑论者反驳说，单纯扩大规模终将面临边际收益递减。他们指出基准测试表现与现实实用性之间的差距正在扩大。一个能轻松通过研究生数学考试模型，可能仍然难以起草一封连贯的电子邮件或规划一周的饮食。'知道'和'做到'之间的差距依然顽固地存在。",
+      "vocabulary": [
+        { "word": "sceptic", "phonetic": "/ˈskeptɪk/", "meaning": "n. 怀疑论者（英式拼写，美式为 skeptic）", "example": "Climate sceptics continue to challenge mainstream science." },
+        { "word": "diminishing", "phonetic": "/dɪˈmɪnɪʃɪŋ/", "meaning": "adj. 递减的；逐渐减弱的", "example": "The returns on investment showed diminishing returns after the third year." },
+        { "word": "coherent", "phonetic": "/kəʊˈhɪərənt/", "meaning": "adj. 连贯的；条理清楚的", "example": "She struggled to give a coherent account of what had happened." },
+        { "word": "stubbornly", "phonetic": "/ˈstʌbənli/", "meaning": "adv. 顽固地；固执地", "example": "Inflation has stubbornly refused to fall below 3%." }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "They point to the growing gap between benchmark performance and real-world usefulness.",
+          "zh": "他们指出基准测试表现与现实实用性之间不断扩大的差距。'point to' 意为'指出、援引作为证据'。",
+          "grammar": "'between... and...' 是固定搭配；'benchmark performance' 和 'real-world usefulness' 是两个并列的名词短语作 between 的宾语。"
+        }
+      ]
+    },
+    {
+      "en": "Yet the optimists are doubling down. OpenAI's latest model reportedly cost over $100m to train and consumes more electricity than a small town. The firm's leadership has spoken of reaching AGI within the next two to three years. Such claims invite eyerolls from researchers in academic labs, but the sheer volume of capital flowing into the field suggests that investors, at least, are taking the prospect seriously.",
+      "zh": "然而乐观主义者却在加码投入。据报道，OpenAI最新的模型训练成本超过1亿美元，消耗的电力超过一个小镇。该公司领导层曾表示将在未来两三年内实现AGI。此类说法引来了学术实验室研究人员的翻白眼，但涌入该领域的巨额资本至少表明投资者对这一前景是认真的。",
+      "vocabulary": [
+        { "word": "doubling down", "phonetic": "", "meaning": "phr. 加码；加大投入（源自赌场术语，意为在已有赌注上加倍下注）", "example": "The company doubled down on its AI strategy despite early setbacks." },
+        { "word": "reportedly", "phonetic": "/rɪˈpɔːtɪdli/", "meaning": "adv.据报道", "example": "The CEO reportedly resigned after the scandal broke." },
+        { "word": "eyeroll", "phonetic": "/ˈaɪrəʊl/", "meaning": "n. 翻白眼（表示不屑或不以为然）", "example": "His comments were met with eyerolls from the audience." },
+        { "word": "sheer", "phonetic": "/ʃɪə/", "meaning": "adj. 纯粹的；十足的（强调数量之大或程度之深）", "example": "The sheer scale of the operation was impressive." }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Such claims invite eyerolls from researchers in academic labs, but the sheer volume of capital flowing into the field suggests that investors, at least, are taking the prospect seriously.",
+          "zh": "此类说法引来学术研究人员的不屑，但涌入该领域的巨额资本表明，至少投资者对这个前景是认真的。'invite' 这里不是'邀请'，而是'招致、引发'的意思。",
+          "grammar": "转折句结构：'Such claims invite X, but Y suggests Z'。插入语 'at least' 用来限定主语范围。'flowing into the field' 是现在分词短语作 capital 的后置定语。"
+        }
+      ]
+    },
+    {
+      "en": "Whatever the outcome, the AGI race is reshaping geopolitics. America's export controls on advanced chips, China's push for self-sufficiency in semiconductors and the European Union's attempt to regulate AI through the AI Act are all, at their core, responses to the same underlying reality: whoever cracks AGI first will wield enormous economic and strategic power. The stakes, in other words, could hardly be higher.",
+      "zh": "无论结果如何，AGI竞赛正在重塑地缘政治格局。美国对先进芯片的出口管制、中国在半导体领域追求自给自足、欧盟试图通过AI法案监管人工智能——所有这些举措，从根本上说，都是对同一潜在现实的回应：谁率先突破AGI，谁就将拥有巨大的经济和战略权力。换言之，赌注再高不过如此。",
+      "vocabulary": [
+        { "word": "geopolitics", "phonetic": "/ˌdʒiːəʊˈpɒlɪtɪks/", "meaning": "n. 地缘政治", "example": "The war has fundamentally altered the geopolitics of the region." },
+        { "word": "self-sufficiency", "phonetic": "/ˌselfsəˈfɪʃnsi/", "meaning": "n. 自给自足", "example": "The country achieved self-sufficiency in food production." },
+        { "word": "underlying", "phonetic": "/ˌʌndəˈlaɪɪŋ/", "meaning": "adj. 潜在的；根本的；底层的", "example": "The underlying problem is a lack of trust between the parties." },
+        { "word": "wield", "phonetic": "/wiːld/", "meaning": "v. 行使（权力）；运用（影响力）", "example": "The president wields enormous influence over the party." }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "America's export controls on advanced chips, China's push for self-sufficiency in semiconductors and the European Union's attempt to regulate AI through the AI Act are all, at their core, responses to the same underlying reality.",
+          "zh": "这句话是典型的三项并列主语结构。三个政治举措（美国芯片管制、中国半导体自立、欧盟AI立法）共用一个谓语 'are all responses to'。插入语 'at their core' 起强调作用。",
+          "grammar": "主语由三个较长的名词短语并列构成（A's X, B's Y, and C's Z），谓语动词 are 后接表语 'responses to'。'at their core' 是插入语，可理解为'从根本上说'。"
+        }
+      ]
+    }
+  ]
+}

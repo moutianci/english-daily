@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="English Daily">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>📖</text></svg>"
+<title>English Daily — 经济学人精读</title>
+<style>
+:root {
+  --bg: #fafafa;
+  --text: #1a1a1a;
+  --text-light: #6b7280;
+  --highlight: #2563eb;
+  --highlight-bg: #dbeafe;
+  --grammar-bg: #dcfce7;
+  --grammar-border: #86efac;
+  --translation-bg: #f0f4ff;
+  --card-bg: #ffffff;
+  --border: #e5e7eb;
+  --radius: 10px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* Safe area insets for iOS notch/home indicator */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: max(20px, env(safe-area-inset-left));
+  padding-right: max(20px, env(safe-area-inset-right));
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.logo span { color: var(--highlight); }
+
+.date-picker {
+  position: relative;
+}
+
+.date-picker-btn {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.date-picker-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 44px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+  min-width: 180px;
+  z-index: 100;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.date-picker-dropdown.open { display: block; }
+
+.date-option {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+
+.date-option:last-child { border-bottom: none; }
+.date-option:hover { background: var(--highlight-bg); }
+.date-option.active { color: var(--highlight); font-weight: 600; }
+
+/* Article Meta */
+.article-meta {
+  margin-bottom: 32px;
+}
+
+.article-meta .source {
+  display: inline-block;
+  background: var(--highlight);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.article-meta .title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.article-meta .date-text {
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+/* Paragraphs */
+.paragraph {
+  margin-bottom: 36px;
+}
+
+.en-text {
+  font-size: 19px;
+  line-height: 1.9;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.en-text:hover .show-hint {
+  opacity: 1;
+}
+
+.show-hint {
+  display: inline;
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-size: 13px;
+  color: var(--text-light);
+  margin-left: 8px;
+}
+
+/* Vocabulary highlight */
+.vocab-word {
+  color: var(--highlight);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.vocab-word:hover {
+  background: var(--highlight-bg);
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+/* Translation */
+.translation-toggle {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;
+  background: var(--translation-bg);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--highlight);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.translation-toggle:hover { background: #dce5ff; }
+
+.translation-content {
+  display: none;
+  margin-top: 12px;
+  padding: 16px 20px;
+  background: var(--translation-bg);
+  border-left: 3px solid var(--highlight);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #374151;
+}
+
+.translation-content.show { display: block; }
+
+/* Vocab Card */
+.vocab-section {
+  margin-top: 16px;
+}
+
+.vocab-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--highlight);
+  margin-bottom: 8px;
+}
+
+.vocab-card {
+  display: inline-block;
+  margin: 4px 6px 4px 0;
+  padding: 4px 10px;
+  background: var(--highlight-bg);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--highlight);
+  transition: all 0.15s;
+}
+
+.vocab-card:hover { background: #bfdbfe; }
+
+.vocab-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  padding: 24px;
+  max-width: 400px;
+  width: 90%;
+  z-index: 200;
+}
+
+.vocab-popup.show { display: block; }
+
+.vocab-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 199;
+}
+
+.vocab-overlay.show { display: block; }
+
+.vocab-popup .close-btn {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--text-light);
+}
+
+.vocab-popup .word-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--highlight);
+  margin-bottom: 4px;
+}
+
+.vocab-popup .phonetic {
+  font-size: 15px;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+.vocab-popup .meaning {
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.vocab-popup .example {
+  font-size: 15px;
+  color: #4b5563;
+  padding: 10px 14px;
+  background: var(--bg);
+  border-radius: 6px;
+  font-style: italic;
+}
+
+/* Difficult Sentences */
+.grammar-section {
+  margin-top: 16px;
+}
+
+.grammar-toggle {
+  display: inline-block;
+  padding: 6px 14px;
+  background: var(--grammar-bg);
+  border-radius: 6px;
+  font-size: 14px;
+  color: #166534;
+  cursor: pointer;
+  user-select: none;
+}
+
+.grammar-toggle:hover { background: #bbf7d0; }
+
+.grammar-content {
+  display: none;
+  margin-top: 12px;
+}
+
+.grammar-item {
+  padding: 14px 18px;
+  background: var(--grammar-bg);
+  border-left: 3px solid var(--grammar-border);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.grammar-item:last-child { margin-bottom: 0; }
+
+.grammar-item .en-sentence {
+  color: var(--text);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.grammar-item .zh-analysis { color: #374151; }
+.grammar-item .grammar-point {
+  margin-top: 6px;
+  color: #166534;
+  font-size: 14px;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 15px;
+  color: var(--text);
+  transition: all 0.15s;
+}
+
+.nav-btn:hover { background: var(--highlight-bg); border-color: var(--highlight); }
+.nav-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* No data */
+.no-data {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-light);
+}
+
+.no-data .emoji { font-size: 48px; margin-bottom: 16px; }
+
+/* Word lookup tooltip */
+.word-tooltip {
+  display: none;
+  position: absolute;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  padding: 14px 18px;
+  max-width: 320px;
+  min-width: 180px;
+  z-index: 300;
+  font-size: 15px;
+  line-height: 1.6;
+  pointer-events: auto;
+}
+
+.word-tooltip.show { display: block; }
+
+.word-tooltip .lookup-word {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--highlight);
+  margin-bottom: 4px;
+}
+
+.word-tooltip .lookup-phonetic {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+
+.word-tooltip .lookup-pos {
+  display: inline-block;
+  background: var(--highlight-bg);
+  color: var(--highlight);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.word-tooltip .lookup-meaning {
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.word-tooltip .lookup-loading {
+  text-align: center;
+  color: var(--text-light);
+  padding: 8px 0;
+}
+
+.word-tooltip .lookup-error {
+  color: #ef4444;
+  font-size: 14px;
+}
+
+.word-tooltip .lookup-source {
+  font-size: 11px;
+  color: var(--text-light);
+  text-align: right;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .container { padding: 16px; padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
+  .article-meta .title { font-size: 22px; }
+  .en-text { font-size: 17px; }
+  .header { flex-wrap: wrap; gap: 10px; }
+  .nav-btn { padding: 12px 16px; font-size: 14px; }
+  .vocab-card { font-size: 13px; padding: 3px 8px; }
+  .vocab-popup { width: 92%; padding: 18px; }
+  .word-tooltip { max-width: 280px; min-width: 200px; font-size: 14px; }
+  .word-tooltip .lookup-word { font-size: 16px; }
+  .word-tooltip .lookup-phonetic { font-size: 12px; }
+  .word-tooltip .lookup-meaning { font-size: 14px; }
+}
+
+/* Long-press workaround for iOS */
+.en-text {
+  -webkit-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: none;
+}
+
+/* Prevent iOS zoom on input focus */
+input, textarea, select {
+  font-size: 16px !important;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="logo">English<span>Daily</span></div>
+    <div class="date-picker">
+      <button class="date-picker-btn" onclick="toggleDatePicker()" id="pickerBtn">📅 选择日期</button>
+      <div class="date-picker-dropdown" id="pickerDropdown"></div>
+    </div>
+  </div>
+
+  <div id="content"></div>
+  <div class="nav">
+    <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">← 上一篇</button>
+    <button class="nav-btn" id="nextBtn" onclick="navigate(1)">下一篇 →</button>
+  </div>
+</div>
+
+<div class="vocab-overlay" id="vocabOverlay" onclick="closeVocabPopup()"></div>
+<div class="vocab-popup" id="vocabPopup">
+  <button class="close-btn" onclick="closeVocabPopup()">×</button>
+  <div id="vocabPopupContent"></div>
+</div>
+
+<!-- Floating word lookup tooltip -->
+<div class="word-tooltip" id="wordTooltip"></div>
+
+<script>
+const DATA_DIR = 'data';
+
+async function loadArticle(dateStr) {
+  try {
+    const resp = await fetch(`${DATA_DIR}/${dateStr}.json`);
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch { return null; }
+}
+
+async function listDates() {
+  try {
+    const resp = await fetch('dates.json');
+    return await resp.json();
+  } catch { return []; }
+}
+
+function highlightVocab(text, vocabList) {
+  let result = text;
+  for (const v of vocabList) {
+    const escaped = v.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(`\\b(${escaped})\\b`, 'gi');
+    result = result.replace(re, `<span class="vocab-word" onclick="event.stopPropagation(); showVocab(this)" data-word="${v.word}">$1</span>`);
+  }
+  return result;
+}
+
+function renderArticle(article) {
+  if (!article) {
+    document.getElementById('content').innerHTML = `
+      <div class="no-data">
+        <div class="emoji">📭</div>
+        <p>暂无该日期的内容</p>
+        <p style="font-size:14px;margin-top:8px;">请选择其他日期</p>
+      </div>`;
+    return;
+  }
+
+  let html = `
+    <div class="article-meta">
+      <span class="source">${article.source}</span>
+      <div class="title">${article.title}</div>
+      <div class="date-text">📅 ${article.date}</div>
+    </div>`;
+
+  article.paragraphs.forEach((p, i) => {
+    const enHighlighted = highlightVocab(p.en, p.vocabulary);
+    html += `
+    <div class="paragraph">
+      <div class="en-text" onclick="toggleTranslation(${i})">${enHighlighted}<span class="show-hint">点击查看翻译</span></div>
+      <div class="translation-toggle" onclick="toggleTranslation(${i})">📖 显示中文翻译</div>
+      <div class="translation-content" id="trans-${i}">${p.zh}</div>`;
+
+    // Vocab cards
+    if (p.vocabulary.length) {
+      html += `<div class="vocab-section"><div class="vocab-section-title">📝 重点词汇</div>`;
+      for (const v of p.vocabulary) {
+        html += `<span class="vocab-card" onclick='showVocabDetail(${JSON.stringify(v).replace(/'/g, "&#39;")})'>${v.word}</span>`;
+      }
+      html += `</div>`;
+    }
+
+    // Difficult sentences
+    if (p.difficult_sentences.length) {
+      html += `<div class="grammar-section"><div class="grammar-toggle" onclick="toggleGrammar(${i})">✏️ 难句解析 (${p.difficult_sentences.length})</div>`;
+      html += `<div class="grammar-content" id="grammar-${i}">`;
+      for (const s of p.difficult_sentences) {
+        html += `<div class="grammar-item">
+          <div class="en-sentence">${s.en}</div>
+          <div class="zh-analysis">${s.zh}</div>
+          <div class="grammar-point">📐 ${s.grammar}</div>
+        </div>`;
+      }
+      html += `</div></div>`;
+    }
+
+    html += `</div>`;
+  });
+
+  document.getElementById('content').innerHTML = html;
+}
+
+function toggleTranslation(i) {
+  const el = document.getElementById(`trans-${i}`);
+  el.classList.toggle('show');
+  const btn = el.previousElementSibling;
+  btn.textContent = el.classList.contains('show') ? '📖 隐藏中文翻译' : '📖 显示中文翻译';
+}
+
+function toggleGrammar(i) {
+  const el = document.getElementById(`grammar-${i}`);
+  el.style.display = el.style.display === 'block' ? 'none' : 'block';
+}
+
+function showVocab(el) {
+  // Will look up from article data
+}
+
+function showVocabDetail(v) {
+  document.getElementById('vocabPopupContent').innerHTML = `
+    <div class="word-title">${v.word}</div>
+    ${v.phonetic ? `<div class="phonetic">${v.phonetic}</div>` : ''}
+    <div class="meaning">${v.meaning}</div>
+    ${v.example ? `<div class="example">${v.example}</div>` : ''}
+  `;
+  document.getElementById('vocabOverlay').classList.add('show');
+  document.getElementById('vocabPopup').classList.add('show');
+}
+
+function closeVocabPopup() {
+  document.getElementById('vocabOverlay').classList.remove('show');
+  document.getElementById('vocabPopup').classList.remove('show');
+}
+
+async function toggleDatePicker() {
+  const dd = document.getElementById('pickerDropdown');
+  if (dd.classList.contains('open')) { dd.classList.remove('open'); return; }
+  const dates = await listDates();
+  const current = currentArticle?.date || '';
+  dd.innerHTML = dates.map(d =>
+    `<div class="date-option ${d === current ? 'active' : ''}" onclick="goToDate('${d}')">${d}</div>`
+  ).join('');
+  dd.classList.add('open');
+}
+
+let currentArticle = null;
+let allDates = [];
+
+async function init() {
+  allDates = await listDates();
+  allDates.sort().reverse();
+
+  let hash = location.hash.slice(1);
+  if (!allDates.includes(hash)) hash = allDates[0] || '';
+
+  if (hash) {
+    location.hash = hash;
+    currentArticle = await loadArticle(hash);
+    renderArticle(currentArticle);
+    updateNav();
+    document.getElementById('pickerBtn').textContent = `📅 ${hash}`;
+  }
+}
+
+function goToDate(date) {
+  location.hash = date;
+  document.getElementById('pickerDropdown').classList.remove('open');
+  loadAndRender(date);
+}
+
+function updateNav() {
+  const idx = allDates.indexOf(currentArticle?.date);
+  document.getElementById('prevBtn').disabled = idx >= allDates.length - 1;
+  document.getElementById('nextBtn').disabled = idx <= 0;
+}
+
+async function navigate(dir) {
+  const idx = allDates.indexOf(currentArticle?.date);
+  const next = allDates[idx - dir]; // reversed list
+  if (next) {
+    location.hash = next;
+    await loadAndRender(next);
+  }
+}
+
+async function loadAndRender(date) {
+  currentArticle = await loadArticle(date);
+  renderArticle(currentArticle);
+  updateNav();
+  document.getElementById('pickerBtn').textContent = `📅 ${date}`;
+}
+
+window.addEventListener('hashchange', () => {
+  const hash = location.hash.slice(1);
+  if (hash) loadAndRender(hash);
+});
+
+// Close dropdown on outside click
+document.addEventListener('click', e => {
+  if (!e.target.closest('.date-picker')) {
+    document.getElementById('pickerDropdown').classList.remove('open');
+  }
+});
+
+// ====== Word selection lookup ======
+const tooltip = document.getElementById('wordTooltip');
+let lookupTimeout = null;
+let isTooltipVisible = false;
+
+function hideTooltip() {
+  tooltip.classList.remove('show');
+  isTooltipVisible = false;
+  clearTimeout(lookupTimeout);
+}
+
+function positionTooltip(rect) {
+  const pad = 10;
+  let top = rect.bottom + pad;
+  let left = rect.left;
+
+  // Adjust if goes off bottom
+  if (top + 200 > window.innerHeight) {
+    top = rect.top - 10;
+    tooltip.style.transform = 'translateY(-100%)';
+  } else {
+    tooltip.style.transform = 'translateY(0)';
+  }
+
+  // Adjust if goes off right
+  const tw = tooltip.offsetWidth || 280;
+  if (left + tw > window.innerWidth - 10) {
+    left = window.innerWidth - tw - 10;
+  }
+  if (left < 10) left = 10;
+
+  tooltip.style.top = top + 'px';
+  tooltip.style.left = left + 'px';
+}
+
+function getSelectedWord() {
+  const sel = window.getSelection();
+  const text = sel.toString().trim();
+  if (!text || text.length < 2 || text.length > 40) return null;
+  if (!/^[a-zA-Z\s'-]+$/.test(text)) return null;
+  return text.toLowerCase().replace(/[^a-z\s'-]/g, '');
+}
+
+function getSelectionRect() {
+  const sel = window.getSelection();
+  if (!sel.rangeCount) return null;
+  const range = sel.getRangeAt(0);
+  if (range.collapsed) return null;
+  return range.getBoundingClientRect();
+}
+
+function handleSelection() {
+  const word = getSelectedWord();
+  const rect = getSelectionRect();
+  if (word && rect) {
+    positionTooltip(rect);
+    tooltip.classList.add('show');
+    isTooltipVisible = true;
+    clearTimeout(lookupTimeout);
+    lookupTimeout = setTimeout(() => lookupWord(word), 200);
+  } else {
+    hideTooltip();
+  }
+}
+
+// Desktop: mouseup
+let lastSelText = '';
+document.addEventListener('mouseup', (e) => {
+  if (e.target.closest('.word-tooltip') || e.target.closest('.vocab-popup') || e.target.closest('.vocab-card') || e.target.closest('.vocab-word')) return;
+  handleSelection();
+});
+
+async function lookupWord(word) {
+  tooltip.innerHTML = '<div class="lookup-loading">🔍 查询中...</div>';
+
+  const [dictResult, zhResult] = await Promise.allSettled([
+    fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`).then(r => r.ok ? r.json() : Promise.reject()),
+    fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|zh-CN`).then(r => r.ok ? r.json() : Promise.reject())
+  ]);
+
+  let html = `<div class="lookup-word">${word}</div>`;
+
+  if (zhResult.status === 'fulfilled' && zhResult.value?.responseData?.translatedText) {
+    const zhText = zhResult.value.responseData.translatedText;
+    if (zhText && zhText !== word) {
+      html += `<div style="font-size:17px;color:#dc2626;font-weight:600;margin-bottom:8px;">🀄 ${zhText}</div>`;
+    }
+  }
+
+  if (dictResult.status === 'fulfilled' && dictResult.value) {
+    const entry = dictResult.value[0];
+    if (entry.phonetics?.length) {
+      const ph = entry.phonetics.find(p => p.text) || entry.phonetics[0];
+      if (ph?.text) html += `<div class="lookup-phonetic">${ph.text}</div>`;
+    }
+    const meanings = (entry.meanings || []).slice(0, 3);
+    for (const m of meanings) {
+      html += `<div class="lookup-pos">${m.partOfSpeech}</div>`;
+      for (const def of m.definitions.slice(0, 2)) {
+        html += `<div class="lookup-meaning">${def.definition}</div>`;
+        if (def.example) {
+          html += `<div style="color:#6b7280;font-style:italic;font-size:13px;margin-bottom:4px;">📝 ${def.example}</div>`;
+        }
+      }
+    }
+    const allSyns = entry.meanings?.flatMap(m => m.synonyms || []) || [];
+    if (allSyns.length) {
+      html += `<div style="margin-top:8px;font-size:13px;color:var(--text-light);">近义词: <span style="color:var(--highlight);">${allSyns.slice(0, 5).join(', ')}</span></div>`;
+    }
+  } else if (zhResult.status === 'rejected') {
+    html += `<div class="lookup-error">未找到该词的释义</div>`;
+  }
+
+  html += `<div class="lookup-source">📖 MyMemory + dictionaryapi.dev</div>`;
+  tooltip.innerHTML = html;
+}
+
+// iOS / touch: use selectionchange (fires after iOS selection menu appears)
+document.addEventListener('selectionchange', () => {
+  clearTimeout(lookupTimeout);
+  lookupTimeout = setTimeout(() => {
+    const word = getSelectedWord();
+    if (word && word !== lastSelText) {
+      lastSelText = word;
+      handleSelection();
+    } else if (!word) {
+      lastSelText = '';
+      hideTooltip();
+    }
+  }, 300); // Delay to wait for iOS selection to stabilize
+});
+
+// Hide tooltip when scrolling or clicking elsewhere
+document.addEventListener('mousedown', (e) => {
+  if (!e.target.closest('.word-tooltip')) hideTooltip();
+});
+
+// On touch start (non-tooltip area), hide after a delay so iOS selection can work
+let touchStartTime = 0;
+document.addEventListener('touchstart', (e) => {
+  touchStartTime = Date.now();
+  if (!e.target.closest('.word-tooltip') && !e.target.closest('.vocab-popup')) {
+    // Don't hide immediately — let iOS handle the selection
+  }
+});
+
+document.addEventListener('scroll', hideTooltip, true);
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') hideTooltip();
+});
+
+init();
+</script>
+</body>
+</html>
