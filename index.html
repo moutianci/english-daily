@@ -683,24 +683,43 @@ function hideTooltip() {
 }
 
 function positionTooltip(rect) {
-  const pad = 10;
-  let top = rect.bottom + pad;
-  let left = rect.left;
+  // Use the start of the selection (first character) for horizontal positioning
+  // so the tooltip sits right below the selected word, not centered on the whole selection
+  const sel = window.getSelection();
+  let anchorLeft = rect.left;
+  let anchorWidth = rect.width;
 
-  // Adjust if goes off bottom
-  if (top + 200 > window.innerHeight) {
-    top = rect.top - 10;
+  // Try to get a tighter rect for just the first line/character of selection
+  if (sel.rangeCount) {
+    const range = sel.getRangeAt(0);
+    // Get rect of just the first character
+    const startRect = range.cloneRange();
+    startRect.collapse(true); // collapse to start
+    const sr = startRect.getBoundingClientRect();
+    if (sr.width > 0) {
+      anchorLeft = sr.left;
+      anchorWidth = sr.width;
+    }
+  }
+
+  const pad = 8;
+  const tw = tooltip.offsetWidth || 280;
+
+  // Center tooltip under the selected word
+  let left = anchorLeft + anchorWidth / 2 - tw / 2;
+  let top = rect.bottom + pad;
+
+  // Clamp horizontal
+  if (left < 8) left = 8;
+  if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
+
+  // If goes off bottom, show above
+  if (top + 220 > window.innerHeight) {
+    top = rect.top - pad;
     tooltip.style.transform = 'translateY(-100%)';
   } else {
     tooltip.style.transform = 'translateY(0)';
   }
-
-  // Adjust if goes off right
-  const tw = tooltip.offsetWidth || 280;
-  if (left + tw > window.innerWidth - 10) {
-    left = window.innerWidth - tw - 10;
-  }
-  if (left < 10) left = 10;
 
   tooltip.style.top = top + 'px';
   tooltip.style.left = left + 'px';
