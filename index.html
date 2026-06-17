@@ -800,36 +800,51 @@ async function lookupWord(word) {
   tooltip.innerHTML = html;
 }
 
-// iOS / touch: use selectionchange (fires after iOS selection menu appears)
+// iOS / touch / desktop: selectionchange is the single source of truth
+// Tooltip shows when text is selected, hides when selection is cleared
 document.addEventListener('selectionchange', () => {
   clearTimeout(lookupTimeout);
   lookupTimeout = setTimeout(() => {
     const word = getSelectedWord();
-    if (word && word !== lastSelText) {
-      lastSelText = word;
-      handleSelection();
-    } else if (!word) {
+    if (word) {
+      if (word !== lastSelText) {
+        lastSelText = word;
+        handleSelection();
+      }
+    } else {
+      // Selection cleared → hide tooltip
       lastSelText = '';
       hideTooltip();
     }
-  }, 300); // Delay to wait for iOS selection to stabilize
+  }, 300);
 });
 
-// Hide tooltip when scrolling or clicking elsewhere
-document.addEventListener('mousedown', (e) => {
-  if (!e.target.closest('.word-tooltip')) hideTooltip();
+// On desktop: also check on mouseup for immediate response
+document.addEventListener('mouseup', (e) => {
+  if (e.target.closest('.word-tooltip') || e.target.closest('.vocab-popup') || e.target.closest('.vocab-card') || e.target.closest('.vocab-word')) return;
+  // Use a tiny delay so the selection is finalized
+  setTimeout(() => {
+    const word = getSelectedWord();
+    if (word) {
+      if (word !== lastSelText) {
+        lastSelText = word;
+        handleSelection();
+      }
+    }
+  }, 50);
 });
 
-// On touch start (non-tooltip area), hide after a delay so iOS selection can work
-let touchStartTime = 0;
-document.addEventListener('touchstart', (e) => {
-  touchStartTime = Date.now();
-  if (!e.target.closest('.word-tooltip') && !e.target.closest('.vocab-popup')) {
-    // Don't hide immediately — let iOS handle the selection
+// Re-position tooltip on scroll (keep visible, just reposition)
+document.addEventListener('scroll', () => {
+  if (isTooltipVisible) {
+    const rect = getSelectionRect();
+    if (rect) {
+      positionTooltip(rect);
+    } else {
+      hideTooltip();
+    }
   }
-});
-
-document.addEventListener('scroll', hideTooltip, true);
+}, true);
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') hideTooltip();
