@@ -487,21 +487,53 @@ input, textarea, select {
 <div class="word-tooltip" id="wordTooltip"></div>
 
 <script>
-const DATA_DIR = 'data';
+// 多源数据加载（国内访问 GitHub CDN 不稳定，依次尝试多个源）
+const SOURCES = [
+  'https://raw.githubusercontent.com/moutianci/english-daily/main',
+  'https://moutianci.github.io/english-daily'
+];
+const EMBEDDED_DATES = ['2026-06-18', '2026-06-17'];
+
+// 封装 fetch 带超时
+async function fetchWithTimeout(url, ms = 5000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), ms);
+  try {
+    const r = await fetch(url, { signal: ctrl.signal });
+    clearTimeout(t);
+    return r;
+  } catch {
+    clearTimeout(t);
+    return null;
+  }
+}
+
+// 依次尝试所有源，成功即返回
+async function fetchJSON(path) {
+  const ts = Date.now();
+  for (const base of SOURCES) {
+    const r = await fetchWithTimeout(`${base}/${path}?_=${ts}`, 5000);
+    if (r && r.ok) {
+      try { return await r.json(); } catch { /* continue */ }
+    }
+  }
+  return null;
+}
+
+// 文章缓存（避免重复请求）
+const articleCache = {};
 
 async function loadArticle(dateStr) {
-  try {
-    const resp = await fetch(`${DATA_DIR}/${dateStr}.json?_=${Date.now()}`);
-    if (!resp.ok) return null;
-    return await resp.json();
-  } catch { return null; }
+  if (articleCache[dateStr]) return articleCache[dateStr];
+  const data = await fetchJSON(`data/${dateStr}.json`);
+  if (data) articleCache[dateStr] = data;
+  return data || null;
 }
 
 async function listDates() {
-  try {
-    const resp = await fetch(`dates.json?_=${Date.now()}`);
-    return await resp.json();
-  } catch { return []; }
+  const data = await fetchJSON('dates.json');
+  if (data && Array.isArray(data)) return data;
+  return EMBEDDED_DATES;
 }
 
 function highlightVocab(text, vocabList) {
