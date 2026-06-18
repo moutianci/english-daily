@@ -685,36 +685,46 @@ function hideTooltip() {
 
 function positionTooltip(rect) {
   const pad = 8;
-  const tw = tooltip.offsetWidth || 280;
-  const th = tooltip.offsetHeight || 200;
+  // First show tooltip offscreen to measure its size
+  tooltip.style.left = '0px';
+  tooltip.style.top = '0px';
+  tooltip.style.opacity = '0';
+  tooltip.classList.add('show');
+  // Force layout
+  const tw = tooltip.offsetWidth;
+  const th = tooltip.offsetHeight;
+  tooltip.style.opacity = '1';
 
-  // Get tight anchor point (start of selection)
+  // Use the FIRST line of the selection rect for positioning
+  // On iOS, rect.boundingClientRect may span multiple lines; use the bottom of the first line
   const sel = window.getSelection();
-  let anchorLeft = rect.left;
-  let anchorWidth = rect.width;
+  let wordLeft = rect.left;
+  let wordBottom = rect.bottom;
+  let wordTop = rect.top;
+
   if (sel.rangeCount) {
-    const startRect = sel.getRangeAt(0).cloneRange();
-    startRect.collapse(true);
-    const sr = startRect.getBoundingClientRect();
-    if (sr.width > 0) {
-      anchorLeft = sr.left;
-      anchorWidth = sr.width;
+    // Get client rects for the range (may span multiple lines)
+    const rects = sel.getRangeAt(0).getClientRects();
+    if (rects && rects.length > 0) {
+      // Use the FIRST rect (first line of selection)
+      const first = rects[0];
+      wordLeft = first.left;
+      wordBottom = first.bottom;
+      wordTop = first.top;
     }
   }
 
   // Center horizontally under the word
-  let left = anchorLeft + anchorWidth / 2 - tw / 2;
+  let left = wordLeft + (rect.width > 0 ? Math.min(rect.width, 60) : 30) / 2 - tw / 2;
   if (left < 8) left = 8;
   if (left + tw > window.innerWidth - 8) left = window.innerWidth - tw - 8;
 
   // Default: below the word
-  let top = rect.bottom + pad;
-  tooltip.style.transform = 'translateY(0)';
+  let top = wordBottom + pad;
 
   // If tooltip would overflow bottom, show above the word
   if (top + th > window.innerHeight - 16) {
-    top = rect.top - pad;
-    tooltip.style.transform = 'translateY(-100%)';
+    top = wordTop - pad - th;
   }
 
   tooltip.style.top = top + 'px';
@@ -739,12 +749,13 @@ function getSelectionRect() {
 
 function handleSelection() {
   const word = getSelectedWord();
-  const rect = getSelectionRect();
-  if (word && rect) {
-    lastRect = rect; // save for repositioning after content loads
-    tooltip.classList.add('show');
-    isTooltipVisible = true;
-    positionTooltip(rect);
+  if (word) {
+    const rect = getSelectionRect();
+    if (rect) {
+      lastRect = rect;
+      isTooltipVisible = true;
+      positionTooltip(rect);
+    }
     clearTimeout(lookupTimeout);
     lookupTimeout = setTimeout(() => lookupWord(word), 200);
   } else {
@@ -803,9 +814,8 @@ async function lookupWord(word) {
   html += `<div class="lookup-source">📖 MyMemory + dictionaryapi.dev</div>`;
   tooltip.innerHTML = html;
   // Reposition after content loaded (height may have changed)
-  const currentRect = getSelectionRect() || lastRect;
-  if (currentRect) {
-    positionTooltip(currentRect);
+  if (lastRect) {
+    positionTooltip(lastRect);
   }
 }
 
