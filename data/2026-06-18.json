@@ -1,117 +1,74 @@
 {
   "date": "2026-06-18",
-  "source": "BBC Health",
-  "title": "The Science of Sleep Debt: Why an Hour Lost Is Harder to Regain Than You Think",
-  "url": "https://www.bbc.com/health/articles/2026-06-17/science-of-sleep-debt",
+  "source": "The Economist",
+  "title": "The 15-Minute City: Urban Planning's New Obsession",
+  "url": "https://www.economist.com/urbanisation/2026/06/17/the-15-minute-city-urban-plannings-new-obsession",
   "paragraphs": [
     {
-      "en": "For decades, scientists assumed that sleep was a relatively simple biological switch — one that could be flipped back on without lasting consequences after a few restful nights. That assumption is now crumbling under the weight of new research. A landmark study published this month in Nature Neuroscience reveals that even modest, chronic sleep deprivation — losing just one hour per night over several weeks — produces measurable cognitive decline that cannot be fully reversed by a single weekend of extended rest. The researchers tracked over 2,400 adults across three continents and found that cumulative sleep debt eroded working memory, slowed reaction times, and diminished emotional regulation in a dose-dependent manner, meaning the longer the deficit persisted, the steeper the cost.",
-      "zh": "几十年来，科学家们一直认为睡眠是一个相对简单的生物学开关——经过几个安稳的夜晚后就可以重新打开，而不会产生持久的后果。这一假设如今在新研究的重压下正在瓦解。本月发表在《自然·神经科学》上的一项里程碑式研究表明，即使是适度的、慢性的睡眠剥夺——连续几周每晚只少睡一个小时——也会产生可测量的认知衰退，而仅仅一个周末的延长休息无法完全逆转这种衰退。研究人员追踪了三大洲超过2400名成年人，发现累积的睡眠债务以剂量依赖的方式侵蚀了工作记忆、减慢了反应速度并削弱了情绪调节能力，这意味着亏空持续的时间越长，代价就越沉重。",
+      "en": "In city halls from Paris to Melbourne, a new urban planning concept is taking hold: the 15-minute city. The idea is elegantly simple. Every resident should be able to reach everything they need for daily life — work, shops, schools, green spaces, healthcare — within a 15-minute walk or bike ride from their front door. No car required. No hour-long commutes. No dependence on fossil fuels for basic errands.",
+      "zh": "从巴黎到墨尔本，一种新的城市规划理念正在城市政府中流行：15分钟城市。这个想法简洁而优雅。每个居民都应该能够从家门口出发，在步行或骑自行车15分钟的距离内到达日常生活所需的一切——工作、商店、学校、绿地、医疗。不需要汽车。没有长达一小时的通勤。不需要依赖化石燃料来处理日常琐事。",
       "vocabulary": [
-        {
-          "word": "deprivation",
-          "phonetic": "/ˌdeprɪˈveɪʃn/",
-          "meaning": "n. 剥夺；缺乏",
-          "example": "Chronic sleep deprivation has been linked to a higher risk of cardiovascular disease."
-        },
-        {
-          "word": "cumulative",
-          "phonetic": "/ˈkjuːmjələtɪv/",
-          "meaning": "adj. 累积的；渐增的",
-          "example": "The cumulative effect of small daily stressors can be surprisingly damaging to mental health."
-        },
-        {
-          "word": "dose-dependent",
-          "phonetic": "/ˌdəʊs dɪˈpendənt/",
-          "meaning": "adj. 剂量依赖的（随剂量/程度变化的）",
-          "example": "The medication's side effects are dose-dependent, meaning higher doses carry greater risks."
-        },
-        {
-          "word": "erode",
-          "phonetic": "/ɪˈrəʊd/",
-          "meaning": "v. 侵蚀；逐步损害",
-          "example": "Years of multitasking have eroded his ability to focus on a single task for extended periods."
-        }
+        { "word": "taking hold", "phonetic": "", "meaning": "phr. 流行开来；站稳脚跟", "example": "The new fashion has taken hold in major cities across Europe." },
+        { "word": "elegantly", "phonetic": "/ˈelɪɡəntli/", "meaning": "adv. 简洁地；优雅地", "example": "The problem can be elegantly solved with a simple equation." },
+        { "word": "errand", "phonetic": "/ˈerənd/", "meaning": "n. 差事；跑腿（购物、邮寄等）", "example": "I need to run a few errands before the shops close." },
+        { "word": "fossil fuel", "phonetic": "", "meaning": "n. 化石燃料（煤、石油、天然气）", "example": "The world must phase out fossil fuels to combat climate change." }
       ],
       "difficult_sentences": [
         {
-          "en": "The researchers tracked over 2,400 adults across three continents and found that cumulative sleep debt eroded working memory, slowed reaction times, and diminished emotional regulation in a dose-dependent manner, meaning the longer the deficit persisted, the steeper the cost.",
-          "zh": "研究人员追踪了三大洲超过2400名成年人，发现累积的睡眠债务以剂量依赖的方式侵蚀了工作记忆、减慢了反应速度并削弱了情绪调节能力，这意味着亏空持续的时间越长，代价就越沉重。",
-          "grammar": "「the + 比较级..., the + 比较级...」结构表示「越……，越……」。此外，过去分词短语 'slowed reaction times' 和 'diminished emotional regulation' 与 'eroded working memory' 构成平行结构，均作为 'cumulative sleep debt' 所发出的动作。分词短语 'meaning...' 作伴随状语，对前文的 dose-dependent manner 进行解释说明。"
+          "en": "The idea is elegantly simple.",
+          "zh": "这个想法简洁而优雅。此处 'elegantly' 不是指外表优雅，而是指逻辑上简洁巧妙。",
+          "grammar": "系表结构（主语 + is + 表语）。副词 'elegantly' 修饰形容词 'simple'，表示程度或方式。"
         }
       ]
     },
     {
-      "en": "What makes sleep debt particularly insidious is its deceptive nature. Unlike food deprivation, which triggers unmistakable hunger signals, sleep loss masks its damage behind a fog of false alertness. People who habitually sleep six hours instead of eight consistently rate themselves as feeling fine, even as objective tests reveal significant impairments. Professor Matthew Walker, a neuroscientist at the University of California, Berkeley, describes this phenomenon as ' subjective wakefulness' — a state in which the brain convinces itself it is rested while operating at a fraction of its actual capacity. His team's brain imaging data show that the prefrontal cortex, the region responsible for decision-making and impulse control, is among the first areas to falter under insufficient sleep, long before a person feels genuinely tired.",
-      "zh": "睡眠债务之所以特别阴险，在于其欺骗性的本质。与食物剥夺会触发明确的饥饿信号不同，睡眠不足将自己的损害隐藏在虚假清醒的迷雾之后。那些习惯性只睡六个小时而非八个小时的人，始终认为自己感觉良好，即使客观测试揭示了显著的认知损伤。加州大学伯克利分校的神经科学家马修·沃克教授将这一现象描述为"主观清醒"——一种大脑说服自己已经休息好了、但实际上只以真正能力的一小部分在运转的状态。他团队的脑成像数据显示，负责决策和冲动控制的前额叶皮层是睡眠不足下最先衰退的区域之一，远在一个人真正感到疲倦之前。",
+      "en": "Paris has become the concept's most high-profile laboratory. Mayor Anne Hidalgo's administration has been closing major arteries to car traffic, converting lanes into cycle paths, and planting urban forests in former parking lots. The results have been striking. Commute times have fallen by an average of 22 minutes. Air pollution levels in central districts have dropped to their lowest since reliable records began in the 1970s. Cycling rates have tripled.",
+      "zh": "巴黎已成为这一理念最受瞩目的实验场。市长安娜·伊达尔戈的政府一直在关闭主要汽车干道，将车道改建为自行车道，并在废弃停车场种植城市森林。结果令人瞩目。平均通勤时间减少了22分钟。中心区的空气污染水平已降至20世纪70年代有可靠记录以来的最低点。骑行出行率增加了两倍。",
       "vocabulary": [
-        {
-          "word": "insidious",
-          "phonetic": "/ɪnˈsɪdiəs/",
-          "meaning": "adj. 阴险的；潜伏的；不易察觉的",
-          "example": "The insidious spread of misinformation on social media makes it difficult to detect."
-        },
-        {
-          "word": "habitually",
-          "phonetic": "/həˈbɪtʃuəli/",
-          "meaning": "adv. 习惯性地；惯常地",
-          "example": "She habitually checks her phone within minutes of waking up each morning."
-        },
-        {
-          "word": "falter",
-          "phonetic": "/ˈfɔːltə/",
-          "meaning": "v. 衰退；动摇；蹒跚",
-          "example": "His confidence began to falter after the third consecutive failure."
-        },
-        {
-          "word": "prefrontal cortex",
-          "phonetic": "/priːˈfrʌntl ˈkɔːteks/",
-          "meaning": "n. 前额叶皮层（大脑中负责高级认知功能的区域）",
-          "example": "The prefrontal cortex continues to develop until the mid-twenties, which explains adolescents' impulsive behaviour."
-        }
+        { "word": "high-profile", "phonetic": "/ˌhaɪ ˈprəʊfaɪl/", "meaning": "adj. 受高度关注的；引人注目的", "example": "The government launched a high-profile campaign against smoking." },
+        { "word": "artery", "phonetic": "/ˈɑːtəri/", "meaning": "n. 干道；动脉（引申为交通要道）", "example": "Oxford Street is one of London's main arterial roads." },
+        { "word": "striking", "phonetic": "/ˈstraɪkɪŋ/", "meaning": "adj. 显著的；引人注目的", "example": "There is a striking resemblance between the two brothers." },
+        { "word": "tripled", "phonetic": "/ˈtrɪpld/", "meaning": "v. 变成三倍；增加两倍（triple的过去分词）", "example": "Sales have tripled since the product redesign." }
       ],
       "difficult_sentences": [
         {
-          "en": "His team's brain imaging data show that the prefrontal cortex, the region responsible for decision-making and impulse control, is among the first areas to falter under insufficient sleep, long before a person feels genuinely tired.",
-          "zh": "他团队的脑成像数据显示，负责决策和冲动控制的前额叶皮层是睡眠不足下最先衰退的区域之一，远在一个人真正感到疲倦之前。",
-          "grammar": "同位语 'the region responsible for decision-making and impulse control' 补充说明主语 prefrontal cortex。'responsible for' 是形容词性短语作后置定语修饰 'region'。'long before' 引导时间状语从句，表示 '远在……之前'，与 'is among the first areas to falter' 形成时间对比，突出前额叶皮层衰退的隐蔽性和早期性。"
+          "en": "Air pollution levels in central districts have dropped to their lowest since reliable records began in the 1970s.",
+          "zh": "中心区的空气污染水平已降至有可靠记录以来的最低点。这里 'their lowest' 指的是空气污染达到了自有可靠记录（1970年代）以来的最低值。注意 'since' 在句中引导时间状语从句。",
+          "grammar": "'drop to + 最低点'（降至最低）。'since reliable records began in the 1970s' 是现在完成时的时间状语从句，说明从何时开始计算。"
         }
       ]
     },
     {
-      "en": "The implications extend far beyond individual cognition. Economists estimate that sleep deprivation costs developed nations up to 2% of their GDP annually through lost productivity, increased workplace accidents, and higher healthcare expenditures. Yet public policy has been slow to catch up. While a handful of countries, including France and South Korea, have experimented with later school start times and restrictions on excessive overtime, most societies still treat sleep as a personal luxury rather than a biological imperative. The researchers behind the Nature Neuroscience study argue that this needs to change. They propose a 'sleep credit system' — a framework in which employers would be required to monitor and ensure minimum rest periods for workers, much as labour laws currently mandate maximum working hours. Whether such proposals will gain political traction remains uncertain, but the evidence is becoming increasingly difficult to ignore.",
-      "zh": "其影响远不止于个体认知。经济学家估计，睡眠剥夺每年通过生产力损失、工作场所事故增加和医疗支出上升，给发达国家造成高达GDP 2%的损失。然而公共政策却迟迟未能跟上步伐。虽然包括法国和韩国在内的少数国家已尝试推迟上学时间和限制过度加班，但大多数社会仍将睡眠视为个人奢侈而非生物学上的必需品。《自然·神经科学》研究的研究人员认为这种情况需要改变。他们提出了一个"睡眠信用体系"——一个要求雇主监测并确保工人最低休息时间的框架，类似于劳动法目前强制规定的最长工作时间。此类提案能否获得政治推动力尚不确定，但证据已变得越来越难以忽视。",
+      "en": "Not everyone is applauding. Critics argue that the 15-minute city is really a scheme to gentrify neighbourhoods and drive out long-term residents. By making areas more pleasant and desirable, property values rise, and rents follow. Those who once lived conveniently close to city centres find themselves priced out and forced to move to suburbs — exactly the kind of long-distance commuting that the concept was designed to eliminate.",
+      "zh": "并非所有人都在鼓掌喝彩。批评者认为，15分钟城市实际上是一个绅士化社区、将长期居民驱逐出去的计划。通过让区域变得更舒适、更具吸引力，房价上涨，租金随之攀升。那些曾经方便地住在市中心附近的人发现自己的居住成本超出了承受范围，被迫搬到郊区——而这正是这一理念本应消除的长距离通勤。",
       "vocabulary": [
-        {
-          "word": "expenditure",
-          "phonetic": "/ɪkˈspendɪtʃə/",
-          "meaning": "n. 支出；花费",
-          "example": "Government expenditure on education has increased by 15% over the past decade."
-        },
-        {
-          "word": "imperative",
-          "phonetic": "/ɪmˈperətɪv/",
-          "meaning": "n. 必要的事；迫切要求；adj. 必要的；紧急的",
-          "example": "In the age of climate change, reducing carbon emissions is a moral imperative."
-        },
-        {
-          "word": "traction",
-          "phonetic": "/ˈtrækʃn/",
-          "meaning": "n. 推动力；支持；牵引力",
-          "example": "The proposal to ban single-use plastics has gained significant political traction in recent months."
-        },
-        {
-          "word": "mandate",
-          "phonetic": "/ˈmændeɪt/",
-          "meaning": "v. 授权；强制规定；n. 授权；命令",
-          "example": "The government mandated that all public buildings install energy-efficient lighting by 2028."
-        }
+        { "word": "applauding", "phonetic": "/əˈplɔːdɪŋ/", "meaning": "v. 鼓掌；称赞（applaud的现在分词）", "example": "The audience was applauding enthusiastically after the performance." },
+        { "word": "gentrify", "phonetic": "/ˈdʒentrɪfaɪ/", "meaning": "v. 绅士化；（通过翻修提高社区档次导致原居民被迫迁出）", "example": "The neighbourhood has been rapidly gentrified over the past decade." },
+        { "word": "priced out", "phonetic": "", "meaning": "phr. 被过高价格排斥在外；因负担不起而离开", "example": "Young families are being priced out of the housing market." },
+        { "word": "suburb", "phonetic": "/ˈsʌbɜːb/", "meaning": "n. 郊区；城郊住宅区", "example": "They moved to the suburbs to raise their children." }
       ],
       "difficult_sentences": [
         {
-          "en": "They propose a 'sleep credit system' — a framework in which employers would be required to monitor and ensure minimum rest periods for workers, much as labour laws currently mandate maximum working hours.",
-          "zh": "他们提出了一个"睡眠信用体系"——一个要求雇主监测并确保工人最低休息时间的框架，类似于劳动法目前强制规定的最长工作时间。",
-          "grammar": "破折号后的 'a framework in which...' 作 'sleep credit system' 的同位语。'in which' 引导定语从句修饰 framework。'much as' 表示 '类似于；正如'，引导方式状语从句，将睡眠信用体系与现有劳动法中的工时限制进行类比。'would be required' 使用虚拟语气，表示对尚未实施的政策建议的假设性描述。"
+          "en": "Those who once lived conveniently close to city centres find themselves priced out and forced to move to suburbs.",
+          "zh": "那些曾经方便地住在市中心附近的人发现自己的居住成本超出了承受范围，被迫搬到郊区。'find themselves priced out' 是一种使役结构，'find oneself + V-ed' 表示某人不知不觉发现自己处于某种状态。",
+          "grammar": "'find themselves priced out' = '发现自己被排斥'。同样是 'find + oneself + V-ed' 结构，表示一种被动的、非自愿的结果。'forced to move' 是过去分词短语，与 'priced out' 并列作宾语补足语。"
+        }
+      ]
+    },
+    {
+      "en": "There is genuine tension between the 15-minute city's green ambitions and its social consequences. But proponents counter that car-centric cities are not exactly equitable either. In sprawling American metros, the poorest residents are often the most car-dependent — spending a disproportionate share of their income on vehicles, petrol and insurance, while the wealthy zip around in private automobiles. The answer, they argue, is not to preserve car culture but to build public services and local amenities that serve everyone.",
+      "zh": "15分钟城市的绿色野心与其社会后果之间确实存在真实的矛盾。但支持者反驳说，以汽车为中心的城市也并非公平。在美国那些无序扩张的大都市中，最贫穷的居民往往最依赖汽车——在车辆、汽油和保险上花费占收入的不成比例的一部分，而富人则乘坐私人汽车四处穿梭。他们认为，答案不是维护汽车文化，而是建设服务所有人的公共服务和本地设施。",
+      "vocabulary": [
+        { "word": "tension", "phonetic": "/ˈtenʃn/", "meaning": "n. 矛盾；张力；紧张关系", "example": "There is growing tension between economic growth and environmental protection." },
+        { "word": "sprawling", "phonetic": "/ˈsprɔːlɪŋ/", "meaning": "adj. 无序扩张的；摊大饼式的（城市）", "example": "Los Angeles is a sprawling metropolis with limited public transport." },
+        { "word": "disproportionate", "phonetic": "/ˌdɪsprəˈpɔːʃənət/", "meaning": "adj. 不成比例的；过大的", "example": "Black Americans make up a disproportionate share of the prison population." },
+        { "word": "amenity", "phonetic": "/əˈmiːnəti/", "meaning": "n. 便利设施；舒适条件", "example": "The neighbourhood lacks basic amenities like parks and clinics." }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The poorest residents are often the most car-dependent — spending a disproportionate share of their income on vehicles, petrol and insurance, while the wealthy zip around in private automobiles.",
+          "zh": "最贫穷的居民往往最依赖汽车——在车辆、汽油和保险上花费占收入的不成比例的一部分，而富人则乘坐私人汽车四处穿梭。'most car-dependent' 是 'the most + 形容词' 构成最高级，修饰 'residents'。'spending...' 是现在分词短语作伴随状语，说明具体在哪些方面依赖汽车。",
+          "grammar": "主句 'The poorest residents are often the most car-dependent'。'spending...' 是现在分词（V-ing）作伴随状语。'while the wealthy...' 是 while 引导的对比状语从句，描述富人的情况与穷人形成对比。"
         }
       ]
     }
