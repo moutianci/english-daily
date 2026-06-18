@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-18",
+  "source": "BBC Health",
+  "title": "The Science of Sleep Debt: Why an Hour Lost Is Harder to Regain Than You Think",
+  "url": "https://www.bbc.com/health/articles/2026-06-17/science-of-sleep-debt",
+  "paragraphs": [
+    {
+      "en": "For decades, scientists assumed that sleep was a relatively simple biological switch — one that could be flipped back on without lasting consequences after a few restful nights. That assumption is now crumbling under the weight of new research. A landmark study published this month in Nature Neuroscience reveals that even modest, chronic sleep deprivation — losing just one hour per night over several weeks — produces measurable cognitive decline that cannot be fully reversed by a single weekend of extended rest. The researchers tracked over 2,400 adults across three continents and found that cumulative sleep debt eroded working memory, slowed reaction times, and diminished emotional regulation in a dose-dependent manner, meaning the longer the deficit persisted, the steeper the cost.",
+      "zh": "几十年来，科学家们一直认为睡眠是一个相对简单的生物学开关——经过几个安稳的夜晚后就可以重新打开，而不会产生持久的后果。这一假设如今在新研究的重压下正在瓦解。本月发表在《自然·神经科学》上的一项里程碑式研究表明，即使是适度的、慢性的睡眠剥夺——连续几周每晚只少睡一个小时——也会产生可测量的认知衰退，而仅仅一个周末的延长休息无法完全逆转这种衰退。研究人员追踪了三大洲超过2400名成年人，发现累积的睡眠债务以剂量依赖的方式侵蚀了工作记忆、减慢了反应速度并削弱了情绪调节能力，这意味着亏空持续的时间越长，代价就越沉重。",
+      "vocabulary": [
+        {
+          "word": "deprivation",
+          "phonetic": "/ˌdeprɪˈveɪʃn/",
+          "meaning": "n. 剥夺；缺乏",
+          "example": "Chronic sleep deprivation has been linked to a higher risk of cardiovascular disease."
+        },
+        {
+          "word": "cumulative",
+          "phonetic": "/ˈkjuːmjələtɪv/",
+          "meaning": "adj. 累积的；渐增的",
+          "example": "The cumulative effect of small daily stressors can be surprisingly damaging to mental health."
+        },
+        {
+          "word": "dose-dependent",
+          "phonetic": "/ˌdəʊs dɪˈpendənt/",
+          "meaning": "adj. 剂量依赖的（随剂量/程度变化的）",
+          "example": "The medication's side effects are dose-dependent, meaning higher doses carry greater risks."
+        },
+        {
+          "word": "erode",
+          "phonetic": "/ɪˈrəʊd/",
+          "meaning": "v. 侵蚀；逐步损害",
+          "example": "Years of multitasking have eroded his ability to focus on a single task for extended periods."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The researchers tracked over 2,400 adults across three continents and found that cumulative sleep debt eroded working memory, slowed reaction times, and diminished emotional regulation in a dose-dependent manner, meaning the longer the deficit persisted, the steeper the cost.",
+          "zh": "研究人员追踪了三大洲超过2400名成年人，发现累积的睡眠债务以剂量依赖的方式侵蚀了工作记忆、减慢了反应速度并削弱了情绪调节能力，这意味着亏空持续的时间越长，代价就越沉重。",
+          "grammar": "「the + 比较级..., the + 比较级...」结构表示「越……，越……」。此外，过去分词短语 'slowed reaction times' 和 'diminished emotional regulation' 与 'eroded working memory' 构成平行结构，均作为 'cumulative sleep debt' 所发出的动作。分词短语 'meaning...' 作伴随状语，对前文的 dose-dependent manner 进行解释说明。"
+        }
+      ]
+    },
+    {
+      "en": "What makes sleep debt particularly insidious is its deceptive nature. Unlike food deprivation, which triggers unmistakable hunger signals, sleep loss masks its damage behind a fog of false alertness. People who habitually sleep six hours instead of eight consistently rate themselves as feeling fine, even as objective tests reveal significant impairments. Professor Matthew Walker, a neuroscientist at the University of California, Berkeley, describes this phenomenon as ' subjective wakefulness' — a state in which the brain convinces itself it is rested while operating at a fraction of its actual capacity. His team's brain imaging data show that the prefrontal cortex, the region responsible for decision-making and impulse control, is among the first areas to falter under insufficient sleep, long before a person feels genuinely tired.",
+      "zh": "睡眠债务之所以特别阴险，在于其欺骗性的本质。与食物剥夺会触发明确的饥饿信号不同，睡眠不足将自己的损害隐藏在虚假清醒的迷雾之后。那些习惯性只睡六个小时而非八个小时的人，始终认为自己感觉良好，即使客观测试揭示了显著的认知损伤。加州大学伯克利分校的神经科学家马修·沃克教授将这一现象描述为"主观清醒"——一种大脑说服自己已经休息好了、但实际上只以真正能力的一小部分在运转的状态。他团队的脑成像数据显示，负责决策和冲动控制的前额叶皮层是睡眠不足下最先衰退的区域之一，远在一个人真正感到疲倦之前。",
+      "vocabulary": [
+        {
+          "word": "insidious",
+          "phonetic": "/ɪnˈsɪdiəs/",
+          "meaning": "adj. 阴险的；潜伏的；不易察觉的",
+          "example": "The insidious spread of misinformation on social media makes it difficult to detect."
+        },
+        {
+          "word": "habitually",
+          "phonetic": "/həˈbɪtʃuəli/",
+          "meaning": "adv. 习惯性地；惯常地",
+          "example": "She habitually checks her phone within minutes of waking up each morning."
+        },
+        {
+          "word": "falter",
+          "phonetic": "/ˈfɔːltə/",
+          "meaning": "v. 衰退；动摇；蹒跚",
+          "example": "His confidence began to falter after the third consecutive failure."
+        },
+        {
+          "word": "prefrontal cortex",
+          "phonetic": "/priːˈfrʌntl ˈkɔːteks/",
+          "meaning": "n. 前额叶皮层（大脑中负责高级认知功能的区域）",
+          "example": "The prefrontal cortex continues to develop until the mid-twenties, which explains adolescents' impulsive behaviour."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "His team's brain imaging data show that the prefrontal cortex, the region responsible for decision-making and impulse control, is among the first areas to falter under insufficient sleep, long before a person feels genuinely tired.",
+          "zh": "他团队的脑成像数据显示，负责决策和冲动控制的前额叶皮层是睡眠不足下最先衰退的区域之一，远在一个人真正感到疲倦之前。",
+          "grammar": "同位语 'the region responsible for decision-making and impulse control' 补充说明主语 prefrontal cortex。'responsible for' 是形容词性短语作后置定语修饰 'region'。'long before' 引导时间状语从句，表示 '远在……之前'，与 'is among the first areas to falter' 形成时间对比，突出前额叶皮层衰退的隐蔽性和早期性。"
+        }
+      ]
+    },
+    {
+      "en": "The implications extend far beyond individual cognition. Economists estimate that sleep deprivation costs developed nations up to 2% of their GDP annually through lost productivity, increased workplace accidents, and higher healthcare expenditures. Yet public policy has been slow to catch up. While a handful of countries, including France and South Korea, have experimented with later school start times and restrictions on excessive overtime, most societies still treat sleep as a personal luxury rather than a biological imperative. The researchers behind the Nature Neuroscience study argue that this needs to change. They propose a 'sleep credit system' — a framework in which employers would be required to monitor and ensure minimum rest periods for workers, much as labour laws currently mandate maximum working hours. Whether such proposals will gain political traction remains uncertain, but the evidence is becoming increasingly difficult to ignore.",
+      "zh": "其影响远不止于个体认知。经济学家估计，睡眠剥夺每年通过生产力损失、工作场所事故增加和医疗支出上升，给发达国家造成高达GDP 2%的损失。然而公共政策却迟迟未能跟上步伐。虽然包括法国和韩国在内的少数国家已尝试推迟上学时间和限制过度加班，但大多数社会仍将睡眠视为个人奢侈而非生物学上的必需品。《自然·神经科学》研究的研究人员认为这种情况需要改变。他们提出了一个"睡眠信用体系"——一个要求雇主监测并确保工人最低休息时间的框架，类似于劳动法目前强制规定的最长工作时间。此类提案能否获得政治推动力尚不确定，但证据已变得越来越难以忽视。",
+      "vocabulary": [
+        {
+          "word": "expenditure",
+          "phonetic": "/ɪkˈspendɪtʃə/",
+          "meaning": "n. 支出；花费",
+          "example": "Government expenditure on education has increased by 15% over the past decade."
+        },
+        {
+          "word": "imperative",
+          "phonetic": "/ɪmˈperətɪv/",
+          "meaning": "n. 必要的事；迫切要求；adj. 必要的；紧急的",
+          "example": "In the age of climate change, reducing carbon emissions is a moral imperative."
+        },
+        {
+          "word": "traction",
+          "phonetic": "/ˈtrækʃn/",
+          "meaning": "n. 推动力；支持；牵引力",
+          "example": "The proposal to ban single-use plastics has gained significant political traction in recent months."
+        },
+        {
+          "word": "mandate",
+          "phonetic": "/ˈmændeɪt/",
+          "meaning": "v. 授权；强制规定；n. 授权；命令",
+          "example": "The government mandated that all public buildings install energy-efficient lighting by 2028."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "They propose a 'sleep credit system' — a framework in which employers would be required to monitor and ensure minimum rest periods for workers, much as labour laws currently mandate maximum working hours.",
+          "zh": "他们提出了一个"睡眠信用体系"——一个要求雇主监测并确保工人最低休息时间的框架，类似于劳动法目前强制规定的最长工作时间。",
+          "grammar": "破折号后的 'a framework in which...' 作 'sleep credit system' 的同位语。'in which' 引导定语从句修饰 framework。'much as' 表示 '类似于；正如'，引导方式状语从句，将睡眠信用体系与现有劳动法中的工时限制进行类比。'would be required' 使用虚拟语气，表示对尚未实施的政策建议的假设性描述。"
+        }
+      ]
+    }
+  ]
+}
