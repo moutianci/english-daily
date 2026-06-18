@@ -140,6 +140,29 @@ body {
   margin-bottom: 36px;
 }
 
+.para-header {
+  margin-bottom: 8px;
+}
+
+.play-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  background: var(--highlight-bg);
+  border: 1px solid var(--highlight);
+  border-radius: 20px;
+  font-size: 13px;
+  color: var(--highlight);
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.play-btn:hover { background: #c5dafa; }
+.play-btn.playing { background: var(--highlight); color: white; }
+.play-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
 .en-text {
   font-size: 19px;
   line-height: 1.9;
@@ -600,6 +623,9 @@ function renderArticle(article) {
     const enHighlighted = highlightVocab(p.en, p.vocabulary);
     html += `
     <div class="paragraph">
+      <div class="para-header">
+        <button class="play-btn" onclick="event.stopPropagation(); playParagraph(${i})" id="play-${i}">🔊 朗读</button>
+      </div>
       <div class="en-text">${enHighlighted}</div>
       <div class="translation-toggle" onclick="toggleTranslation(${i})">📖 显示中文翻译</div>
       <div class="translation-content" id="trans-${i}">${p.zh}</div>`;
@@ -958,6 +984,57 @@ document.addEventListener('scroll', () => {
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') hideTooltip();
 });
+
+// ====== TTS朗读功能 ======
+let currentUtterance = null;
+let currentPlayIndex = -1;
+
+function playParagraph(index) {
+  // 如果正在播放同一段，停止
+  if (currentPlayIndex === index && speechSynthesis.speaking) {
+    speechSynthesis.cancel();
+    resetPlayBtn(index);
+    currentPlayIndex = -1;
+    return;
+  }
+  // 停止之前播放
+  speechSynthesis.cancel();
+  if (currentPlayIndex >= 0) resetPlayBtn(currentPlayIndex);
+
+  const p = currentArticle?.paragraphs?.[index];
+  if (!p) return;
+
+  const btn = document.getElementById(`play-${index}`);
+  btn.classList.add('playing');
+  btn.textContent = '⏹ 停止';
+  currentPlayIndex = index;
+
+  const utter = new SpeechSynthesisUtterance(p.en);
+  utter.lang = 'en-US';
+  utter.rate = 0.9;
+  utter.pitch = 1;
+  // 尝试选择美式英语语音
+  const voices = speechSynthesis.getVoices();
+  const usVoice = voices.find(v => v.lang.startsWith('en-US') && /female/i.test(v.name))
+    || voices.find(v => v.lang.startsWith('en-US'))
+    || voices.find(v => v.lang.startsWith('en'));
+  if (usVoice) utter.voice = usVoice;
+
+  utter.onend = () => { resetPlayBtn(index); currentPlayIndex = -1; };
+  utter.onerror = () => { resetPlayBtn(index); currentPlayIndex = -1; };
+
+  currentUtterance = utter;
+  speechSynthesis.speak(utter);
+}
+
+function resetPlayBtn(index) {
+  const btn = document.getElementById(`play-${index}`);
+  if (btn) { btn.classList.remove('playing'); btn.textContent = '🔊 朗读'; }
+}
+
+// 预加载语音列表（iOS需要）
+speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+speechSynthesis.getVoices();
 
 init();
 </script>
