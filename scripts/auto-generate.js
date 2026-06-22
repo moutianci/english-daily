@@ -2,13 +2,11 @@
 /**
  * auto-generate.js — 纯 Node.js 自动生成每日精读文章
  * 用于 GitHub Actions，不依赖 OpenClaw
- * 
- * 需要环境变量: OPENAI_API_KEY
- * 可选环境变量: ANTHROPIC_API_KEY (备用)
  */
 
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
 const API_KEY = process.env.GEMINI_API_KEY || process.env.OPENAI_API_KEY;
 if (!API_KEY) {
@@ -75,86 +73,126 @@ Output the complete JSON object with this exact structure:
 
 Remember: Exactly 4 paragraphs. Output ONLY the JSON object.`;
 
-async function callGemini() {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
-  const resp = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
+// 使用 https 模块（Node.js 内置）
+function callGemini() {
+  return new Promise((resolve, reject) => {
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+    const data = JSON.stringify({
       contents: [{ parts: [{ text: `${SYSTEM_PROMPT}\n\n${USER_PROMPT}` }] }],
       generationConfig: { temperature: 0.8, maxOutputTokens: 4000 },
-    }),
+    });
+
+    console.log('📡 Calling Gemini API...');
+    
+    const req = https.request(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(data),
+      },
+      timeout: 30000, // 30秒超时
+    }, (res) => {
+      let responseData = '';
+      
+      res.on('data', (chunk) => {
+        responseData += chunk;
+      });
+      
+      res.on('end', () => {
+        console.log(`📡 API Response: ${res.statusCode}`);
+        
+        if (res.statusCode !== 200) {
+          reject(new Error(`Gemini API error ${res.statusCode}: ${responseData.substring(0, 500)}`));
+          return;
+        }
+        
+        try {
+          const data = JSON.parse(responseData);
+          if (!data.candidates || !data.candidates[0]) {
+            reject(new Error('No candidates in response'));
+            return;
+          }
+          
+          let content = data.candidates[0].content.parts[0].text.trim();
+          
+          // 提取 JSON
+          const jsonMatch = content.match(/\{[\s\S]*\}/);
+          if (jsonMatch) content = jsonMatch[0];
+          content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+          
+          resolve(JSON.parse(content));
+        } catch (err) {
+          reject(new Error(`Failed to parse response: ${err.message}`));
+        }
+      });
+    });
+
+    req.on('error', (err) => {
+      reject(new Error(`Request failed: ${err.message}`));
+    });
+
+    req.on('timeout', () => {
+      req.destroy();
+      reject(new Error('Request timeout (30s)'));
+    });
+
+    req.write(data);
+    req.end();
   });
-
-  if (!resp.ok) {
-    const err = await resp.text();
-    throw new Error(`Gemini API error ${resp.status}: ${err}`);
-  }
-
-  const data = await resp.json();
-  let content = data.candidates[0].content.parts[0].text.trim();
-
-  // 提取 JSON
-  const jsonMatch = content.match(/\{[\s\S]*\}/);
-  if (jsonMatch) content = jsonMatch[0];
-  content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
-
-  return JSON.parse(content);
 }
 
-function main() {
-  (async () => {
-    console.log(`📝 Generating article for ${TODAY}...`);
-    console.log(`🎯 Topic: ${topic.theme} (${topic.prompt})`);
+async function main() {
+  console.log(`📝 Generating article for ${TODAY}...`);
+  console.log(`🎯 Topic: ${topic.theme} (${topic.prompt})`);
+  console.log(`🔑 API Key: ${API_KEY.substring(0, 8)}...`);
 
-    // 检查是否已有当天文章
-    if (fs.existsSync(DATA_DIR)) {
-      const existing = path.join(DATA_DIR, `${TODAY}.json`);
-      if (fs.existsSync(existing)) {
-        console.log(`⚠️ Article for ${TODAY} already exists, skipping.`);
-        return;
-      }
-    } else {
-      fs.mkdirSync(DATA_DIR, { recursive: true });
+  // 检查是否已有当天文章
+  if (fs.existsSync(DATA_DIR)) {
+    const existing = path.join(DATA_DIR, `${TODAY}.json`);
+    if (fs.existsSync(existing)) {
+      console.log(`⚠️ Article for ${TODAY} already exists, skipping.`);
+      return;
+    }
+  } else {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+
+  try {
+    const article = await callGemini();
+
+    // 验证结构
+    if (!article.paragraphs || article.paragraphs.length < 3) {
+      throw new Error('Article has fewer than 3 paragraphs');
     }
 
-    try {
-      const article = await callGemini();
+    // 保存文章
+    const articlePath = path.join(DATA_DIR, `${TODAY}.json`);
+    fs.writeFileSync(articlePath, JSON.stringify(article, null, 2), 'utf-8');
+    console.log(`✅ Article saved: ${articlePath}`);
 
-      // 验证结构
-      if (!article.paragraphs || article.paragraphs.length < 3) {
-        throw new Error('Article has fewer than 3 paragraphs');
-      }
-
-      // 保存文章
-      const articlePath = path.join(DATA_DIR, `${TODAY}.json`);
-      fs.writeFileSync(articlePath, JSON.stringify(article, null, 2), 'utf-8');
-      console.log(`✅ Article saved: ${articlePath}`);
-
-      // 更新 dates.json
-      let dates = {};
-      if (fs.existsSync(DATES_FILE)) {
-        dates = JSON.parse(fs.readFileSync(DATES_FILE, 'utf-8'));
-      }
-      if (!dates[TODAY]) {
-        dates[TODAY] = [];
-      }
-      if (!dates[TODAY].includes(TODAY)) {
-        dates[TODAY].push(TODAY);
-      }
-      // Sort keys descending
-      const sorted = {};
-      Object.keys(dates).sort().reverse().forEach(k => sorted[k] = dates[k]);
-      fs.writeFileSync(DATES_FILE, JSON.stringify(sorted, null, 2), 'utf-8');
-      console.log(`📅 dates.json updated (${Object.keys(sorted).length} days)`);
-
-      console.log(`✨ Done! Title: ${article.title}`);
-      console.log(`📊 ${article.paragraphs.length} paragraphs, ${article.paragraphs.reduce((s, p) => s + (p.vocabulary?.length || 0), 0)} vocabulary words`);
-    } catch (err) {
-      console.error(`❌ Failed: ${err.message}`);
-      process.exit(1);
+    // 更新 dates.json
+    let dates = {};
+    if (fs.existsSync(DATES_FILE)) {
+      dates = JSON.parse(fs.readFileSync(DATES_FILE, 'utf-8'));
     }
-  })();
+    if (!dates[TODAY]) {
+      dates[TODAY] = [];
+    }
+    if (!dates[TODAY].includes(TODAY)) {
+      dates[TODAY].push(TODAY);
+    }
+    // Sort keys descending
+    const sorted = {};
+    Object.keys(dates).sort().reverse().forEach(k => sorted[k] = dates[k]);
+    fs.writeFileSync(DATES_FILE, JSON.stringify(sorted, null, 2), 'utf-8');
+    console.log(`📅 dates.json updated (${Object.keys(sorted).length} days)`);
+
+    console.log(`✨ Done! Title: ${article.title}`);
+    console.log(`📊 ${article.paragraphs.length} paragraphs, ${article.paragraphs.reduce((s, p) => s + (p.vocabulary?.length || 0), 0)} vocabulary words`);
+  } catch (err) {
+    console.error(`❌ Failed: ${err.message}`);
+    process.exit(1);
+  }
 }
 
 main();
