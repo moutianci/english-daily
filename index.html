@@ -129,6 +129,13 @@ body {
   line-height: 1.4;
   margin-bottom: 6px;
 }
+.article-meta .title-zh {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
 
 .article-meta .date-text {
   color: var(--text-light);
@@ -516,11 +523,11 @@ const SOURCES = [
   'https://moutianci.github.io/english-daily'
 ];
 const EMBEDDED_DATES = [
-  { id: '2026-06-22', title: 'Global Trade Shifts, Inflation Divergences, and Digital Currency Adoption: 2026 Mid-Year Outlook' },
-  { id: '2026-06-22b', title: 'The Global Algorithm: Racing to Regulate Artificial Intelligence' },
-  { id: '2026-06-18', title: 'The 15-Minute City: Urban Planning\'s New Obsession' },
-  { id: '2026-06-18b', title: 'Psychology of Procrastination' },
-  { id: '2026-06-17', title: 'The Battle for Artificial General Intelligence' }
+  { id: '2026-06-22', title: 'Global Trade Shifts, Inflation Divergences, and Digital Currency Adoption: 2026 Mid-Year Outlook', titleZh: '全球贸易格局转变、通胀分化与数字货币采用：2026中期展望' },
+  { id: '2026-06-22b', title: 'The Global Algorithm: Racing to Regulate Artificial Intelligence', titleZh: '全球算法竞赛：人工智能监管立法加速' },
+  { id: '2026-06-18', title: 'The 15-Minute City: Urban Planning\'s New Obsession', titleZh: '15分钟城市：城市规划的新执念' },
+  { id: '2026-06-18b', title: 'Psychology of Procrastination', titleZh: '拖延心理学：为何我们总在最后一刻才行动' },
+  { id: '2026-06-17', title: 'The Battle for Artificial General Intelligence', titleZh: '通用人工智能争夺战' }
 ];
 
 // 封装 fetch 带超时
@@ -574,14 +581,14 @@ async function loadArticlesMap() {
     // dates.json 格式: { "2026-06-22": [{ id:"...", title:"..." }, ...] }
     for (const [date, entries] of Object.entries(data)) {
       map[date] = entries.map(e => typeof e === 'object' && e.id
-        ? { id: e.id, title: e.title || e.id }
-        : { id: e, title: e }
+        ? { id: e.id, title: e.title || e.id, titleZh: e.titleZh || '' }
+        : { id: e, title: e, titleZh: '' }
       );
     }
   } else if (Array.isArray(data)) {
-    for (const d of data) map[d] = [{ id: d, title: d }];
+    for (const d of data) map[d] = [{ id: d, title: d, titleZh: '' }];
   } else {
-    for (const e of EMBEDDED_DATES) map[e.id] = [{ id: e.id, title: e.title || e.id }];
+    for (const e of EMBEDDED_DATES) map[e.id] = [{ id: e.id, title: e.title || e.id, titleZh: e.titleZh || '' }];
   }
 
   // 2. 用最新文章的完整数据预填充缓存（页面可立即渲染，无需再等请求）
@@ -626,6 +633,7 @@ function renderArticle(article) {
     <div class="article-meta">
       <span class="source">${article.source}</span>
       <div class="title">${article.title}</div>
+      ${article.titleZh ? `<div class="title title-zh">${article.titleZh}</div>` : ''}
       <div class="date-text">📅 ${article.date}</div>
     </div>`;
 
@@ -715,7 +723,8 @@ async function toggleDatePicker() {
       html += `<div style="padding:6px 12px;font-size:12px;color:#888;border-bottom:1px solid #eee;">📅 ${date} (${articles.length}篇)</div>`;
       for (const art of articles) {
         const active = art.id === currentArticle?.date ? 'active' : '';
-        html += `<div class="date-option ${active}" onclick="goToArticle('${art.id}')" style="padding-left:24px;font-size:14px;">${art.title || art.id}</div>`;
+        const subTitle = art.titleZh ? `<span style="color:#888;font-size:12px;">${art.titleZh}</span><br>` : '';
+        html += `<div class="date-option ${active}" onclick="goToArticle('${art.id}')" style="padding-left:24px;font-size:14px;">${subTitle}${art.title || art.id}</div>`;
       }
     }
   }

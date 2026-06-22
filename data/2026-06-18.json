@@ -8,10 +8,30 @@
       "en": "In city halls from Paris to Melbourne, a new urban planning concept is taking hold: the 15-minute city. The idea is elegantly simple. Every resident should be able to reach everything they need for daily life — work, shops, schools, green spaces, healthcare — within a 15-minute walk or bike ride from their front door. No car required. No hour-long commutes. No dependence on fossil fuels for basic errands.",
       "zh": "从巴黎到墨尔本，一种新的城市规划理念正在城市政府中流行：15分钟城市。这个想法简洁而优雅。每个居民都应该能够从家门口出发，在步行或骑自行车15分钟的距离内到达日常生活所需的一切——工作、商店、学校、绿地、医疗。不需要汽车。没有长达一小时的通勤。不需要依赖化石燃料来处理日常琐事。",
       "vocabulary": [
-        { "word": "taking hold", "phonetic": "", "meaning": "phr. 流行开来；站稳脚跟", "example": "The new fashion has taken hold in major cities across Europe." },
-        { "word": "elegantly", "phonetic": "/ˈelɪɡəntli/", "meaning": "adv. 简洁地；优雅地", "example": "The problem can be elegantly solved with a simple equation." },
-        { "word": "errand", "phonetic": "/ˈerənd/", "meaning": "n. 差事；跑腿（购物、邮寄等）", "example": "I need to run a few errands before the shops close." },
-        { "word": "fossil fuel", "phonetic": "", "meaning": "n. 化石燃料（煤、石油、天然气）", "example": "The world must phase out fossil fuels to combat climate change." }
+        {
+          "word": "taking hold",
+          "phonetic": "",
+          "meaning": "phr. 流行开来；站稳脚跟",
+          "example": "The new fashion has taken hold in major cities across Europe."
+        },
+        {
+          "word": "elegantly",
+          "phonetic": "/ˈelɪɡəntli/",
+          "meaning": "adv. 简洁地；优雅地",
+          "example": "The problem can be elegantly solved with a simple equation."
+        },
+        {
+          "word": "errand",
+          "phonetic": "/ˈerənd/",
+          "meaning": "n. 差事；跑腿（购物、邮寄等）",
+          "example": "I need to run a few errands before the shops close."
+        },
+        {
+          "word": "fossil fuel",
+          "phonetic": "",
+          "meaning": "n. 化石燃料（煤、石油、天然气）",
+          "example": "The world must phase out fossil fuels to combat climate change."
+        }
       ],
       "difficult_sentences": [
         {
@@ -25,10 +45,30 @@
       "en": "Paris has become the concept's most high-profile laboratory. Mayor Anne Hidalgo's administration has been closing major arteries to car traffic, converting lanes into cycle paths, and planting urban forests in former parking lots. The results have been striking. Commute times have fallen by an average of 22 minutes. Air pollution levels in central districts have dropped to their lowest since reliable records began in the 1970s. Cycling rates have tripled.",
       "zh": "巴黎已成为这一理念最受瞩目的实验场。市长安娜·伊达尔戈的政府一直在关闭主要汽车干道，将车道改建为自行车道，并在废弃停车场种植城市森林。结果令人瞩目。平均通勤时间减少了22分钟。中心区的空气污染水平已降至20世纪70年代有可靠记录以来的最低点。骑行出行率增加了两倍。",
       "vocabulary": [
-        { "word": "high-profile", "phonetic": "/ˌhaɪ ˈprəʊfaɪl/", "meaning": "adj. 受高度关注的；引人注目的", "example": "The government launched a high-profile campaign against smoking." },
-        { "word": "artery", "phonetic": "/ˈɑːtəri/", "meaning": "n. 干道；动脉（引申为交通要道）", "example": "Oxford Street is one of London's main arterial roads." },
-        { "word": "striking", "phonetic": "/ˈstraɪkɪŋ/", "meaning": "adj. 显著的；引人注目的", "example": "There is a striking resemblance between the two brothers." },
-        { "word": "tripled", "phonetic": "/ˈtrɪpld/", "meaning": "v. 变成三倍；增加两倍（triple的过去分词）", "example": "Sales have tripled since the product redesign." }
+        {
+          "word": "high-profile",
+          "phonetic": "/ˌhaɪ ˈprəʊfaɪl/",
+          "meaning": "adj. 受高度关注的；引人注目的",
+          "example": "The government launched a high-profile campaign against smoking."
+        },
+        {
+          "word": "artery",
+          "phonetic": "/ˈɑːtəri/",
+          "meaning": "n. 干道；动脉（引申为交通要道）",
+          "example": "Oxford Street is one of London's main arterial roads."
+        },
+        {
+          "word": "striking",
+          "phonetic": "/ˈstraɪkɪŋ/",
+          "meaning": "adj. 显著的；引人注目的",
+          "example": "There is a striking resemblance between the two brothers."
+        },
+        {
+          "word": "tripled",
+          "phonetic": "/ˈtrɪpld/",
+          "meaning": "v. 变成三倍；增加两倍（triple的过去分词）",
+          "example": "Sales have tripled since the product redesign."
+        }
       ],
       "difficult_sentences": [
         {
@@ -42,10 +82,30 @@
       "en": "Not everyone is applauding. Critics argue that the 15-minute city is really a scheme to gentrify neighbourhoods and drive out long-term residents. By making areas more pleasant and desirable, property values rise, and rents follow. Those who once lived conveniently close to city centres find themselves priced out and forced to move to suburbs — exactly the kind of long-distance commuting that the concept was designed to eliminate.",
       "zh": "并非所有人都在鼓掌喝彩。批评者认为，15分钟城市实际上是一个绅士化社区、将长期居民驱逐出去的计划。通过让区域变得更舒适、更具吸引力，房价上涨，租金随之攀升。那些曾经方便地住在市中心附近的人发现自己的居住成本超出了承受范围，被迫搬到郊区——而这正是这一理念本应消除的长距离通勤。",
       "vocabulary": [
-        { "word": "applauding", "phonetic": "/əˈplɔːdɪŋ/", "meaning": "v. 鼓掌；称赞（applaud的现在分词）", "example": "The audience was applauding enthusiastically after the performance." },
-        { "word": "gentrify", "phonetic": "/ˈdʒentrɪfaɪ/", "meaning": "v. 绅士化；（通过翻修提高社区档次导致原居民被迫迁出）", "example": "The neighbourhood has been rapidly gentrified over the past decade." },
-        { "word": "priced out", "phonetic": "", "meaning": "phr. 被过高价格排斥在外；因负担不起而离开", "example": "Young families are being priced out of the housing market." },
-        { "word": "suburb", "phonetic": "/ˈsʌbɜːb/", "meaning": "n. 郊区；城郊住宅区", "example": "They moved to the suburbs to raise their children." }
+        {
+          "word": "applauding",
+          "phonetic": "/əˈplɔːdɪŋ/",
+          "meaning": "v. 鼓掌；称赞（applaud的现在分词）",
+          "example": "The audience was applauding enthusiastically after the performance."
+        },
+        {
+          "word": "gentrify",
+          "phonetic": "/ˈdʒentrɪfaɪ/",
+          "meaning": "v. 绅士化；（通过翻修提高社区档次导致原居民被迫迁出）",
+          "example": "The neighbourhood has been rapidly gentrified over the past decade."
+        },
+        {
+          "word": "priced out",
+          "phonetic": "",
+          "meaning": "phr. 被过高价格排斥在外；因负担不起而离开",
+          "example": "Young families are being priced out of the housing market."
+        },
+        {
+          "word": "suburb",
+          "phonetic": "/ˈsʌbɜːb/",
+          "meaning": "n. 郊区；城郊住宅区",
+          "example": "They moved to the suburbs to raise their children."
+        }
       ],
       "difficult_sentences": [
         {
@@ -59,10 +119,30 @@
       "en": "There is genuine tension between the 15-minute city's green ambitions and its social consequences. But proponents counter that car-centric cities are not exactly equitable either. In sprawling American metros, the poorest residents are often the most car-dependent — spending a disproportionate share of their income on vehicles, petrol and insurance, while the wealthy zip around in private automobiles. The answer, they argue, is not to preserve car culture but to build public services and local amenities that serve everyone.",
       "zh": "15分钟城市的绿色野心与其社会后果之间确实存在真实的矛盾。但支持者反驳说，以汽车为中心的城市也并非公平。在美国那些无序扩张的大都市中，最贫穷的居民往往最依赖汽车——在车辆、汽油和保险上花费占收入的不成比例的一部分，而富人则乘坐私人汽车四处穿梭。他们认为，答案不是维护汽车文化，而是建设服务所有人的公共服务和本地设施。",
       "vocabulary": [
-        { "word": "tension", "phonetic": "/ˈtenʃn/", "meaning": "n. 矛盾；张力；紧张关系", "example": "There is growing tension between economic growth and environmental protection." },
-        { "word": "sprawling", "phonetic": "/ˈsprɔːlɪŋ/", "meaning": "adj. 无序扩张的；摊大饼式的（城市）", "example": "Los Angeles is a sprawling metropolis with limited public transport." },
-        { "word": "disproportionate", "phonetic": "/ˌdɪsprəˈpɔːʃənət/", "meaning": "adj. 不成比例的；过大的", "example": "Black Americans make up a disproportionate share of the prison population." },
-        { "word": "amenity", "phonetic": "/əˈmiːnəti/", "meaning": "n. 便利设施；舒适条件", "example": "The neighbourhood lacks basic amenities like parks and clinics." }
+        {
+          "word": "tension",
+          "phonetic": "/ˈtenʃn/",
+          "meaning": "n. 矛盾；张力；紧张关系",
+          "example": "There is growing tension between economic growth and environmental protection."
+        },
+        {
+          "word": "sprawling",
+          "phonetic": "/ˈsprɔːlɪŋ/",
+          "meaning": "adj. 无序扩张的；摊大饼式的（城市）",
+          "example": "Los Angeles is a sprawling metropolis with limited public transport."
+        },
+        {
+          "word": "disproportionate",
+          "phonetic": "/ˌdɪsprəˈpɔːʃənət/",
+          "meaning": "adj. 不成比例的；过大的",
+          "example": "Black Americans make up a disproportionate share of the prison population."
+        },
+        {
+          "word": "amenity",
+          "phonetic": "/əˈmiːnəti/",
+          "meaning": "n. 便利设施；舒适条件",
+          "example": "The neighbourhood lacks basic amenities like parks and clinics."
+        }
       ],
       "difficult_sentences": [
         {
@@ -72,5 +152,6 @@
         }
       ]
     }
-  ]
+  ],
+  "titleZh": "15分钟城市：城市规划的新执念"
 }

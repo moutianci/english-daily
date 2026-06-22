@@ -8,10 +8,30 @@
       "en": "Procrastination is not laziness. That distinction matters more than most people realise. Psychologists have spent decades studying why intelligent, capable individuals routinely postpone tasks they know are important — filing tax returns, starting exercise regimens, preparing for exams. The answer, it turns out, has less to do with poor time management and more to do with emotional regulation. When a task triggers anxiety, boredom or self-doubt, the brain seeks relief in the nearest available distraction.",
       "zh": "拖延不是懒惰。这一区分比大多数人意识到的更重要。心理学家花了几十年时间研究为什么聪明、有能力的人会经常推迟他们知道重要的任务——报税、开始锻炼计划、准备考试。答案证明，这与糟糕的时间管理关系不大，而更多与情绪调节有关。当一个任务引发焦虑、无聊或自我怀疑时，大脑会在最近的可用消遣中寻求解脱。",
       "vocabulary": [
-        { "word": "procrastination", "phonetic": "/prəˌkræstɪˈneɪʃn/", "meaning": "n. 拖延症；耽搁", "example": "Procrastination is the thief of time." },
-        { "word": "distinction", "phonetic": "/dɪˈstɪŋkʃn/", "meaning": "n. 区分；差别", "example": "There is a clear distinction between confidence and arrogance." },
-        { "word": "regimen", "phonetic": "/ˈredʒɪmən/", "meaning": "n. 规律的训练/养生计划", "example": "She follows a strict exercise regimen every morning." },
-        { "word": "distraction", "phonetic": "/dɪˈstrækʃn/", "meaning": "n. 分心；消遣；干扰", "example": "Phones are the biggest source of distraction in classrooms." }
+        {
+          "word": "procrastination",
+          "phonetic": "/prəˌkræstɪˈneɪʃn/",
+          "meaning": "n. 拖延症；耽搁",
+          "example": "Procrastination is the thief of time."
+        },
+        {
+          "word": "distinction",
+          "phonetic": "/dɪˈstɪŋkʃn/",
+          "meaning": "n. 区分；差别",
+          "example": "There is a clear distinction between confidence and arrogance."
+        },
+        {
+          "word": "regimen",
+          "phonetic": "/ˈredʒɪmən/",
+          "meaning": "n. 规律的训练/养生计划",
+          "example": "She follows a strict exercise regimen every morning."
+        },
+        {
+          "word": "distraction",
+          "phonetic": "/dɪˈstrækʃn/",
+          "meaning": "n. 分心；消遣；干扰",
+          "example": "Phones are the biggest source of distraction in classrooms."
+        }
       ],
       "difficult_sentences": [
         {
@@ -25,10 +45,30 @@
       "en": "Tim Pychyl, a professor at Carleton University, has pioneered research into what he calls the 'misguided' nature of procrastination. His fMRI studies show that when participants contemplate a task they have been avoiding, the amygdala — the brain's threat-detection centre — lights up like a fire alarm. The limbic system overrides the prefrontal cortex, which is responsible for rational planning. In evolutionary terms, this makes grim sense: a distant deadline posed no threat to our ancestors, but an immediate source of discomfort demanded action — or avoidance.",
       "zh": "卡尔顿大学的蒂姆·皮希尔教授开创了对拖延这种'被误导的'本质的研究。他的 fMRI 研究表明，当参与者思考他们一直在回避的任务时，杏仁核——大脑的威胁检测中心——会像火灾警报一样亮起来。边缘系统会压倒负责理性规划的前额叶皮层。从进化角度看，这有着令人沮丧的逻辑：遥远的截止日期对我们的祖先不构成威胁，但即时不适的来源却需要采取行动——或者回避。",
       "vocabulary": [
-        { "word": "pioneer", "phonetic": "/ˌpaɪəˈnɪər/", "meaning": "v. 开创；先驱（此处作动词）", "example": "She pioneered the use of DNA testing in criminal trials." },
-        { "word": "misguided", "phonetic": "/mɪsˈɡaɪdɪd/", "meaning": "adj. 被误导的；判断失误的", "example": "It would be misguided to assume all protests are violent." },
-        { "word": "amygdala", "phonetic": "/əˈmɪɡdələ/", "meaning": "n. 杏仁核（大脑中负责恐惧和情绪的区域）", "example": "The amygdala plays a key role in processing fear responses." },
-        { "word": "override", "phonetic": "/ˌəʊvəˈraɪd/", "meaning": "v. 压倒；凌驾于…之上；推翻", "example": "Safety concerns should override cost considerations." }
+        {
+          "word": "pioneer",
+          "phonetic": "/ˌpaɪəˈnɪər/",
+          "meaning": "v. 开创；先驱（此处作动词）",
+          "example": "She pioneered the use of DNA testing in criminal trials."
+        },
+        {
+          "word": "misguided",
+          "phonetic": "/mɪsˈɡaɪdɪd/",
+          "meaning": "adj. 被误导的；判断失误的",
+          "example": "It would be misguided to assume all protests are violent."
+        },
+        {
+          "word": "amygdala",
+          "phonetic": "/əˈmɪɡdələ/",
+          "meaning": "n. 杏仁核（大脑中负责恐惧和情绪的区域）",
+          "example": "The amygdala plays a key role in processing fear responses."
+        },
+        {
+          "word": "override",
+          "phonetic": "/ˌəʊvəˈraɪd/",
+          "meaning": "v. 压倒；凌驾于…之上；推翻",
+          "example": "Safety concerns should override cost considerations."
+        }
       ],
       "difficult_sentences": [
         {
@@ -42,10 +82,30 @@
       "en": "Technology has weaponised these ancient vulnerabilities. Social-media platforms are engineered to exploit the brain's preference for immediate gratification. A scroll through Instagram delivers a cocktail of dopamine hits that no overdue spreadsheet can compete with. Fuschia Sirois, a researcher at Durham University, notes that chronic procrastinators often display higher levels of impulsivity and lower capacity for self-compassion. They judge themselves harshly for delaying, which ironically generates more negative emotion — the very fuel that powers further procrastination.",
       "zh": "技术将这些古老的弱点武器化了。社交媒体平台经过精心设计，旨在利用大脑对即时满足的偏好。刷一遍 Instagram 能带来一连串的多巴胺刺激，这是任何逾期电子表格都无法竞争的。达勒姆大学的研究员富西亚·西罗瓦指出，慢性拖延者通常表现出更高的冲动性水平和更低的自我同情能力。他们因为拖延而严厉地评判自己，这讽刺地产生了更多负面情绪——而这恰恰是推动进一步拖延的燃料。",
       "vocabulary": [
-        { "word": "weaponise", "phonetic": "/ˈwepənaɪz/", "meaning": "v. 武器化；将…转化为攻击手段", "example": "Social media has weaponised public opinion." },
-        { "word": "gratification", "phonetic": "/ˌɡrætɪfɪˈkeɪʃn/", "meaning": "n. 满足；快感（尤指即时满足）", "example": "We live in a culture of instant gratification." },
-        { "word": "impulsivity", "phonetic": "/ˌɪmpʌlˈsɪvəti/", "meaning": "n. 冲动性；易冲动", "example": "High impulsivity is linked to poor financial decisions." },
-        { "word": "self-compassion", "phonetic": "", "meaning": "n. 自我同情；对自己宽容", "example": "Practising self-compassion can reduce anxiety and depression." }
+        {
+          "word": "weaponise",
+          "phonetic": "/ˈwepənaɪz/",
+          "meaning": "v. 武器化；将…转化为攻击手段",
+          "example": "Social media has weaponised public opinion."
+        },
+        {
+          "word": "gratification",
+          "phonetic": "/ˌɡrætɪfɪˈkeɪʃn/",
+          "meaning": "n. 满足；快感（尤指即时满足）",
+          "example": "We live in a culture of instant gratification."
+        },
+        {
+          "word": "impulsivity",
+          "phonetic": "/ˌɪmpʌlˈsɪvəti/",
+          "meaning": "n. 冲动性；易冲动",
+          "example": "High impulsivity is linked to poor financial decisions."
+        },
+        {
+          "word": "self-compassion",
+          "phonetic": "",
+          "meaning": "n. 自我同情；对自己宽容",
+          "example": "Practising self-compassion can reduce anxiety and depression."
+        }
       ],
       "difficult_sentences": [
         {
@@ -59,10 +119,30 @@
       "en": "The most effective remedy, researchers agree, is deceptively simple: just get started. The ' Zeigarnik effect' — the tendency for unfinished tasks to occupy the mind — means that beginning a task, however imperfectly, reduces the psychological resistance to continuing it. Pychyl recommends 'forgiving yourself' for past procrastination as a first step. Self-forgiveness, counterintuitively, does not breed complacency; it removes the emotional barrier that makes task initiation so painful in the first place. Sometimes the bravest thing is not to finish, but to begin.",
       "zh": "研究人员一致认为，最有效的补救方法看似简单得具有欺骗性：直接开始就好。'蔡加尼克效应'——未完成的任务占据大脑的倾向——意味着开始一项任务，无论多么不完美，都能降低继续做下去的心理阻力。皮希尔建议把'原谅自己'过去的拖延作为第一步。反直觉地，自我宽恕并不会滋生自满；它消除了让任务启动变得如此痛苦的情绪障碍。有时最勇敢的事情不是完成，而是开始。",
       "vocabulary": [
-        { "word": "deceptively", "phonetic": "/dɪˈseptɪvli/", "meaning": "adv. 貌似简单实则不然地；具有欺骗性地", "example": "The recipe is deceptively simple but requires great skill." },
-        { "word": "counterintuitively", "phonetic": "/ˌkaʊntərɪnˈtjuːɪtɪvli/", "meaning": "adv. 反直觉地；与常理相反地", "example": "Counterintuitively, higher taxes can sometimes boost economic growth." },
-        { "word": "complacency", "phonetic": "/kəmˈpleɪsənsi/", "meaning": "n. 自满；安于现状", "example": "Complacency is the enemy of progress." },
-        { "word": "initiation", "phonetic": "/ɪˌnɪʃiˈeɪʃn/", "meaning": "n. 开始；启动；发起", "example": "The initiation of the project was delayed by funding issues." }
+        {
+          "word": "deceptively",
+          "phonetic": "/dɪˈseptɪvli/",
+          "meaning": "adv. 貌似简单实则不然地；具有欺骗性地",
+          "example": "The recipe is deceptively simple but requires great skill."
+        },
+        {
+          "word": "counterintuitively",
+          "phonetic": "/ˌkaʊntərɪnˈtjuːɪtɪvli/",
+          "meaning": "adv. 反直觉地；与常理相反地",
+          "example": "Counterintuitively, higher taxes can sometimes boost economic growth."
+        },
+        {
+          "word": "complacency",
+          "phonetic": "/kəmˈpleɪsənsi/",
+          "meaning": "n. 自满；安于现状",
+          "example": "Complacency is the enemy of progress."
+        },
+        {
+          "word": "initiation",
+          "phonetic": "/ɪˌnɪʃiˈeɪʃn/",
+          "meaning": "n. 开始；启动；发起",
+          "example": "The initiation of the project was delayed by funding issues."
+        }
       ],
       "difficult_sentences": [
         {
@@ -72,5 +152,6 @@
         }
       ]
     }
-  ]
+  ],
+  "titleZh": "拖延心理学：为何我们总在最后一刻才行动"
 }
