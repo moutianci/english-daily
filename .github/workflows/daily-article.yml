@@ -1,1 +1,34 @@
-bmFtZTogR2VuZXJhdGUgRGFpbHkgQXJ0aWNsZQoKb246CiAgc2NoZWR1bGU6CiAgICAtIGNyb246ICcwIDE2ICogKiAqJyAgIyBVVEMgMTY6MDAgPSDljJfkuqzml7bpl7QgMDowMAogIHdvcmtmbG93X2Rpc3BhdGNoOiAgICAgICAjIOWFgeiuuOaJi+WKqOinpuWPkQoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHdyaXRlCgpqb2JzOgogIGdlbmVyYXRlOgogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSBuYW1lOiBTZXR1cCBOb2RlLmpzCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1ub2RlQHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5vZGUtdmVyc2lvbjogJzIwJwoKICAgICAgLSBuYW1lOiBHZW5lcmF0ZSB0b2RheSdzIGFydGljbGUKICAgICAgICBlbnY6CiAgICAgICAgICBPUEVOQUlfQVBJX0tFWTogJHt7IHNlY3JldHMuT1BFTkFJX0FQSV9LRVkgfX0KICAgICAgICAgIEdFTUlOSV9BUElfS0VZOiAke3sgc2VjcmV0cy5HRU1JTklfQVBJX0tFWSB9fQogICAgICAgIHJ1bjogbm9kZSBzY3JpcHRzL2F1dG8tZ2VuZXJhdGUuanMKCiAgICAgIC0gbmFtZTogQ29tbWl0IGFuZCBwdXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIubmFtZSAiZGFpbHktYm90IgogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLmVtYWlsICJkYWlseS1ib3RbYm90XUB1c2Vycy5ub3JlcGx5LmdpdGh1Yi5jb20iCiAgICAgICAgICBnaXQgYWRkIC1BCiAgICAgICAgICBnaXQgZGlmZiAtLWNhY2hlZCAtLXF1aWV0IHx8IGdpdCBjb21taXQgLW0gIvCfk5ogJChkYXRlICslWS0lbS0lZCkgZGFpbHkgYXJ0aWNsZSBbYXV0b10iCiAgICAgICAgICBnaXQgcHVzaAo=
+name: Generate Daily Article
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # UTC 16:00 = 北京时间 0:00
+  workflow_dispatch:       # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate today's article
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/auto-generate.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "daily-bot"
+          git config user.email "daily-bot[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "📚 $(date +%Y-%m-%d) daily article [auto]"
+          git push
