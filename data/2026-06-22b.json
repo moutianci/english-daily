@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-22",
+  "source": "The Economist",
+  "title": "The Global Algorithm: Racing to Regulate Artificial Intelligence",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "The global race to regulate artificial intelligence has intensified, with policymakers contending with the dual imperatives of fostering innovation and mitigating existential risks. The European Union’s pioneering AI Act, now entering enforcement, sets a precedent for risk-based oversight, while the United States champions a more laissez-faire approach. Meanwhile, China’s stringent state-led framework prioritises social stability and surveillance. This regulatory fragmentation threatens to precipitate a digital Balkanisation, impeding cross-border collaboration on AI safety research.",
+      "zh": "全球人工智能监管竞赛愈演愈烈，政策制定者正艰难应对促进创新与降低生存风险的双重紧迫任务。欧盟开创性的《人工智能法案》现已进入执行阶段，为基于风险的监管确立了先例，而美国则推崇更自由放任的做法。与此同时，中国严格的国家主导框架优先考虑社会稳定与监控。这种监管碎片化可能引发数字巴尔干化，阻碍人工智能安全研究的跨境合作。",
+      "vocabulary": [
+        {
+          "word": "precipitate",
+          "phonetic": "/prɪˈsɪp.ɪ.teɪt/",
+          "meaning": "v. 导致，促成",
+          "example": "Hasty decisions could precipitate a crisis."
+        },
+        {
+          "word": "mitigate",
+          "phonetic": "/ˈmɪt.ɪ.ɡeɪt/",
+          "meaning": "v. 减轻，缓解",
+          "example": "Efforts to mitigate climate change are urgent."
+        },
+        {
+          "word": "laissez-faire",
+          "phonetic": "/ˌleɪ.seɪˈfeər/",
+          "meaning": "n./adj. 自由放任（的）",
+          "example": "The government adopted a laissez-faire attitude toward tech companies."
+        },
+        {
+          "word": "fragmentation",
+          "phonetic": "/ˌfræɡ.menˈteɪ.ʃən/",
+          "meaning": "n. 分裂，碎片化",
+          "example": "The fragmentation of regulatory standards complicates international trade."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "This regulatory fragmentation threatens to precipitate a digital Balkanisation, impeding cross-border collaboration on AI safety research.",
+          "zh": "这种监管碎片化可能引发数字巴尔干化，阻碍人工智能安全研究的跨境合作。",
+          "grammar": "主谓宾结构，主语'This regulatory fragmentation'，谓语'threatens'，不定式'to precipitate'作宾语，现在分词短语'impeding...'作伴随状语。"
+        }
+      ]
+    },
+    {
+      "en": "A central conundrum lies in the tension between transparency and proprietary interests. Mandating disclosure of training data and algorithmic decision-making could bolster trust, yet tech firms argue it compromises trade secrets. The concept of 'algorithmic auditing' has emerged, requiring independent ethical reviews before deployment. However, the expertise required is scarce, and auditors face conflicts of interest when funded by the very companies they scrutinise. Without robust enforcement mechanisms, such oversight risks becoming perfunctory.",
+      "zh": "核心难题在于透明度与专有利益之间的冲突。强制要求披露训练数据和算法决策过程可增强信任，但科技公司认为这会损害商业秘密。‘算法审计’的概念应运而生，要求在部署前进行独立的伦理审查。然而，所需专家稀缺，且审计员若由受其审查的公司资助，则面临利益冲突。缺乏强有力的执行机制，这种监督可能沦为形式主义。",
+      "vocabulary": [
+        {
+          "word": "conundrum",
+          "phonetic": "/kəˈnʌn.drəm/",
+          "meaning": "n. 难题，复杂问题",
+          "example": "The conundrum of balancing privacy and security persists."
+        },
+        {
+          "word": "proprietary",
+          "phonetic": "/prəˈpraɪ.ə.tər.i/",
+          "meaning": "adj. 专有的，所有权的",
+          "example": "The software uses proprietary algorithms."
+        },
+        {
+          "word": "scrutinise",
+          "phonetic": "/ˈskruː.tɪ.naɪz/",
+          "meaning": "v. 仔细审查",
+          "example": "Regulators scrutinise AI models for bias."
+        },
+        {
+          "word": "perfunctory",
+          "phonetic": "/pəˈfʌŋk.tər.i/",
+          "meaning": "adj. 敷衍的，马虎的",
+          "example": "The audit was merely perfunctory and missed key issues."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "However, the expertise required is scarce, and auditors face conflicts of interest when funded by the very companies they scrutinise.",
+          "zh": "然而，所需专家稀缺，且审计员若由受其审查的公司资助，则面临利益冲突。",
+          "grammar": "并列句由'and'连接，'when funded...'是状语从句的省略形式，补充完整为'when they are funded by...'，其中'the very companies'是强调用法，'they scrutinise'是定语从句修饰'companies'。"
+        }
+      ]
+    },
+    {
+      "en": "Divergent philosophies on AI safety reflect deeper cultural and political schisms. The European emphasis on precaution and individual rights contrasts with American optimism about market-driven solutions. China’s integration of AI into social credit systems reveals a utilitarian calculus that subordinates individual autonomy to collective stability. These disparate approaches complicate efforts to forge international norms, particularly on lethal autonomous weapons. Without consensus, the risk of an AI arms race—both kinetic and economic—looms large.",
+      "zh": "人工智能安全的理念分歧折射出更深层的文化与政治裂痕。欧洲强调预防原则与个人权利，与美国对市场驱动解决方案的乐观态度形成对比。中国将人工智能融入社会信用体系，揭示了一种实用主义考量——个人自主权从属于集体稳定。这些截然不同的做法加大了形成国际规范的难度，尤其是在致命自主武器方面。缺乏共识，人工智能军备竞赛——包括动能与经济领域——的风险日益凸显。",
+      "vocabulary": [
+        {
+          "word": "divergent",
+          "phonetic": "/daɪˈvɜː.dʒənt/",
+          "meaning": "adj. 分歧的，不同的",
+          "example": "Divergent opinions on regulation hinder progress."
+        },
+        {
+          "word": "schism",
+          "phonetic": "/ˈskɪz.əm/",
+          "meaning": "n. 分裂，分歧",
+          "example": "The political schism over AI policy deepens."
+        },
+        {
+          "word": "utilitarian",
+          "phonetic": "/ˌjuː.tɪ.lɪˈteər.i.ən/",
+          "meaning": "adj. 功利主义的，实用的",
+          "example": "A utilitarian approach prioritises the greatest good for the greatest number."
+        },
+        {
+          "word": "kinetic",
+          "phonetic": "/kɪˈnet.ɪk/",
+          "meaning": "adj. 动力的，运动的",
+          "example": "Kinetic warfare involves physical force, unlike cyber warfare."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "China’s integration of AI into social credit systems reveals a utilitarian calculus that subordinates individual autonomy to collective stability.",
+          "zh": "中国将人工智能融入社会信用体系，揭示了一种实用主义考量——个人自主权从属于集体稳定。",
+          "grammar": "主语'China’s integration of AI into social credit systems'，谓语'reveals'，宾语'a utilitarian calculus'，后接定语从句'that subordinates...to...'修饰'calculus'，从句中谓语'subordinates'，宾语'individual autonomy'，介词短语'to collective stability'。"
+        }
+      ]
+    },
+    {
+      "en": "To avert a regulatory race to the bottom, multilateral forums like the OECD and G7 are striving to establish common guardrails. Yet enforcement remains toothless without binding commitments. A nascent proposal advocates for an international AI agency akin to the IAEA, overseeing frontier developments. The timeline is compressed: as models become more powerful, the window for preemptive governance narrows. The prize is not merely safety, but ensuring that humanity remains the author of its technological destiny.",
+      "zh": "为避免监管竞次，经合组织与七国集团等多边论坛正努力建立共同护栏。然而，若无具有约束力的承诺，执行仍将软弱无力。一项新兴提案主张成立一个类似于国际原子能机构的国际人工智能机构，监督前沿进展。时间紧迫：随着模型愈发强大，抢先治理的机会窗口正在缩小。目标不仅是安全，更是确保人类仍是其技术命运的书写者。",
+      "vocabulary": [
+        {
+          "word": "toothless",
+          "phonetic": "/ˈtuːθ.ləs/",
+          "meaning": "adj. 无效的，无牙的",
+          "example": "Regulations without penalties are toothless."
+        },
+        {
+          "word": "akin",
+          "phonetic": "/əˈkɪn/",
+          "meaning": "adj. 类似的，相近的",
+          "example": "A new agency akin to the IAEA could oversee AI."
+        },
+        {
+          "word": "preemptive",
+          "phonetic": "/priˈemp.tɪv/",
+          "meaning": "adj. 先发制人的，抢先的",
+          "example": "Preemptive regulation may curb future risks."
+        },
+        {
+          "word": "compressed",
+          "phonetic": "/kəmˈprest/",
+          "meaning": "adj. 压缩的，紧迫的",
+          "example": "The compressed timeline demands swift action."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The timeline is compressed: as models become more powerful, the window for preemptive governance narrows.",
+          "zh": "时间紧迫：随着模型愈发强大，抢先治理的机会窗口正在缩小。",
+          "grammar": "主句'The timeline is compressed'后跟冒号引出解释性分句，分句'as models become more powerful'是时间状语从句，主句'the window for preemptive governance narrows'为简单主谓结构。"
+        }
+      ]
+    }
+  ]
+}
