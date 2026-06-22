@@ -1,1 +1,160 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogYXV0by1nZW5lcmF0ZS5qcyDigJQg57qvIE5vZGUuanMg6Ieq5Yqo55Sf5oiQ5q+P5pel57K+6K+75paH56ugCiAqIOeUqOS6jiBHaXRIdWIgQWN0aW9uc++8jOS4jeS+nei1liBPcGVuQ2xhdwogKiAKICog6ZyA6KaB546v5aKD5Y+Y6YePOiBPUEVOQUlfQVBJX0tFWQogKiDlj6/pgInnjq/looPlj5jph486IEFOVEhST1BJQ19BUElfS0VZICjlpIfnlKgpCiAqLwoKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwoKY29uc3QgQVBJX0tFWSA9IHByb2Nlc3MuZW52LkdFTUlOSV9BUElfS0VZIHx8IHByb2Nlc3MuZW52Lk9QRU5BSV9BUElfS0VZOwppZiAoIUFQSV9LRVkpIHsKICBjb25zb2xlLmVycm9yKCfinYwg57y65bCRIEdFTUlOSV9BUElfS0VZIOaIliBPUEVOQUlfQVBJX0tFWSDnjq/looPlj5jph48nKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IFRPREFZID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpLnNsaWNlKDAsIDEwKTsKY29uc3QgREFUQV9ESVIgPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCAnZGF0YScpOwpjb25zdCBEQVRFU19GSUxFID0gcGF0aC5qb2luKF9fZGlybmFtZSwgJy4uJywgJ2RhdGVzLmpzb24nKTsKCi8vIOmaj+acuuivnemimApjb25zdCBUT1BJQ1MgPSBbCiAgeyB0aGVtZTogJ0Vjb25vbWljcyAmIEZpbmFuY2UnLCBwcm9tcHQ6ICdnbG9iYWwgdHJhZGUsIGluZmxhdGlvbiwgZGlnaXRhbCBjdXJyZW5jeSwgb3Igc3VwcGx5IGNoYWlucycgfSwKICB7IHRoZW1lOiAnVGVjaG5vbG9neSAmIEFJJywgcHJvbXB0OiAnYXJ0aWZpY2lhbCBpbnRlbGxpZ2VuY2UsIHNvY2lhbCBtZWRpYSwgcXVhbnR1bSBjb21wdXRpbmcsIG9yIGN5YmVyc2VjdXJpdHknIH0sCiAgeyB0aGVtZTogJ0hlYWx0aCAmIE1lZGljaW5lJywgcHJvbXB0OiAnc2xlZXAsIG51dHJpdGlvbiwgbWVudGFsIGhlYWx0aCwgbG9uZ2V2aXR5LCBvciBwYW5kZW1pYyBwcmVwYXJlZG5lc3MnIH0sCiAgeyB0aGVtZTogJ0Vudmlyb25tZW50ICYgQ2xpbWF0ZScsIHByb21wdDogJ3JlbmV3YWJsZSBlbmVyZ3ksIGJpb2RpdmVyc2l0eSwgZXh0cmVtZSB3ZWF0aGVyLCBvciBzdXN0YWluYWJsZSBjaXRpZXMnIH0sCiAgeyB0aGVtZTogJ1NvY2lldHkgJiBDdWx0dXJlJywgcHJvbXB0OiAncmVtb3RlIHdvcmssIGVkdWNhdGlvbiByZWZvcm0sIHVyYmFuaXphdGlvbiwgb3IgZGVtb2dyYXBoaWMgc2hpZnRzJyB9LAogIHsgdGhlbWU6ICdTY2llbmNlICYgU3BhY2UnLCBwcm9tcHQ6ICdzcGFjZSBleHBsb3JhdGlvbiwgbmV1cm9zY2llbmNlLCBnZW5ldGljIGVuZ2luZWVyaW5nLCBvciBwaHlzaWNzIGJyZWFrdGhyb3VnaHMnIH0sCiAgeyB0aGVtZTogJ1Nwb3J0cyAmIEVudGVydGFpbm1lbnQnLCBwcm9tcHQ6ICdzcG9ydHMgYnVzaW5lc3MsIHN0cmVhbWluZyBtZWRpYSwgZ2FtaW5nIGluZHVzdHJ5LCBvciBjdWx0dXJhbCB0cmVuZHMnIH0sCl07CgovLyDnlKjml6XmnJ/lgZrkvKrpmo/mnLrpgInmi6kKY29uc3QgZGF5SW5kZXggPSBwYXJzZUludChUT0RBWS5zbGljZSgtMiksIDEwKSArIHBhcnNlSW50KFRPREFZLnNsaWNlKDUsIDcpLCAxMCk7CmNvbnN0IHRvcGljID0gVE9QSUNTW2RheUluZGV4ICUgVE9QSUNTLmxlbmd0aF07Cgpjb25zdCBTWVNURU1fUFJPTVBUID0gYFlvdSBhcmUgYSBqb3VybmFsaXN0IGZvciBUaGUgRWNvbm9taXN0LiBXcml0ZSBhbiBFbmdsaXNoIGFydGljbGUgZm9yIEVuZ2xpc2ggbGVhcm5lcnMuCgpSZXF1aXJlbWVudHM6CjEuIFdyaXRlIDQgcGFyYWdyYXBocywgZWFjaCA2MC0xMDAgd29yZHMKMi4gVXNlIHNvcGhpc3RpY2F0ZWQgYnV0IGFjY2Vzc2libGUgdm9jYWJ1bGFyeSAoR1JFL0NFVC02IGxldmVsKQozLiBTdHlsZTogYW5hbHl0aWNhbCwgY29uY2lzZSwgd2l0aCB2YXJpZWQgc2VudGVuY2Ugc3RydWN0dXJlcwo0LiBUb3BpYzogJHt0b3BpYy50aGVtZX0g4oCUIGZvY3VzIG9uICR7dG9waWMucHJvbXB0fQoKRm9yIEVBQ0ggcGFyYWdyYXBoLCBwcm92aWRlOgotICJlbiI6IHRoZSBFbmdsaXNoIHBhcmFncmFwaCB0ZXh0Ci0gInpoIjogYWNjdXJhdGUsIG5hdHVyYWwgQ2hpbmVzZSB0cmFuc2xhdGlvbgotICJ2b2NhYnVsYXJ5IjogNCBrZXkgd29yZHMsIGVhY2ggd2l0aCAid29yZCIsICJwaG9uZXRpYyIgKElQQSksICJtZWFuaW5nIiAoRW5nbGlzaCBhYmJyZXZpYXRpb24gKyBDaGluZXNlKSwgImV4YW1wbGUiIChhbiBleGFtcGxlIHNlbnRlbmNlKQotICJkaWZmaWN1bHRfc2VudGVuY2VzIjogMSBkaWZmaWN1bHQgc2VudGVuY2UsIGVhY2ggd2l0aCAiZW4iLCAiemgiIChleHBsYW5hdGlvbiksICJncmFtbWFyIiAoYW5hbHlzaXMpCgpJTVBPUlRBTlQ6IE91dHB1dCBPTkxZIHZhbGlkIEpTT04uIE5vIG1hcmtkb3duLCBubyBjb2RlIGJsb2Nrcywgbm8gZXhwbGFuYXRpb24gb3V0c2lkZSBKU09OLmA7Cgpjb25zdCBVU0VSX1BST01QVCA9IGBXcml0ZSB0b2RheSdzIGFydGljbGUgKGRhdGU6ICR7VE9EQVl9KS4gVG9waWMgYXJlYTogJHt0b3BpYy5wcm9tcHR9LgoKT3V0cHV0IHRoZSBjb21wbGV0ZSBKU09OIG9iamVjdCB3aXRoIHRoaXMgZXhhY3Qgc3RydWN0dXJlOgp7CiAgImRhdGUiOiAiJHtUT0RBWX0iLAogICJzb3VyY2UiOiAiVGhlIEVjb25vbWlzdCIsCiAgInRpdGxlIjogIllvdXIgYXJ0aWNsZSB0aXRsZSBoZXJlIiwKICAidXJsIjogIiIsCiAgInBhcmFncmFwaHMiOiBbCiAgICB7CiAgICAgICJlbiI6ICJFbmdsaXNoIHBhcmFncmFwaC4uLiIsCiAgICAgICJ6aCI6ICLkuK3mlofnv7vor5EuLi4iLAogICAgICAidm9jYWJ1bGFyeSI6IFsKICAgICAgICB7IndvcmQiOiAiZXhhbXBsZSIsICJwaG9uZXRpYyI6ICIvyarJocuIesOmbXDJmWwvIiwgIm1lYW5pbmciOiAibi4g5L6L5a2QIiwgImV4YW1wbGUiOiAiVGhpcyBpcyBhbiBleGFtcGxlLiJ9CiAgICAgIF0sCiAgICAgICJkaWZmaWN1bHRfc2VudGVuY2VzIjogWwogICAgICAgIHsiZW4iOiAiVGhlIGRpZmZpY3VsdCBzZW50ZW5jZS4iLCAiemgiOiAi6Kej6YeKIiwgImdyYW1tYXIiOiAi6K+t5rOV5YiG5p6QIn0KICAgICAgXQogICAgfQogIF0KfQoKUmVtZW1iZXI6IEV4YWN0bHkgNCBwYXJhZ3JhcGhzLiBPdXRwdXQgT05MWSB0aGUgSlNPTiBvYmplY3QuYDsKCmFzeW5jIGZ1bmN0aW9uIGNhbGxHZW1pbmkoKSB7CiAgY29uc3QgdXJsID0gYGh0dHBzOi8vZ2VuZXJhdGl2ZWxhbmd1YWdlLmdvb2dsZWFwaXMuY29tL3YxYmV0YS9tb2RlbHMvZ2VtaW5pLTIuMC1mbGFzaDpnZW5lcmF0ZUNvbnRlbnQ/a2V5PSR7QVBJX0tFWX1gOwogIGNvbnN0IHJlc3AgPSBhd2FpdCBmZXRjaCh1cmwsIHsKICAgIG1ldGhvZDogJ1BPU1QnLAogICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7CiAgICAgIGNvbnRlbnRzOiBbeyBwYXJ0czogW3sgdGV4dDogYCR7U1lTVEVNX1BST01QVH1cblxuJHtVU0VSX1BST01QVH1gIH1dIH1dLAogICAgICBnZW5lcmF0aW9uQ29uZmlnOiB7IHRlbXBlcmF0dXJlOiAwLjgsIG1heE91dHB1dFRva2VuczogNDAwMCB9LAogICAgfSksCiAgfSk7CgogIGlmICghcmVzcC5vaykgewogICAgY29uc3QgZXJyID0gYXdhaXQgcmVzcC50ZXh0KCk7CiAgICB0aHJvdyBuZXcgRXJyb3IoYEdlbWluaSBBUEkgZXJyb3IgJHtyZXNwLnN0YXR1c306ICR7ZXJyfWApOwogIH0KCiAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3AuanNvbigpOwogIGxldCBjb250ZW50ID0gZGF0YS5jYW5kaWRhdGVzWzBdLmNvbnRlbnQucGFydHNbMF0udGV4dC50cmltKCk7CgogIC8vIOaPkOWPliBKU09OCiAgY29uc3QganNvbk1hdGNoID0gY29udGVudC5tYXRjaCgvXHtbXHNcU10qXH0vKTsKICBpZiAoanNvbk1hdGNoKSBjb250ZW50ID0ganNvbk1hdGNoWzBdOwogIGNvbnRlbnQgPSBjb250ZW50LnJlcGxhY2UoL15gYGBqc29uP1xzKi9pLCAnJykucmVwbGFjZSgvXHMqYGBgJC9pLCAnJykudHJpbSgpOwoKICByZXR1cm4gSlNPTi5wYXJzZShjb250ZW50KTsKfQoKZnVuY3Rpb24gbWFpbigpIHsKICAoYXN5bmMgKCkgPT4gewogICAgY29uc29sZS5sb2coYPCfk50gR2VuZXJhdGluZyBhcnRpY2xlIGZvciAke1RPREFZfS4uLmApOwogICAgY29uc29sZS5sb2coYPCfjq8gVG9waWM6ICR7dG9waWMudGhlbWV9ICgke3RvcGljLnByb21wdH0pYCk7CgogICAgLy8g5qOA5p+l5piv5ZCm5bey5pyJ5b2T5aSp5paH56ugCiAgICBpZiAoZnMuZXhpc3RzU3luYyhEQVRBX0RJUikpIHsKICAgICAgY29uc3QgZXhpc3RpbmcgPSBwYXRoLmpvaW4oREFUQV9ESVIsIGAke1RPREFZfS5qc29uYCk7CiAgICAgIGlmIChmcy5leGlzdHNTeW5jKGV4aXN0aW5nKSkgewogICAgICAgIGNvbnNvbGUubG9nKGDimqDvuI8gQXJ0aWNsZSBmb3IgJHtUT0RBWX0gYWxyZWFkeSBleGlzdHMsIHNraXBwaW5nLmApOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgfSBlbHNlIHsKICAgICAgZnMubWtkaXJTeW5jKERBVEFfRElSLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKICAgIH0KCiAgICB0cnkgewogICAgICBjb25zdCBhcnRpY2xlID0gYXdhaXQgY2FsbEdlbWluaSgpOwoKICAgICAgLy8g6aqM6K+B57uT5p6ECiAgICAgIGlmICghYXJ0aWNsZS5wYXJhZ3JhcGhzIHx8IGFydGljbGUucGFyYWdyYXBocy5sZW5ndGggPCAzKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCdBcnRpY2xlIGhhcyBmZXdlciB0aGFuIDMgcGFyYWdyYXBocycpOwogICAgICB9CgogICAgICAvLyDkv53lrZjmlofnq6AKICAgICAgY29uc3QgYXJ0aWNsZVBhdGggPSBwYXRoLmpvaW4oREFUQV9ESVIsIGAke1RPREFZfS5qc29uYCk7CiAgICAgIGZzLndyaXRlRmlsZVN5bmMoYXJ0aWNsZVBhdGgsIEpTT04uc3RyaW5naWZ5KGFydGljbGUsIG51bGwsIDIpLCAndXRmLTgnKTsKICAgICAgY29uc29sZS5sb2coYOKchSBBcnRpY2xlIHNhdmVkOiAke2FydGljbGVQYXRofWApOwoKICAgICAgLy8g5pu05pawIGRhdGVzLmpzb24KICAgICAgbGV0IGRhdGVzID0ge307CiAgICAgIGlmIChmcy5leGlzdHNTeW5jKERBVEVTX0ZJTEUpKSB7CiAgICAgICAgZGF0ZXMgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhEQVRFU19GSUxFLCAndXRmLTgnKSk7CiAgICAgIH0KICAgICAgaWYgKCFkYXRlc1tUT0RBWV0pIHsKICAgICAgICBkYXRlc1tUT0RBWV0gPSBbXTsKICAgICAgfQogICAgICBpZiAoIWRhdGVzW1RPREFZXS5pbmNsdWRlcyhUT0RBWSkpIHsKICAgICAgICBkYXRlc1tUT0RBWV0ucHVzaChUT0RBWSk7CiAgICAgIH0KICAgICAgLy8gU29ydCBrZXlzIGRlc2NlbmRpbmcKICAgICAgY29uc3Qgc29ydGVkID0ge307CiAgICAgIE9iamVjdC5rZXlzKGRhdGVzKS5zb3J0KCkucmV2ZXJzZSgpLmZvckVhY2goayA9PiBzb3J0ZWRba10gPSBkYXRlc1trXSk7CiAgICAgIGZzLndyaXRlRmlsZVN5bmMoREFURVNfRklMRSwgSlNPTi5zdHJpbmdpZnkoc29ydGVkLCBudWxsLCAyKSwgJ3V0Zi04Jyk7CiAgICAgIGNvbnNvbGUubG9nKGDwn5OFIGRhdGVzLmpzb24gdXBkYXRlZCAoJHtPYmplY3Qua2V5cyhzb3J0ZWQpLmxlbmd0aH0gZGF5cylgKTsKCiAgICAgIGNvbnNvbGUubG9nKGDinKggRG9uZSEgVGl0bGU6ICR7YXJ0aWNsZS50aXRsZX1gKTsKICAgICAgY29uc29sZS5sb2coYPCfk4ogJHthcnRpY2xlLnBhcmFncmFwaHMubGVuZ3RofSBwYXJhZ3JhcGhzLCAke2FydGljbGUucGFyYWdyYXBocy5yZWR1Y2UoKHMsIHApID0+IHMgKyAocC52b2NhYnVsYXJ5Py5sZW5ndGggfHwgMCksIDApfSB2b2NhYnVsYXJ5IHdvcmRzYCk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgY29uc29sZS5lcnJvcihg4p2MIEZhaWxlZDogJHtlcnIubWVzc2FnZX1gKTsKICAgICAgcHJvY2Vzcy5leGl0KDEpOwogICAgfQogIH0pKCk7Cn0KCm1haW4oKTsK
+#!/usr/bin/env node
+/**
+ * auto-generate.js — 纯 Node.js 自动生成每日精读文章
+ * 用于 GitHub Actions，不依赖 OpenClaw
+ * 
+ * 需要环境变量: OPENAI_API_KEY
+ * 可选环境变量: ANTHROPIC_API_KEY (备用)
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const API_KEY = process.env.GEMINI_API_KEY || process.env.OPENAI_API_KEY;
+if (!API_KEY) {
+  console.error('❌ 缺少 GEMINI_API_KEY 或 OPENAI_API_KEY 环境变量');
+  process.exit(1);
+}
+
+const TODAY = new Date().toISOString().slice(0, 10);
+const DATA_DIR = path.join(__dirname, '..', 'data');
+const DATES_FILE = path.join(__dirname, '..', 'dates.json');
+
+// 随机话题
+const TOPICS = [
+  { theme: 'Economics & Finance', prompt: 'global trade, inflation, digital currency, or supply chains' },
+  { theme: 'Technology & AI', prompt: 'artificial intelligence, social media, quantum computing, or cybersecurity' },
+  { theme: 'Health & Medicine', prompt: 'sleep, nutrition, mental health, longevity, or pandemic preparedness' },
+  { theme: 'Environment & Climate', prompt: 'renewable energy, biodiversity, extreme weather, or sustainable cities' },
+  { theme: 'Society & Culture', prompt: 'remote work, education reform, urbanization, or demographic shifts' },
+  { theme: 'Science & Space', prompt: 'space exploration, neuroscience, genetic engineering, or physics breakthroughs' },
+  { theme: 'Sports & Entertainment', prompt: 'sports business, streaming media, gaming industry, or cultural trends' },
+];
+
+// 用日期做伪随机选择
+const dayIndex = parseInt(TODAY.slice(-2), 10) + parseInt(TODAY.slice(5, 7), 10);
+const topic = TOPICS[dayIndex % TOPICS.length];
+
+const SYSTEM_PROMPT = `You are a journalist for The Economist. Write an English article for English learners.
+
+Requirements:
+1. Write 4 paragraphs, each 60-100 words
+2. Use sophisticated but accessible vocabulary (GRE/CET-6 level)
+3. Style: analytical, concise, with varied sentence structures
+4. Topic: ${topic.theme} — focus on ${topic.prompt}
+
+For EACH paragraph, provide:
+- "en": the English paragraph text
+- "zh": accurate, natural Chinese translation
+- "vocabulary": 4 key words, each with "word", "phonetic" (IPA), "meaning" (English abbreviation + Chinese), "example" (an example sentence)
+- "difficult_sentences": 1 difficult sentence, each with "en", "zh" (explanation), "grammar" (analysis)
+
+IMPORTANT: Output ONLY valid JSON. No markdown, no code blocks, no explanation outside JSON.`;
+
+const USER_PROMPT = `Write today's article (date: ${TODAY}). Topic area: ${topic.prompt}.
+
+Output the complete JSON object with this exact structure:
+{
+  "date": "${TODAY}",
+  "source": "The Economist",
+  "title": "Your article title here",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "English paragraph...",
+      "zh": "中文翻译...",
+      "vocabulary": [
+        {"word": "example", "phonetic": "/ɪɡˈzæmpəl/", "meaning": "n. 例子", "example": "This is an example."}
+      ],
+      "difficult_sentences": [
+        {"en": "The difficult sentence.", "zh": "解释", "grammar": "语法分析"}
+      ]
+    }
+  ]
+}
+
+Remember: Exactly 4 paragraphs. Output ONLY the JSON object.`;
+
+async function callGemini() {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+  const resp = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: `${SYSTEM_PROMPT}\n\n${USER_PROMPT}` }] }],
+      generationConfig: { temperature: 0.8, maxOutputTokens: 4000 },
+    }),
+  });
+
+  if (!resp.ok) {
+    const err = await resp.text();
+    throw new Error(`Gemini API error ${resp.status}: ${err}`);
+  }
+
+  const data = await resp.json();
+  let content = data.candidates[0].content.parts[0].text.trim();
+
+  // 提取 JSON
+  const jsonMatch = content.match(/\{[\s\S]*\}/);
+  if (jsonMatch) content = jsonMatch[0];
+  content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+
+  return JSON.parse(content);
+}
+
+function main() {
+  (async () => {
+    console.log(`📝 Generating article for ${TODAY}...`);
+    console.log(`🎯 Topic: ${topic.theme} (${topic.prompt})`);
+
+    // 检查是否已有当天文章
+    if (fs.existsSync(DATA_DIR)) {
+      const existing = path.join(DATA_DIR, `${TODAY}.json`);
+      if (fs.existsSync(existing)) {
+        console.log(`⚠️ Article for ${TODAY} already exists, skipping.`);
+        return;
+      }
+    } else {
+      fs.mkdirSync(DATA_DIR, { recursive: true });
+    }
+
+    try {
+      const article = await callGemini();
+
+      // 验证结构
+      if (!article.paragraphs || article.paragraphs.length < 3) {
+        throw new Error('Article has fewer than 3 paragraphs');
+      }
+
+      // 保存文章
+      const articlePath = path.join(DATA_DIR, `${TODAY}.json`);
+      fs.writeFileSync(articlePath, JSON.stringify(article, null, 2), 'utf-8');
+      console.log(`✅ Article saved: ${articlePath}`);
+
+      // 更新 dates.json
+      let dates = {};
+      if (fs.existsSync(DATES_FILE)) {
+        dates = JSON.parse(fs.readFileSync(DATES_FILE, 'utf-8'));
+      }
+      if (!dates[TODAY]) {
+        dates[TODAY] = [];
+      }
+      if (!dates[TODAY].includes(TODAY)) {
+        dates[TODAY].push(TODAY);
+      }
+      // Sort keys descending
+      const sorted = {};
+      Object.keys(dates).sort().reverse().forEach(k => sorted[k] = dates[k]);
+      fs.writeFileSync(DATES_FILE, JSON.stringify(sorted, null, 2), 'utf-8');
+      console.log(`📅 dates.json updated (${Object.keys(sorted).length} days)`);
+
+      console.log(`✨ Done! Title: ${article.title}`);
+      console.log(`📊 ${article.paragraphs.length} paragraphs, ${article.paragraphs.reduce((s, p) => s + (p.vocabulary?.length || 0), 0)} vocabulary words`);
+    } catch (err) {
+      console.error(`❌ Failed: ${err.message}`);
+      process.exit(1);
+    }
+  })();
+}
+
+main();
