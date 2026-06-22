@@ -178,6 +178,8 @@ function callGemini() {
 async function main() {
   console.log(`📝 Generating article for ${TODAY}...`);
   console.log(`🎯 Topic: ${topic.theme}`);
+  console.log(`🔑 OPENAI_KEY exists: ${!!OPENAI_KEY}`);
+  console.log(`🔑 GEMINI_KEY exists: ${!!GEMINI_KEY}`);
 
   // 检查是否已有当天文章
   if (fs.existsSync(DATA_DIR)) {
