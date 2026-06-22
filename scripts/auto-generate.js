@@ -10,9 +10,11 @@ const https = require('https');
 
 const OPENAI_KEY = process.env.OPENAI_API_KEY;
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
+const DOUBAO_KEY = process.env.DOUBAO_API_KEY;
+const DOUBAO_MODEL = process.env.DOUBAO_MODEL || 'doubao-seed-2-0-pro-260215';
 
-if (!OPENAI_KEY && !GEMINI_KEY) {
-  console.error('❌ 缺少 OPENAI_API_KEY 或 GEMINI_API_KEY 环境变量');
+if (!OPENAI_KEY && !GEMINI_KEY && !DOUBAO_KEY) {
+  console.error('❌ 缺少 OPENAI_API_KEY / GEMINI_API_KEY / DOUBAO_API_KEY 环境变量');
   process.exit(1);
 }
 
@@ -175,11 +177,67 @@ function callGemini() {
   });
 }
 
+// Doubao (豆包) API 调用 — OpenAI 兼容接口
+function callDoubao() {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      model: DOUBAO_MODEL,
+      messages: [
+        { role: 'system', content: SYSTEM_PROMPT },
+        { role: 'user', content: USER_PROMPT }
+      ],
+      temperature: 0.8,
+      max_tokens: 4000,
+    });
+
+    console.log(`📡 Calling Doubao API (model: ${DOUBAO_MODEL})...`);
+    
+    const req = https.request({
+      hostname: 'ark.cn-beijing.volces.com',
+      path: '/api/v3/chat/completions',
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${DOUBAO_KEY}`,
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(data),
+      },
+      timeout: 60000,
+    }, (res) => {
+      let responseData = '';
+      res.on('data', (chunk) => responseData += chunk);
+      res.on('end', () => {
+        console.log(`📡 Doubao Response: ${res.statusCode}`);
+        if (res.statusCode !== 200) {
+          reject(new Error(`Doubao API error ${res.statusCode}: ${responseData.substring(0, 500)}`));
+          return;
+        }
+        try {
+          const d = JSON.parse(responseData);
+          let content = d.choices[0].message.content.trim();
+          const jsonMatch = content.match(/\{[\s\S]*\}/);
+          if (jsonMatch) content = jsonMatch[0];
+          content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+          resolve(JSON.parse(content));
+        } catch (err) {
+          reject(new Error(`Parse error: ${err.message}`));
+        }
+      });
+    });
+
+    req.on('error', (err) => reject(new Error(`Request failed: ${err.message}`)));
+    req.on('timeout', () => { req.destroy(); reject(new Error('Timeout')); });
+    req.write(data);
+    req.end();
+  });
+}
+
 async function main() {
   console.log(`📝 Generating article for ${TODAY}...`);
   console.log(`🎯 Topic: ${topic.theme}`);
   console.log(`🔑 OPENAI_KEY exists: ${!!OPENAI_KEY}`);
   console.log(`🔑 GEMINI_KEY exists: ${!!GEMINI_KEY}`);
+  console.log(`🔑 DOUBAO_KEY exists: ${!!DOUBAO_KEY}`);
+  console.log(`🤖 DOUBAO_MODEL: ${DOUBAO_MODEL}`);
 
   // 检查是否已有当天文章
   if (fs.existsSync(DATA_DIR)) {
@@ -193,7 +251,7 @@ async function main() {
   }
 
   try {
-    // 优先使用 OpenAI，失败后自动切换到 Gemini
+    // 失败链式重试：OpenAI → Doubao → Gemini
     let article;
     let lastError;
     
@@ -202,12 +260,22 @@ async function main() {
         article = await callOpenAI();
       } catch (err) {
         console.log(`⚠️ OpenAI failed: ${err.message.substring(0, 100)}`);
-        console.log('🔄 Falling back to Gemini...');
+        lastError = err;
+      }
+    }
+    
+    if (!article && DOUBAO_KEY) {
+      console.log('🔄 Trying Doubao...');
+      try {
+        article = await callDoubao();
+      } catch (err) {
+        console.log(`⚠️ Doubao failed: ${err.message.substring(0, 100)}`);
         lastError = err;
       }
     }
     
     if (!article && GEMINI_KEY) {
+      console.log('🔄 Trying Gemini...');
       article = await callGemini();
     }
     
