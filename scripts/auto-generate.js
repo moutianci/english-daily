@@ -193,12 +193,26 @@ async function main() {
   }
 
   try {
-    // 优先使用 OpenAI
+    // 优先使用 OpenAI，失败后自动切换到 Gemini
     let article;
+    let lastError;
+    
     if (OPENAI_KEY) {
-      article = await callOpenAI();
-    } else {
+      try {
+        article = await callOpenAI();
+      } catch (err) {
+        console.log(`⚠️ OpenAI failed: ${err.message.substring(0, 100)}`);
+        console.log('🔄 Falling back to Gemini...');
+        lastError = err;
+      }
+    }
+    
+    if (!article && GEMINI_KEY) {
       article = await callGemini();
+    }
+    
+    if (!article) {
+      throw lastError || new Error('No API available');
     }
 
     if (!article.paragraphs || article.paragraphs.length < 3) {
