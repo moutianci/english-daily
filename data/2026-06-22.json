@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-22",
+  "source": "The Economist",
+  "title": "Global Trade Shifts, Inflation Divergences, and Digital Currency Adoption: 2026 Mid-Year Outlook",
+  "url": "https://www.economist.com/finance-and-economics/2026/06/22/global-trade-shifts-inflation-divergences-and-digital-currency-adoption",
+  "paragraphs": [
+    {
+      "en": "The first half of 2026 has witnessed a tectonic shift in global trade patterns, as nearshoring trends accelerate and regional trade blocs strengthen intra-bloc tariff preferences. Geopolitical frictions have not eroded overall trade volumes, but have reshuffled supply chains to prioritize resilience over pure cost efficiency. Small open economies, particularly in Southeast Asia and Latin America, have emerged as disproportionate beneficiaries of this realignment.",
+      "zh": "2026年上半年，随着近岸外包趋势加速、区域贸易集团强化集团内部关税优惠，全球贸易格局发生了结构性转变。地缘政治摩擦并未削弱整体贸易规模，却推动供应链重构，优先考量韧性而非单纯的成本效率。东南亚和拉美地区的小型开放经济体成为这轮调整的最大受益者，获益幅度远高于其经济体量占比。",
+      "vocabulary": [
+        {
+          "word": "tectonic",
+          "phonetic": "/tekˈtɒnɪk/",
+          "meaning": "结构性的，重大的，影响深远的",
+          "example": "The tectonic shifts in the global labor market have forced many companies to revise their long-term hiring strategies."
+        },
+        {
+          "word": "intra-bloc",
+          "phonetic": "/ˌɪntrəˈblɒk/",
+          "meaning": "集团内部的，同盟内部的",
+          "example": "Intra-bloc trade among ASEAN nations has grown by 12% year on year in the first half of 2026."
+        },
+        {
+          "word": "resilience",
+          "phonetic": "/rɪˈzɪliəns/",
+          "meaning": "韧性，恢复力，抗风险能力",
+          "example": "Supply chain resilience has become a core KPI for 78% of multinational manufacturing firms this year."
+        },
+        {
+          "word": "disproportionate",
+          "phonetic": "/ˌdɪsprəˈpɔːʃənət/",
+          "meaning": "不成比例的，不相称的",
+          "example": "Low-income households bear a disproportionate share of the burden from rising global food prices."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The first half of 2026 has witnessed a tectonic shift in global trade patterns, as nearshoring trends accelerate and regional trade blocs strengthen intra-bloc tariff preferences.",
+          "zh": "2026年上半年，随着近岸外包趋势加速、区域贸易集团强化集团内部关税优惠，全球贸易格局发生了结构性转变。",
+          "grammar": "本句为主从复合句，主句使用现在完成时描述从过去持续到当前的趋势，拟人化动词witness赋予时间主语动作属性；as引导两个并列的原因状语从句，说明两大驱动因素。"
+        }
+      ]
+    },
+    {
+      "en": "Stubborn core inflation remains a thorny challenge for most advanced economies, even as headline inflation has retreated from 2022-2023 peaks. Service-sector price stickiness, driven by persistent wage growth in hospitality and healthcare sectors, has forced major central banks to keep policy rates elevated for longer than market participants initially anticipated. Emerging economies, by contrast, have largely tamed inflation thanks to earlier monetary tightening.",
+      "zh": "尽管整体通胀已从2022-2023年的峰值回落，顽固的核心通胀仍是多数发达经济体面临的棘手挑战。受酒店和医疗行业持续工资增长推动的服务业价格粘性，迫使主要央行将政策利率维持在高位的时间长于市场参与者最初的预期。与之相反，新兴经济体由于更早收紧货币政策，已基本控制住通胀。",
+      "vocabulary": [
+        {
+          "word": "stubborn",
+          "phonetic": "/ˈstʌbən/",
+          "meaning": "顽固的，难以消除的",
+          "example": "Stubborn core inflation has dashed market hopes of an imminent interest rate cut in the Eurozone."
+        },
+        {
+          "word": "thorny",
+          "phonetic": "/ˈθɔːni/",
+          "meaning": "棘手的，麻烦的，难以解决的",
+          "example": "Policymakers are still grappling with the thorny issue of balancing inflation control and economic growth."
+        },
+        {
+          "word": "stickiness",
+          "phonetic": "/ˈstɪkinəs/",
+          "meaning": "粘性，指价格、工资等难以下调的特性",
+          "example": "Price stickiness in the housing market has slowed the transmission of monetary policy adjustments."
+        },
+        {
+          "word": "tamed",
+          "phonetic": "/teɪmd/",
+          "meaning": "被控制的，被驯服的",
+          "example": "After 18 months of aggressive rate hikes, inflation in Brazil has been tamed to within the central bank's target range."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Service-sector price stickiness, driven by persistent wage growth in hospitality and healthcare sectors, has forced major central banks to keep policy rates elevated for longer than market participants initially anticipated.",
+          "zh": "受酒店和医疗行业持续工资增长推动的服务业价格粘性，迫使主要央行将政策利率维持在高位的时间长于市场参与者最初的预期。",
+          "grammar": "主干为 Service-sector price stickiness...has forced...banks to keep...elevated，过去分词短语 driven by...作后置定语修饰主语；句末 than 引导比较状语从句。"
+        }
+      ]
+    },
+    {
+      "en": "Central bank digital currencies (CBDCs) have moved far beyond experimental pilot phases in 2026, with 17 major economies now rolling out retail CBDCs for widespread public use. Cross-border CBDC payment systems, jointly developed by the BIS and multiple member states, have cut remittance costs by 60% on average and reduced settlement times from three business days to near-instant. Regulatory frameworks have been updated to mitigate privacy and exclusion risks.",
+      "zh": "2026年，央行数字货币已远远超出试验试点阶段，17个主要经济体正在推出面向公众广泛使用的零售型CBDC。由国际清算银行与多个成员国联合开发的跨境CBDC支付系统，平均将汇款成本降低60%，结算时间从3个工作日缩短至近乎即时。监管框架已完成更新，以缓解隐私和金融排斥风险。",
+      "vocabulary": [
+        {
+          "word": "pilot",
+          "phonetic": "/ˈpaɪlət/",
+          "meaning": "试点的，试验性的",
+          "example": "The digital yuan pilot program has now expanded to cover 20 provinces across China."
+        },
+        {
+          "word": "remittance",
+          "phonetic": "/rɪˈmɪtns/",
+          "meaning": "汇款，汇付",
+          "example": "Remittance flows to low-income countries are expected to reach  billion in 2026."
+        },
+        {
+          "word": "settlement",
+          "phonetic": "/ˈsetlmənt/",
+          "meaning": "结算，清算",
+          "example": "Real-time settlement of cross-border transactions was once considered a distant goal."
+        },
+        {
+          "word": "mitigate",
+          "phonetic": "/ˈmɪtɪɡeɪt/",
+          "meaning": "缓解，减轻",
+          "example": "New data protection rules are designed to mitigate risks associated with digital currency transactions."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Cross-border CBDC payment systems, jointly developed by the BIS and multiple member states, have cut remittance costs by 60% on average and reduced settlement times from three business days to near-instant.",
+          "zh": "由国际清算银行与多个成员国联合开发的跨境CBDC支付系统，平均将汇款成本降低60%，结算时间从3个工作日缩短至近乎即时。",
+          "grammar": "两个并列谓语 have cut...and reduced...，过去分词短语 jointly developed by...作非限制性定语。"
+        }
+      ]
+    },
+    {
+      "en": "The interplay between global trade restructuring, persistent inflationary pressures, and digital currency innovation is reshaping the global financial architecture for the coming decade. Firms that adjust supply chains to leverage regional trade preferences, hedge against inflation volatility, and adopt digital currency payment rails will gain a significant competitive edge. Policymakers must coordinate across jurisdictions to avoid fragmented regulations that could hamper cross-border activity.",
+      "zh": "全球贸易重构、持续通胀压力与数字货币创新之间的相互作用，正在重塑未来十年的全球金融架构。调整供应链以利用区域贸易优惠、对冲通胀波动、采用数字货币支付轨道的企业，将获得显著竞争优势。政策制定者必须跨司法管辖区协调，以避免碎片化监管阻碍跨境经济活动。",
+      "vocabulary": [
+        {
+          "word": "interplay",
+          "phonetic": "/ˈɪntəpleɪ/",
+          "meaning": "相互作用，相互影响",
+          "example": "The interplay between monetary and fiscal policy will determine the trajectory of global growth."
+        },
+        {
+          "word": "leverage",
+          "phonetic": "/ˈliːvərɪdʒ/",
+          "meaning": "利用，借助",
+          "example": "Multinational firms can leverage regional trade agreements to cut cross-border logistics costs."
+        },
+        {
+          "word": "hedge",
+          "phonetic": "/hedʒ/",
+          "meaning": "对冲，防范风险",
+          "example": "Many commodity exporters use currency futures to hedge against exchange rate volatility."
+        },
+        {
+          "word": "hamper",
+          "phonetic": "/ˈhæmpə(r)/",
+          "meaning": "阻碍，妨碍",
+          "example": "Inconsistent regulatory standards could hamper the global rollout of CBDC payment systems."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Firms that adjust their supply chains to leverage regional trade preferences, hedge against inflation volatility, and adopt digital currency payment rails will gain a significant competitive edge.",
+          "zh": "调整供应链以利用区域贸易优惠、对冲通胀波动、采用数字货币支付轨道的企业，将获得显著竞争优势。",
+          "grammar": "主干 Firm...will gain...edge，that定语从句中包含三个并列不定式目的状语。"
+        }
+      ]
+    }
+  ]
+}
