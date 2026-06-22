@@ -1,13 +1,28 @@
 {
   "2026-06-22": [
-    "2026-06-22",
-    "2026-06-22b"
+    {
+      "id": "2026-06-22",
+      "title": "Global Trade Shifts, Inflation Divergences, and Digital Currency Adoption: 2026 Mid-Year Outlook"
+    },
+    {
+      "id": "2026-06-22b",
+      "title": "2026-06-22b"
+    }
   ],
   "2026-06-18": [
-    "2026-06-18",
-    "2026-06-18b"
+    {
+      "id": "2026-06-18",
+      "title": "The 15-Minute City: Urban Planning's New Obsession"
+    },
+    {
+      "id": "2026-06-18b",
+      "title": "2026-06-18b"
+    }
   ],
   "2026-06-17": [
-    "2026-06-17"
+    {
+      "id": "2026-06-17",
+      "title": "The Battle for Artificial General Intelligence"
+    }
   ]
 }

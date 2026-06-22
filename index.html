@@ -515,7 +515,13 @@ const SOURCES = [
   'https://raw.githubusercontent.com/moutianci/english-daily/main',
   'https://moutianci.github.io/english-daily'
 ];
-const EMBEDDED_DATES = ['2026-06-18', '2026-06-17'];
+const EMBEDDED_DATES = [
+  { id: '2026-06-22', title: 'Global Trade Shifts, Inflation Divergences, and Digital Currency Adoption: 2026 Mid-Year Outlook' },
+  { id: '2026-06-22b', title: 'The Global Algorithm: Racing to Regulate Artificial Intelligence' },
+  { id: '2026-06-18', title: 'The 15-Minute City: Urban Planning\'s New Obsession' },
+  { id: '2026-06-18b', title: 'Psychology of Procrastination' },
+  { id: '2026-06-17', title: 'The Battle for Artificial General Intelligence' }
+];
 
 // 封装 fetch 带超时
 async function fetchWithTimeout(url, ms = 5000) {
@@ -556,32 +562,36 @@ async function loadArticle(articleId) {
 let articlesMap = {}; // { '2026-06-18': [{ id: '2026-06-18', title: '...' }, ...], ... }
 
 async function loadArticlesMap() {
-  const data = await fetchJSON('dates.json');
+  // 1. 并行拉取 dates.json + 最新一篇文章（零等待）
+  const [data, latestId] = await Promise.all([
+    fetchJSON('dates.json'),
+    // 试探最新日期的首个文章 ID（从 EMBEDDED_DATES 快速拿到，不等 dates.json）
+    Promise.resolve(EMBEDDED_DATES[0]?.id || null)
+  ]);
+
   const map = {};
   if (data && typeof data === 'object' && !Array.isArray(data)) {
-    // New format: { "2026-06-18": ["2026-06-18", "2026-06-18b"], ... }
-    for (const [date, ids] of Object.entries(data)) {
-      map[date] = ids.map(id => ({ id }));
+    // dates.json 格式: { "2026-06-22": [{ id:"...", title:"..." }, ...] }
+    for (const [date, entries] of Object.entries(data)) {
+      map[date] = entries.map(e => typeof e === 'object' && e.id
+        ? { id: e.id, title: e.title || e.id }
+        : { id: e, title: e }
+      );
     }
   } else if (Array.isArray(data)) {
-    // Legacy format: ["2026-06-18", "2026-06-17"]
-    for (const d of data) {
-      map[d] = [{ id: d }];
-    }
+    for (const d of data) map[d] = [{ id: d, title: d }];
   } else {
-    for (const d of EMBEDDED_DATES) {
-      map[d] = [{ id: d }];
+    for (const e of EMBEDDED_DATES) map[e.id] = [{ id: e.id, title: e.title || e.id }];
+  }
+
+  // 2. 用最新文章的完整数据预填充缓存（页面可立即渲染，无需再等请求）
+  if (latestId) {
+    const cached = await loadArticle(latestId);
+    if (cached) {
+      // 标题已从 dates.json 拿到，不需要再取
     }
   }
-  // Fetch titles for each article
-  for (const [date, articles] of Object.entries(map)) {
-    for (const art of articles) {
-      try {
-        const d = await loadArticle(art.id);
-        if (d) art.title = d.title || '';
-      } catch(e) {}
-    }
-  }
+
   articlesMap = map;
   return map;
 }
