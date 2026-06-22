@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 /**
  * auto-generate.js — 自动生成每日精读文章
- * 支持 OpenAI 和 Gemini API
  */
 
 const fs = require('fs');
@@ -12,9 +11,10 @@ const OPENAI_KEY = process.env.OPENAI_API_KEY;
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const DOUBAO_KEY = process.env.DOUBAO_API_KEY;
 const DOUBAO_MODEL = process.env.DOUBAO_MODEL || 'doubao-seed-2-0-pro-260215';
+const DEEPSEEK_KEY = process.env.DEEPSEEK_API_KEY;
 
-if (!OPENAI_KEY && !GEMINI_KEY && !DOUBAO_KEY) {
-  console.error('❌ 缺少 OPENAI_API_KEY / GEMINI_API_KEY / DOUBAO_API_KEY 环境变量');
+if (!OPENAI_KEY && !GEMINI_KEY && !DOUBAO_KEY && !DEEPSEEK_KEY) {
+  console.error('❌ 缺少 API KEY 环境变量');
   process.exit(1);
 }
 
@@ -177,6 +177,60 @@ function callGemini() {
   });
 }
 
+// DeepSeek API 调用 — OpenAI 兼容接口，全球可访问
+function callDeepSeek() {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      model: 'deepseek-v4-flash',
+      messages: [
+        { role: 'system', content: SYSTEM_PROMPT },
+        { role: 'user', content: USER_PROMPT }
+      ],
+      temperature: 0.8,
+      max_tokens: 4000,
+    });
+
+    console.log('📡 Calling DeepSeek API...');
+    
+    const req = https.request({
+      hostname: 'api.deepseek.com',
+      path: '/chat/completions',
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${DEEPSEEK_KEY}`,
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(data),
+      },
+      timeout: 60000,
+    }, (res) => {
+      let responseData = '';
+      res.on('data', (chunk) => responseData += chunk);
+      res.on('end', () => {
+        console.log(`📡 DeepSeek Response: ${res.statusCode}`);
+        if (res.statusCode !== 200) {
+          reject(new Error(`DeepSeek API error ${res.statusCode}: ${responseData.substring(0, 500)}`));
+          return;
+        }
+        try {
+          const d = JSON.parse(responseData);
+          let content = d.choices[0].message.content.trim();
+          const jsonMatch = content.match(/\{[\s\S]*\}/);
+          if (jsonMatch) content = jsonMatch[0];
+          content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+          resolve(JSON.parse(content));
+        } catch (err) {
+          reject(new Error(`Parse error: ${err.message}`));
+        }
+      });
+    });
+
+    req.on('error', (err) => reject(new Error(`Request failed: ${err.message}`)));
+    req.on('timeout', () => { req.destroy(); reject(new Error('Timeout')); });
+    req.write(data);
+    req.end();
+  });
+}
+
 // Doubao (豆包) API 调用 — OpenAI 兼容接口
 function callDoubao() {
   return new Promise((resolve, reject) => {
@@ -237,6 +291,7 @@ async function main() {
   console.log(`🔑 OPENAI_KEY exists: ${!!OPENAI_KEY}`);
   console.log(`🔑 GEMINI_KEY exists: ${!!GEMINI_KEY}`);
   console.log(`🔑 DOUBAO_KEY exists: ${!!DOUBAO_KEY}`);
+  console.log(`🔑 DEEPSEEK_KEY exists: ${!!DEEPSEEK_KEY}`);
   console.log(`🤖 DOUBAO_MODEL: ${DOUBAO_MODEL}`);
 
   // 检查是否已有当天文章
@@ -251,11 +306,21 @@ async function main() {
   }
 
   try {
-    // 失败链式重试：OpenAI → Doubao → Gemini
+    // 失败链式重试：DeepSeek → OpenAI → Gemini
     let article;
     let lastError;
     
-    if (OPENAI_KEY) {
+    if (DEEPSEEK_KEY) {
+      try {
+        article = await callDeepSeek();
+      } catch (err) {
+        console.log(`⚠️ DeepSeek failed: ${err.message.substring(0, 100)}`);
+        lastError = err;
+      }
+    }
+    
+    if (!article && OPENAI_KEY) {
+      console.log('🔄 Trying OpenAI...');
       try {
         article = await callOpenAI();
       } catch (err) {
@@ -264,19 +329,14 @@ async function main() {
       }
     }
     
-    if (!article && DOUBAO_KEY) {
-      console.log('🔄 Trying Doubao...');
-      try {
-        article = await callDoubao();
-      } catch (err) {
-        console.log(`⚠️ Doubao failed: ${err.message.substring(0, 100)}`);
-        lastError = err;
-      }
-    }
-    
     if (!article && GEMINI_KEY) {
       console.log('🔄 Trying Gemini...');
-      article = await callGemini();
+      try {
+        article = await callGemini();
+      } catch (err) {
+        console.log(`⚠️ Gemini failed: ${err.message.substring(0, 100)}`);
+        lastError = err;
+      }
     }
     
     if (!article) {
