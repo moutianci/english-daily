@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-23",
+  "source": "The Economist",
+  "title": "The Digital Dilemma: AI and Truth in the Social Media Age",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "The proliferation of generative artificial intelligence has ushered in an era where synthetic media—text, images, and videos created by algorithms—is virtually indistinguishable from human-produced content. This technological marvel, however, poses a profound conundrum: the erosion of public trust in digital information. As deepfakes become more sophisticated, discerning fact from fabrication demands unprecedented vigilance. The ease with which misleading narratives can be manufactured threatens to undermine democratic discourse and social cohesion.",
+      "zh": "生成式人工智能的激增开启了一个时代，算法生成的合成媒体——文本、图像和视频——几乎与人类创作的内容无法区分。然而，这项技术奇迹带来了一个深刻的难题：公众对数字信息的信任被侵蚀。随着深度伪造技术日益复杂，辨别事实与虚构需要前所未有的警惕。制造误导性叙事的便利性威胁着民主话语和社会凝聚力。",
+      "vocabulary": [
+        {
+          "word": "proliferation",
+          "phonetic": "/prəˌlɪfəˈreɪʃən/",
+          "meaning": "n. 激增",
+          "example": "The proliferation of smartphones has changed communication habits."
+        },
+        {
+          "word": "indistinguishable",
+          "phonetic": "/ˌɪndɪˈstɪŋɡwɪʃəbl/",
+          "meaning": "adj. 无法区分的",
+          "example": "The counterfeit notes were virtually indistinguishable from real ones."
+        },
+        {
+          "word": "conundrum",
+          "phonetic": "/kəˈnʌndrəm/",
+          "meaning": "n. 难题",
+          "example": "The conundrum of how to balance privacy and security remains unresolved."
+        },
+        {
+          "word": "erosion",
+          "phonetic": "/ɪˈroʊʒən/",
+          "meaning": "n. 侵蚀",
+          "example": "The erosion of public confidence in institutions is a worrying trend."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "As deepfakes become more sophisticated, discerning fact from fabrication demands unprecedented vigilance.",
+          "zh": "该句主干为“discerning fact from fabrication demands unprecedented vigilance”，其中“discerning fact from fabrication”是动名词短语作主语。句首“as”引导时间状语从句，表示“随着深度伪造技术日益复杂”。",
+          "grammar": "Subordinate clause (As deepfakes become more sophisticated) + main clause with gerund subject (discerning fact from fabrication) + verb (demands) + object (unprecedented vigilance)."
+        }
+      ]
+    },
+    {
+      "en": "Social media platforms, once heralded as conduits for democratic expression, now grapple with an epidemic of algorithmically amplified falsehoods. Their recommendation engines, optimised for engagement, inadvertently prioritise sensational and often deceptive content. The resultant echo chambers exacerbate polarisation, as users are fed increasingly extreme viewpoints. Efforts to moderate content remain contentious, balancing free speech against the imperative to curb misinformation. The challenge lies in designing algorithms that foster informed discourse without stifling legitimate dissent.",
+      "zh": "曾被誉为民粹表达渠道的社交媒体平台，如今正应对算法放大的虚假信息泛滥问题。它们的推荐引擎为追求参与度而优化，无意中优先推送耸人听闻且常具欺骗性的内容。由此产生的回音室加剧了两极分化，用户被推送越来越极端的观点。内容审核努力仍存争议，需在言论自由与遏制虚假信息的必要性之间取得平衡。挑战在于设计出既能促进知情讨论又不扼杀合法异议的算法。",
+      "vocabulary": [
+        {
+          "word": "heralded",
+          "phonetic": "/ˈherəldɪd/",
+          "meaning": "v. 被宣扬（过去式）",
+          "example": "The innovation was heralded as a breakthrough in renewable energy."
+        },
+        {
+          "word": "epidemic",
+          "phonetic": "/ˌepɪˈdemɪk/",
+          "meaning": "n. 泛滥（比喻）",
+          "example": "The country is facing an epidemic of obesity-related diseases."
+        },
+        {
+          "word": "inadvertently",
+          "phonetic": "/ˌɪnədˈvɜːrtəntli/",
+          "meaning": "adv. 无意中",
+          "example": "He inadvertently revealed the surprise party to his sister."
+        },
+        {
+          "word": "polarisation",
+          "phonetic": "/ˌpoʊləraɪˈzeɪʃən/",
+          "meaning": "n. 两极分化",
+          "example": "Political polarisation has deepened in recent years."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Their recommendation engines, optimised for engagement, inadvertently prioritise sensational and often deceptive content.",
+          "zh": "该句主干为“Their recommendation engines inadvertently prioritise sensational and often deceptive content”。“optimised for engagement”是过去分词短语，插入主语后作定语修饰“recommendation engines”，意为“为追求参与度而优化的推荐引擎”。",
+          "grammar": "Subject (Their recommendation engines) + past participle phrase (optimised for engagement) + adverb (inadvertently) + verb (prioritise) + object (sensational and often deceptive content)."
+        }
+      ]
+    },
+    {
+      "en": "Technological countermeasures, such as cryptographic watermarking and provenance tracking, offer a glimmer of hope. By embedding digital signatures in AI-generated content, creators can attest to its synthetic origin. Yet adoption remains voluntary and inconsistent, leaving gaps for malicious actors. Regulatory frameworks, like the EU's AI Act, mandate transparency disclosures. However, enforcement across jurisdictions is fraught with complexity. A multi-stakeholder approach, involving tech companies, governments, and civil society, is essential to forge a resilient information ecosystem.",
+      "zh": "技术对策，如加密水印和来源追踪，带来了一丝希望。通过在AI生成内容中嵌入数字签名，创作者可以证明其合成来源。然而，采用仍是自愿且不一致的，为恶意行为者留下漏洞。监管框架，如欧盟的《人工智能法案》，强制要求透明度披露。但跨辖区的执行充满复杂性。需要涉及科技公司、政府和公民社会的多利益攸关方方法，才能构建一个具有韧性的信息生态系统。",
+      "vocabulary": [
+        {
+          "word": "countermeasures",
+          "phonetic": "/ˈkaʊntərˌmeʒərz/",
+          "meaning": "n. 应对措施",
+          "example": "New countermeasures were developed to combat cyberattacks."
+        },
+        {
+          "word": "provenance",
+          "phonetic": "/ˈprɑːvənəns/",
+          "meaning": "n. 来源",
+          "example": "The provenance of the artwork was traced to an Italian gallery."
+        },
+        {
+          "word": "attest",
+          "phonetic": "/əˈtest/",
+          "meaning": "v. 证明",
+          "example": "The certificate attests to the authenticity of the product."
+        },
+        {
+          "word": "resilient",
+          "phonetic": "/rɪˈzɪliənt/",
+          "meaning": "adj. 有韧性的",
+          "example": "A resilient economy can recover quickly from shocks."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "A multi-stakeholder approach, involving tech companies, governments, and civil society, is essential to forge a resilient information ecosystem.",
+          "zh": "该句主干为“A multi-stakeholder approach is essential”。插入的“involving tech companies, governments, and civil society”是现在分词短语作定语，修饰“approach”。句末“to forge a resilient information ecosystem”是不定式短语作目的状语。",
+          "grammar": "Subject (A multi-stakeholder approach) + present participle phrase (involving tech companies, governments, and civil society) + verb (is) + adjective complement (essential) + infinitive phrase (to forge a resilient information ecosystem)."
+        }
+      ]
+    },
+    {
+      "en": "The ultimate antidote perhaps lies in fostering digital literacy—equipping citizens with the critical thinking skills to evaluate information sources rigorously. Education systems must evolve to teach media literacy as a core competency, akin to numeracy and literacy. Simultaneously, a cultural shift towards scepticism and verification is paramount. In an age where AI can fabricate reality with alarming fidelity, the onus falls on individuals to navigate a murky digital landscape. Society's resilience will depend on our collective ability to adapt to this new epistemological frontier.",
+      "zh": "最终的解药或许在于培养数字素养——赋予公民严格评估信息来源的批判性思维技能。教育体系必须发展，将媒体素养作为像计算和读写能力一样的核心能力来教授。同时，文化向怀疑和验证的转变至关重要。在AI能以惊人保真度伪造现实的时代，责任落在个人身上去驾驭这个模糊的数字景观。社会的韧性将取决于我们适应这一新认识论前沿的集体能力。",
+      "vocabulary": [
+        {
+          "word": "antidote",
+          "phonetic": "/ˈæntɪdoʊt/",
+          "meaning": "n. 解药",
+          "example": "Education is the best antidote to ignorance."
+        },
+        {
+          "word": "literacy",
+          "phonetic": "/ˈlɪtərəsi/",
+          "meaning": "n. 素养（数字/媒体）",
+          "example": "Digital literacy is essential in the modern workplace."
+        },
+        {
+          "word": "akin",
+          "phonetic": "/əˈkɪn/",
+          "meaning": "adj. 相似的",
+          "example": "The two processes are akin in their complexity."
+        },
+        {
+          "word": "epistemological",
+          "phonetic": "/ɪˌpɪstəməˈlɑːdʒɪkl/",
+          "meaning": "adj. 认识论的",
+          "example": "The debate raised profound epistemological questions about the nature of truth."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "In an age where AI can fabricate reality with alarming fidelity, the onus falls on individuals to navigate a murky digital landscape.",
+          "zh": "句首“In an age where AI can fabricate reality with alarming fidelity”是介词短语，其中“where”引导定语从句修饰“age”。主句为“the onus falls on individuals”，后面“to navigate a murky digital landscape”是不定式短语作定语修饰“the onus”。整体表示“在一个AI能以惊人保真度伪造现实的时代，责任落在个人身上去驾驭模糊的数字景观”。",
+          "grammar": "Prepositional phrase (In an age) + relative clause (where AI can fabricate reality with alarming fidelity) + main clause (the onus falls on individuals) + infinitive phrase (to navigate a murky digital landscape)."
+        }
+      ]
+    }
+  ]
+}
