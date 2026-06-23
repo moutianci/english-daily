@@ -1,7 +1,4 @@
 {
-  "2026-06-23": [
-    "2026-06-23"
-  ],
   "2026-06-22": [
     {
       "id": "2026-06-22",
@@ -31,6 +28,13 @@
       "id": "2026-06-17",
       "title": "The Battle for Artificial General Intelligence",
       "titleZh": "通用人工智能争夺战"
+    }
+  ],
+  "2026-06-23": [
+    {
+      "id": "2026-06-23",
+      "title": "The Digital Dilemma: AI and Truth in the Social Media Age",
+      "titleZh": "数字困境：社交媒体时代的 AI 与真相"
     }
   ]
 }
