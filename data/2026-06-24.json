@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-24",
+  "source": "The Economist",
+  "title": "The Restorative Power of Sleep: A Key to Longevity",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Sleep has long been relegated to the periphery of health advice, overshadowed by diet and exercise. However, a burgeoning body of evidence underscores its paramount importance for longevity. During deep sleep, the brain initiates glymphatic clearance, flushing out metabolic waste. This process, analogous to a nightly detox, may stave off neurodegenerative diseases. Without adequate sleep, the body's repair mechanisms falter, accelerating aging.",
+      "zh": "长期以来，睡眠一直被边缘化于健康建议之外，其重要性被饮食和运动所掩盖。然而，越来越多的证据凸显了它对长寿的至关重要性。在深度睡眠期间，大脑启动类淋巴清除过程，冲刷代谢废物。这一过程类似于夜间排毒，或许能延缓神经退行性疾病。若睡眠不足，身体的修复机制便会失灵，从而加速衰老。",
+      "vocabulary": [
+        {
+          "word": "relegated",
+          "phonetic": "/ˈrɛlɪɡeɪtɪd/",
+          "meaning": "v. (past participle) assigned to a lower rank or position (降级；边缘化)",
+          "example": "The issue was relegated to a footnote in the report."
+        },
+        {
+          "word": "burgeoning",
+          "phonetic": "/ˈbɜːrdʒənɪŋ/",
+          "meaning": "adj. growing or expanding quickly (迅速增长的)",
+          "example": "A burgeoning field of research explores the gut-brain connection."
+        },
+        {
+          "word": "glymphatic",
+          "phonetic": "/ɡlɪmˈfætɪk/",
+          "meaning": "adj. relating to the brain's waste-clearing system (类淋巴的)",
+          "example": "Glymphatic activity peaks during deep sleep."
+        },
+        {
+          "word": "stave off",
+          "phonetic": "/steɪv ɒf/",
+          "meaning": "phrasal v. to prevent something from happening (延缓；避免)",
+          "example": "Regular exercise can stave off chronic diseases."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "This process, analogous to a nightly detox, may stave off neurodegenerative diseases.",
+          "zh": "这个过程类似于夜间排毒，或许能延缓神经退行性疾病。",
+          "grammar": "Main clause: 'This process may stave off neurodegenerative diseases.' The phrase 'analogous to a nightly detox' is an appositive adjective phrase modifying 'This process', set off by commas."
+        }
+      ]
+    },
+    {
+      "en": "The circadian rhythm orchestrates a symphony of physiological processes. Disruption—common in modern lifestyles—correlates with increased inflammation and metabolic dysregulation. Studies indicate that consistent sleep patterns bolster immune function and reduce the risk of chronic ailments. The elderly, who often suffer fragmented sleep, may experience compounded health decline. Prioritizing sleep hygiene could thus prolong healthspan.",
+      "zh": "昼夜节律协调着生理过程的交响乐。现代生活方式中常见的节律紊乱，与炎症加剧和代谢失调相关。研究表明，规律的睡眠模式能增强免疫功能并降低慢性疾病风险。经常遭受睡眠片段化的老年人，可能经历复合性的健康衰退。因此，优先考虑睡眠卫生或可延长健康寿命。",
+      "vocabulary": [
+        {
+          "word": "orchestrates",
+          "phonetic": "/ˈɔːrkɪstreɪts/",
+          "meaning": "v. arranges or coordinates elements to achieve a desired effect (协调；精心安排)",
+          "example": "The conductor orchestrates the entire performance."
+        },
+        {
+          "word": "disruption",
+          "phonetic": "/dɪsˈrʌpʃən/",
+          "meaning": "n. disturbance or interruption of normal function (扰乱；中断)",
+          "example": "Jet lag causes a disruption of circadian rhythms."
+        },
+        {
+          "word": "bolster",
+          "phonetic": "/ˈboʊlstər/",
+          "meaning": "v. to support or strengthen (增强；支持)",
+          "example": "A balanced diet can bolster the immune system."
+        },
+        {
+          "word": "compounded",
+          "phonetic": "/kəmˈpaʊndɪd/",
+          "meaning": "adj. made worse by adding another factor (复合的；加剧的)",
+          "example": "The patient's pain was compounded by anxiety."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Disruption—common in modern lifestyles—correlates with increased inflammation and metabolic dysregulation.",
+          "zh": "现代生活方式中常见的节律紊乱，与炎症加剧和代谢失调相关。",
+          "grammar": "Subject: 'Disruption', followed by a parenthetical dash-phrase '—common in modern lifestyles—' acting as an adjective modifier. The main verb is 'correlates', and the object is a prepositional phrase 'with increased inflammation and metabolic dysregulation'."
+        }
+      ]
+    },
+    {
+      "en": "Nutrition and sleep share a bidirectional relationship. Certain foods, such as those rich in tryptophan and magnesium, promote sleep quality. Conversely, poor sleep can disrupt appetite-regulating hormones, fostering cravings for unhealthy fare. This vicious cycle undermines both dietary adherence and restorative rest. Intermittent fasting, while popular, may interfere with sleep if not carefully timed.",
+      "zh": "营养与睡眠存在双向关系。某些食物，如富含色氨酸和镁的食物，能促进睡眠质量。相反，睡眠不佳会扰乱食欲调节激素，引发对不健康食物的渴望。这种恶性循环既削弱饮食依从性，也损害恢复性休息。间歇性禁食虽受欢迎，但若时间安排不当，可能干扰睡眠。",
+      "vocabulary": [
+        {
+          "word": "bidirectional",
+          "phonetic": "/ˌbaɪdɪˈrɛkʃənəl/",
+          "meaning": "adj. involving two directions (双向的)",
+          "example": "There is a bidirectional link between stress and insomnia."
+        },
+        {
+          "word": "tryptophan",
+          "phonetic": "/ˈtrɪptəfæn/",
+          "meaning": "n. an essential amino acid (色氨酸)",
+          "example": "Turkey contains high levels of tryptophan."
+        },
+        {
+          "word": "cravings",
+          "phonetic": "/ˈkreɪvɪŋz/",
+          "meaning": "n. strong desires for something (强烈渴望；渴求)",
+          "example": "Sugar cravings can be reduced by eating protein."
+        },
+        {
+          "word": "undermines",
+          "phonetic": "/ˌʌndərˈmaɪnz/",
+          "meaning": "v. weakens or damages gradually (逐渐削弱；损害)",
+          "example": "Lack of sleep undermines cognitive performance."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Intermittent fasting, while popular, may interfere with sleep if not carefully timed.",
+          "zh": "间歇性禁食虽受欢迎，但若时间安排不当，可能干扰睡眠。",
+          "grammar": "Main clause: 'Intermittent fasting may interfere with sleep.' The phrase 'while popular' is a concessive adverbial clause (省略了 'it is'), and 'if not carefully timed' is a conditional adverbial clause (省略了 'it is')."
+        }
+      ]
+    },
+    {
+      "en": "The implications for public health are profound. As societies age, redefining health protocols to include sleep optimization is imperative. Cognitive behavioral therapy for insomnia offers a non-pharmacological solution. Workplace policies that discourage late-night screen time and respect natural rhythms could yield dividends. In the quest for longevity, sleep emerges not as a luxury but a biological necessity.",
+      "zh": "这对公共健康的影响意义深远。随着社会老龄化，重新定义健康方案以纳入睡眠优化势在必行。针对失眠的认知行为疗法提供了一种非药物解决方案。工作场所政策若能限制深夜屏幕使用并尊重自然节律，或将带来巨大回报。在追求长寿的过程中，睡眠并非奢侈品，而是生物学上的必需品。",
+      "vocabulary": [
+        {
+          "word": "imperative",
+          "phonetic": "/ɪmˈpɛrətɪv/",
+          "meaning": "adj. of vital importance; necessary (至关重要的；必要的)",
+          "example": "Immediate action is imperative to curb the outbreak."
+        },
+        {
+          "word": "insomnia",
+          "phonetic": "/ɪnˈsɑːmniə/",
+          "meaning": "n. persistent difficulty falling or staying asleep (失眠)",
+          "example": "Chronic insomnia can lead to depression."
+        },
+        {
+          "word": "dividends",
+          "phonetic": "/ˈdɪvɪdɛndz/",
+          "meaning": "n. benefits or returns from an investment (红利；回报)",
+          "example": "Investing in education pays long-term dividends."
+        },
+        {
+          "word": "necessity",
+          "phonetic": "/nɪˈsɛsɪti/",
+          "meaning": "n. something essential or unavoidable (必需品；必要性)",
+          "example": "Water is a basic necessity for life."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "As societies age, redefining health protocols to include sleep optimization is imperative.",
+          "zh": "随着社会老龄化，重新定义健康方案以纳入睡眠优化势在必行。",
+          "grammar": "'As societies age' is an adverbial clause of time. The main clause has a gerund phrase 'redefining health protocols to include sleep optimization' as the subject, followed by the verb 'is' and the adjective complement 'imperative'."
+        }
+      ]
+    }
+  ]
+}
