@@ -740,7 +740,7 @@ input, textarea, select {
     <label class="settings-label" for="ttsEngine">朗读引擎</label>
     <select id="ttsEngine" onchange="onEngineChange()">
       <option value="browser">浏览器内置</option>
-      <option value="streamelements">在线朗读 (StreamElements)</option>
+      <option value="google">在线朗读 (Google)</option>
     </select>
   </div>
   <div class="settings-group">
@@ -1319,6 +1319,11 @@ let ttsConfig = {
   rate: parseFloat(localStorage.getItem('tts_rate') || '0.9'),
   voiceName: localStorage.getItem('tts_voice') || ''
 };
+// 迁移：streamelements -> google
+if (ttsConfig.engine === 'streamelements') {
+  ttsConfig.engine = 'google';
+  localStorage.setItem('tts_engine', 'google');
+}
 
 // 设置面板
 function toggleSettings() {
@@ -1376,19 +1381,11 @@ function applySettings() {
   closeSettings();
 }
 
-// StreamElements TTS (免费，不用注册)
-const SE_VOICES = {
-  'brain': { name: 'Brian (男/美式,推荐)', id: 'Brian' },
-  'joanna': { name: 'Joanna (女/美式)', id: 'Joanna' },
-  'salli': { name: 'Salli (女/美式)', id: 'Salli' },
-  'matthew': { name: 'Matthew (男/美式)', id: 'Matthew' },
-  'amy': { name: 'Amy (女/英式)', id: 'Amy' },
-  'emma': { name: 'Emma (女/英式)', id: 'Emma' }
-};
+;
 
-function playStreamElements(text, index, onDone) {
-  const voice = 'Brian'; // 固定用 Brian，最自然
-  const url = `https://api.streamelements.com/kappa/v2/speech?voice=${voice}&text=${encodeURIComponent(text)}`;
+function playGoogleTTS(text, index, onDone) {
+  // Google Translate TTS（免费，无需注册，国内可访问）
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=${encodeURIComponent(text)}`;
   const audio = new Audio(url);
   currentAudio = audio;
   currentPlayIndex = index;
@@ -1399,18 +1396,13 @@ function playStreamElements(text, index, onDone) {
   };
   audio.onended = () => { onDone(); };
   audio.onerror = () => {
-    console.warn('StreamElements 朗读失败，回退到浏览器 TTS');
+    console.warn('Google TTS 朗读失败，回退到浏览器 TTS');
     onDone();
-    // 失败后自动切回浏览器内置
-    ttsConfig.engine = 'browser';
-    localStorage.setItem('tts_engine', 'browser');
-    document.getElementById('ttsEngine').value = 'browser';
-    onEngineChange();
     playBrowserTTS(text, index);
   };
 
   audio.play().catch(e => {
-    console.warn('StreamElements play 失败:', e);
+    console.warn('Google TTS play 失败:', e);
     onDone();
     playBrowserTTS(text, index);
   });
@@ -1463,8 +1455,8 @@ function playParagraph(index) {
   const btn = document.getElementById(`play-${index}`);
   currentPlayIndex = index;
 
-  if (ttsConfig.engine === 'streamelements') {
-    playStreamElements(p.en, index, () => resetPlayBtn(index));
+  if (ttsConfig.engine === 'google') {
+    playGoogleTTS(p.en, index, () => resetPlayBtn(index));
   } else {
     playBrowserTTS(p.en, index);
   }
