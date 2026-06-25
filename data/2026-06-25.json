@@ -1,157 +1,301 @@
 {
   "date": "2026-06-25",
   "source": "The Economist",
-  "title": "The Art of Tea: A Lesson in Japanese Hospitality",
-  "titleZh": "茶道艺术：日本待客之道的一课",
+  "title": "The Unspoken Language of Bowing",
+  "titleZh": "鞠躬的无言之语",
   "url": "",
   "paragraphs": [
     {
-      "en": "On a tranquil morning in Kyoto, I was invited to a traditional tea ceremony. The hostess, clad in a silk kimono, moved with deliberate grace as she prepared matcha. Every gesture—from the whisking of the tea to the placement of the bowl—seemed choreographed. I had anticipated a simple beverage, but instead witnessed a ritual that embodied harmony, respect, and purity. The silence in the tatami room was broken only by the soft sound of boiling water. It was my first encounter with the profound concept of 'omotenashi', the Japanese spirit of wholehearted hospitality.",
-      "zh": "在京都一个宁静的早晨，我被邀请参加一场传统的茶道仪式。女主人身穿丝绸和服，以刻意的优雅动作准备抹茶。每一个动作——从搅打茶汤到放置茶碗——仿佛都是精心编排的。我本以为只是喝杯简单的饮料，却目睹了一场体现和谐、尊敬和纯净的仪式。榻榻米房间里的寂静仅被烧水的轻柔声响打破。这是我第一次邂逅“omotenashi”这一深刻概念，即日本全心全意的待客之道。",
+      "en": "My first encounter with the Japanese custom of bowing left an indelible impression. Arriving at a traditional inn in Kyoto, I was greeted by the innkeeper, who performed a deep, deliberate bow. The gesture was not merely a greeting; it was a ritual imbued with centuries of cultural meaning. I instinctively extended my hand for a handshake, only to realize my faux pas. The innkeeper smiled gently and corrected me, demonstrating the proper angle and duration. That moment taught me that even a simple salutation can be a window into an entire civilization.",
+      "zh": "我第一次遇见日本鞠躬习俗时，留下难以磨灭的印象。抵达京都一家传统旅馆时，旅馆主人向我行了一个深沉而从容的鞠躬。这个动作不仅仅是问候；它是一种充满数百年文化意义的仪式。我本能地伸出手想握手，却意识到自己的失礼。主人温和地笑着纠正我，示范了正确的角度和时长。那一刻让我明白，即使简单的问候也能成为一窥整个文明的窗口。",
       "vocabulary": [
         {
-          "word": "tranquil",
-          "phonetic": "/ˈtræŋkwɪl/",
-          "meaning": "adj. 宁静的；安静的",
-          "example": "The lake was tranquil in the early morning light."
+          "word": "indelible",
+          "phonetic": "/ɪnˈdɛləbəl/",
+          "meaning": "adj. 难以磨灭的",
+          "example": "The experience left an indelible mark on my memory."
         },
         {
-          "word": "clad",
-          "phonetic": "/klæd/",
-          "meaning": "adj. 穿着……的；覆盖的",
-          "example": "She was clad in a flowing white gown."
+          "word": "deliberate",
+          "phonetic": "/dɪˈlɪbərət/",
+          "meaning": "adj. 从容的；故意的",
+          "example": "He gave a slow, deliberate nod to show his respect."
         },
         {
-          "word": "choreographed",
-          "phonetic": "/ˈkɒriəɡrɑːft/",
-          "meaning": "adj. 精心编排的；设计好的",
-          "example": "The dancers performed a beautifully choreographed routine."
+          "word": "faux pas",
+          "phonetic": "/ˌfoʊ ˈpɑː/",
+          "meaning": "n. 失礼；失态",
+          "example": "I committed a serious faux pas by not removing my shoes."
         },
         {
-          "word": "profound",
-          "phonetic": "/prəˈfaʊnd/",
-          "meaning": "adj. 深刻的；意义深远的",
-          "example": "The book had a profound impact on my thinking."
+          "word": "salutation",
+          "phonetic": "/ˌsæljuˈteɪʃən/",
+          "meaning": "n. 问候；致意",
+          "example": "A smile is a universal salutation."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "Every gesture—from the whisking of the tea to the placement of the bowl—seemed choreographed.",
-          "zh": "每一个动作——从搅打茶汤到放置茶碗——仿佛都是精心编排的。",
-          "grammar": "主语 Every gesture 后接破折号插入语，说明具体范围，谓语 seemed choreographed 为系表结构，表示“看起来是编排好的”。"
+          "en": "The gesture was not merely a greeting; it was a ritual imbued with centuries of cultural meaning.",
+          "zh": "这个动作不仅仅是问候；它是一种充满数百年文化意义的仪式。",
+          "grammar": "并列句，分号连接两个分句；第二个分句包含过去分词短语 'imbued with...' 作后置定语修饰 'ritual'。"
         }
-      ]
+      ],
+      "chunks": [
+        {
+          "en": "My first encounter with the Japanese custom of bowing",
+          "zh": "我第一次遇见日本鞠躬习俗"
+        },
+        {
+          "en": "left an indelible impression",
+          "zh": "留下难以磨灭的印象"
+        },
+        {
+          "en": "Arriving at a traditional inn in Kyoto,",
+          "zh": "抵达京都一家传统旅馆时"
+        },
+        {
+          "en": "I was greeted by the innkeeper, who performed a deep, deliberate bow.",
+          "zh": "旅馆主人向我行了一个深沉而从容的鞠躬"
+        },
+        {
+          "en": "The gesture was not merely a greeting; it was a ritual imbued with centuries of cultural meaning.",
+          "zh": "这个动作不仅仅是问候；它是一种充满数百年文化意义的仪式"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "定语从句",
+            "explanation": "由 'who' 引导的非限制性定语从句，修饰 'the innkeeper'，补充说明其动作。",
+            "example_sentence": "I was greeted by the innkeeper, who performed a deep, deliberate bow."
+          },
+          {
+            "structure": "过去分词短语作后置定语",
+            "explanation": "过去分词短语 'imbued with centuries of cultural meaning' 修饰 'ritual'，相当于一个定语从句 'which was imbued...'。",
+            "example_sentence": "it was a ritual imbued with centuries of cultural meaning."
+          }
+        ]
+      }
     },
     {
-      "en": "The ceremony unfolded with meticulous precision. The hostess first cleansed the tea utensils in a prescribed order, each movement fluid yet deliberate. When she presented the bowl to me, I was instructed to turn it twice before sipping—a custom to share the bowl's beauty with all guests. The bitter taste of matcha was a revelation, far from the sugary lattes I knew. In that moment, I realized that the ritual was not merely about drinking tea; it was a meditation on presence and gratitude. The cultural difference was not just in the steps, but in the mindset behind them.",
-      "zh": "仪式以一丝不苟的精确展开。女主人首先按既定顺序清洁茶具，每个动作流畅而刻意。当她将茶碗递给我时，我被指示先转动两次再小口品尝——这是一种让所有客人共同欣赏茶碗之美的习俗。抹茶的苦涩味道令我大开眼界，远非我所熟悉的含糖拿铁可比。那一刻，我意识到这一仪式并非仅仅是喝茶；它是对当下存在与感恩的���想。文化差异不仅在于步骤本身，更在于其背后的心态。",
+      "en": "In contrast, the Western handshake conveys a very different set of values. Originating as a gesture to show that one was unarmed, it evolved into a symbol of equality and mutual trust. A firm handshake is often interpreted as a sign of confidence, while a limp one may suggest weakness. The bow, however, emphasizes hierarchy and respect. The depth and duration of a bow correspond to social status: a deeper, longer bow denotes greater deference. These contrasting customs reveal how profoundly cultural context shapes nonverbal communication.",
+      "zh": "相比之下，西方握手传达截然不同的价值观。它源于展示未携带武器的姿态，后来演变为平等与互信的象征。有力的握手常被解读为自信的标志，而无力的握手则可能暗示软弱。而鞠躬则强调等级与尊重。鞠躬的深度和时长对应社会地位：更深、更久的鞠躬表示更大的敬意。这些对比鲜明的习俗揭示了文化背景如何深刻塑造非言语交流。",
       "vocabulary": [
         {
-          "word": "meticulous",
-          "phonetic": "/mɪˈtɪkjələs/",
-          "meaning": "adj. 一丝不苟的；细致的",
-          "example": "She is meticulous about her appearance."
+          "word": "convey",
+          "phonetic": "/kənˈveɪ/",
+          "meaning": "v. 传达；表达",
+          "example": "Her words convey deep emotion."
         },
         {
-          "word": "cleanse",
-          "phonetic": "/klenz/",
-          "meaning": "v. 清洁；净化",
-          "example": "Use a gentle soap to cleanse your face."
+          "word": "unarmed",
+          "phonetic": "/ʌnˈɑːrmd/",
+          "meaning": "adj. 未携带武器的",
+          "example": "The soldiers walked unarmed into the negotiation tent."
         },
         {
-          "word": "prescribed",
-          "phonetic": "/prɪˈskraɪbd/",
-          "meaning": "adj. 规定的；指定的",
-          "example": "Follow the prescribed dosage on the label."
+          "word": "hierarchy",
+          "phonetic": "/ˈhaɪərɑːrki/",
+          "meaning": "n. 等级制度",
+          "example": "The company has a rigid hierarchy."
         },
         {
-          "word": "revelation",
-          "phonetic": "/ˌrevəˈleɪʃən/",
-          "meaning": "n. 启示；令人惊讶的发现",
-          "example": "The documentary was a revelation about ocean life."
+          "word": "deference",
+          "phonetic": "/ˈdɛfərəns/",
+          "meaning": "n. 敬意；遵从",
+          "example": "In deference to local customs, they removed their shoes."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "The ritual was not merely about drinking tea; it was a meditation on presence and gratitude.",
-          "zh": "这一仪式并非仅仅是喝茶；它是对当下存在与感恩的冥想。",
-          "grammar": "分号连接两个并列分句，第一个分句用 not merely about... 否定，第二个分句用 it was a meditation on... 说明本质，介词 on 表示“关于”。"
+          "en": "Originating as a gesture to show that one was unarmed, it evolved into a symbol of equality and mutual trust.",
+          "zh": "它源于展示未携带武器的姿态，后来演变为平等与互信的象征。",
+          "grammar": "现在分词短语 'Originating as...' 作状语，表示伴随或原因；不定式 'to show' 表示目的；'that' 引导宾语从句。"
         }
-      ]
+      ],
+      "chunks": [
+        {
+          "en": "In contrast, the Western handshake conveys a very different set of values.",
+          "zh": "相比之下，西方握手传达截然不同的价值观"
+        },
+        {
+          "en": "Originating as a gesture to show that one was unarmed,",
+          "zh": "它源于展示未携带武器的姿态"
+        },
+        {
+          "en": "it evolved into a symbol of equality and mutual trust.",
+          "zh": "后来演变为平等与互信的象征"
+        },
+        {
+          "en": "A firm handshake is often interpreted as a sign of confidence, while a limp one may suggest weakness.",
+          "zh": "有力的握手常被解读为自信的标志，而无力的握手则可能暗示软弱"
+        },
+        {
+          "en": "The bow, however, emphasizes hierarchy and respect.",
+          "zh": "而鞠躬则强调等级与尊重"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作状语",
+            "explanation": "'Originating as a gesture...' 是现在分词短语，说明主句动作发生的背景和原因。",
+            "example_sentence": "Originating as a gesture to show that one was unarmed, it evolved into a symbol of equality and mutual trust."
+          },
+          {
+            "structure": "while 表示对比",
+            "explanation": "'while' ���接两个并列分句，形成对比关系，意为“而”。",
+            "example_sentence": "A firm handshake is often interpreted as a sign of confidence, while a limp one may suggest weakness."
+          }
+        ]
+      }
     },
     {
-      "en": "As I returned to my usual Western habits, I could not help but contrast the experience with my own culture. In my world, efficiency often overshadows ritual; we grab coffee on the go, multitasking without a second thought. The Japanese tea ceremony demanded full immersion—every sense engaged, every moment savored. It taught me that hospitality is not about speed or abundance, but about intentional presence. I began to see how deeply culture shapes our perception of time and service. This encounter was a gentle reminder that the most ordinary activities can become extraordinary when approached with reverence.",
-      "zh": "当我回归自己通常的西方生活习惯时，不禁将这次经历与自身文化进行对比。在我的世界里，效率往往胜过仪式；我们匆匆喝杯咖啡就上路，一心多用而不假思索。日本茶道要求全身心投入——每一感官都被调动，每一刻都细细品味。它让我明白，待客之道不在于速度或丰盛，而在于刻意的在场。我开始看到文化如何深刻地塑造我们对时间和服务的认知。这次相遇温和地提醒我，最平凡的活动若以敬畏之心对待，也能变得不凡。",
+      "en": "As I stayed longer in Japan, I learned the nuanced rules of bowing. The angle — fifteen degrees for casual acquaintances, thirty for formal meetings, forty-five for superiors or apologies — conveys precise social information. Equally important is the speed and number of bows. A slow bow signals sincerity; a quick one, routine. Two bows are typical in business, but three may be reserved for special occasions. Mastering these subtleties felt akin to learning a new dialect of respect. It required careful observation and humility.",
+      "zh": "随着我在日本停留更久，我学会了鞠躬的精妙规则。角度——十五度给普通熟人，三十度给正式会面，四十五度给上级或道歉——传达精确的社会信息。同样重要的是速度和次数。缓慢的鞠躬表示真诚；快速的则表示例行公事。商务场合通常两次，但三次可能留给特殊场合。掌握这些微妙之处感觉就像学习一门新的尊重方言。它需要仔细观察和谦逊。",
       "vocabulary": [
         {
-          "word": "overshadow",
-          "phonetic": "/ˌəʊvəˈʃædəʊ/",
-          "meaning": "v. 使……黯然失色；超过",
-          "example": "His achievement overshadowed the rest of the team."
+          "word": "nuanced",
+          "phonetic": "/ˈnjuːɑːnst/",
+          "meaning": "adj. 精妙的；有细微差别的",
+          "example": "The painting has a nuanced use of color."
         },
         {
-          "word": "immersion",
-          "phonetic": "/ɪˈmɜːʃən/",
-          "meaning": "n. 沉浸；投入",
-          "example": "Language immersion is the best way to learn quickly."
+          "word": "acquaintance",
+          "phonetic": "/əˈkweɪntəns/",
+          "meaning": "n. 熟人",
+          "example": "He is a business acquaintance, not a close friend."
         },
         {
-          "word": "savor",
-          "phonetic": "/ˈseɪvə/",
-          "meaning": "v. 品尝；欣赏",
-          "example": "Take time to savor the flavors of the dish."
+          "word": "superior",
+          "phonetic": "/suːˈpɪriər/",
+          "meaning": "n. 上级；长辈",
+          "example": "She showed respect to her superior by bowing deeply."
         },
         {
-          "word": "reverence",
-          "phonetic": "/ˈrevərəns/",
-          "meaning": "n. 尊敬；敬畏",
-          "example": "They spoke of the ancient tradition with reverence."
+          "word": "subtlety",
+          "phonetic": "/ˈsʌtəlti/",
+          "meaning": "n. 微妙之处；细微差别",
+          "example": "The subtleties of Japanese etiquette are fascinating."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "It taught me that hospitality is not about speed or abundance, but about intentional presence.",
-          "zh": "它让我明白，待客之道不在于速度或丰盛，而在于刻意的在场。",
-          "grammar": "主句 It taught me that... 后接���语从句，从句中 not about... but about... 构成对比结构，强调宾语的并列关系。"
+          "en": "Mastering these subtleties felt akin to learning a new dialect of respect.",
+          "zh": "掌握这些微妙之处感觉就像学习一门新的尊重方言。",
+          "grammar": "动名词短语 'Mastering these subtleties' 作主语；'felt akin to' 是系动词加形容词短语结构，后接动名词 'learning' 作宾语。"
         }
-      ]
+      ],
+      "chunks": [
+        {
+          "en": "As I stayed longer in Japan,",
+          "zh": "随着我在日本停留更久"
+        },
+        {
+          "en": "I learned the nuanced rules of bowing.",
+          "zh": "我学会了鞠躬的精妙规则"
+        },
+        {
+          "en": "The angle — fifteen degrees for casual acquaintances, thirty for formal meetings, forty-five for superiors or apologies — conveys precise social information.",
+          "zh": "角度——十五度给普通熟人，三十度给正式会面，四十五度给上级或道歉——传达精确的社会信息"
+        },
+        {
+          "en": "Equally important is the speed and number of bows.",
+          "zh": "同样重要的是速度和次数"
+        },
+        {
+          "en": "Mastering these subtleties felt akin to learning a new dialect of respect.",
+          "zh": "掌握这些微妙之处感觉就像学习一门新的尊重方言"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "动名词短语作主语",
+            "explanation": "'Mastering these subtleties' 作为句子的主语，动名词短语具有名词性质。",
+            "example_sentence": "Mastering these subtleties felt akin to learning a new dialect of respect."
+          },
+          {
+            "structure": "倒装句",
+            "explanation": "'Equally important is the speed...' 是表语前置��倒装结构，强调 'Equally important'。",
+            "example_sentence": "Equally important is the speed and number of bows."
+          }
+        ]
+      }
     },
     {
-      "en": "Leaving the tea house, I carried more than a faint taste of matcha on my tongue. I carried a newfound respect for the beauty of unhurried ritual. The experience had transformed my understanding of cultural exchange: it is not about collecting sights, but about immersing oneself in a different way of being. In a world obsessed with efficiency, the tea ceremony offered a quiet rebellion—a celebration of the moment. I now understand that true travel is not just moving through space, but allowing a place to move through you. That day in Kyoto, Japan taught me the art of slowing down.",
-      "zh": "离开茶室时，我带走的不仅是舌尖上抹茶的淡淡余味。我带着一份对从容仪式之美的新生敬意。这次经历改变了我的文化交流理解：它不在于收集景点，而在于沉浸于另一种存在方式。在一个痴迷效率的世界里，茶道提供了一种安静的叛逆——对当下的礼赞。我现在明白，真正的旅行不仅是穿越空间，更是让一个地方穿越你的内心。那天在京都，日本教会了我慢下来的艺术。",
+      "en": "This experience reshaped my understanding of communication. I realized that words are only one layer of meaning; the body speaks its own ancient tongue. Travel forces us to confront these differences and adapt. By embracing a custom so different from my own, I did not abandon my identity but enriched it. Now, when I return a bow, I feel a connection to a culture that values harmony and mutual respect. In a world often divided by words, such silent rituals remind us of our shared humanity.",
+      "zh": "这次经历重塑了我对交流的理解。我意识到语言只是意义的一层；身体说着自己古老的言语。旅行迫使我们面对这些差异并适应。通过接受一种与自己截然不同的习俗，我没有放弃自己的身份，而是丰富了它。如今，当我回鞠一躬时，我感到与一种重视和谐与相互尊重的文化相连。在一个常常因言语而分裂的世界里，这种无声的仪式提醒我们共同的人性。",
       "vocabulary": [
         {
-          "word": "newfound",
-          "phonetic": "/ˈnjuːfaʊnd/",
-          "meaning": "adj. 新发现的；新获得的",
-          "example": "She enjoyed her newfound freedom after retirement."
+          "word": "reshape",
+          "phonetic": "/riːˈʃeɪp/",
+          "meaning": "v. 重塑；改变",
+          "example": "The trip reshaped my perspective on life."
         },
         {
-          "word": "unhurried",
-          "phonetic": "/ʌnˈhʌrid/",
-          "meaning": "adj. 从容的；不匆忙的",
-          "example": "We took an unhurried stroll through the park."
+          "word": "confront",
+          "phonetic": "/kənˈfrʌnt/",
+          "meaning": "v. 面对；正视",
+          "example": "We must confront our fears to grow."
         },
         {
-          "word": "obsessed",
-          "phonetic": "/əbˈsest/",
-          "meaning": "adj. 着迷的；痴迷的",
-          "example": "He is obsessed with video games."
+          "word": "embrace",
+          "phonetic": "/ɪmˈbreɪs/",
+          "meaning": "v. 接受；拥抱",
+          "example": "She embraced the local customs wholeheartedly."
         },
         {
-          "word": "rebellion",
-          "phonetic": "/rɪˈbeljən/",
-          "meaning": "n. 反叛；反抗",
-          "example": "The teenager's rebellion was short-lived."
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃuəl/",
+          "meaning": "n. 仪式；惯例",
+          "example": "Morning coffee is a daily ritual for many."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "In a world obsessed with efficiency, the tea ceremony offered a quiet rebellion—a celebration of the moment.",
-          "zh": "在一个痴迷效率的世界里，茶道提供了一种安静的叛逆——对当下的礼赞。",
-          "grammar": "介词短语 In a world obsessed with efficiency 作地点状语，其中 obsessed with efficiency 是过去分词短语修饰 a world。主句主语 the tea ceremony，谓语 offered，宾语 a quiet rebellion，破折号后 a celebration of the moment 作同位语，补充说明 rebellion 的内容。"
+          "en": "By embracing a custom so different from my own, I did not abandon my identity but enriched it.",
+          "zh": "通过接受一种与自己截然不同的习俗，我没有放弃自己的身份，而是丰富了它。",
+          "grammar": "'By embracing...' 是介词短语作方式状语；'so different from my own' 是形容词短语后置修饰 'custom'；'not... but...' 结构表示“不是……而是……”。"
         }
-      ]
+      ],
+      "chunks": [
+        {
+          "en": "This experience reshaped my understanding of communication.",
+          "zh": "这次经历重塑了我对交流的理解"
+        },
+        {
+          "en": "I realized that words are only one layer of meaning; the body speaks its own ancient tongue.",
+          "zh": "我意识到语言只是意义的一层；身体说着自己古老的言语"
+        },
+        {
+          "en": "Travel forces us to confront these differences and adapt.",
+          "zh": "旅行迫使我们面对这些差异并适应"
+        },
+        {
+          "en": "By embracing a custom so different from my own,",
+          "zh": "通过接受一种与自己截然不同的习俗"
+        },
+        {
+          "en": "I did not abandon my identity but enriched it.",
+          "zh": "我没有放弃自己的身份，而是丰富了它"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "介词短语作状语",
+            "explanation": "'By embracing a custom...' 是介词短语，表示方式，说明主句动作“丰富身份”的方式。",
+            "example_sentence": "By embracing a custom so different from my own, I did not abandon my identity but enriched it."
+          },
+          {
+            "structure": "not... but... 并列结构",
+            "explanation": "'not... but...' 连接两个谓语，形成对比，强调后者。",
+            "example_sentence": "I did not abandon my identity but enriched it."
+          }
+        ]
+      }
     }
   ]
 }
