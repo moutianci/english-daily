@@ -267,6 +267,116 @@ body {
 
 .vocab-popup.show { display: block; }
 
+
+/* Settings button */
+.settings-btn {
+  background: none;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--text);
+  transition: background 0.2s;
+}
+.settings-btn:hover { background: var(--highlight-bg); }
+
+/* Settings modal */
+.settings-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 28px 24px;
+  width: 340px;
+  max-width: 92vw;
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.settings-modal.show { display: block; }
+.settings-modal h3 {
+  margin: 0 0 18px;
+  font-size: 17px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.settings-modal label {
+  display: block;
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.settings-modal input,
+.settings-modal select {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+.settings-modal .row { display: flex; gap: 10px; align-items: center; }
+.settings-modal .row input { margin-bottom: 0; flex: 1; }
+.settings-modal .row button {
+  padding: 9px 14px;
+  background: var(--highlight);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.settings-modal .hint {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: -12px;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.settings-modal .hint a { color: var(--highlight); }
+.settings-modal .status {
+  font-size: 12px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  display: none;
+}
+.settings-modal .status.ok { display: block; background: #1a3a1a; color: #6fcf97; }
+.settings-modal .status.err { display: block; background: #3a1a1a; color: #eb5757; }
+.settings-modal .actions { display: flex; gap: 10px; margin-top: 4px; }
+.settings-modal .btn-save {
+  flex: 1;
+  padding: 10px;
+  background: var(--highlight);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.settings-modal .btn-cancel {
+  flex: 1;
+  padding: 10px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
 .vocab-overlay {
   display: none;
   position: fixed;
@@ -498,12 +608,45 @@ input, textarea, select {
       <button class="date-picker-btn" onclick="toggleDatePicker()" id="pickerBtn">📅 选择日期</button>
       <div class="date-picker-dropdown" id="pickerDropdown"></div>
     </div>
+    <button class="settings-btn" onclick="openSettings()" id="settingsBtn" title="朗读设置">⚙️</button>
   </div>
 
   <div id="content"></div>
   <div class="nav">
     <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">← 上一篇</button>
     <button class="nav-btn" id="nextBtn" onclick="navigate(1)">下一篇 →</button>
+  </div>
+</div>
+
+
+<div class="vocab-overlay" id="settingsOverlay" onclick="closeSettings()"></div>
+<div class="settings-modal" id="settingsModal">
+  <h3>🎙️ 朗读设置</h3>
+
+  <label>ElevenLabs API Key</label>
+  <div class="row">
+    <input type="password" id="elKeyInput" placeholder="xi-..." autocomplete="off" />
+    <button onclick="testElevenLabs()">测试</button>
+  </div>
+  <div class="hint">
+    免费额度：每月 10,000 字符 ·
+    <a href="https://elevenlabs.io" target="_blank">获取 API Key →</a>
+    （仅填 Key 不填 Voice ID 则使用默认音色）
+  </div>
+  <div class="status" id="elStatus"></div>
+
+  <label>Voice ID（留空使用默认）</label>
+  <input type="text" id="elVoiceInput" placeholder="Rachel (21m00Tcm4TlvDq8ikWAM)" />
+
+  <label>朗读引擎</label>
+  <select id="ttsEngineSelect">
+    <option value="elevenlabs">🤖 ElevenLabs AI（需 Key）</option>
+    <option value="browser">🔊 浏览器语音（免费，无需设置）</option>
+  </select>
+
+  <div class="actions">
+    <button class="btn-cancel" onclick="closeSettings()">取消</button>
+    <button class="btn-save" onclick="saveSettings()">保存</button>
   </div>
 </div>
 
@@ -1004,91 +1147,212 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ====== TTS朗读功能 ======
-// 改进: 按句子逐个朗读 + 自动选择自然语音 + 自然节奏
+// 支持 ElevenLabs AI 语音 + 浏览器原生语音两种模式
 let currentPlayIndex = -1;
-let utteranceQueue = [];
-let ttsPaused = false;
+let ttsAudio = null;          // HTMLAudioElement for ElevenLabs
+let browserQueue = [];       // Queue for browser TTS
+let browserSpeaking = false;
 
-// 按自然度优先选择语音
+// ---- Settings storage ----
+const EL_KEY = 'el_api_key';
+const EL_VOICE = 'el_voice_id';
+const TTS_ENGINE = 'tts_engine';
+
+function getTTSEngine() {
+  return localStorage.getItem(TTS_ENGINE) || 'browser';
+}
+function getELKey() {
+  return localStorage.getItem(EL_KEY) || '';
+}
+function getELVoice() {
+  return localStorage.getItem(EL_VOICE) || '';
+}
+
+function openSettings() {
+  document.getElementById('elKeyInput').value = getELKey();
+  document.getElementById('elVoiceInput').value = getELVoice();
+  document.getElementById('ttsEngineSelect').value = getTTSEngine();
+  document.getElementById('elStatus').className = 'status';
+  document.getElementById('settingsOverlay').classList.add('show');
+  document.getElementById('settingsModal').classList.add('show');
+}
+function closeSettings() {
+  document.getElementById('settingsOverlay').classList.remove('show');
+  document.getElementById('settingsModal').classList.remove('show');
+}
+function saveSettings() {
+  localStorage.setItem(EL_KEY, document.getElementById('elKeyInput').value.trim());
+  localStorage.setItem(EL_VOICE, document.getElementById('elVoiceInput').value.trim());
+  localStorage.setItem(TTS_ENGINE, document.getElementById('ttsEngineSelect').value);
+  closeSettings();
+}
+
+// Test ElevenLabs API
+async function testElevenLabs() {
+  const key = document.getElementById('elKeyInput').value.trim();
+  const voice = document.getElementById('elVoiceInput').value.trim() || 'EXAVITQu4vr4xnSDxMaL'; // Rachel default
+  const statusEl = document.getElementById('elStatus');
+  statusEl.textContent = '⏳ 测试中…';
+  statusEl.className = 'status';
+  try {
+    const resp = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}`, {
+      method: 'POST',
+      headers: {
+        'xi-api-key': key,
+        'Content-Type': 'application/json',
+        'Accept': 'audio/mpeg'
+      },
+      body: JSON.stringify({
+        text: 'Hello! This is a test of the ElevenLabs voice.',
+        model_id: 'eleven_monolingual_v1',
+        voice_settings: { stability: 0.5, similarity_boost: 0.8 }
+      })
+    });
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({}));
+      throw new Error((err.detail || resp.statusText) + ` (${resp.status})`);
+    }
+    const blob = await resp.blob();
+    const url = URL.createObjectURL(blob);
+    const audio = new Audio(url);
+    audio.onended = () => { URL.revokeObjectURL(url); };
+    audio.onerror = () => { URL.revokeObjectURL(url); };
+    audio.play();
+    statusEl.textContent = '✅ 连接成功！可以听到测试语音。';
+    statusEl.className = 'status ok';
+  } catch (e) {
+    statusEl.textContent = '❌ ' + e.message;
+    statusEl.className = 'status err';
+  }
+}
+
+// ---- Browser TTS (fallback) ----
 let naturalVoice = null;
 function pickNaturalVoice() {
   const voices = speechSynthesis.getVoices();
   if (!voices.length) return null;
-  // macOS Enhanced: Samantha, Karen, Alex, Daniel
-  // Windows Neural: Microsoft Jenny, Microsoft Aria, Microsoft Guy
-  // iOS: Samantha (enhanced Siri voice)
-  const preferred = [
-    'samantha', 'karen', 'alex', 'daniel', 'fiona',
-    'moira', 'tessa', 'veena', 'amelie', 'mariska',
-    'jenny', 'aria', 'guy', 'tony', 'zira',
-    'microsoft'
-  ];
+  const preferred = ['samantha','karen','alex','daniel','fiona','moira','tessa','veena','jenny','aria','guy','tony','zira'];
   for (const name of preferred) {
-    const v = voices.find(v =>
-      v.lang.startsWith('en') &&
-      v.name.toLowerCase().includes(name)
-    );
+    const v = voices.find(v => v.lang.startsWith('en') && v.name.toLowerCase().includes(name));
     if (v) return v;
   }
-  return voices.find(v => v.lang.startsWith('en-US'))
-    || voices.find(v => v.lang.startsWith('en'));
+  return voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
 }
-
-// 缓存语音列表（首次加载后固定）
 function ensureVoiceLoaded() {
   if (!naturalVoice) naturalVoice = pickNaturalVoice();
 }
-speechSynthesis.addEventListener('voiceschanged', () => {
-  if (!naturalVoice) naturalVoice = pickNaturalVoice();
-});
-// 立即加载一次
+speechSynthesis.addEventListener('voiceschanged', () => { if (!naturalVoice) naturalVoice = pickNaturalVoice(); });
 setTimeout(ensureVoiceLoaded, 100);
 speechSynthesis.getVoices();
 
-// 将段落拆成句子（按 . ! ? 结尾分割）
 function splitSentences(text) {
-  // 保留引号内的缩写不变（如 "U.S." "A.I."）
   const parts = text.match(/[^.!?]+(?:[.!?]+|$)/g);
-  return parts
-    ? parts.map(s => s.replace(/^\s+|\s+$/g, '')).filter(s => s.length > 0)
-    : [text.trim()];
+  return parts ? parts.map(s => s.trim()).filter(s => s.length > 0) : [text.trim()];
 }
 
-// 推进队列播放下一个句子
-function speakNext() {
-  if (utteranceQueue.length === 0 || ttsPaused) {
-    if (utteranceQueue.length === 0) {
-      resetPlayBtn(currentPlayIndex);
-      currentPlayIndex = -1;
-    }
-    return;
-  }
-  const item = utteranceQueue.shift();
-  const utter = new SpeechSynthesisUtterance(item.text);
+function speakBrowserNext() {
+  if (browserQueue.length === 0) { browserSpeaking = false; resetPlayBtn(currentPlayIndex); currentPlayIndex = -1; return; }
+  browserSpeaking = true;
+  const text = browserQueue.shift();
+  const utter = new SpeechSynthesisUtterance(text);
   utter.lang = 'en-US';
   utter.rate = 0.85;
-  utter.pitch = 1;
   if (naturalVoice) utter.voice = naturalVoice;
-  // 句间停顿 ~250ms 更自然
-  utter.onend = () => setTimeout(speakNext, 180);
-  utter.onerror = () => setTimeout(speakNext, 100);
+  utter.onend = () => setTimeout(speakBrowserNext, 180);
+  utter.onerror = () => setTimeout(speakBrowserNext, 100);
   speechSynthesis.speak(utter);
 }
 
+// ---- ElevenLabs TTS ----
+let elAbortController = null;
+
+async function playElevenLabs(text, index) {
+  const key = getELKey();
+  const voice = getELVoice() || 'EXAVITQu4vr4xnSDxMaL';
+  if (!key) { playBrowserFallback(text, index); return; }
+
+  // Stop previous
+  if (ttsAudio) { ttsAudio.pause(); ttsAudio.src = ''; ttsAudio = null; }
+  if (elAbortController) elAbortController.abort();
+  elAbortController = new AbortController();
+
+  try {
+    const resp = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}`, {
+      method: 'POST',
+      headers: {
+        'xi-api-key': key,
+        'Content-Type': 'application/json',
+        'Accept': 'audio/mpeg'
+      },
+      body: JSON.stringify({
+        text: text,
+        model_id: 'eleven_monolingual_v1',
+        voice_settings: { stability: 0.5, similarity_boost: 0.8 }
+      }),
+      signal: elAbortController.signal
+    });
+    if (!resp.ok) {
+      // Fall back to browser TTS on API error
+      if (resp.status === 401 || resp.status === 403) {
+        alert('ElevenLabs API Key 无效，请检查设置。');
+      } else {
+        playBrowserFallback(text, index);
+      }
+      return;
+    }
+    const blob = await resp.blob();
+    const url = URL.createObjectURL(blob);
+    ttsAudio = new Audio(url);
+    ttsAudio.onended = () => {
+      URL.revokeObjectURL(url);
+      resetPlayBtn(index);
+      currentPlayIndex = -1;
+    };
+    ttsAudio.onerror = () => {
+      URL.revokeObjectURL(url);
+      resetPlayBtn(index);
+      currentPlayIndex = -1;
+    };
+    ttsAudio.play();
+  } catch (e) {
+    if (e.name !== 'AbortError') {
+      resetPlayBtn(index);
+      currentPlayIndex = -1;
+    }
+  }
+}
+
+function playBrowserFallback(text, index) {
+  ensureVoiceLoaded();
+  browserQueue = splitSentences(text);
+  speakBrowserNext();
+}
+
+// ---- Main playParagraph ----
 function playParagraph(index) {
-  // 如果在朗读同一段，切换为停止
-  if (currentPlayIndex === index && speechSynthesis.speaking) {
-    speechSynthesis.cancel();
-    utteranceQueue = [];
-    ttsPaused = false;
+  // Stop: same paragraph or different engine
+  if (currentPlayIndex === index && ttsAudio && !ttsAudio.paused) {
+    ttsAudio.pause(); ttsAudio.src = '';
+    ttsAudio = null;
+    if (elAbortController) { elAbortController.abort(); elAbortController = null; }
     resetPlayBtn(index);
     currentPlayIndex = -1;
     return;
   }
-  // 停止任何正在播放的
+  if (currentPlayIndex === index && browserSpeaking) {
+    speechSynthesis.cancel();
+    browserQueue = [];
+    browserSpeaking = false;
+    resetPlayBtn(index);
+    currentPlayIndex = -1;
+    return;
+  }
+  // Stop whatever was playing
+  if (ttsAudio) { ttsAudio.pause(); ttsAudio.src = ''; ttsAudio = null; }
+  if (elAbortController) { elAbortController.abort(); elAbortController = null; }
   speechSynthesis.cancel();
-  utteranceQueue = [];
-  ttsPaused = false;
+  browserQueue = [];
+  browserSpeaking = false;
   if (currentPlayIndex >= 0) resetPlayBtn(currentPlayIndex);
 
   const p = currentArticle?.paragraphs?.[index];
@@ -1100,13 +1364,14 @@ function playParagraph(index) {
   btn.textContent = '⏹ 停止';
   currentPlayIndex = index;
 
-  // 确保语音已加载
-  ensureVoiceLoaded();
-
-  // 拆句后入队
-  const sentences = splitSentences(p.en);
-  utteranceQueue = sentences.map(text => ({ text }));
-  speakNext();
+  const engine = getTTSEngine();
+  if (engine === 'elevenlabs' && getELKey()) {
+    playElevenLabs(p.en, index);
+  } else {
+    ensureVoiceLoaded();
+    browserQueue = splitSentences(p.en);
+    speakBrowserNext();
+  }
 }
 
 function resetPlayBtn(index) {
