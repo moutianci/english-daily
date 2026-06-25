@@ -1,0 +1,157 @@
+{
+  "date": "2026-06-25",
+  "source": "The Economist",
+  "title": "Weathering the Storm: Renewables Under Siege",
+  "titleZh": "风暴中的坚守：可再生能源面临考验",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "The conundrum confronting the renewable energy sector is stark: climate change is both the rationale for its expansion and the source of its most formidable operational hurdles. Extreme weather events—intensified by global warming—are now precipitating frequent disruptions to solar and wind generation. Whereas these sources were once celebrated for their low marginal costs, their growing intermittency now exacts a heavy toll on grid stability. The sector must therefore pivot from mere capacity addition to enhancing resilience against nature's mounting onslaught.",
+      "zh": "可再生能源行业面临的困境十分明显：气候变化既是其扩张的理由，也是其最严峻运营挑战的根源。由全球变暖加剧的极端天气事件，如今正频繁导致太阳能和风力发电中断。尽管这些能源曾因低边际成本而备受赞誉，但它们日益加剧的间歇性正对电网稳定性造成严重影响。因此，该行业必须从单纯增加产能转向增强抵御自然肆虐的能力。",
+      "vocabulary": [
+        {
+          "word": "conundrum",
+          "phonetic": "/kəˈnʌndrəm/",
+          "meaning": "n. 难题；谜团",
+          "example": "The conundrum of energy security versus environmental sustainability perplexes policymakers."
+        },
+        {
+          "word": "precipitate",
+          "phonetic": "/prɪˈsɪpɪteɪt/",
+          "meaning": "v. 促使；使突然发生",
+          "example": "The sudden shift in policy precipitated a crisis in the energy market."
+        },
+        {
+          "word": "intermittency",
+          "phonetic": "/ˌɪntərˈmɪtənsi/",
+          "meaning": "n. 间歇性；断断续续",
+          "example": "The intermittency of solar power requires sophisticated storage solutions."
+        },
+        {
+          "word": "onslaught",
+          "phonetic": "/ˈɑːnslɔːt/",
+          "meaning": "n. 猛攻；冲击",
+          "example": "The coastal city prepared for the onslaught of an approaching hurricane."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Whereas these sources were once celebrated for their low marginal costs, their growing intermittency now exacts a heavy toll on grid stability.",
+          "zh": "尽管这些能源曾因低边际成本而备受赞誉，但它们日益加剧的间歇性正对电网稳定性造成严重影响。",
+          "grammar": "复合句，'Whereas'引导对比状语从句，主句为'their growing intermittency... exacts a heavy toll'，'exacts a heavy toll on'是固定搭配，意为'造成严重影响'。"
+        }
+      ]
+    },
+    {
+      "en": "Recent calamities illustrate the vulnerability of clean-energy infrastructure. In Texas, a winter storm froze wind turbines, slashing output by 70%. In the Midwest, hailstones the size of baseballs shattered solar panels, costing utilities billions. Such episodes underscore the folly of treating renewables as monolithic solutions. A diversified portfolio—solar, wind, geothermal, and green hydrogen—coupled with grid-scale storage and microgrids, is imperative. The era of assuming that renewable power is inherently invulnerable has resoundingly ended.",
+      "zh": "近期的灾难凸显了清洁能源基础设施的脆弱性。在得克萨斯州，一场冬季暴风雪冻结了风力涡轮机，导致发电量骤降70%。在中西部，棒球大小的冰雹击碎了太阳能电池板，造成公用事业公司数十亿美元的损失。此类事件凸显了将可再生能源视为单一解决方案的愚蠢。必须建立多元化的组合——太阳能、风能、地热能和绿色氢能——并辅以电网级储能和微电网。那种认为可再生电力天然无懈可击的时代已经彻底终结。",
+      "vocabulary": [
+        {
+          "word": "calamities",
+          "phonetic": "/kəˈlæmətiːz/",
+          "meaning": "n. 灾难；祸患",
+          "example": "The region has suffered a series of natural calamities over the past decade."
+        },
+        {
+          "word": "underscore",
+          "phonetic": "/ˌʌndərˈskɔːr/",
+          "meaning": "v. 强调；突出",
+          "example": "The report underscores the need for immediate climate action."
+        },
+        {
+          "word": "folly",
+          "phonetic": "/ˈfɑːli/",
+          "meaning": "n. 愚蠢；荒唐事",
+          "example": "It would be folly to ignore the warnings of climate scientists."
+        },
+        {
+          "word": "imperative",
+          "phonetic": "/ɪmˈperətɪv/",
+          "meaning": "adj. 必要的；紧急的",
+          "example": "It is imperative that we diversify our energy sources."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "A diversified portfolio—solar, wind, geothermal, and green hydrogen—coupled with grid-scale storage and microgrids, is imperative.",
+          "zh": "必须建立多元化的组合——太阳能、风能、地热能和绿色氢能——并辅以电网级储能和微电网。",
+          "grammar": "主系表结构，主语'A diversified portfolio'后接破折号插入语补充说明，过去分词短语'coupled with...'作定语修饰主语，谓语为'is imperative'。"
+        }
+      ]
+    },
+    {
+      "en": "Governments are belatedly recalibrating policies. The European Union's latest plan mandates that new solar installations incorporate hail-resistant coatings and tilt mechanisms. China is subsidising pumped-hydro storage to balance grid fluctuations. In America, the Department of Energy has launched a $5 billion initiative to modernize transmission lines and embed predictive analytics for extreme-weather forecasting. These measures aim to transform renewables from fair-weather friends into resilient pillars of the energy system, capable of withstanding climate vagaries.",
+      "zh": "各国政府正在姗姗来迟地调整政策。欧盟的最新计划强制要求新的太阳能装置采用防雹涂层和倾斜机构。中国正在补贴抽水蓄能以平衡电网波动。美国能源部启动了一项50亿美元的倡议，用以升级输电线路并嵌入极端天气预测分析。这些措施旨在将可再生能源从“晴天朋友”转变为能源系统中能够抵御气候变化的韧性支柱。",
+      "vocabulary": [
+        {
+          "word": "belatedly",
+          "phonetic": "/bɪˈleɪtɪdli/",
+          "meaning": "adv. 延迟地；来得晚地",
+          "example": "The government belatedly acknowledged the severity of the drought."
+        },
+        {
+          "word": "mandate",
+          "phonetic": "/ˈmændeɪt/",
+          "meaning": "v. 强制规定；授权",
+          "example": "New regulations mandate that all buildings install solar panels."
+        },
+        {
+          "word": "subsidise",
+          "phonetic": "/ˈsʌbsɪdaɪz/",
+          "meaning": "v. 补贴；资助",
+          "example": "The government subsidises electric vehicle purchases to reduce emissions."
+        },
+        {
+          "word": "vagaries",
+          "phonetic": "/ˈveɪɡəriːz/",
+          "meaning": "n. 变幻莫测；反复无常",
+          "example": "Farmers must adapt to the vagaries of the weather."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "These measures aim to transform renewables from fair-weather friends into resilient pillars of the energy system, capable of withstanding climate vagaries.",
+          "zh": "这些措施旨在将可再生能源从“晴天朋友”转变为能源系统中能够抵御气候变化的韧性支柱。",
+          "grammar": "简单句，谓语'aim to transform... from... into...'，后接形容词短语'capable of...'作定语修饰'pillars'。'fair-weather friends'是比喻用法，指只在有利条件下可靠的朋友。"
+        }
+      ]
+    },
+    {
+      "en": "Despite the challenges, innovation offers a silver lining. Advances in perovskite solar cells promise higher efficiency even in cloudy conditions. Solid-state batteries are on the cusp of providing cheaper, longer-duration storage. Meanwhile, artificial intelligence optimises grid management, predicting faults before they occur. The transition will be arduous—but the fusion of human ingenuity with policy resolve can turn adversity into opportunity. The renewable sector is learning to fight fire with fire, or rather, storm with storage.",
+      "zh": "尽管挑战重重，创新仍带来一线希望。钙钛矿太阳能电池的进步有望在阴天也能实现更高效率。固态电池即将提供更便宜、更长时长的储能。同时，人工智能优化电网管理，在故障发生前进行预测。转型之路将十分艰巨——但人类智慧与政策决心的结合能够将逆境转化为机遇。可再生能源行业正在学会以毒攻毒，更确切地说，是以储能对抗风暴。",
+      "vocabulary": [
+        {
+          "word": "silver lining",
+          "phonetic": "/ˈsɪlvər ˈlaɪnɪŋ/",
+          "meaning": "n. 一线希望；光明前景",
+          "example": "Every cloud has a silver lining, and the energy crisis spurred green investments."
+        },
+        {
+          "word": "cusp",
+          "phonetic": "/kʌsp/",
+          "meaning": "n. 尖端；转折点",
+          "example": "The technology is on the cusp of commercial viability."
+        },
+        {
+          "word": "arduous",
+          "phonetic": "/ˈɑːrdʒuəs/",
+          "meaning": "adj. 艰巨的；费力的",
+          "example": "The arduous journey to net-zero emissions will require decades of effort."
+        },
+        {
+          "word": "ingenuity",
+          "phonetic": "/ˌɪndʒəˈnuːəti/",
+          "meaning": "n. 独创性；聪明才智",
+          "example": "Human ingenuity has always found ways to overcome resource constraints."
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The transition will be arduous—but the fusion of human ingenuity with policy resolve can turn adversity into opportunity.",
+          "zh": "转型之路将十分艰巨——但人类智慧与政策决心的结合能够将逆境转化为机遇。",
+          "grammar": "并列句，由破折号和'but'连接。前半句主系表，后半句主语为'the fusion...'，谓语'can turn... into...'。'adversity'与'opportunity'形成对比。"
+        }
+      ]
+    }
+  ]
+}
