@@ -18,7 +18,29 @@ if (!OPENAI_KEY && !GEMINI_KEY && !DOUBAO_KEY && !DEEPSEEK_KEY) {
   process.exit(1);
 }
 
-const TODAY = new Date().toISOString().slice(0, 10);
+// 从文本中提取完整的 JSON 对象（正确处理嵌套大括号）
+function extractJSON(text) {
+  const start = text.indexOf('{');
+  if (start === -1) throw new Error('No JSON object found in response');
+  let depth = 0;
+  let inString = false;
+  let escapeNext = false;
+  for (let i = start; i < text.length; i++) {
+    const c = text[i];
+    if (escapeNext) { escapeNext = false; continue; }
+    if (c === '\\') { escapeNext = true; continue; }
+    if (c === '"' && !escapeNext) { inString = !inString; continue; }
+    if (!inString) {
+      if (c === '{') depth++;
+      if (c === '}') { depth--; if (depth === 0) return text.slice(start, i + 1); }
+    }
+  }
+  throw new Error('Incomplete JSON object (unmatched braces)');
+}
+
+// 使用北京时间 (UTC+8)，与 cron 触发时间一致
+const beijingMs = Date.now() + 8 * 3600 * 1000;
+const TODAY = new Date(beijingMs).toISOString().slice(0, 10);
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const DATES_FILE = path.join(__dirname, '..', 'dates.json');
 
@@ -59,6 +81,7 @@ Output the complete JSON object with this exact structure:
   "date": "${TODAY}",
   "source": "The Economist",
   "title": "Your article title here",
+  "titleZh": "Your Chinese article title here",
   "url": "",
   "paragraphs": [
     {
@@ -113,9 +136,7 @@ function callOpenAI() {
         try {
           const d = JSON.parse(responseData);
           let content = d.choices[0].message.content.trim();
-          const jsonMatch = content.match(/\{[\s\S]*\}/);
-          if (jsonMatch) content = jsonMatch[0];
-          content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+          content = extractJSON(content);
           resolve(JSON.parse(content));
         } catch (err) {
           reject(new Error(`Parse error: ${err.message}`));
@@ -160,9 +181,7 @@ function callGemini() {
         try {
           const d = JSON.parse(responseData);
           let content = d.candidates[0].content.parts[0].text.trim();
-          const jsonMatch = content.match(/\{[\s\S]*\}/);
-          if (jsonMatch) content = jsonMatch[0];
-          content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+          content = extractJSON(content);
           resolve(JSON.parse(content));
         } catch (err) {
           reject(new Error(`Parse error: ${err.message}`));
@@ -214,9 +233,7 @@ function callDeepSeek() {
         try {
           const d = JSON.parse(responseData);
           let content = d.choices[0].message.content.trim();
-          const jsonMatch = content.match(/\{[\s\S]*\}/);
-          if (jsonMatch) content = jsonMatch[0];
-          content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+          content = extractJSON(content);
           resolve(JSON.parse(content));
         } catch (err) {
           reject(new Error(`Parse error: ${err.message}`));
@@ -268,9 +285,7 @@ function callDoubao() {
         try {
           const d = JSON.parse(responseData);
           let content = d.choices[0].message.content.trim();
-          const jsonMatch = content.match(/\{[\s\S]*\}/);
-          if (jsonMatch) content = jsonMatch[0];
-          content = content.replace(/^```json?\s*/i, '').replace(/\s*```$/i, '').trim();
+          content = extractJSON(content);
           resolve(JSON.parse(content));
         } catch (err) {
           reject(new Error(`Parse error: ${err.message}`));
@@ -358,7 +373,22 @@ async function main() {
       dates = JSON.parse(fs.readFileSync(DATES_FILE, 'utf-8'));
     }
     if (!dates[TODAY]) dates[TODAY] = [];
-    if (!dates[TODAY].includes(TODAY)) dates[TODAY].push(TODAY);
+    // 新格式：对象数组（支持同日多篇）
+    const entry = { id: articleId, title: article.title, titleZh: article.titleZh || '' };
+    const exists = dates[TODAY].some(e =>
+      (typeof e === 'object' ? e.id : e) === articleId
+    );
+    if (!exists) dates[TODAY].push(entry);
+    // 兼容旧格式（纯字符串数组）
+    if (typeof dates[TODAY][0] === 'string') {
+      dates[TODAY] = dates[TODAY].map(id => ({ id, title: id, titleZh: '' }));
+    }
+    // 补全 titleZh
+    dates[TODAY] = dates[TODAY].map(e => ({
+      id: typeof e === 'object' ? e.id : e,
+      title: typeof e === 'object' ? (e.title || e.id) : e,
+      titleZh: typeof e === 'object' ? (e.titleZh || '') : ''
+    }));
     const sorted = {};
     Object.keys(dates).sort().reverse().forEach(k => sorted[k] = dates[k]);
     fs.writeFileSync(DATES_FILE, JSON.stringify(sorted, null, 2), 'utf-8');
