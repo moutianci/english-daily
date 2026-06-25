@@ -1004,55 +1004,115 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ====== TTS朗读功能 ======
-let currentUtterance = null;
+// 改进: 按句子逐个朗读 + 自动选择自然语音 + 自然节奏
 let currentPlayIndex = -1;
+let utteranceQueue = [];
+let ttsPaused = false;
+
+// 按自然度优先选择语音
+let naturalVoice = null;
+function pickNaturalVoice() {
+  const voices = speechSynthesis.getVoices();
+  if (!voices.length) return null;
+  // macOS Enhanced: Samantha, Karen, Alex, Daniel
+  // Windows Neural: Microsoft Jenny, Microsoft Aria, Microsoft Guy
+  // iOS: Samantha (enhanced Siri voice)
+  const preferred = [
+    'samantha', 'karen', 'alex', 'daniel', 'fiona',
+    'moira', 'tessa', 'veena', 'amelie', 'mariska',
+    'jenny', 'aria', 'guy', 'tony', 'zira',
+    'microsoft'
+  ];
+  for (const name of preferred) {
+    const v = voices.find(v =>
+      v.lang.startsWith('en') &&
+      v.name.toLowerCase().includes(name)
+    );
+    if (v) return v;
+  }
+  return voices.find(v => v.lang.startsWith('en-US'))
+    || voices.find(v => v.lang.startsWith('en'));
+}
+
+// 缓存语音列表（首次加载后固定）
+function ensureVoiceLoaded() {
+  if (!naturalVoice) naturalVoice = pickNaturalVoice();
+}
+speechSynthesis.addEventListener('voiceschanged', () => {
+  if (!naturalVoice) naturalVoice = pickNaturalVoice();
+});
+// 立即加载一次
+setTimeout(ensureVoiceLoaded, 100);
+speechSynthesis.getVoices();
+
+// 将段落拆成句子（按 . ! ? 结尾分割）
+function splitSentences(text) {
+  // 保留引号内的缩写不变（如 "U.S." "A.I."）
+  const parts = text.match(/[^.!?]+(?:[.!?]+|$)/g);
+  return parts
+    ? parts.map(s => s.replace(/^\s+|\s+$/g, '')).filter(s => s.length > 0)
+    : [text.trim()];
+}
+
+// 推进队列播放下一个句子
+function speakNext() {
+  if (utteranceQueue.length === 0 || ttsPaused) {
+    if (utteranceQueue.length === 0) {
+      resetPlayBtn(currentPlayIndex);
+      currentPlayIndex = -1;
+    }
+    return;
+  }
+  const item = utteranceQueue.shift();
+  const utter = new SpeechSynthesisUtterance(item.text);
+  utter.lang = 'en-US';
+  utter.rate = 0.85;
+  utter.pitch = 1;
+  if (naturalVoice) utter.voice = naturalVoice;
+  // 句间停顿 ~250ms 更自然
+  utter.onend = () => setTimeout(speakNext, 180);
+  utter.onerror = () => setTimeout(speakNext, 100);
+  speechSynthesis.speak(utter);
+}
 
 function playParagraph(index) {
-  // 如果正在播放同一段，停止
+  // 如果在朗读同一段，切换为停止
   if (currentPlayIndex === index && speechSynthesis.speaking) {
     speechSynthesis.cancel();
+    utteranceQueue = [];
+    ttsPaused = false;
     resetPlayBtn(index);
     currentPlayIndex = -1;
     return;
   }
-  // 停止之前播放
+  // 停止任何正在播放的
   speechSynthesis.cancel();
+  utteranceQueue = [];
+  ttsPaused = false;
   if (currentPlayIndex >= 0) resetPlayBtn(currentPlayIndex);
 
   const p = currentArticle?.paragraphs?.[index];
   if (!p) return;
 
   const btn = document.getElementById(`play-${index}`);
+  if (!btn) return;
   btn.classList.add('playing');
   btn.textContent = '⏹ 停止';
   currentPlayIndex = index;
 
-  const utter = new SpeechSynthesisUtterance(p.en);
-  utter.lang = 'en-US';
-  utter.rate = 0.9;
-  utter.pitch = 1;
-  // 尝试选择美式英语语音
-  const voices = speechSynthesis.getVoices();
-  const usVoice = voices.find(v => v.lang.startsWith('en-US') && /female/i.test(v.name))
-    || voices.find(v => v.lang.startsWith('en-US'))
-    || voices.find(v => v.lang.startsWith('en'));
-  if (usVoice) utter.voice = usVoice;
+  // 确保语音已加载
+  ensureVoiceLoaded();
 
-  utter.onend = () => { resetPlayBtn(index); currentPlayIndex = -1; };
-  utter.onerror = () => { resetPlayBtn(index); currentPlayIndex = -1; };
-
-  currentUtterance = utter;
-  speechSynthesis.speak(utter);
+  // 拆句后入队
+  const sentences = splitSentences(p.en);
+  utteranceQueue = sentences.map(text => ({ text }));
+  speakNext();
 }
 
 function resetPlayBtn(index) {
   const btn = document.getElementById(`play-${index}`);
   if (btn) { btn.classList.remove('playing'); btn.textContent = '🔊 朗读'; }
 }
-
-// 预加载语音列表（iOS需要）
-speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
-speechSynthesis.getVoices();
 
 init();
 </script>
