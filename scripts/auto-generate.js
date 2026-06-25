@@ -44,33 +44,39 @@ const TODAY = new Date(beijingMs).toISOString().slice(0, 10);
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const DATES_FILE = path.join(__dirname, '..', 'dates.json');
 
-// 随机话题
+// 随机话题（新概念英语 3-4 册风格）
 const TOPICS = [
-  { theme: 'Economics & Finance', prompt: 'global trade, inflation, digital currency, or supply chains' },
-  { theme: 'Technology & AI', prompt: 'artificial intelligence, social media, quantum computing, or cybersecurity' },
-  { theme: 'Health & Medicine', prompt: 'sleep, nutrition, mental health, longevity, or pandemic preparedness' },
-  { theme: 'Environment & Climate', prompt: 'renewable energy, biodiversity, extreme weather, or sustainable cities' },
-  { theme: 'Society & Culture', prompt: 'remote work, education reform, urbanization, or demographic shifts' },
-  { theme: 'Science & Space', prompt: 'space exploration, neuroscience, genetic engineering, or physics breakthroughs' },
-  { theme: 'Sports & Entertainment', prompt: 'sports business, streaming media, gaming industry, or cultural trends' },
+  { theme: 'Life & Experience', prompt: 'daily life stories, personal reflections, or interesting experiences' },
+  { theme: 'Nature & Animals', prompt: 'wildlife, natural scenery, pets, or ecological stories' },
+  { theme: 'Work & Career', prompt: 'jobs, professions, workplace stories, or career advice' },
+  { theme: 'Travel & Culture', prompt: 'travel experiences, cultural differences, customs, or famous landmarks' },
+  { theme: 'Science & Discovery', prompt: 'scientific discoveries, inventions, space exploration, or curious facts' },
+  { theme: 'History & Society', prompt: 'historical events, social phenomena, cultural heritage, or famous figures' },
+  { theme: 'Health & Lifestyle', prompt: 'healthy living, habits, diet, exercise, or mental well-being' },
 ];
 
 const dayIndex = parseInt(TODAY.slice(-2), 10) + parseInt(TODAY.slice(5, 7), 10);
 const topic = TOPICS[dayIndex % TOPICS.length];
 
-const SYSTEM_PROMPT = `You are a journalist for The Economist. Write an English article for English learners.
+const SYSTEM_PROMPT = `You are an English teacher writing for Chinese learners. Write in the style of New Concept English Book 3 or 4 — clear, elegant, and slightly literary prose.
 
 Requirements:
-1. Write 4 paragraphs, each 60-100 words
-2. Use sophisticated but accessible vocabulary (GRE/CET-6 level)
-3. Style: analytical, concise, with varied sentence structures
-4. Topic: ${topic.theme} — focus on ${topic.prompt}
+1. Write 4 paragraphs, each 60-100 words. Each paragraph tells a coherent part of the story.
+2. Language level: intermediate-to-advanced, similar to NCE Book 3-4 (precise word choices, vivid expressions)
+3. Topic: ${topic.theme} — ${topic.prompt}
 
 For EACH paragraph, provide:
 - "en": the English paragraph text
 - "zh": accurate, natural Chinese translation
-- "vocabulary": 4 key words, each with "word", "phonetic" (IPA), "meaning" (English abbreviation + Chinese), "example" (an example sentence)
-- "difficult_sentences": 1 difficult sentence, each with "en", "zh" (explanation), "grammar" (analysis)
+- "vocabulary": 4 key words from this paragraph, each with:
+  - "word": the English word
+  - "phonetic": IPA pronunciation (e.g. /ɪɡˈzɑːmpl/)
+  - "meaning": part of speech abbreviation + Chinese meaning (e.g. "n. 例子；榜样")
+  - "example": an example sentence using the word
+- "difficult_sentences": 1 complex sentence from this paragraph, each with:
+  - "en": the sentence text
+  - "zh": Chinese translation
+  - "grammar": grammar structure analysis
 
 IMPORTANT: Output ONLY valid JSON. No markdown, no code blocks, no explanation outside JSON.`;
 
