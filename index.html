@@ -310,6 +310,71 @@ body {
   line-height: 1.6;
 }
 
+.vocab-popup .vocab-derivatives {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #ecfdf5;
+  border-left: 3px solid #10b981;
+  border-radius: 0 6px 6px 0;
+  font-size: 14px;
+  color: #065f46;
+  line-height: 1.6;
+}
+.vocab-popup .vocab-derivatives code {
+  background: transparent;
+  color: #065f46;
+  font-size: 14px;
+}
+
+.chunk-fn {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #fde68a;
+  color: #92400e;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 4px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.ds-pattern {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: #ede9fe;
+  border-left: 2px solid #8b5cf6;
+  border-radius: 0 4px 4px 0;
+  font-size: 13px;
+  color: #5b21b6;
+}
+.ds-pattern code, .ds-note code {
+  background: rgba(0,0,0,0.05);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: 'SF Mono', Monaco, monospace;
+}
+
+.ds-note {
+  margin-top: 4px;
+  padding: 6px 10px;
+  background: #fef3c7;
+  border-left: 2px solid #f59e0b;
+  border-radius: 0 4px 4px 0;
+  font-size: 13px;
+  color: #78350f;
+  line-height: 1.6;
+}
+
+.ga-mistake code { color: #dc2626; background: #fee2e2; }
+.ga-contrast { color: #1e40af; background: #dbeafe; border-left-color: #3b82f6; }
+
+@media (max-width: 480px) {
+  .chunk-fn { font-size: 10px; padding: 1px 6px; }
+  .ds-pattern, .ds-note { font-size: 12px; }
+}
+
 .vocab-popup .example {
   font-size: 15px;
   color: #4b5563;
@@ -720,10 +785,11 @@ function renderArticle(article) {
     if (p.chunks && p.chunks.length) {
       html += `<div class="chunks-section"><div class="chunks-toggle" onclick="toggleChunks(${i})">🔪 意群分析 (${p.chunks.length})</div>`;
       html += `<div class="chunks-content" id="chunks-${i}">`;
-      for (const c of p.chunks) {
+      for (const ck of p.chunks) {
         html += `<div class="chunk-item">
-          <span class="chunk-en">${c.en}</span>
-          <span class="chunk-zh">${c.zh}</span>
+          <span class="chunk-en">${ck.en}</span>
+          <span class="chunk-zh">${ck.zh}</span>
+          ${ck.function ? `<span class="chunk-fn">${ck.function}</span>` : ''}
         </div>`;
       }
       html += `</div></div>`;
@@ -738,6 +804,8 @@ function renderArticle(article) {
           <div class="en-sentence">${s.en}</div>
           <div class="zh-analysis">${s.zh}</div>
           <div class="grammar-point">📐 ${s.grammar}</div>
+          ${s.pattern ? `<div class="ds-pattern">🔑 句型：<code>${s.pattern}</code></div>` : ''}
+          ${s.note ? `<div class="ds-note">💡 ${s.note}</div>` : ''}
         </div>`;
       }
       html += `</div></div>`;
@@ -752,6 +820,8 @@ function renderArticle(article) {
           <div class="en-sentence">🔷 ${pt.structure}</div>
           <div class="zh-analysis">${pt.explanation}</div>
           <div class="grammar-point" style="background:var(--accent2-light)">💬 ${pt.example_sentence}</div>
+          ${pt.common_mistake ? `<div class="ds-pattern ga-mistake">⚠️ 易错：<code>${pt.common_mistake}</code></div>` : ''}
+          ${pt.contrast ? `<div class="ds-note ga-contrast">🔄 对比：${pt.contrast}</div>` : ''}
         </div>`;
       }
       html += `</div></div>`;
@@ -795,6 +865,7 @@ function showVocabDetail(v) {
     ${v.phonetic ? `<div class="phonetic">${v.phonetic}</div>` : ''}
     <div class="meaning">${v.meaning}</div>
     ${v.example ? `<div class="example">${v.example}</div>` : ''}
+    ${v.derivatives ? `<div class="vocab-derivatives">🌱 词族：<code>${v.derivatives}</code></div>` : ''}
   `;
   const popup = document.getElementById('vocabPopup');
   document.getElementById('vocabOverlay').classList.add('show');
