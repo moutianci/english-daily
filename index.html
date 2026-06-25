@@ -740,8 +740,8 @@ function renderArticle(article) {
 
     // Overall grammar analysis (语法总析)
     if (p.grammar_analysis && p.grammar_analysis.points && p.grammar_analysis.points.length) {
-      html += `<div class="grammar-section"><div class="grammar-toggle" onclick="toggleGrammar(${i})">📐 语法总析 (${p.grammar_analysis.points.length})</div>`;
-      html += `<div class="grammar-content" id="grammar-${i}" style="border-left-color:var(--accent2)">`;
+      html += `<div class="grammar-section"><div class="grammar-toggle" onclick="toggleGrammarAnalysis(${i})">📐 语法总析 (${p.grammar_analysis.points.length})</div>`;
+      html += `<div class="grammar-content" id="grammar-analysis-${i}" style="border-left-color:var(--accent2)">`;
       for (const pt of p.grammar_analysis.points) {
         html += `<div class="grammar-item">
           <div class="en-sentence">🔷 ${pt.structure}</div>
@@ -768,6 +768,11 @@ function toggleTranslation(i) {
 function toggleChunks(i) {
   const el = document.getElementById(`chunks-${i}`);
   el.style.display = el.style.display === 'flex' ? 'none' : 'flex';
+}
+
+function toggleGrammarAnalysis(i) {
+  const el = document.getElementById(`grammar-analysis-${i}`);
+  el.style.display = el.style.display === 'block' ? 'none' : 'block';
 }
 
 function toggleGrammar(i) {
