@@ -28,10 +28,18 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: node scripts/auto-generate.js
 
+      - name: Verify article was generated
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ ! -f "data/${TODAY}.json" ]; then
+            echo "::error::Article for ${TODAY} was not generated!"
+            exit 1
+          fi
+
       - name: Commit and push
         run: |
           git config user.name "daily-bot"
           git config user.email "daily-bot[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "📚 $(date +%Y-%m-%d) daily article [auto]"
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "📚 $(date +%Y-%m-%d) daily article [auto]"
           git push
