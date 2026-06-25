@@ -1,298 +1,358 @@
 {
   "date": "2026-06-25",
   "source": "The Economist",
-  "title": "The Unspoken Language of Bowing",
-  "titleZh": "鞠躬的无言之语",
+  "title": "The Timeless Charm of Kyoto",
+  "titleZh": "京都的永恒魅力",
   "url": "",
   "paragraphs": [
     {
-      "en": "My first encounter with the Japanese custom of bowing left an indelible impression. Arriving at a traditional inn in Kyoto, I was greeted by the innkeeper, who performed a deep, deliberate bow. The gesture was not merely a greeting; it was a ritual imbued with centuries of cultural meaning. I instinctively extended my hand for a handshake, only to realize my faux pas. The innkeeper smiled gently and corrected me, demonstrating the proper angle and duration. That moment taught me that even a simple salutation can be a window into an entire civilization.",
-      "zh": "我第一次遇见日本鞠躬习俗时，留下难以磨灭的印象。抵达京都一家传统旅馆时，旅馆主人向我行了一个深沉而从容的鞠躬。这个动作不仅仅是问候；它是一种充满数百年文化意义的仪式。我本能地伸出手想握手，却意识到自己的失礼。主人温和地笑着纠正我，示范了正确的角度和时长。那一刻让我明白，即使简单的问候也能成为一窥整个文明的窗口。",
+      "en": "Our first encounter with Kyoto was at dawn, when the city still slumbered beneath a veil of mist. The ancient temples, with their gracefully curved roofs, emerged like silent guardians from the fog. We walked along the Philosopher's Path, a narrow canal lined with cherry trees, whose blossoms had long since fallen. Yet the tranquillity of the scene was so profound that it felt as though time itself had paused to admire the view.",
+      "zh": "我们初遇京都时正值黎明，这座城市仍沉睡在薄雾的面纱之下。那些古寺，以其优雅的弧形屋顶，如沉默的守护者般从雾中浮现。我们沿着哲学家小径漫步，这是一条两岸种满樱树的狭窄水道，樱花早已凋谢。然而这景象的静谧如此深沉，仿佛连时间也停下脚步，来欣赏这片风光。",
       "vocabulary": [
         {
-          "word": "indelible",
-          "phonetic": "/ɪnˈdɛləbəl/",
-          "meaning": "adj. 难以磨灭的",
-          "example": "The experience left an indelible mark on my memory."
+          "word": "slumbered",
+          "phonetic": "/ˈslʌmbəd/",
+          "meaning": "v. 沉睡；安睡",
+          "example": "The entire village slumbered until the rooster crowed.",
+          "derivatives": "slumber (v./n.) → slumberous (adj.) 昏昏欲睡的 → slumberer (n.) 沉睡者"
         },
         {
-          "word": "deliberate",
-          "phonetic": "/dɪˈlɪbərət/",
-          "meaning": "adj. 从容的；故意的",
-          "example": "He gave a slow, deliberate nod to show his respect."
+          "word": "gracefully",
+          "phonetic": "/ˈɡreɪsfəli/",
+          "meaning": "adv. 优雅地；优美地",
+          "example": "The swan glided gracefully across the lake.",
+          "derivatives": "grace (n.) → graceful (adj.) → gracefully (adv.) → gracefulness (n.)"
         },
         {
-          "word": "faux pas",
-          "phonetic": "/ˌfoʊ ˈpɑː/",
-          "meaning": "n. 失礼；失态",
-          "example": "I committed a serious faux pas by not removing my shoes."
+          "word": "tranquillity",
+          "phonetic": "/træŋˈkwɪləti/",
+          "meaning": "n. 宁静；安静；平静",
+          "example": "The tranquillity of the countryside was a welcome escape from the city noise.",
+          "derivatives": "tranquil (adj.) → tranquilly (adv.) → tranquillity (n.) → tranquilize (v.) 使镇静"
         },
         {
-          "word": "salutation",
-          "phonetic": "/ˌsæljuˈteɪʃən/",
-          "meaning": "n. 问候；致意",
-          "example": "A smile is a universal salutation."
-        }
-      ],
-      "difficult_sentences": [
-        {
-          "en": "The gesture was not merely a greeting; it was a ritual imbued with centuries of cultural meaning.",
-          "zh": "这个动作不仅仅是问候；它是一种充满数百年文化意义的仪式。",
-          "grammar": "并列句，分号连接两个分句；第二个分句包含过去分词短语 'imbued with...' 作后置定语修饰 'ritual'。"
+          "word": "profound",
+          "phonetic": "/prəˈfaʊnd/",
+          "meaning": "adj. 深沉的；深刻的；意义深远的",
+          "example": "The experience had a profound effect on her worldview.",
+          "derivatives": "profound (adj.) → profoundly (adv.) → profundity (n.) 深奥"
         }
       ],
       "chunks": [
         {
-          "en": "My first encounter with the Japanese custom of bowing",
-          "zh": "我第一次遇见日本鞠躬习俗"
+          "en": "Our first encounter with Kyoto",
+          "zh": "我们与京都的初次相遇",
+          "function": "主语"
         },
         {
-          "en": "left an indelible impression",
-          "zh": "留下难以磨灭的印象"
+          "en": "was at dawn",
+          "zh": "是在黎明时分",
+          "function": "系表结构（谓语）"
         },
         {
-          "en": "Arriving at a traditional inn in Kyoto,",
-          "zh": "抵达京都一家传统旅馆时"
+          "en": "when the city still slumbered beneath a veil of mist",
+          "zh": "那时城市仍沉睡在薄雾的面纱之下",
+          "function": "定语从句修饰dawn"
         },
         {
-          "en": "I was greeted by the innkeeper, who performed a deep, deliberate bow.",
-          "zh": "旅馆主人向我行了一个深沉而从容的鞠躬"
+          "en": "The ancient temples, with their gracefully curved roofs, emerged like silent guardians from the fog",
+          "zh": "那些古寺，以其优雅的弧形屋顶，如沉默的守护者般从雾中浮现",
+          "function": "主句"
         },
         {
-          "en": "The gesture was not merely a greeting; it was a ritual imbued with centuries of cultural meaning.",
-          "zh": "这个动作不仅仅是问候；它是一种充满数百年文化意义的仪式"
+          "en": "We walked along the Philosopher's Path, a narrow canal lined with cherry trees, whose blossoms had long since fallen",
+          "zh": "我们沿着哲学家小径漫步，这是一条两岸种满樱树的狭窄水道，樱花早已凋谢",
+          "function": "主句+同位语+定语从句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Yet the tranquillity of the scene was so profound that it felt as though time itself had paused to admire the view.",
+          "zh": "然而这景象的静谧如此深沉，仿佛连时间也停下脚步，来欣赏这片风光。",
+          "grammar": "本句包含 so...that... 结果状语从句，以及 as though 引导的方式状语从句（虚拟语气）。",
+          "pattern": "so + adj. + that + 从句 (如此……以至于……) ; as though + 从句 (仿佛……，常用虚拟语气)",
+          "note": "so...that... 中that从句表示结果；as though 后常接过去完成时或一般过去时表示虚拟。"
         }
       ],
       "grammar_analysis": {
         "points": [
           {
-            "structure": "定语从句",
-            "explanation": "由 'who' 引导的非限制性定语从句，修饰 'the innkeeper'，补充说明其动作。",
-            "example_sentence": "I was greeted by the innkeeper, who performed a deep, deliberate bow."
+            "structure": "定语从句（非限制性）",
+            "explanation": "用 whose 引导非限制性定语从句，表示所属关系，修饰 cherry trees。",
+            "example_sentence": "We walked along the Philosopher's Path, a narrow canal lined with cherry trees, whose blossoms had long since fallen.",
+            "common_mistake": "❌ 误用 which 代替 whose → ✅ whose 表示“它们的（花朵）”，正确。",
+            "contrast": "限制性定语从句与非限制性定语从句的区别：非限制性从句用逗号隔开，去掉后主句意思仍完整。"
           },
           {
-            "structure": "过去分词短语作后置定语",
-            "explanation": "过去分词短语 'imbued with centuries of cultural meaning' 修饰 'ritual'，相当于一个定语从句 'which was imbued...'。",
-            "example_sentence": "it was a ritual imbued with centuries of cultural meaning."
+            "structure": "as though + 虚拟语气",
+            "explanation": "as though(仿佛)引导的从句表示与事实相反的假设，主句为过去时，从句用过去完成时。",
+            "example_sentence": "It felt as though time itself had paused to admire the view.",
+            "common_mistake": "❌ 用现在时 had paused → ✅ 虚拟语气：had paused 表示对过去的虚拟。",
+            "contrast": "as if 与 as though 同义，可互换，但 as though 稍显正式。"
           }
         ]
       }
     },
     {
-      "en": "In contrast, the Western handshake conveys a very different set of values. Originating as a gesture to show that one was unarmed, it evolved into a symbol of equality and mutual trust. A firm handshake is often interpreted as a sign of confidence, while a limp one may suggest weakness. The bow, however, emphasizes hierarchy and respect. The depth and duration of a bow correspond to social status: a deeper, longer bow denotes greater deference. These contrasting customs reveal how profoundly cultural context shapes nonverbal communication.",
-      "zh": "相比之下，西方握手传达截然不同的价值观。它源于展示未携带武器的姿态，后来演变为平等与互信的象征。有力的握手常被解读为自信的标志，而无力的握手则可能暗示软弱。而鞠躬则强调等级与尊重。鞠躬的深度和时长对应社会地位：更深、更久的鞠躬表示更大的敬意。这些对比鲜明的习俗揭示了文化背景如何深刻塑造非言语交流。",
+      "en": "Later that morning, we visited Kinkaku-ji, the Golden Pavilion, whose exterior is entirely covered in gold leaf. It stood by a mirror-like pond, surrounded by meticulously raked gravel gardens. The reflection of the pavilion in the water created a perfect symmetry that seemed almost unreal. A group of schoolchildren in uniform giggled and pointed, their delight as genuine as the shimmering gold itself.",
+      "zh": "那天上午晚些时候，我们参观了金阁寺，其外表完全覆盖着金箔。它矗立在一个镜面般的水池旁，周围是精心耙制的枯山水。金阁在水中的倒影形成了完美的对称，近乎不真实。一群身着校服的学童咯咯笑着、指指点点，他们的喜悦如同那闪烁的金色本身一样真实。",
       "vocabulary": [
         {
-          "word": "convey",
-          "phonetic": "/kənˈveɪ/",
-          "meaning": "v. 传达；表达",
-          "example": "Her words convey deep emotion."
+          "word": "exterior",
+          "phonetic": "/ɪkˈstɪriər/",
+          "meaning": "n. 外表；外部；外观",
+          "example": "The exterior of the building is modern, while the interior remains traditional.",
+          "derivatives": "exterior (n./adj.) → exteriorly (adv.) 外部地 → interior (反义词)"
         },
         {
-          "word": "unarmed",
-          "phonetic": "/ʌnˈɑːrmd/",
-          "meaning": "adj. 未携带武器的",
-          "example": "The soldiers walked unarmed into the negotiation tent."
+          "word": "meticulously",
+          "phonetic": "/mɪˈtɪkjələsli/",
+          "meaning": "adv. 细致地；一丝不苟地",
+          "example": "He meticulously checked every detail before submitting the report.",
+          "derivatives": "meticulous (adj.) → meticulously (adv.) → meticulousness (n.)"
         },
         {
-          "word": "hierarchy",
-          "phonetic": "/ˈhaɪərɑːrki/",
-          "meaning": "n. 等级制度",
-          "example": "The company has a rigid hierarchy."
+          "word": "symmetry",
+          "phonetic": "/ˈsɪmɪtri/",
+          "meaning": "n. 对称；匀称",
+          "example": "The symmetry of the ancient architecture is visually pleasing.",
+          "derivatives": "symmetrical (adj.) → symmetrically (adv.) → asymmetry (n.) 不对称"
         },
         {
-          "word": "deference",
-          "phonetic": "/ˈdɛfərəns/",
-          "meaning": "n. 敬意；遵从",
-          "example": "In deference to local customs, they removed their shoes."
-        }
-      ],
-      "difficult_sentences": [
-        {
-          "en": "Originating as a gesture to show that one was unarmed, it evolved into a symbol of equality and mutual trust.",
-          "zh": "它源于展示未携带武器的姿态，后来演变为平等与互信的象征。",
-          "grammar": "现在分词短语 'Originating as...' 作状语，表示伴随或原因；不定式 'to show' 表示目的；'that' 引导宾语从句。"
+          "word": "genuine",
+          "phonetic": "/ˈdʒenjuɪn/",
+          "meaning": "adj. 真正的；真诚的；真实的",
+          "example": "She showed genuine concern for the well-being of others.",
+          "derivatives": "genuine (adj.) → genuinely (adv.) → genuineness (n.)"
         }
       ],
       "chunks": [
         {
-          "en": "In contrast, the Western handshake conveys a very different set of values.",
-          "zh": "相比之下，西方握手传达截然不同的价值观"
+          "en": "Later that morning, we visited Kinkaku-ji, the Golden Pavilion",
+          "zh": "那天上午晚些时候，我们参观了金阁寺",
+          "function": "主句（时间状语+主语+谓语+宾语+同位语）"
         },
         {
-          "en": "Originating as a gesture to show that one was unarmed,",
-          "zh": "它源于展示未携带武器的姿态"
+          "en": "whose exterior is entirely covered in gold leaf",
+          "zh": "其外表完全覆盖着金箔",
+          "function": "定语从句修饰Kinkaku-ji"
         },
         {
-          "en": "it evolved into a symbol of equality and mutual trust.",
-          "zh": "后来演变为平等与互信的象征"
+          "en": "It stood by a mirror-like pond, surrounded by meticulously raked gravel gardens",
+          "zh": "它矗立在一个镜面般的水池旁，周围是精心耙制的枯山水",
+          "function": "主句+过去分词短语作状语"
         },
         {
-          "en": "A firm handshake is often interpreted as a sign of confidence, while a limp one may suggest weakness.",
-          "zh": "有力的握手常被解读为自信的标志，而无力的握手则可能暗示软弱"
+          "en": "The reflection of the pavilion in the water created a perfect symmetry that seemed almost unreal",
+          "zh": "金阁在水中的倒影形成了完美的对称，近乎不真实",
+          "function": "主句含定语从句"
         },
         {
-          "en": "The bow, however, emphasizes hierarchy and respect.",
-          "zh": "而鞠躬则强调等级与尊重"
+          "en": "A group of schoolchildren in uniform giggled and pointed, their delight as genuine as the shimmering gold itself",
+          "zh": "一群身着校服的学童咯咯笑着、指指点点，他们的喜悦如同那闪烁的金色本身一样真实",
+          "function": "主句+独立主格结构"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The reflection of the pavilion in the water created a perfect symmetry that seemed almost unreal.",
+          "zh": "金阁在水中的倒影形成了完美的对称，近乎不真实。",
+          "grammar": "主句主语为 The reflection of the pavilion in the water，谓语 created，宾语 a perfect symmetry，后接 that 引导的限定性定语从句修饰 symmetry。",
+          "pattern": "主语 + 谓语 + 宾语 + 定语从句 (that + 谓语 + 表语)",
+          "note": "seemed almost unreal 中 almost 修饰 unreal，表示程度。"
         }
       ],
       "grammar_analysis": {
         "points": [
           {
-            "structure": "现在分词短语作状语",
-            "explanation": "'Originating as a gesture...' 是现在分词短语，说明主句动作发生的背景和原因。",
-            "example_sentence": "Originating as a gesture to show that one was unarmed, it evolved into a symbol of equality and mutual trust."
+            "structure": "独立主格结构",
+            "explanation": "在句中作伴随状语，其逻辑主语与主句主语不同，结构为 '名词/代词 + 形容词/介词短语/分词'。",
+            "example_sentence": "A group of schoolchildren in uniform giggled and pointed, their delight as genuine as the shimmering gold itself.",
+            "common_mistake": "❌ 误用 with their delight as genuine → ✅ 可直接用独立主格，省略 with。",
+            "contrast": "独立主格与‘with+名词+形容词’结构功能相同，但独立主格更简洁、文学性强。"
           },
           {
-            "structure": "while 表示对比",
-            "explanation": "'while' ���接两个并列分句，形成对比关系，意为“而”。",
-            "example_sentence": "A firm handshake is often interpreted as a sign of confidence, while a limp one may suggest weakness."
+            "structure": "whose 引导定语从句",
+            "explanation": "whose 表示'某人的/某物的'，先行词可以是人或物。",
+            "example_sentence": "Later that morning, we visited Kinkaku-ji, the Golden Pavilion, whose exterior is entirely covered in gold leaf.",
+            "common_mistake": "❌ 混淆 whose 与 which: which 不能表示所属关系；✅ whose 可指物。",
+            "contrast": "of which 可代替 whose 用于正式文体，如 the exterior of which。"
           }
         ]
       }
     },
     {
-      "en": "As I stayed longer in Japan, I learned the nuanced rules of bowing. The angle — fifteen degrees for casual acquaintances, thirty for formal meetings, forty-five for superiors or apologies — conveys precise social information. Equally important is the speed and number of bows. A slow bow signals sincerity; a quick one, routine. Two bows are typical in business, but three may be reserved for special occasions. Mastering these subtleties felt akin to learning a new dialect of respect. It required careful observation and humility.",
-      "zh": "随着我在日本停留更久，我学会了鞠躬的精妙规则。角度——十五度给普通熟人，三十度给正式会面，四十五度给上级或道歉——传达精确的社会信息。同样重要的是速度和次数。缓慢的鞠躬表示真诚；快速的则表示例行公事。商务场合通常两次，但三次可能留给特殊场合。掌握这些微妙之处感觉就像学习一门新的尊重方言。它需要仔细观察和谦逊。",
+      "en": "In the afternoon, we ventured into a hidden alley in the Gion district, where the tradition of geisha still endures. We were fortunate enough to catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse. Her wooden sandals clicked rhythmically on the cobblestones, and her elaborate kimono rustled like autumn leaves. The fleeting sight left us with a sense of having witnessed something precious and intangible.",
+      "zh": "下午，我们走进祇园区一条隐蔽的小巷，那里艺伎的传统仍然延续。我们有幸瞥见一���舞伎（见习艺伎）匆匆赶往一间茶屋。她的木屐在鹅卵石上有节奏地咔嗒作响，精致的和服沙沙作响，宛如秋叶。这转瞬即逝的一幕让我们感觉自己目睹了某种珍贵而难以捉摸的东西。",
       "vocabulary": [
         {
-          "word": "nuanced",
-          "phonetic": "/ˈnjuːɑːnst/",
-          "meaning": "adj. 精妙的；有细微差别的",
-          "example": "The painting has a nuanced use of color."
+          "word": "ventured",
+          "phonetic": "/ˈventʃərd/",
+          "meaning": "v. 冒险；敢于去",
+          "example": "They ventured into the dark forest without a map.",
+          "derivatives": "venture (v./n.) → venturer (n.) 冒险者 → adventurous (adj.) 冒险的"
         },
         {
-          "word": "acquaintance",
-          "phonetic": "/əˈkweɪntəns/",
-          "meaning": "n. 熟人",
-          "example": "He is a business acquaintance, not a close friend."
+          "word": "endures",
+          "phonetic": "/ɪnˈdjʊərz/",
+          "meaning": "v. 持续；持久；忍耐",
+          "example": "Some traditions endure for centuries despite modernization.",
+          "derivatives": "endure (v.) → endurance (n.) 耐力 → enduring (adj.) 持久的"
         },
         {
-          "word": "superior",
-          "phonetic": "/suːˈpɪriər/",
-          "meaning": "n. 上级；长辈",
-          "example": "She showed respect to her superior by bowing deeply."
+          "word": "fleeting",
+          "phonetic": "/ˈfliːtɪŋ/",
+          "meaning": "adj. 短暂的；飞逝的",
+          "example": "We had only a fleeting glimpse of the comet before it disappeared.",
+          "derivatives": "fleet (n./v./adj.) → fleeting (adj.) → fleetingly (adv.)"
         },
         {
-          "word": "subtlety",
-          "phonetic": "/ˈsʌtəlti/",
-          "meaning": "n. 微妙之处；细微差别",
-          "example": "The subtleties of Japanese etiquette are fascinating."
-        }
-      ],
-      "difficult_sentences": [
-        {
-          "en": "Mastering these subtleties felt akin to learning a new dialect of respect.",
-          "zh": "掌握这些微妙之处感觉就像学习一门新的尊重方言。",
-          "grammar": "动名词短语 'Mastering these subtleties' 作主语；'felt akin to' 是系动词加形容词短语结构，后接动名词 'learning' 作宾语。"
+          "word": "intangible",
+          "phonetic": "/ɪnˈtændʒəbəl/",
+          "meaning": "adj. 无形的；难以捉摸的",
+          "example": "The value of cultural heritage is often intangible but immense.",
+          "derivatives": "tangible (adj.) 有形的 → intangible (adj.) → intangibility (n.)"
         }
       ],
       "chunks": [
         {
-          "en": "As I stayed longer in Japan,",
-          "zh": "随着我在日本停留更久"
+          "en": "In the afternoon, we ventured into a hidden alley in the Gion district",
+          "zh": "下午，我们走进祇园区一条隐蔽的小巷",
+          "function": "主句（含时间状语和地点状语）"
         },
         {
-          "en": "I learned the nuanced rules of bowing.",
-          "zh": "我学会了鞠躬的精妙规则"
+          "en": "where the tradition of geisha still endures",
+          "zh": "那里艺伎的传统仍然延续",
+          "function": "定语从句修饰alley"
         },
         {
-          "en": "The angle — fifteen degrees for casual acquaintances, thirty for formal meetings, forty-five for superiors or apologies — conveys precise social information.",
-          "zh": "角度——十五度给普通熟人，三十度给正式会面，四十五度给上级或道歉——传达精确的社会信息"
+          "en": "We were fortunate enough to catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse",
+          "zh": "我们有幸瞥见一名舞伎（见习艺伎）匆匆赶往一间茶屋",
+          "function": "主句含不定式短语作结果状语和同位语"
         },
         {
-          "en": "Equally important is the speed and number of bows.",
-          "zh": "同样重要的是速度和次数"
+          "en": "Her wooden sandals clicked rhythmically on the cobblestones, and her elaborate kimono rustled like autumn leaves",
+          "zh": "她的木屐在鹅卵石上有节奏地咔嗒作响，精致的和服沙沙作响，宛如秋叶",
+          "function": "并列主句"
         },
         {
-          "en": "Mastering these subtleties felt akin to learning a new dialect of respect.",
-          "zh": "掌握这些微妙之处感觉就像学习一门新的尊重方言"
+          "en": "The fleeting sight left us with a sense of having witnessed something precious and intangible",
+          "zh": "这转瞬即逝的一幕让我们感觉自己目睹了某种珍贵而难以捉摸的东西",
+          "function": "主句含介词短语作宾语补足语"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "We were fortunate enough to catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse.",
+          "zh": "我们有幸瞥见一名舞伎（见习艺伎）匆匆赶往一间茶屋。",
+          "grammar": "不定式短语 'to catch...' 作结果状语；'hurrying to a teahouse' 是现在分词短语作定语修饰 maiko。",
+          "pattern": "主语 + be + adj. + enough + to do sth. (足够……以至于能做某事)",
+          "note": "fortunate enough 后接不定式表示‘有幸做某事’，其中 enough 修饰形容词。"
         }
       ],
       "grammar_analysis": {
         "points": [
           {
-            "structure": "动名词短语作主语",
-            "explanation": "'Mastering these subtleties' 作为句子的主语，动名词短语具有名词性质。",
-            "example_sentence": "Mastering these subtleties felt akin to learning a new dialect of respect."
+            "structure": "where 引导定语从句",
+            "explanation": "where 是关系副词，在定语从句中作地点状语，先行词是表示地点的名词。",
+            "example_sentence": "In the afternoon, we ventured into a hidden alley in the Gion district, where the tradition of geisha still endures.",
+            "common_mistake": "❌ 误用 which 代替 where (which 后句子不完整) → ✅ where 后接完整句子。",
+            "contrast": "in which 等于 where，但 where 更简洁口语化。"
           },
           {
-            "structure": "倒装句",
-            "explanation": "'Equally important is the speed...' 是表语前置��倒装结构，强调 'Equally important'。",
-            "example_sentence": "Equally important is the speed and number of bows."
+            "structure": "现在分词短语作定语",
+            "explanation": "现��分词 hurrying 修饰 a maiko，表示主动和进行。",
+            "example_sentence": "...catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse.",
+            "common_mistake": "❌ 用 hurried（过去分词）表示被动 → ✅ 用 hurrying 表示主动。",
+            "contrast": "过去分词表示被动/完成，现在分词表示主动/进行。"
           }
         ]
       }
     },
     {
-      "en": "This experience reshaped my understanding of communication. I realized that words are only one layer of meaning; the body speaks its own ancient tongue. Travel forces us to confront these differences and adapt. By embracing a custom so different from my own, I did not abandon my identity but enriched it. Now, when I return a bow, I feel a connection to a culture that values harmony and mutual respect. In a world often divided by words, such silent rituals remind us of our shared humanity.",
-      "zh": "这次经历重塑了我对交流的理解。我意识到语言只是意义的一层；身体说着自己古老的言语。旅行迫使我们面对这些差异并适应。通过接受一种与自己截然不同的习俗，我没有放弃自己的身份，而是丰富了它。如今，当我回鞠一躬时，我感到与一种重视和谐与相互尊重的文化相连。在一个常常因言语而分裂的世界里，这种无声的仪式提醒我们共同的人性。",
+      "en": "As dusk fell, we found ourselves at the Yasaka Pagoda, its silhouette dark against the twilight sky. The neighbourhood, a maze of narrow lanes and wooden townhouses, felt frozen in an earlier century. We dined in a small restaurant that served kaiseki, a multi-course meal that is as much an art form as a culinary experience. Each dish was a miniature landscape, delicate and ephemeral, leaving us with a profound respect for Japanese aesthetics.",
+      "zh": "黄昏降临时，我们来到八坂塔，其轮廓在暮色天穹下显得幽暗。这个街区，由狭窄的小巷和木质町屋构成的迷宫，仿佛凝固在了更早的世纪。我们在一个小餐馆用餐，品尝了怀石料理——一种多道菜式的餐食，它既是烹饪体验，也是一门艺术形式。每道菜都是微缩的风景，精致而短暂，令我们对日本美学产生了深深的敬意。",
       "vocabulary": [
         {
-          "word": "reshape",
-          "phonetic": "/riːˈʃeɪp/",
-          "meaning": "v. 重塑；改变",
-          "example": "The trip reshaped my perspective on life."
+          "word": "silhouette",
+          "phonetic": "/ˌsɪluˈet/",
+          "meaning": "n. 轮廓；剪影",
+          "example": "We saw the silhouette of a deer against the sunset.",
+          "derivatives": "silhouette (n./v.) → silhouetted (adj.) 显出轮廓的"
         },
         {
-          "word": "confront",
-          "phonetic": "/kənˈfrʌnt/",
-          "meaning": "v. 面对；正视",
-          "example": "We must confront our fears to grow."
+          "word": "maze",
+          "phonetic": "/meɪz/",
+          "meaning": "n. 迷宫；错综复杂的网络",
+          "example": "The old city is a maze of winding streets.",
+          "derivatives": "maze (n.) → mazy (adj.) 像迷宫般的 → amaze (v.) 使惊奇（同源）"
         },
         {
-          "word": "embrace",
-          "phonetic": "/ɪmˈbreɪs/",
-          "meaning": "v. 接受；拥抱",
-          "example": "She embraced the local customs wholeheartedly."
+          "word": "ephemeral",
+          "phonetic": "/ɪˈfemərəl/",
+          "meaning": "adj. 短暂的；昙花一现的",
+          "example": "The beauty of cherry blossoms is ephemeral but deeply moving.",
+          "derivatives": "ephemeral (adj.) → ephemerally (adv.) → ephemerality (n.)"
         },
         {
-          "word": "ritual",
-          "phonetic": "/ˈrɪtʃuəl/",
-          "meaning": "n. 仪式；惯例",
-          "example": "Morning coffee is a daily ritual for many."
-        }
-      ],
-      "difficult_sentences": [
-        {
-          "en": "By embracing a custom so different from my own, I did not abandon my identity but enriched it.",
-          "zh": "通过接受一种与自己截然不同的习俗，我没有放弃自己的身份，而是丰富了它。",
-          "grammar": "'By embracing...' 是介词短语作方式状语；'so different from my own' 是形容词短语后置修饰 'custom'；'not... but...' 结构表示“不是……而是……”。"
+          "word": "aesthetics",
+          "phonetic": "/iːsˈθetɪks/",
+          "meaning": "n. 美学；审美观（常作单数）",
+          "example": "Japanese aesthetics emphasize simplicity and imperfection.",
+          "derivatives": "aesthetic (adj.) → aesthetically (adv.) → aestheticism (n.) 唯美主义"
         }
       ],
       "chunks": [
         {
-          "en": "This experience reshaped my understanding of communication.",
-          "zh": "这次经历重塑了我对交流的理解"
+          "en": "As dusk fell, we found ourselves at the Yasaka Pagoda",
+          "zh": "黄昏降临时，我们来到八坂塔",
+          "function": "时间状语从句+主句"
         },
         {
-          "en": "I realized that words are only one layer of meaning; the body speaks its own ancient tongue.",
-          "zh": "我意识到语言只是意义的一层；身体说着自己古老的言语"
+          "en": "its silhouette dark against the twilight sky",
+          "zh": "其轮廓在暮色天穹下显得幽暗",
+          "function": "独立主格结构（形容词短语）"
         },
         {
-          "en": "Travel forces us to confront these differences and adapt.",
-          "zh": "旅行迫使我们面对这些差异并适应"
+          "en": "The neighbourhood, a maze of narrow lanes and wooden townhouses, felt frozen in an earlier century",
+          "zh": "这个街区，由狭窄的小巷和木质町屋构成的迷宫，仿佛凝固在了更早的世纪",
+          "function": "主句含同位语"
         },
         {
-          "en": "By embracing a custom so different from my own,",
-          "zh": "通过接受一种与自己截然不同的习俗"
+          "en": "We dined in a small restaurant that served kaiseki, a multi-course meal that is as much an art form as a culinary experience",
+          "zh": "我们在一个小餐馆用餐，品尝了怀石料理——一种多道菜式的餐食，它既是烹饪体验，也是一门艺术形式",
+          "function": "主句含定语从句和同位语"
         },
         {
-          "en": "I did not abandon my identity but enriched it.",
-          "zh": "我没有放弃自己的身份，而是丰富了它"
+          "en": "Each dish was a miniature landscape, delicate and ephemeral, leaving us with a profound respect for Japanese aesthetics",
+          "zh": "每道菜都是微缩的风景，精致而短暂，令我们对日本美学产生了深深的敬意",
+          "function": "主句含形容词短语作定语和现在分词短语作结果状语"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "We dined in a small restaurant that served kaiseki, a multi-course meal that is as much an art form as a culinary experience.",
+          "zh": "我们在一个小餐馆用餐，品尝了怀石料理——一种多道菜式的餐食，它既是烹饪体验，也是一门艺术形式。",
+          "grammar": "主句含两个定语从句：第一个that修饰restaurant；第二个that修饰meal；同位语a multi-course meal补充说明kaiseki；as much...as...表示两者同等程度。",
+          "pattern": "as much + n. + as + n. (既是……又是……，同样程度的)",
+          "note": "as much...as...用于比较同一种性质的两个名词，结构中对等。"
         }
       ],
       "grammar_analysis": {
         "points": [
           {
-            "structure": "介词短语作状语",
-            "explanation": "'By embracing a custom...' 是介词短语，表示方式，说明主句动作“丰富身份”的方式。",
-            "example_sentence": "By embracing a custom so different from my own, I did not abandon my identity but enriched it."
+            "structure": "独立主格结构（名词+形容词短语）",
+            "explanation": "its silhouette dark against the twilight sky 独立主格作伴随状语，逻辑主语its silhouette，形容词短语 dark against...。",
+            "example_sentence": "As dusk fell, we found ourselves at the Yasaka Pagoda, its silhouette dark against the twilight sky.",
+            "common_mistake": "❌ 误写成完整句子 its silhouette was dark... 导致逗号连接两个句子 → ✅ 改为独立主格。",
+            "contrast": "with its silhouette dark... 也是常见结构，但独立主格更简洁。"
           },
           {
-            "structure": "not... but... 并列结构",
-            "explanation": "'not... but...' 连接两个谓语，形成对比，强调后者。",
-            "example_sentence": "I did not abandon my identity but enriched it."
+            "structure": "as much ... as ... 结构",
+            "explanation": "表示‘和……一样多/一样是’，as much...as... 后接名词时，much为形容词。",
+            "example_sentence": "...a multi-course meal that is as much an art form as a culinary experience.",
+            "common_mistake": "❌ 写作 as many as（用于可数名词复数）→ ✅ as much...as... 用于不可数或抽象名词（an art form 抽象）。",
+            "contrast": "as many...as... 用于可数名词复数，如 as many books as possible。"
           }
         ]
       }
