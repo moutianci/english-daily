@@ -1,0 +1,365 @@
+{
+  "date": "2026-06-26",
+  "title": "A Vapor of Hope: Water Detected on Exoplanet K2-18b",
+  "titleZh": "水汽的希望：在系外行星K2-18b上探测到水",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "In the vast expanse of the cosmos, astronomers have long speculated about the existence of water on planets beyond our solar system. Their quest has now been rewarded with a remarkable discovery: the exoplanet K2-18b, located 124 light-years away in the constellation Leo, harbours a substantial amount of water vapour in its atmosphere. This finding, published in the journal Nature Astronomy, marks the first time that water has been unambiguously detected in the atmosphere of a planet orbiting within the habitable zone of its star—a region where temperatures could allow liquid water to exist.",
+      "zh": "在浩瀚的宇宙中，天文学家们长期以来一直猜测太阳系外行星上是否存在水。他们的探索如今得到了回报，一项引人注目的发现：位于124光年之外狮子座中的系外行星K2-18b，其大气中含有大量的水蒸气。这一发现发表在《自然·天文学》杂志上，标志着首次明确在恒星宜居带内运行的行星大气中探测到水——在这个区域，温度可能允许液态水存在。",
+      "vocabulary": [
+        {
+          "word": "expanse",
+          "phonetic": "/ɪkˈspæns/",
+          "meaning": "n. 广阔的区域；浩瀚",
+          "example": "The vast expanse of the desert stretched before them.",
+          "derivatives": "expand (v.) → expanse (n.) → expansive (adj.)"
+        },
+        {
+          "word": "speculate",
+          "phonetic": "/ˈspekjʊleɪt/",
+          "meaning": "v. 推测；思索",
+          "example": "Scientists speculate that the planet may have an ocean.",
+          "derivatives": "speculation (n.) → speculative (adj.) → speculator (n.)"
+        },
+        {
+          "word": "unambiguously",
+          "phonetic": "/ˌʌnæmˈbɪɡjʊəsli/",
+          "meaning": "adv. 明确地；毫不含糊地",
+          "example": "The evidence points unambiguously to climate change.",
+          "derivatives": "unambiguous (adj.) → unambiguously (adv.) → ambiguity (n.)"
+        },
+        {
+          "word": "habitable zone",
+          "phonetic": "/ˈhæbɪtəbəl zoʊn/",
+          "meaning": "n. 宜居带",
+          "example": "Earth is located in the Sun's habitable zone.",
+          "derivatives": "habitable (adj.) → inhabit (v.) → habitat (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "This finding, published in the journal Nature Astronomy, marks the first time that water has been unambiguously detected in the atmosphere of a planet orbiting within the habitable zone of its star—a region where temperatures could allow liquid water to exist.",
+          "zh": "这一发现发表在《自然·天文学》杂志上，标志着首次明确在恒星宜居带内运行的行星大气中探测到水——在这个区域，温度可能允许液态水存在。",
+          "grammar": "主语“This finding”后跟插入语“published in the journal Nature Astronomy”作定语，谓语“marks”，宾语“the first time”，后接同位语从句“that water has been...”，破折号后是“region”的同位语短语。",
+          "pattern": "marks the first time that + 从句 (表示“标志首次做某事”)",
+          "note": "the first time 后接 that 从句（有时省略 that），描述首次发生的事件，常用于研究发现的表述。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "In the vast expanse of the cosmos",
+          "zh": "在浩瀚的宇宙中",
+          "function": "地点状语"
+        },
+        {
+          "en": "astronomers have long speculated about the existence of water on planets beyond our solar system",
+          "zh": "天文学家们长期以来一直猜测太阳系外行星上是否存在水",
+          "function": "主句"
+        },
+        {
+          "en": "Their quest has now been rewarded with a remarkable discovery",
+          "zh": "他们的探索如今得到了回报，一项引人注目的发现",
+          "function": "主句"
+        },
+        {
+          "en": "the exoplanet K2-18b, located 124 light-years away in the constellation Leo, harbours a substantial amount of water vapour in its atmosphere",
+          "zh": "位于124光年之外狮子座中的系外行星K2-18b，其大气中含有大量的水蒸气",
+          "function": "主句的补充说明"
+        },
+        {
+          "en": "This finding, published in the journal Nature Astronomy, marks the first time that water has been unambiguously detected in the atmosphere of a planet orbiting within the habitable zone of its star—a region where temperatures could allow liquid water to exist.",
+          "zh": "这一发现发表在《自然·天文学》杂志上，标志着首次明确在恒星宜居带内运行的行星大气中探测到水——在这个区域，温度可能允许液态水存在。",
+          "function": "主句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "同位语从句",
+            "explanation": "the first time that water has been ... 中的that从句是time的同位语，具体说明“第一次”的内容。",
+            "example_sentence": "This finding marks the first time that water has been unambiguously detected.",
+            "common_mistake": "❌ This is the first time I visit Shanghai. → ✅ This is the first time I have visited Shanghai.",
+            "contrast": "“the first time + that从句”与“It is the first time + that从句”结构类似，但主语不同；前者强调“这次是第一次”，后者常用此句型。"
+          },
+          {
+            "structure": "定语短语（过去分词短语作后置定语）",
+            "explanation": "“published in the journal Nature Astronomy”是过去分词短语修饰“finding”，相当于“which was published...”。",
+            "example_sentence": "This finding, published in the journal Nature Astronomy, marks the first time...",
+            "common_mistake": "❌ The book written by him is popular. 正确，但学生可能误用成writing。",
+            "contrast": "现在分词短语（writing）表主动，过去分词短语（written）表被动。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "How did astronomers detect water on a planet so far away? The answer lies in a technique called transmission spectroscopy. When the exoplanet passes in front of its host star, a tiny fraction of starlight filters through the planet's atmosphere. By analysing the spectrum of this filtered light, scientists can identify the chemical fingerprints of gases like water vapour. The observations, made using the Hubble Space Telescope, revealed a clear signature of water absorption in the infrared portion of the spectrum.",
+      "zh": "天文学家是如何在如此遥远的行星上探测到水的？答案在于一种称为透射光谱学的技术。当这颗系外行星经过其主恒星前方时，一小部分星光会穿过该行星的大气。通过分析这种过滤后的光谱，科学家可以识别出像水蒸气这样的气体的化学特征。利用哈勃太空望远镜进行的观测揭示了红外光谱中清晰的水吸收特征。",
+      "vocabulary": [
+        {
+          "word": "transmission spectroscopy",
+          "phonetic": "/trænzˈmɪʃən spekˈtrɑːskəpi/",
+          "meaning": "n. 透射光谱学",
+          "example": "Transmission spectroscopy is a powerful tool for studying exoplanet atmospheres.",
+          "derivatives": "transmit (v.) → transmission (n.) → spectroscopic (adj.)"
+        },
+        {
+          "word": "fraction",
+          "phonetic": "/ˈfrækʃən/",
+          "meaning": "n. 少量；一小部分",
+          "example": "Only a tiny fraction of the star's light reaches the planet.",
+          "derivatives": "fractional (adj.) → fractionally (adv.) → fracture (n./v.)"
+        },
+        {
+          "word": "spectrum",
+          "phonetic": "/ˈspektrəm/",
+          "meaning": "n. 光谱；频谱",
+          "example": "The spectrum of sunlight contains all colours.",
+          "derivatives": "spectral (adj.) → spectroscopy (n.) → spectroscope (n.)"
+        },
+        {
+          "word": "signature",
+          "phonetic": "/ˈsɪɡnɪtʃər/",
+          "meaning": "n. 特征；标记",
+          "example": "Each gas has a unique spectral signature.",
+          "derivatives": "sign (v./n.) → signature (n.) → signatory (adj./n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "When the exoplanet passes in front of its host star, a tiny fraction of starlight filters through the planet's atmosphere.",
+          "zh": "当这颗系外行星经过其主恒星前方时，一小部分星光会穿过该行星的大气。",
+          "grammar": "时间状语从句“When the exoplanet passes...”，主句“a tiny fraction of starlight filters...”。",
+          "pattern": "When + 主语 + 动词, 主语 + 动词（表示“当……时，……”）",
+          "note": "这是一个简单的时间状语从句结构。注意主从句时态一致，通常用一般现在时表示自然规律。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "How did astronomers detect water on a planet so far away?",
+          "zh": "天文学家是如何在如此遥远的行星上探测到水的？",
+          "function": "设问句"
+        },
+        {
+          "en": "The answer lies in a technique called transmission spectroscopy.",
+          "zh": "答案在于一种称为透射光谱学的技术。",
+          "function": "主句"
+        },
+        {
+          "en": "When the exoplanet passes in front of its host star",
+          "zh": "当这颗系外行星经过其主恒星前方时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "a tiny fraction of starlight filters through the planet's atmosphere",
+          "zh": "一小部分星光会穿过该行星的大气",
+          "function": "主句"
+        },
+        {
+          "en": "By analysing the spectrum of this filtered light, scientists can identify the chemical fingerprints of gases like water vapour.",
+          "zh": "通过分析这种过滤后的光谱，科学家可以识别出像水蒸气这样的气体的化学特征。",
+          "function": "方式状语 + 主句"
+        },
+        {
+          "en": "The observations, made using the Hubble Space Telescope, revealed a clear signature of water absorption in the infrared portion of the spectrum.",
+          "zh": "利用哈勃太空望远镜进行的观测揭示了红外光谱中清晰的水吸收特征。",
+          "function": "主句（含定语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "非限制性定语（过去分词短语）",
+            "explanation": "“made using the Hubble Space Telescope”修饰“observations”，相当于“which were made...”。",
+            "example_sentence": "The observations, made using the Hubble Space Telescope, revealed...",
+            "common_mistake": "❌ The observations made using Hubble... 学生可能缺少逗号，导致限制性定语，改变含义。",
+            "contrast": "限制性定语（无逗号）与非限制性定语（有逗号）的区别：前者限定范围，后者提供额外信息。"
+          },
+          {
+            "structure": "方式状语（By doing）",
+            "explanation": "“By analysing the spectrum...”是方式状语，表示“通过……方式”。",
+            "example_sentence": "By analysing the spectrum, scientists can identify gases.",
+            "common_mistake": "❌ By to analyse the spectrum... → ✅ By analysing... 介词后接动名词。",
+            "contrast": "“By + doing”与“Through + noun”都可表方式，但By更强调动作手段。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The detection of water vapour on K2-18b is significant because this planet lies in the habitable zone of its star—a red dwarf. However, astronomers caution that the presence of water does not imply the existence of life. The planet is roughly eight times the mass of Earth, suggesting a thick gaseous envelope that could resemble a mini-Neptune rather than a rocky world. Nevertheless, K2-18b becomes a prime target for future telescopes, such as the James Webb Space Telescope, which could search for biosignature gases like methane and oxygen.",
+      "zh": "在K2-18b上探测到水蒸气意义重大，因为这颗行星位于其恒星——一颗红矮星的宜居带内。然而，天文学家提醒，水的存在并不意味存在生命。这颗行星的质量大约是地球的八倍，表明其有一个厚厚的气态外层，更像一颗迷你海王星而非岩石世界。尽管如此，K2-18b成为未来望远镜（如詹姆斯·韦伯太空望远镜）的主要目标，它能够搜寻甲烷和氧气等生物特征气体。",
+      "vocabulary": [
+        {
+          "word": "caution",
+          "phonetic": "/ˈkɔːʃən/",
+          "meaning": "v. 警告；提醒",
+          "example": "Scientists caution that more data is needed.",
+          "derivatives": "caution (n./v.) → cautious (adj.) → cautiously (adv.)"
+        },
+        {
+          "word": "imply",
+          "phonetic": "/ɪmˈplaɪ/",
+          "meaning": "v. 暗示；意味着",
+          "example": "Wet roads imply that it has rained.",
+          "derivatives": "implication (n.) → implied (adj.) → implicit (adj.)"
+        },
+        {
+          "word": "gaseous envelope",
+          "phonetic": "/ˈɡæsiəs ˈenvəloʊp/",
+          "meaning": "n. 气态外壳",
+          "example": "The planet is surrounded by a thick gaseous envelope.",
+          "derivatives": "gas (n.) → gaseous (adj.) → envelope (n.) → envelop (v.)"
+        },
+        {
+          "word": "biosignature",
+          "phonetic": "/ˌbaɪoʊˈsɪɡnɪtʃər/",
+          "meaning": "n. 生物特征",
+          "example": "Ozone is a potential biosignature gas.",
+          "derivatives": "bio- (前缀) + signature (n.) → biosignature (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Nevertheless, K2-18b becomes a prime target for future telescopes, such as the James Webb Space Telescope, which could search for biosignature gases like methane and oxygen.",
+          "zh": "尽管如此，K2-18b成为未来望远镜（如詹姆斯·韦伯太空望远镜）的主要目标，它能够搜寻甲烷和氧气等生物特征气体。",
+          "grammar": "主句“K2-18b becomes a prime target”，后跟“such as...”作同位语，再跟非限制性定语从句“which could search for...”。",
+          "pattern": "主语 + becomes a prime target for + 名词 + such as + 例子, which + 定语从句",
+          "note": "such as 后列举例子，which 从句修饰最近的名词（telescopes，但也可视为修饰整个短语）。注意代词指代：which 指代 the James Webb Space Telescope。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The detection of water vapour on K2-18b is significant",
+          "zh": "在K2-18b上探测到水蒸气意义重大",
+          "function": "主句"
+        },
+        {
+          "en": "because this planet lies in the habitable zone of its star—a red dwarf",
+          "zh": "因为这颗行星位于其恒星——一颗红矮星的宜居带内",
+          "function": "原因状语从句"
+        },
+        {
+          "en": "However, astronomers caution that the presence of water does not imply the existence of life.",
+          "zh": "然而，天文学家提醒，水的存在并不意味存在生命。",
+          "function": "主句（含宾语从句）"
+        },
+        {
+          "en": "The planet is roughly eight times the mass of Earth, suggesting a thick gaseous envelope that could resemble a mini-Neptune rather than a rocky world.",
+          "zh": "这颗行星的质量大约是地球的八倍，表明其有一个厚厚的气态外层，更像一颗迷你海王星而非岩石世界。",
+          "function": "主句（含结果状语suggesting...）"
+        },
+        {
+          "en": "Nevertheless, K2-18b becomes a prime target for future telescopes, such as the James Webb Space Telescope, which could search for biosignature gases like methane and oxygen.",
+          "zh": "尽管如此，K2-18b成为未来望远镜（如詹姆斯·韦伯太空望远镜）的主要目标，它能够搜寻甲烷和氧气等生物特征气体。",
+          "function": "主句（含同位语和定语从句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "非限制性定语从句",
+            "explanation": "“which could search for...”修饰 the James Webb Space Telescope，提供额外信息，用逗号分隔。",
+            "example_sentence": "K2-18b becomes a prime target for the James Webb Space Telescope, which could search for biosignature gases.",
+            "common_mistake": "❌ I have a dog which is black. 限制性定语无需逗号；非限制性需逗号。区别在于是否唯一。",
+            "contrast": "限制性定语从句（无逗号）与先行词关系紧密；非限制性（有逗号）提供附加信息。"
+          },
+          {
+            "structure": "现在分词短语作结果状语",
+            "explanation": "“suggesting a thick gaseous envelope...”中，suggesting 表示由主句事实导致的结果，逻辑主语是主句。",
+            "example_sentence": "The planet is eight times Earth's mass, suggesting a thick gaseous envelope.",
+            "common_mistake": "❌ The planet is eight times Earth's mass, suggests... 缺少主语。分词作状语，不能独立成句。",
+            "contrast": "现在分词（suggesting）与 which 从句（which suggests）可互换，但分词更简洁，常见于科技英语。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The discovery rekindles hopes that we may one day find signs of life beyond Earth. Although K2-18b itself may not be a hospitable planet, the same techniques used to find water here can be applied to smaller, more Earth-like worlds. The next generation of observatories, including the forthcoming Extremely Large Telescope, will have the power to analyse the atmospheres of rocky planets in the habitable zone for potential biomarkers. Each step forward—from detection of water to detection of life—brings us closer to answering the age-old question: Are we alone in the universe?",
+      "zh": "这一发现重新点燃了希望：我们或许有一天能找到地球以外的生命迹象。尽管K2-18b本身可能并非宜居行星，但用于这里找到水的相同技术也可以应用于更小、更像地球的世界。下一代天文台，包括即将建成的极大望远镜，将有能力分析宜居带内岩石行星的大气，寻找潜在的生物标志。从探测水到探测生命，每前进一步都让我们更接近回答那个古老的问题：我们在宇宙中是否孤独？",
+      "vocabulary": [
+        {
+          "word": "rekindle",
+          "phonetic": "/riːˈkɪndl/",
+          "meaning": "v. 重新点燃；使恢复",
+          "example": "The discovery rekindled interest in space exploration.",
+          "derivatives": "rekindle (v.) → kindle (v.) → kindling (n.)"
+        },
+        {
+          "word": "hospitable",
+          "phonetic": "/hɒˈspɪtəbəl/",
+          "meaning": "adj. 宜人的；好客的",
+          "example": "Mars is not currently hospitable to life.",
+          "derivatives": "hospitality (n.) → hospitably (adv.) → inhospitable (反义词)"
+        },
+        {
+          "word": "biomarker",
+          "phonetic": "/ˈbaɪoʊˌmɑːrkər/",
+          "meaning": "n. 生物标志物",
+          "example": "Methane can be a potential biomarker.",
+          "derivatives": "bio- (前缀) + marker (n.) → biomarker (n.)"
+        },
+        {
+          "word": "age-old",
+          "phonetic": "/eɪdʒ oʊld/",
+          "meaning": "adj. 古老的；存在已久的",
+          "example": "We still ponder the age-old question of existence.",
+          "derivatives": "age (n.) + old (adj.) → age-old (adj.) 复合词"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The next generation of observatories, including the forthcoming Extremely Large Telescope, will have the power to analyse the atmospheres of rocky planets in the habitable zone for potential biomarkers.",
+          "zh": "下一代天文台，包括即将建成的极大望远镜，将有能力分析宜居带内岩石行星的大气，寻找潜在的生物标志。",
+          "grammar": "主语“The next generation of observatories”，后跟同位语“including...”，谓语“will have the power”，不定式“to analyse”作定语修饰power，介词短语“for potential biomarkers”作目的状语。",
+          "pattern": "主语 + will have the power to do + 宾语 + for + 目的",
+          "note": "have the power to do 意为“有能力做某事”，比can更正式、有力。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The discovery rekindles hopes that we may one day find signs of life beyond Earth.",
+          "zh": "这一发现重新点燃了希望：我们或许有一天能找到地球以外的生命迹象。",
+          "function": "主句（含同位语从句）"
+        },
+        {
+          "en": "Although K2-18b itself may not be a hospitable planet",
+          "zh": "尽管K2-18b本身可能并非宜居行星",
+          "function": "让步状语从句"
+        },
+        {
+          "en": "the same techniques used to find water here can be applied to smaller, more Earth-like worlds",
+          "zh": "但用于这里找到水的相同技术也可以应用于更小、更像地球的世界",
+          "function": "主句"
+        },
+        {
+          "en": "The next generation of observatories, including the forthcoming Extremely Large Telescope, will have the power to analyse the atmospheres of rocky planets in the habitable zone for potential biomarkers.",
+          "zh": "下一代天文台，包括即将建成的极大望远镜，将有能力分析宜居带内岩石行星的大气，寻找潜在的生物标志。",
+          "function": "主句（含同位语和复合宾语）"
+        },
+        {
+          "en": "Each step forward—from detection of water to detection of life—brings us closer to answering the age-old question: Are we alone in the universe?",
+          "zh": "从探测水到探测生命，每前进一步都让我们更接近回答那个古老的问题：我们在宇宙中是否孤独？",
+          "function": "主句（含插入语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "同位语从句",
+            "explanation": "“hopes that we may one day find signs of life”中的that从句是hopes的同位语，具体说明希望的内容。",
+            "example_sentence": "The discovery rekindles hopes that we may find life.",
+            "common_mistake": "❌ I have a hope that you can come. 正确。但that不可省略。同位语从句的that通常不能省略，而定语从句的that作宾语时可省略。",
+            "contrast": "同位语从句与定语从句的区别：同位语从句的that不充当成分，只起连接作用；定语从句的that作主语或宾语。"
+          },
+          {
+            "structure": "让步状语从句（Although）",
+            "explanation": "“Although K2-18b itself may not be a hospitable planet”表示让步，主句陈述相反或对比的情况。",
+            "example_sentence": "Although K2-18b is not hospitable, the same techniques can be used.",
+            "common_mistake": "❌ Although...but... 不能同时使用although和but。",
+            "contrast": "Although/Though/Even though 都表让步，但although稍正式，even though语气更强。"
+          }
+        ]
+      }
+    }
+  ]
+}
