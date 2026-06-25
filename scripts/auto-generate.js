@@ -137,7 +137,7 @@ function callOpenAI() {
         { role: 'user', content: USER_PROMPT }
       ],
       temperature: 0.8,
-      max_tokens: 4000,
+      max_tokens: 8000,
     });
 
     console.log('📡 Calling OpenAI API...');
@@ -234,7 +234,7 @@ function callDeepSeek() {
         { role: 'user', content: USER_PROMPT }
       ],
       temperature: 0.8,
-      max_tokens: 4000,
+      max_tokens: 8000,
     });
 
     console.log('📡 Calling DeepSeek API...');
@@ -286,7 +286,7 @@ function callDoubao() {
         { role: 'user', content: USER_PROMPT }
       ],
       temperature: 0.8,
-      max_tokens: 4000,
+      max_tokens: 8000,
     });
 
     console.log(`📡 Calling Doubao API (model: ${DOUBAO_MODEL})...`);
