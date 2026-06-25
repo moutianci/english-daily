@@ -374,6 +374,7 @@ async function main() {
     }
     if (!dates[TODAY]) dates[TODAY] = [];
     // 新格式：对象数组（支持同日多篇）
+    const articleId = TODAY;
     const entry = { id: articleId, title: article.title, titleZh: article.titleZh || '' };
     const exists = dates[TODAY].some(e =>
       (typeof e === 'object' ? e.id : e) === articleId
