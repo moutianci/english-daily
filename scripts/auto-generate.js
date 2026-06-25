@@ -77,6 +77,14 @@ For EACH paragraph, provide:
   - "en": the sentence text
   - "zh": Chinese translation
   - "grammar": grammar structure analysis
+- "chunks": divide the paragraph into 3-5 meaningful chunks (意群), each with:
+  - "en": the chunk text (several words that form a meaning unit)
+  - "zh": chunk-level Chinese translation
+- "grammar_analysis": overall grammar analysis for this paragraph, with:
+  - "points": 2 grammar structure highlights from this paragraph, each with:
+    - "structure": grammar structure name (e.g. "倒装句", "定语从句", "虚拟语气")
+    - "explanation": brief Chinese explanation of the grammar point
+    - "example_sentence": the sentence from this paragraph that demonstrates this grammar point
 
 IMPORTANT: Output ONLY valid JSON. No markdown, no code blocks, no explanation outside JSON.`;
 
@@ -98,7 +106,15 @@ Output the complete JSON object with this exact structure:
       ],
       "difficult_sentences": [
         {"en": "The difficult sentence.", "zh": "解释", "grammar": "语法分析"}
-      ]
+      ],
+      "chunks": [
+        {"en": "a chunk of words", "zh": "意群中文"}
+      ],
+      "grammar_analysis": {
+        "points": [
+          {"structure": "语法结构名", "explanation": "中文解释", "example_sentence": "原文示例句"}
+        ]
+      }
     }
   ]
 }
