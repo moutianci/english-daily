@@ -1,155 +1,155 @@
 {
   "date": "2026-06-25",
   "source": "The Economist",
-  "title": "Weathering the Storm: Renewables Under Siege",
-  "titleZh": "风暴中的坚守：可再生能源面临考验",
+  "title": "The Art of Tea: A Lesson in Japanese Hospitality",
+  "titleZh": "茶道艺术：日本待客之道的一课",
   "url": "",
   "paragraphs": [
     {
-      "en": "The conundrum confronting the renewable energy sector is stark: climate change is both the rationale for its expansion and the source of its most formidable operational hurdles. Extreme weather events—intensified by global warming—are now precipitating frequent disruptions to solar and wind generation. Whereas these sources were once celebrated for their low marginal costs, their growing intermittency now exacts a heavy toll on grid stability. The sector must therefore pivot from mere capacity addition to enhancing resilience against nature's mounting onslaught.",
-      "zh": "可再生能源行业面临的困境十分明显：气候变化既是其扩张的理由，也是其最严峻运营挑战的根源。由全球变暖加剧的极端天气事件，如今正频繁导致太阳能和风力发电中断。尽管这些能源曾因低边际成本而备受赞誉，但它们日益加剧的间歇性正对电网稳定性造成严重影响。因此，该行业必须从单纯增加产能转向增强抵御自然肆虐的能力。",
+      "en": "On a tranquil morning in Kyoto, I was invited to a traditional tea ceremony. The hostess, clad in a silk kimono, moved with deliberate grace as she prepared matcha. Every gesture—from the whisking of the tea to the placement of the bowl—seemed choreographed. I had anticipated a simple beverage, but instead witnessed a ritual that embodied harmony, respect, and purity. The silence in the tatami room was broken only by the soft sound of boiling water. It was my first encounter with the profound concept of 'omotenashi', the Japanese spirit of wholehearted hospitality.",
+      "zh": "在京都一个宁静的早晨，我被邀请参加一场传统的茶道仪式。女主人身穿丝绸和服，以刻意的优雅动作准备抹茶。每一个动作——从搅打茶汤到放置茶碗——仿佛都是精心编排的。我本以为只是喝杯简单的饮料，却目睹了一场体现和谐、尊敬和纯净的仪式。榻榻米房间里的寂静仅被烧水的轻柔声响打破。这是我第一次邂逅“omotenashi”这一深刻概念，即日本全心全意的待客之道。",
       "vocabulary": [
         {
-          "word": "conundrum",
-          "phonetic": "/kəˈnʌndrəm/",
-          "meaning": "n. 难题；谜团",
-          "example": "The conundrum of energy security versus environmental sustainability perplexes policymakers."
+          "word": "tranquil",
+          "phonetic": "/ˈtræŋkwɪl/",
+          "meaning": "adj. 宁静的；安静的",
+          "example": "The lake was tranquil in the early morning light."
         },
         {
-          "word": "precipitate",
-          "phonetic": "/prɪˈsɪpɪteɪt/",
-          "meaning": "v. 促使；使突然发生",
-          "example": "The sudden shift in policy precipitated a crisis in the energy market."
+          "word": "clad",
+          "phonetic": "/klæd/",
+          "meaning": "adj. 穿着……的；覆盖的",
+          "example": "She was clad in a flowing white gown."
         },
         {
-          "word": "intermittency",
-          "phonetic": "/ˌɪntərˈmɪtənsi/",
-          "meaning": "n. 间歇性；断断续续",
-          "example": "The intermittency of solar power requires sophisticated storage solutions."
+          "word": "choreographed",
+          "phonetic": "/ˈkɒriəɡrɑːft/",
+          "meaning": "adj. 精心编排的；设计好的",
+          "example": "The dancers performed a beautifully choreographed routine."
         },
         {
-          "word": "onslaught",
-          "phonetic": "/ˈɑːnslɔːt/",
-          "meaning": "n. 猛攻；冲击",
-          "example": "The coastal city prepared for the onslaught of an approaching hurricane."
+          "word": "profound",
+          "phonetic": "/prəˈfaʊnd/",
+          "meaning": "adj. 深刻的；意义深远的",
+          "example": "The book had a profound impact on my thinking."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "Whereas these sources were once celebrated for their low marginal costs, their growing intermittency now exacts a heavy toll on grid stability.",
-          "zh": "尽管这些能源曾因低边际成本而备受赞誉，但它们日益加剧的间歇性正对电网稳定性造成严重影响。",
-          "grammar": "复合句，'Whereas'引导对比状语从句，主句为'their growing intermittency... exacts a heavy toll'，'exacts a heavy toll on'是固定搭配，意为'造成严重影响'。"
+          "en": "Every gesture—from the whisking of the tea to the placement of the bowl—seemed choreographed.",
+          "zh": "每一个动作——从搅打茶汤到放置茶碗——仿佛都是精心编排的。",
+          "grammar": "主语 Every gesture 后接破折号插入语，说明具体范围，谓语 seemed choreographed 为系表结构，表示“看起来是编排好的”。"
         }
       ]
     },
     {
-      "en": "Recent calamities illustrate the vulnerability of clean-energy infrastructure. In Texas, a winter storm froze wind turbines, slashing output by 70%. In the Midwest, hailstones the size of baseballs shattered solar panels, costing utilities billions. Such episodes underscore the folly of treating renewables as monolithic solutions. A diversified portfolio—solar, wind, geothermal, and green hydrogen—coupled with grid-scale storage and microgrids, is imperative. The era of assuming that renewable power is inherently invulnerable has resoundingly ended.",
-      "zh": "近期的灾难凸显了清洁能源基础设施的脆弱性。在得克萨斯州，一场冬季暴风雪冻结了风力涡轮机，导致发电量骤降70%。在中西部，棒球大小的冰雹击碎了太阳能电池板，造成公用事业公司数十亿美元的损失。此类事件凸显了将可再生能源视为单一解决方案的愚蠢。必须建立多元化的组合——太阳能、风能、地热能和绿色氢能——并辅以电网级储能和微电网。那种认为可再生电力天然无懈可击的时代已经彻底终结。",
+      "en": "The ceremony unfolded with meticulous precision. The hostess first cleansed the tea utensils in a prescribed order, each movement fluid yet deliberate. When she presented the bowl to me, I was instructed to turn it twice before sipping—a custom to share the bowl's beauty with all guests. The bitter taste of matcha was a revelation, far from the sugary lattes I knew. In that moment, I realized that the ritual was not merely about drinking tea; it was a meditation on presence and gratitude. The cultural difference was not just in the steps, but in the mindset behind them.",
+      "zh": "仪式以一丝不苟的精确展开。女主人首先按既定顺序清洁茶具，每个动作流畅而刻意。当她将茶碗递给我时，我被指示先转动两次再小口品尝——这是一种让所有客人共同欣赏茶碗之美的习俗。抹茶的苦涩味道令我大开眼界，远非我所熟悉的含糖拿铁可比。那一刻，我意识到这一仪式并非仅仅是喝茶；它是对当下存在与感恩的���想。文化差异不仅在于步骤本身，更在于其背后的心态。",
       "vocabulary": [
         {
-          "word": "calamities",
-          "phonetic": "/kəˈlæmətiːz/",
-          "meaning": "n. 灾难；祸患",
-          "example": "The region has suffered a series of natural calamities over the past decade."
+          "word": "meticulous",
+          "phonetic": "/mɪˈtɪkjələs/",
+          "meaning": "adj. 一丝不苟的；细致的",
+          "example": "She is meticulous about her appearance."
         },
         {
-          "word": "underscore",
-          "phonetic": "/ˌʌndərˈskɔːr/",
-          "meaning": "v. 强调；突出",
-          "example": "The report underscores the need for immediate climate action."
+          "word": "cleanse",
+          "phonetic": "/klenz/",
+          "meaning": "v. 清洁；净化",
+          "example": "Use a gentle soap to cleanse your face."
         },
         {
-          "word": "folly",
-          "phonetic": "/ˈfɑːli/",
-          "meaning": "n. 愚蠢；荒唐事",
-          "example": "It would be folly to ignore the warnings of climate scientists."
+          "word": "prescribed",
+          "phonetic": "/prɪˈskraɪbd/",
+          "meaning": "adj. 规定的；指定的",
+          "example": "Follow the prescribed dosage on the label."
         },
         {
-          "word": "imperative",
-          "phonetic": "/ɪmˈperətɪv/",
-          "meaning": "adj. 必要的；紧急的",
-          "example": "It is imperative that we diversify our energy sources."
+          "word": "revelation",
+          "phonetic": "/ˌrevəˈleɪʃən/",
+          "meaning": "n. 启示；令人惊讶的发现",
+          "example": "The documentary was a revelation about ocean life."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "A diversified portfolio—solar, wind, geothermal, and green hydrogen—coupled with grid-scale storage and microgrids, is imperative.",
-          "zh": "必须建立多元化的组合——太阳能、风能、地热能和绿色氢能——并辅以电网级储能和微电网。",
-          "grammar": "主系表结构，主语'A diversified portfolio'后接破折号插入语补充说明，过去分词短语'coupled with...'作定语修饰主语，谓语为'is imperative'。"
+          "en": "The ritual was not merely about drinking tea; it was a meditation on presence and gratitude.",
+          "zh": "这一仪式并非仅仅是喝茶；它是对当下存在与感恩的冥想。",
+          "grammar": "分号连接两个并列分句，第一个分句用 not merely about... 否定，第二个分句用 it was a meditation on... 说明本质，介词 on 表示“关于”。"
         }
       ]
     },
     {
-      "en": "Governments are belatedly recalibrating policies. The European Union's latest plan mandates that new solar installations incorporate hail-resistant coatings and tilt mechanisms. China is subsidising pumped-hydro storage to balance grid fluctuations. In America, the Department of Energy has launched a $5 billion initiative to modernize transmission lines and embed predictive analytics for extreme-weather forecasting. These measures aim to transform renewables from fair-weather friends into resilient pillars of the energy system, capable of withstanding climate vagaries.",
-      "zh": "各国政府正在姗姗来迟地调整政策。欧盟的最新计划强制要求新的太阳能装置采用防雹涂层和倾斜机构。中国正在补贴抽水蓄能以平衡电网波动。美国能源部启动了一项50亿美元的倡议，用以升级输电线路并嵌入极端天气预测分析。这些措施旨在将可再生能源从“晴天朋友”转变为能源系统中能够抵御气候变化的韧性支柱。",
+      "en": "As I returned to my usual Western habits, I could not help but contrast the experience with my own culture. In my world, efficiency often overshadows ritual; we grab coffee on the go, multitasking without a second thought. The Japanese tea ceremony demanded full immersion—every sense engaged, every moment savored. It taught me that hospitality is not about speed or abundance, but about intentional presence. I began to see how deeply culture shapes our perception of time and service. This encounter was a gentle reminder that the most ordinary activities can become extraordinary when approached with reverence.",
+      "zh": "当我回归自己通常的西方生活习惯时，不禁将这次经历与自身文化进行对比。在我的世界里，效率往往胜过仪式；我们匆匆喝杯咖啡就上路，一心多用而不假思索。日本茶道要求全身心投入——每一感官都被调动，每一刻都细细品味。它让我明白，待客之道不在于速度或丰盛，而在于刻意的在场。我开始看到文化如何深刻地塑造我们对时间和服务的认知。这次相遇温和地提醒我，最平凡的活动若以敬畏之心对待，也能变得不凡。",
       "vocabulary": [
         {
-          "word": "belatedly",
-          "phonetic": "/bɪˈleɪtɪdli/",
-          "meaning": "adv. 延迟地；来得晚地",
-          "example": "The government belatedly acknowledged the severity of the drought."
+          "word": "overshadow",
+          "phonetic": "/ˌəʊvəˈʃædəʊ/",
+          "meaning": "v. 使……黯然失色；超过",
+          "example": "His achievement overshadowed the rest of the team."
         },
         {
-          "word": "mandate",
-          "phonetic": "/ˈmændeɪt/",
-          "meaning": "v. 强制规定；授权",
-          "example": "New regulations mandate that all buildings install solar panels."
+          "word": "immersion",
+          "phonetic": "/ɪˈmɜːʃən/",
+          "meaning": "n. 沉浸；投入",
+          "example": "Language immersion is the best way to learn quickly."
         },
         {
-          "word": "subsidise",
-          "phonetic": "/ˈsʌbsɪdaɪz/",
-          "meaning": "v. 补贴；资助",
-          "example": "The government subsidises electric vehicle purchases to reduce emissions."
+          "word": "savor",
+          "phonetic": "/ˈseɪvə/",
+          "meaning": "v. 品尝；欣赏",
+          "example": "Take time to savor the flavors of the dish."
         },
         {
-          "word": "vagaries",
-          "phonetic": "/ˈveɪɡəriːz/",
-          "meaning": "n. 变幻莫测；反复无常",
-          "example": "Farmers must adapt to the vagaries of the weather."
+          "word": "reverence",
+          "phonetic": "/ˈrevərəns/",
+          "meaning": "n. 尊敬；敬畏",
+          "example": "They spoke of the ancient tradition with reverence."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "These measures aim to transform renewables from fair-weather friends into resilient pillars of the energy system, capable of withstanding climate vagaries.",
-          "zh": "这些措施旨在将可再生能源从“晴天朋友”转变为能源系统中能够抵御气候变化的韧性支柱。",
-          "grammar": "简单句，谓语'aim to transform... from... into...'，后接形容词短语'capable of...'作定语修饰'pillars'。'fair-weather friends'是比喻用法，指只在有利条件下可靠的朋友。"
+          "en": "It taught me that hospitality is not about speed or abundance, but about intentional presence.",
+          "zh": "它让我明白，待客之道不在于速度或丰盛，而在于刻意的在场。",
+          "grammar": "主句 It taught me that... 后接���语从句，从句中 not about... but about... 构成对比结构，强调宾语的并列关系。"
         }
       ]
     },
     {
-      "en": "Despite the challenges, innovation offers a silver lining. Advances in perovskite solar cells promise higher efficiency even in cloudy conditions. Solid-state batteries are on the cusp of providing cheaper, longer-duration storage. Meanwhile, artificial intelligence optimises grid management, predicting faults before they occur. The transition will be arduous—but the fusion of human ingenuity with policy resolve can turn adversity into opportunity. The renewable sector is learning to fight fire with fire, or rather, storm with storage.",
-      "zh": "尽管挑战重重，创新仍带来一线希望。钙钛矿太阳能电池的进步有望在阴天也能实现更高效率。固态电池即将提供更便宜、更长时长的储能。同时，人工智能优化电网管理，在故障发生前进行预测。转型之路将十分艰巨——但人类智慧与政策决心的结合能够将逆境转化为机遇。可再生能源行业正在学会以毒攻毒，更确切地说，是以储能对抗风暴。",
+      "en": "Leaving the tea house, I carried more than a faint taste of matcha on my tongue. I carried a newfound respect for the beauty of unhurried ritual. The experience had transformed my understanding of cultural exchange: it is not about collecting sights, but about immersing oneself in a different way of being. In a world obsessed with efficiency, the tea ceremony offered a quiet rebellion—a celebration of the moment. I now understand that true travel is not just moving through space, but allowing a place to move through you. That day in Kyoto, Japan taught me the art of slowing down.",
+      "zh": "离开茶室时，我带走的不仅是舌尖上抹茶的淡淡余味。我带着一份对从容仪式之美的新生敬意。这次经历改变了我的文化交流理解：它不在于收集景点，而在于沉浸于另一种存在方式。在一个痴迷效率的世界里，茶道提供了一种安静的叛逆——对当下的礼赞。我现在明白，真正的旅行不仅是穿越空间，更是让一个地方穿越你的内心。那天在京都，日本教会了我慢下来的艺术。",
       "vocabulary": [
         {
-          "word": "silver lining",
-          "phonetic": "/ˈsɪlvər ˈlaɪnɪŋ/",
-          "meaning": "n. 一线希望；光明前景",
-          "example": "Every cloud has a silver lining, and the energy crisis spurred green investments."
+          "word": "newfound",
+          "phonetic": "/ˈnjuːfaʊnd/",
+          "meaning": "adj. 新发现的；新获得的",
+          "example": "She enjoyed her newfound freedom after retirement."
         },
         {
-          "word": "cusp",
-          "phonetic": "/kʌsp/",
-          "meaning": "n. 尖端；转折点",
-          "example": "The technology is on the cusp of commercial viability."
+          "word": "unhurried",
+          "phonetic": "/ʌnˈhʌrid/",
+          "meaning": "adj. 从容的；不匆忙的",
+          "example": "We took an unhurried stroll through the park."
         },
         {
-          "word": "arduous",
-          "phonetic": "/ˈɑːrdʒuəs/",
-          "meaning": "adj. 艰巨的；费力的",
-          "example": "The arduous journey to net-zero emissions will require decades of effort."
+          "word": "obsessed",
+          "phonetic": "/əbˈsest/",
+          "meaning": "adj. 着迷的；痴迷的",
+          "example": "He is obsessed with video games."
         },
         {
-          "word": "ingenuity",
-          "phonetic": "/ˌɪndʒəˈnuːəti/",
-          "meaning": "n. 独创性；聪明才智",
-          "example": "Human ingenuity has always found ways to overcome resource constraints."
+          "word": "rebellion",
+          "phonetic": "/rɪˈbeljən/",
+          "meaning": "n. 反叛；反抗",
+          "example": "The teenager's rebellion was short-lived."
         }
       ],
       "difficult_sentences": [
         {
-          "en": "The transition will be arduous—but the fusion of human ingenuity with policy resolve can turn adversity into opportunity.",
-          "zh": "转型之路将十分艰巨——但人类智慧与政策决心的结合能够将逆境转化为机遇。",
-          "grammar": "并列句，由破折号和'but'连接。前半句主系表，后半句主语为'the fusion...'，谓语'can turn... into...'。'adversity'与'opportunity'形成对比。"
+          "en": "In a world obsessed with efficiency, the tea ceremony offered a quiet rebellion—a celebration of the moment.",
+          "zh": "在一个痴迷效率的世界里，茶道提供了一种安静的叛逆——对当下的礼赞。",
+          "grammar": "介词短语 In a world obsessed with efficiency 作地点状语，其中 obsessed with efficiency 是过去分词短语修饰 a world。主句主语 the tea ceremony，谓语 offered，宾语 a quiet rebellion，破折号后 a celebration of the moment 作同位语，补充说明 rebellion 的内容。"
         }
       ]
     }
