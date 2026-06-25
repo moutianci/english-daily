@@ -99,7 +99,7 @@ const USER_PROMPT = `Write today's article (date: ${TODAY}). Topic area: ${topic
 Output the complete JSON object with this exact structure:
 {
   "date": "${TODAY}",
-  "source": "The Economist",
+  "source": "NCE 精读",
   "title": "Your article title here",
   "titleZh": "Your Chinese article title here",
   "url": "",
