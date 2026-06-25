@@ -267,116 +267,6 @@ body {
 
 .vocab-popup.show { display: block; }
 
-
-/* Settings button */
-.settings-btn {
-  background: none;
-  border: 1.5px solid var(--border);
-  border-radius: 8px;
-  padding: 7px 12px;
-  font-size: 16px;
-  cursor: pointer;
-  color: var(--text);
-  transition: background 0.2s;
-}
-.settings-btn:hover { background: var(--highlight-bg); }
-
-/* Settings modal */
-.settings-modal {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 28px 24px;
-  width: 340px;
-  max-width: 92vw;
-  z-index: 1000;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-}
-.settings-modal.show { display: block; }
-.settings-modal h3 {
-  margin: 0 0 18px;
-  font-size: 17px;
-  color: var(--text);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.settings-modal label {
-  display: block;
-  font-size: 13px;
-  color: var(--text-secondary);
-  margin-bottom: 6px;
-  font-weight: 500;
-}
-.settings-modal input,
-.settings-modal select {
-  width: 100%;
-  padding: 9px 12px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg);
-  color: var(--text);
-  font-size: 14px;
-  box-sizing: border-box;
-  margin-bottom: 16px;
-}
-.settings-modal .row { display: flex; gap: 10px; align-items: center; }
-.settings-modal .row input { margin-bottom: 0; flex: 1; }
-.settings-modal .row button {
-  padding: 9px 14px;
-  background: var(--highlight);
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 13px;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.settings-modal .hint {
-  font-size: 11px;
-  color: var(--text-secondary);
-  margin-top: -12px;
-  margin-bottom: 14px;
-  line-height: 1.5;
-}
-.settings-modal .hint a { color: var(--highlight); }
-.settings-modal .status {
-  font-size: 12px;
-  padding: 8px 12px;
-  border-radius: 6px;
-  margin-bottom: 14px;
-  display: none;
-}
-.settings-modal .status.ok { display: block; background: #1a3a1a; color: #6fcf97; }
-.settings-modal .status.err { display: block; background: #3a1a1a; color: #eb5757; }
-.settings-modal .actions { display: flex; gap: 10px; margin-top: 4px; }
-.settings-modal .btn-save {
-  flex: 1;
-  padding: 10px;
-  background: var(--highlight);
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 14px;
-  cursor: pointer;
-}
-.settings-modal .btn-cancel {
-  flex: 1;
-  padding: 10px;
-  background: var(--bg);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-
 .vocab-overlay {
   display: none;
   position: fixed;
@@ -470,6 +360,60 @@ body {
   margin-top: 6px;
   color: #166534;
   font-size: 14px;
+}
+
+/* Chunks (意群分析) */
+.chunks-section {
+  margin-top: 16px;
+}
+
+.chunks-toggle {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #fef3c7;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #92400e;
+  cursor: pointer;
+  user-select: none;
+}
+
+.chunks-toggle:hover { background: #fde68a; }
+
+.chunks-content {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.chunk-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background: #fffbeb;
+  border-left: 3px solid #f59e0b;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 15px;
+  gap: 12px;
+}
+
+.chunk-en {
+  font-weight: 500;
+  color: var(--text);
+  flex: 1;
+}
+
+.chunk-zh {
+  color: #92400e;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .chunk-item { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .chunk-zh { text-align: left; }
 }
 
 /* Navigation */
@@ -608,45 +552,12 @@ input, textarea, select {
       <button class="date-picker-btn" onclick="toggleDatePicker()" id="pickerBtn">📅 选择日期</button>
       <div class="date-picker-dropdown" id="pickerDropdown"></div>
     </div>
-    <button class="settings-btn" onclick="openSettings()" id="settingsBtn" title="朗读设置">⚙️</button>
   </div>
 
   <div id="content"></div>
   <div class="nav">
     <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">← 上一篇</button>
     <button class="nav-btn" id="nextBtn" onclick="navigate(1)">下一篇 →</button>
-  </div>
-</div>
-
-
-<div class="vocab-overlay" id="settingsOverlay" onclick="closeSettings()"></div>
-<div class="settings-modal" id="settingsModal">
-  <h3>🎙️ 朗读设置</h3>
-
-  <label>ElevenLabs API Key</label>
-  <div class="row">
-    <input type="password" id="elKeyInput" placeholder="xi-..." autocomplete="off" />
-    <button onclick="testElevenLabs()">测试</button>
-  </div>
-  <div class="hint">
-    免费额度：每月 10,000 字符 ·
-    <a href="https://elevenlabs.io" target="_blank">获取 API Key →</a>
-    （仅填 Key 不填 Voice ID 则使用默认音色）
-  </div>
-  <div class="status" id="elStatus"></div>
-
-  <label>Voice ID（留空使用默认）</label>
-  <input type="text" id="elVoiceInput" placeholder="Rachel (21m00Tcm4TlvDq8ikWAM)" />
-
-  <label>朗读引擎</label>
-  <select id="ttsEngineSelect">
-    <option value="elevenlabs">🤖 ElevenLabs AI（需 Key）</option>
-    <option value="browser">🔊 浏览器语音（免费，无需设置）</option>
-  </select>
-
-  <div class="actions">
-    <button class="btn-cancel" onclick="closeSettings()">取消</button>
-    <button class="btn-save" onclick="saveSettings()">保存</button>
   </div>
 </div>
 
@@ -800,6 +711,19 @@ function renderArticle(article) {
       html += `</div>`;
     }
 
+    // Chunks (意群分析)
+    if (p.chunks && p.chunks.length) {
+      html += `<div class="chunks-section"><div class="chunks-toggle" onclick="toggleChunks(${i})">🔪 意群分析 (${p.chunks.length})</div>`;
+      html += `<div class="chunks-content" id="chunks-${i}">`;
+      for (const c of p.chunks) {
+        html += `<div class="chunk-item">
+          <span class="chunk-en">${c.en}</span>
+          <span class="chunk-zh">${c.zh}</span>
+        </div>`;
+      }
+      html += `</div></div>`;
+    }
+
     // Difficult sentences
     if (p.difficult_sentences.length) {
       html += `<div class="grammar-section"><div class="grammar-toggle" onclick="toggleGrammar(${i})">✏️ 难句解析 (${p.difficult_sentences.length})</div>`;
@@ -809,6 +733,20 @@ function renderArticle(article) {
           <div class="en-sentence">${s.en}</div>
           <div class="zh-analysis">${s.zh}</div>
           <div class="grammar-point">📐 ${s.grammar}</div>
+        </div>`;
+      }
+      html += `</div></div>`;
+    }
+
+    // Overall grammar analysis (语法总析)
+    if (p.grammar_analysis && p.grammar_analysis.points && p.grammar_analysis.points.length) {
+      html += `<div class="grammar-section"><div class="grammar-toggle" onclick="toggleGrammar(${i})">📐 语法总析 (${p.grammar_analysis.points.length})</div>`;
+      html += `<div class="grammar-content" id="grammar-${i}" style="border-left-color:var(--accent2)">`;
+      for (const pt of p.grammar_analysis.points) {
+        html += `<div class="grammar-item">
+          <div class="en-sentence">🔷 ${pt.structure}</div>
+          <div class="zh-analysis">${pt.explanation}</div>
+          <div class="grammar-point" style="background:var(--accent2-light)">💬 ${pt.example_sentence}</div>
         </div>`;
       }
       html += `</div></div>`;
@@ -825,6 +763,11 @@ function toggleTranslation(i) {
   el.classList.toggle('show');
   const btn = el.previousElementSibling;
   btn.textContent = el.classList.contains('show') ? '📖 隐藏中文翻译' : '📖 显示中文翻译';
+}
+
+function toggleChunks(i) {
+  const el = document.getElementById(`chunks-${i}`);
+  el.style.display = el.style.display === 'flex' ? 'none' : 'flex';
 }
 
 function toggleGrammar(i) {
@@ -1147,237 +1090,55 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ====== TTS朗读功能 ======
-// 支持 ElevenLabs AI 语音 + 浏览器原生语音两种模式
+let currentUtterance = null;
 let currentPlayIndex = -1;
-let ttsAudio = null;          // HTMLAudioElement for ElevenLabs
-let browserQueue = [];       // Queue for browser TTS
-let browserSpeaking = false;
 
-// ---- Settings storage ----
-const EL_KEY = 'el_api_key';
-const EL_VOICE = 'el_voice_id';
-const TTS_ENGINE = 'tts_engine';
-
-function getTTSEngine() {
-  return localStorage.getItem(TTS_ENGINE) || 'browser';
-}
-function getELKey() {
-  return localStorage.getItem(EL_KEY) || '';
-}
-function getELVoice() {
-  return localStorage.getItem(EL_VOICE) || '';
-}
-
-function openSettings() {
-  document.getElementById('elKeyInput').value = getELKey();
-  document.getElementById('elVoiceInput').value = getELVoice();
-  document.getElementById('ttsEngineSelect').value = getTTSEngine();
-  document.getElementById('elStatus').className = 'status';
-  document.getElementById('settingsOverlay').classList.add('show');
-  document.getElementById('settingsModal').classList.add('show');
-}
-function closeSettings() {
-  document.getElementById('settingsOverlay').classList.remove('show');
-  document.getElementById('settingsModal').classList.remove('show');
-}
-function saveSettings() {
-  localStorage.setItem(EL_KEY, document.getElementById('elKeyInput').value.trim());
-  localStorage.setItem(EL_VOICE, document.getElementById('elVoiceInput').value.trim());
-  localStorage.setItem(TTS_ENGINE, document.getElementById('ttsEngineSelect').value);
-  closeSettings();
-}
-
-// Test ElevenLabs API
-async function testElevenLabs() {
-  const key = document.getElementById('elKeyInput').value.trim();
-  const voice = document.getElementById('elVoiceInput').value.trim() || 'EXAVITQu4vr4xnSDxMaL'; // Rachel default
-  const statusEl = document.getElementById('elStatus');
-  statusEl.textContent = '⏳ 测试中…';
-  statusEl.className = 'status';
-  try {
-    const resp = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}`, {
-      method: 'POST',
-      headers: {
-        'xi-api-key': key,
-        'Content-Type': 'application/json',
-        'Accept': 'audio/mpeg'
-      },
-      body: JSON.stringify({
-        text: 'Hello! This is a test of the ElevenLabs voice.',
-        model_id: 'eleven_monolingual_v1',
-        voice_settings: { stability: 0.5, similarity_boost: 0.8 }
-      })
-    });
-    if (!resp.ok) {
-      const err = await resp.json().catch(() => ({}));
-      throw new Error((err.detail || resp.statusText) + ` (${resp.status})`);
-    }
-    const blob = await resp.blob();
-    const url = URL.createObjectURL(blob);
-    const audio = new Audio(url);
-    audio.onended = () => { URL.revokeObjectURL(url); };
-    audio.onerror = () => { URL.revokeObjectURL(url); };
-    audio.play();
-    statusEl.textContent = '✅ 连接成功！可以听到测试语音。';
-    statusEl.className = 'status ok';
-  } catch (e) {
-    statusEl.textContent = '❌ ' + e.message;
-    statusEl.className = 'status err';
-  }
-}
-
-// ---- Browser TTS (fallback) ----
-let naturalVoice = null;
-function pickNaturalVoice() {
-  const voices = speechSynthesis.getVoices();
-  if (!voices.length) return null;
-  const preferred = ['samantha','karen','alex','daniel','fiona','moira','tessa','veena','jenny','aria','guy','tony','zira'];
-  for (const name of preferred) {
-    const v = voices.find(v => v.lang.startsWith('en') && v.name.toLowerCase().includes(name));
-    if (v) return v;
-  }
-  return voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
-}
-function ensureVoiceLoaded() {
-  if (!naturalVoice) naturalVoice = pickNaturalVoice();
-}
-speechSynthesis.addEventListener('voiceschanged', () => { if (!naturalVoice) naturalVoice = pickNaturalVoice(); });
-setTimeout(ensureVoiceLoaded, 100);
-speechSynthesis.getVoices();
-
-function splitSentences(text) {
-  const parts = text.match(/[^.!?]+(?:[.!?]+|$)/g);
-  return parts ? parts.map(s => s.trim()).filter(s => s.length > 0) : [text.trim()];
-}
-
-function speakBrowserNext() {
-  if (browserQueue.length === 0) { browserSpeaking = false; resetPlayBtn(currentPlayIndex); currentPlayIndex = -1; return; }
-  browserSpeaking = true;
-  const text = browserQueue.shift();
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = 'en-US';
-  utter.rate = 0.85;
-  if (naturalVoice) utter.voice = naturalVoice;
-  utter.onend = () => setTimeout(speakBrowserNext, 180);
-  utter.onerror = () => setTimeout(speakBrowserNext, 100);
-  speechSynthesis.speak(utter);
-}
-
-// ---- ElevenLabs TTS ----
-let elAbortController = null;
-
-async function playElevenLabs(text, index) {
-  const key = getELKey();
-  const voice = getELVoice() || 'EXAVITQu4vr4xnSDxMaL';
-  if (!key) { playBrowserFallback(text, index); return; }
-
-  // Stop previous
-  if (ttsAudio) { ttsAudio.pause(); ttsAudio.src = ''; ttsAudio = null; }
-  if (elAbortController) elAbortController.abort();
-  elAbortController = new AbortController();
-
-  try {
-    const resp = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}`, {
-      method: 'POST',
-      headers: {
-        'xi-api-key': key,
-        'Content-Type': 'application/json',
-        'Accept': 'audio/mpeg'
-      },
-      body: JSON.stringify({
-        text: text,
-        model_id: 'eleven_monolingual_v1',
-        voice_settings: { stability: 0.5, similarity_boost: 0.8 }
-      }),
-      signal: elAbortController.signal
-    });
-    if (!resp.ok) {
-      // Fall back to browser TTS on API error
-      if (resp.status === 401 || resp.status === 403) {
-        alert('ElevenLabs API Key 无效，请检查设置。');
-      } else {
-        playBrowserFallback(text, index);
-      }
-      return;
-    }
-    const blob = await resp.blob();
-    const url = URL.createObjectURL(blob);
-    ttsAudio = new Audio(url);
-    ttsAudio.onended = () => {
-      URL.revokeObjectURL(url);
-      resetPlayBtn(index);
-      currentPlayIndex = -1;
-    };
-    ttsAudio.onerror = () => {
-      URL.revokeObjectURL(url);
-      resetPlayBtn(index);
-      currentPlayIndex = -1;
-    };
-    ttsAudio.play();
-  } catch (e) {
-    if (e.name !== 'AbortError') {
-      resetPlayBtn(index);
-      currentPlayIndex = -1;
-    }
-  }
-}
-
-function playBrowserFallback(text, index) {
-  ensureVoiceLoaded();
-  browserQueue = splitSentences(text);
-  speakBrowserNext();
-}
-
-// ---- Main playParagraph ----
 function playParagraph(index) {
-  // Stop: same paragraph or different engine
-  if (currentPlayIndex === index && ttsAudio && !ttsAudio.paused) {
-    ttsAudio.pause(); ttsAudio.src = '';
-    ttsAudio = null;
-    if (elAbortController) { elAbortController.abort(); elAbortController = null; }
-    resetPlayBtn(index);
-    currentPlayIndex = -1;
-    return;
-  }
-  if (currentPlayIndex === index && browserSpeaking) {
+  // 如果正在播放同一段，停止
+  if (currentPlayIndex === index && speechSynthesis.speaking) {
     speechSynthesis.cancel();
-    browserQueue = [];
-    browserSpeaking = false;
     resetPlayBtn(index);
     currentPlayIndex = -1;
     return;
   }
-  // Stop whatever was playing
-  if (ttsAudio) { ttsAudio.pause(); ttsAudio.src = ''; ttsAudio = null; }
-  if (elAbortController) { elAbortController.abort(); elAbortController = null; }
+  // 停止之前播放
   speechSynthesis.cancel();
-  browserQueue = [];
-  browserSpeaking = false;
   if (currentPlayIndex >= 0) resetPlayBtn(currentPlayIndex);
 
   const p = currentArticle?.paragraphs?.[index];
   if (!p) return;
 
   const btn = document.getElementById(`play-${index}`);
-  if (!btn) return;
   btn.classList.add('playing');
   btn.textContent = '⏹ 停止';
   currentPlayIndex = index;
 
-  const engine = getTTSEngine();
-  if (engine === 'elevenlabs' && getELKey()) {
-    playElevenLabs(p.en, index);
-  } else {
-    ensureVoiceLoaded();
-    browserQueue = splitSentences(p.en);
-    speakBrowserNext();
-  }
+  const utter = new SpeechSynthesisUtterance(p.en);
+  utter.lang = 'en-US';
+  utter.rate = 0.9;
+  utter.pitch = 1;
+  // 尝试选择美式英语语音
+  const voices = speechSynthesis.getVoices();
+  const usVoice = voices.find(v => v.lang.startsWith('en-US') && /female/i.test(v.name))
+    || voices.find(v => v.lang.startsWith('en-US'))
+    || voices.find(v => v.lang.startsWith('en'));
+  if (usVoice) utter.voice = usVoice;
+
+  utter.onend = () => { resetPlayBtn(index); currentPlayIndex = -1; };
+  utter.onerror = () => { resetPlayBtn(index); currentPlayIndex = -1; };
+
+  currentUtterance = utter;
+  speechSynthesis.speak(utter);
 }
 
 function resetPlayBtn(index) {
   const btn = document.getElementById(`play-${index}`);
   if (btn) { btn.classList.remove('playing'); btn.textContent = '🔊 朗读'; }
 }
+
+// 预加载语音列表（iOS需要）
+speechSynthesis.onvoiceschanged = () => speechSynthesis.getVoices();
+speechSynthesis.getVoices();
 
 init();
 </script>
