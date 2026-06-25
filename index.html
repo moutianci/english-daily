@@ -665,6 +665,22 @@ body {
   accent-color: var(--highlight);
 }
 
+.settings-confirm {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--highlight);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-top: 4px;
+}
+.settings-confirm:hover { opacity: 0.85; }
+
 /* Responsive */
 @media (max-width: 640px) {
   body { font-size: 16px; }
@@ -736,6 +752,7 @@ input, textarea, select {
     <label class="settings-label" for="voiceSelect">语音</label>
     <select id="voiceSelect"></select>
   </div>
+  <button class="settings-confirm" onclick="applySettings()">✓ 确认</button>
 </div>
 
 <div class="vocab-overlay" id="vocabOverlay" onclick="closeVocabPopup()"></div>
@@ -1325,10 +1342,10 @@ function closeSettings() {
 
 // 引擎切换时显示/隐藏语音选择
 function onEngineChange() {
+  // 切换引擎时只更新 UI，不自动保存
   const engine = document.getElementById('ttsEngine').value;
   const group = document.getElementById('voiceSelectGroup');
   group.style.display = engine === 'browser' ? 'block' : 'none';
-  saveConfig();
 }
 
 // 填充浏览器语音列表
@@ -1348,13 +1365,15 @@ function populateVoiceList() {
   }
 }
 
-function saveConfig() {
+// 点击确认时保存所有设置并关闭面板
+function applySettings() {
   ttsConfig.engine = document.getElementById('ttsEngine').value;
   ttsConfig.rate = parseFloat(document.getElementById('ttsRate').value);
   ttsConfig.voiceName = document.getElementById('voiceSelect').value || ttsConfig.voiceName;
   localStorage.setItem('tts_engine', ttsConfig.engine);
   localStorage.setItem('tts_rate', ttsConfig.rate);
   localStorage.setItem('tts_voice', ttsConfig.voiceName);
+  closeSettings();
 }
 
 // StreamElements TTS (免费，不用注册)
@@ -1460,12 +1479,14 @@ function resetPlayBtn(index) {
 speechSynthesis.onvoiceschanged = () => { speechSynthesis.getVoices(); populateVoiceList(); };
 speechSynthesis.getVoices();
 
-// 保存配置时跟随 range 滑动（用 input 事件）
-document.addEventListener('DOMContentLoaded', () => {
-  document.getElementById('ttsRate').addEventListener('input', saveConfig);
-  document.getElementById('ttsEngine').addEventListener('change', saveConfig);
-  document.getElementById('voiceSelect').addEventListener('change', saveConfig);
-});
+// 语速滑条实时更新本地存储
+const rateSlider = document.getElementById('ttsRate');
+if (rateSlider) {
+  rateSlider.addEventListener('input', () => {
+    ttsConfig.rate = parseFloat(rateSlider.value);
+    localStorage.setItem('tts_rate', ttsConfig.rate);
+  });
+}
 
 init();
 </script>
