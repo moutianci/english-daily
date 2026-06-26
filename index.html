@@ -738,9 +738,8 @@ input, textarea, select {
   <h3>🔊 朗读设置</h3>
   <div class="settings-group">
     <label class="settings-label" for="ttsEngine">朗读引擎</label>
-    <select id="ttsEngine" onchange="onEngineChange()">
-      <option value="browser">浏览器内置</option>
-      <option value="google">在线朗读 (Edge TTS)</option>
+    <select id="ttsEngine">
+      <option value="browser">🎧 浏览器内置（推荐）</option>
     </select>
   </div>
   <div class="settings-group">
@@ -750,6 +749,7 @@ input, textarea, select {
   </div>
   <div class="settings-group" id="voiceSelectGroup">
     <label class="settings-label" for="voiceSelect">语音</label>
+    <div id="voiceHint" style="font-size:12px;color:#10b981;margin-bottom:6px;"></div>
     <select id="voiceSelect"></select>
   </div>
   <button class="settings-confirm" onclick="applySettings()">✓ 确认</button>
@@ -1315,15 +1315,10 @@ let currentPlayIndex = -1;
 
 // TTS 配置
 let ttsConfig = {
-  engine: localStorage.getItem('tts_engine') || 'browser',
+  engine: 'browser',
   rate: parseFloat(localStorage.getItem('tts_rate') || '0.9'),
   voiceName: localStorage.getItem('tts_voice') || ''
 };
-// 迁移：streamelements -> google
-if (ttsConfig.engine === 'streamelements') {
-  ttsConfig.engine = 'google';
-  localStorage.setItem('tts_engine', 'google');
-}
 
 // 设置面板
 function toggleSettings() {
@@ -1333,11 +1328,9 @@ function toggleSettings() {
   panel.classList.toggle('show', showing);
   overlay.classList.toggle('show', showing);
   if (showing) {
-    document.getElementById('ttsEngine').value = ttsConfig.engine;
     document.getElementById('ttsRate').value = ttsConfig.rate;
     document.getElementById('rateLabel').textContent = ttsConfig.rate;
     populateVoiceList();
-    onEngineChange();
   }
 }
 function closeSettings() {
@@ -1346,36 +1339,68 @@ function closeSettings() {
 }
 
 // 引擎切换时显示/隐藏语音选择
-function onEngineChange() {
-  // 切换引擎时只更新 UI，不自动保存
-  const engine = document.getElementById('ttsEngine').value;
-  const group = document.getElementById('voiceSelectGroup');
-  group.style.display = engine === 'browser' ? 'block' : 'none';
+// 语音质量评分：Neural > Enhanced > default；en-US > en-GB > 其他英文；女声优先（阅读体验更好）
+function scoreVoice(v) {
+  let s = 0;
+  const n = v.name.toLowerCase();
+  // 语音引擎类型
+  if (/\bneural\b/.test(n)) s += 100;
+  else if (/\benhanced\b/.test(n)) s += 50;
+  // 语言/地区
+  if (v.lang === 'en-US') s += 30;
+  else if (v.lang === 'en-GB' || v.lang === 'en-AU') s += 20;
+  else if (v.lang.startsWith('en')) s += 10;
+  // 性别（名字里的线索）
+  const femNames = ['samantha', 'victoria', 'karen', 'moira', 'tessa', 'fiona', 'vee', 'aria', 'zira', 'susan', 'danielle', 'heather', '初级'];
+  const maleNames = ['dan', 'alex', 'james', 'john', 'michael', 'ian', 'ryan', 'guy', 'david'];
+  if (femNames.some(f => n.includes(f))) s += 15;
+  else if (maleNames.some(m => n.includes(m))) s -= 5;
+  return s;
 }
 
-// 填充浏览器语音列表
+// 填充浏览器语音列表（按质量排序，最优语音自动选中）
 function populateVoiceList() {
   const select = document.getElementById('voiceSelect');
   const voices = speechSynthesis.getVoices();
   if (!voices.length) { select.innerHTML = '<option>加载中...</option>'; return; }
-  // 只列出英文语音
-  const enVoices = voices.filter(v => v.lang.startsWith('en'));
+  // 只列出英文语音，按质量排序
+  const enVoices = voices
+    .filter(v => v.lang.startsWith('en'))
+    .sort((a, b) => scoreVoice(b) - scoreVoice(a));
+
+  if (!enVoices.length) {
+    select.innerHTML = '<option>无英文语音可用</option>';
+    return;
+  }
+
+  // 质量标签
+  function qualityLabel(v) {
+    const n = v.name.toLowerCase();
+    if (/\bneural\b/.test(n)) return '🧠';
+    if (/\benhanced\b/.test(n)) return '✨';
+    return '🔊';
+  }
+
   select.innerHTML = enVoices.map(v =>
-    `<option value="${v.name}" ${v.name === ttsConfig.voiceName ? 'selected' : ''}>${v.name} (${v.lang})</option>`
+    `<option value="${v.name}" ${v.name === ttsConfig.voiceName ? 'selected' : ''}>${qualityLabel(v)} ${v.name} (${v.lang})</option>`
   ).join('');
-  // 如果没有匹配的，选第一个
+
+  // 如果没有保存的语音，自动选最好的并显示名称
   if (!ttsConfig.voiceName && enVoices.length) {
-    ttsConfig.voiceName = enVoices[0].name;
-    select.value = enVoices[0].name;
+    const best = enVoices[0];
+    ttsConfig.voiceName = best.name;
+    localStorage.setItem('tts_voice', best.name);
+    select.value = best.name;
+    // 更新面板提示
+    const hint = document.getElementById('voiceHint');
+    if (hint) hint.textContent = `已自动选择最佳语音：${best.name}`;
   }
 }
 
 // 点击确认时保存所有设置并关闭面板
 function applySettings() {
-  ttsConfig.engine = document.getElementById('ttsEngine').value;
   ttsConfig.rate = parseFloat(document.getElementById('ttsRate').value);
   ttsConfig.voiceName = document.getElementById('voiceSelect').value || ttsConfig.voiceName;
-  localStorage.setItem('tts_engine', ttsConfig.engine);
   localStorage.setItem('tts_rate', ttsConfig.rate);
   localStorage.setItem('tts_voice', ttsConfig.voiceName);
   closeSettings();
@@ -1485,11 +1510,7 @@ function playParagraph(index) {
   const btn = document.getElementById(`play-${index}`);
   currentPlayIndex = index;
 
-  if (ttsConfig.engine === 'google') {
-    playEdgeTTS(p.en, index, () => resetPlayBtn(index));
-  } else {
-    playBrowserTTS(p.en, index);
-  }
+  playBrowserTTS(p.en, index);
 }
 
 function resetPlayBtn(index) {
