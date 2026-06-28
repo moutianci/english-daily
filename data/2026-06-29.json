@@ -1,0 +1,375 @@
+{
+  "date": "2026-06-29",
+  "title": "The Art of Waiting",
+  "titleZh": "等待的艺术",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "I have never been a patient person. In my youth, waiting for anything—a bus, a meal, a reply—felt like an unbearable waste of time. I would fidget, glance at my watch repeatedly, and mentally calculate how much time I was 'losing'. It was not until I visited a friend in a remote village that I began to see waiting in a different light. There, time seemed to move at a gentler pace, and waiting was not a nuisance but a natural part of life.",
+      "zh": "我从来不是一个有耐心的人。年轻时，等待任何事——公交车、一顿饭、一个回复——都感觉像是一种难以忍受的时间浪费。我会坐立不安，反复看表，心里盘算着我在“损失”多少时间。直到我去拜访一位住在偏远村庄的朋友，才开始以不同的眼光看待等待。在那里，时间似乎以更温和的速度流逝，等待不是烦恼，而是生活的自然部分。",
+      "vocabulary": [
+        {
+          "word": "fidget",
+          "phonetic": "/ˈfɪdʒɪt/",
+          "meaning": "v. 坐立不安；烦躁",
+          "example": "The child fidgeted in his seat during the long lecture.",
+          "derivatives": "fidget (v./n.) → fidgety (adj.) 烦躁不安的"
+        },
+        {
+          "word": "nuisance",
+          "phonetic": "/ˈnjuːsns/",
+          "meaning": "n. 令人讨厌的人或事物",
+          "example": "The constant noise from the construction site is a real nuisance.",
+          "derivatives": "nuisance (n.) → noxious (adj.) 有害的（同源但不同义）→ annoy (v.) 骚扰（近义）"
+        },
+        {
+          "word": "in a different light",
+          "phonetic": "/ɪn ə ˈdɪfrənt laɪt/",
+          "meaning": "adv. 从不同的角度；以不同的眼光",
+          "example": "After hearing her story, I saw the situation in a different light.",
+          "derivatives": "collocations: see/view/consider something in a different light"
+        },
+        {
+          "word": "unbearable",
+          "phonetic": "/ʌnˈbeərəbl/",
+          "meaning": "adj. 难以忍受的",
+          "example": "The heat during the summer became unbearable.",
+          "derivatives": "unbearable (adj.) → bear (v.) 忍受 → bearable (adj.) 可忍受的 → unbearably (adv.) 难以忍受地"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It was not until I visited a friend in a remote village that I began to see waiting in a different light.",
+          "zh": "直到我去拜访一位住在偏远村庄的朋友，才开始以不同的眼光看待等待。",
+          "grammar": "这是一个强调句，强调时间状语 'not until I visited a friend in a remote village'。结构为 'It was not until ... that ...'。",
+          "pattern": "It was not until ... that ... (强调句)",
+          "note": "强调句可强调主语、宾语或状语。去掉 'It is/was ... that ...' 后句子仍完整：'I did not begin to see waiting in a different light until I visited a friend in a remote village.'"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "I have never been a patient person.",
+          "zh": "我从来不是一个有耐心的人。",
+          "function": "主句（主语+谓语+宾语）"
+        },
+        {
+          "en": "In my youth, waiting for anything—a bus, a meal, a reply—felt like an unbearable waste of time.",
+          "zh": "年轻时，等待任何事——公交车、一顿饭、一个回复——都感觉像是一种难以忍受的时间浪费。",
+          "function": "时间状语 + 主语 + 谓语 + 宾语"
+        },
+        {
+          "en": "I would fidget, glance at my watch repeatedly, and mentally calculate how much time I was 'losing'.",
+          "zh": "我会坐立不��，反复看表，心里盘算着我在“损失”多少时间。",
+          "function": "谓语（并列动作）"
+        },
+        {
+          "en": "It was not until I visited a friend in a remote village that I began to see waiting in a different light.",
+          "zh": "直到我去拜访一位住在偏远村庄的朋友，才开始以不同的眼光看待等待。",
+          "function": "强调句（主句）"
+        },
+        {
+          "en": "There, time seemed to move at a gentler pace, and waiting was not a nuisance but a natural part of life.",
+          "zh": "在那里，时间似乎以更温和的速度流逝，等待不是烦恼，而是生活的自然部分。",
+          "function": "并列句（地点状语 + 主句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "强调句",
+            "explanation": "强调句的结构为 'It is/was + 被强调部分 + that + 句子其他部分'。本句强调时间状语 'not until ...'。",
+            "example_sentence": "It was not until I visited a friend in a remote village that I began to see waiting in a different light.",
+            "common_mistake": "❌ It was not until I visited a friend in a remote village I began to see waiting... → ✅ It was not until ... that I began ... (缺少that)",
+            "contrast": "强调句与定语从句的区别：定语从句的 'that' 作成分，而强调句的 'that' 不作成分。例如：'It is the book that I bought.' 可以是强调句（强调书）或定语从句（那是我买的书），需根据语境判断。"
+          },
+          {
+            "structure": "并列结构（not a nuisance but...）",
+            "explanation": "'not ... but ...' 表示“不是……而是……”，连接两个并列成分（名词短语）。",
+            "example_sentence": "Waiting was not a nuisance but a natural part of life.",
+            "common_mistake": "❌ Waiting was not a nuisance but a natural part of life. (正确) 常见错误是误用 'but also'：'not only... but also...' 含义不同。",
+            "contrast": "比较 'not A but B'（否定A肯定B）与 'not only A but also B'（A和B都肯定）。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "During my stay, I accompanied my friend to the local well every morning. It was a simple ritual: women and children formed a queue, each carrying a bucket or a pot. No one seemed impatient. They chatted, laughed, and occasionally sang. The wait was not an interval to be endured, but a time for connection. I watched, fascinated, as the line moved slowly forward. In that unhurried process, I discovered something profound: waiting could be an opportunity, not an obstacle.",
+      "zh": "在我逗留期间，我每天早上陪朋友去当地的水井。那是一个简单的仪式：妇女和孩子们排成一队，每人提着水桶或罐子。没有人显得不耐烦。他们聊天、大笑，偶尔唱歌。等待不是需要忍受的间隔，而是联络感情的时刻。我着迷地看着队伍缓缓前进。在那不紧不慢的过程中，我发现了某些深刻的东西：等待可以是一个机会，而不是障碍。",
+      "vocabulary": [
+        {
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃuəl/",
+          "meaning": "n. 仪式；例行公事",
+          "example": "Morning coffee is a daily ritual for many people.",
+          "derivatives": "ritual (n./adj.) → ritualistic (adj.) 仪式的 → ritually (adv.) 仪式性地"
+        },
+        {
+          "word": "interval",
+          "phonetic": "/ˈɪntəvəl/",
+          "meaning": "n. 间隔；间歇",
+          "example": "There was a short interval between the two acts of the play.",
+          "derivatives": "interval (n.) → intermission (n.) 幕间休息（近义）→ intermittent (adj.) 间歇的"
+        },
+        {
+          "word": "profound",
+          "phonetic": "/prəˈfaʊnd/",
+          "meaning": "adj. 深刻的；意义深远的",
+          "example": "Her speech had a profound effect on the audience.",
+          "derivatives": "profound (adj.) → profoundly (adv.) 深刻地 → profundity (n.) 深刻"
+        },
+        {
+          "word": "unhurried",
+          "phonetic": "/ʌnˈhʌrid/",
+          "meaning": "adj. 不紧不慢的；从容的",
+          "example": "He walked at an unhurried pace through the park.",
+          "derivatives": "unhurried (adj.) → hurry (v./n.) 匆忙 → hurried (adj.) 匆忙的 → unhurriedly (adv.) 不慌不忙地"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The wait was not an interval to be endured, but a time for connection.",
+          "zh": "等待不是需要忍受的间隔，而是联络感情的时刻。",
+          "grammar": "这是 'not ... but ...' 结构，连接两个并列的名词短语，'to be endured' 是不定式被动语态作定语修饰 'interval'，'for connection' 是介词短语作定语修饰 'time'。",
+          "pattern": "S + be + not + A + but + B",
+          "note": "此结构用于对比，强调B才是真实情况。注意A和B必须平行（都是名词短语）。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "During my stay, I accompanied my friend to the local well every morning.",
+          "zh": "在我逗留期间，我每天早上陪朋友去当地的水井。",
+          "function": "时间状语 + 主句（主语+谓语+宾语+状语）"
+        },
+        {
+          "en": "It was a simple ritual: women and children formed a queue, each carrying a bucket or a pot.",
+          "zh": "那是一个简单的仪式：妇女和孩子们排成一队，每人提着水桶或罐子。",
+          "function": "主句 + 同位语从句（解释ritual）"
+        },
+        {
+          "en": "No one seemed impatient.",
+          "zh": "没有人显得不耐烦。",
+          "function": "主句"
+        },
+        {
+          "en": "They chatted, laughed, and occasionally sang.",
+          "zh": "他们聊天、大笑，偶尔唱歌。",
+          "function": "谓语（并列动作）"
+        },
+        {
+          "en": "The wait was not an interval to be endured, but a time for connection.",
+          "zh": "等待不是需要忍受的间隔，而是联络感情的时刻。",
+          "function": "主句（主语+系动词+表语）"
+        },
+        {
+          "en": "I watched, fascinated, as the line moved slowly forward.",
+          "zh": "我着迷地看着队伍缓缓前进。",
+          "function": "主句 + 方式状语（fascinated为形容词做伴随状语）"
+        },
+        {
+          "en": "In that unhurried process, I discovered something profound: waiting could be an opportunity, not an obstacle.",
+          "zh": "在那不紧不慢的过程中，我发现了某些深刻的东西：等待可以是一个机会，而不是障碍。",
+          "function": "地点状语 + 主句 + 同位语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格结构（each carrying a bucket）",
+            "explanation": "'each carrying a bucket' 是独立主格结构，作伴随状语，进一步说明队列中每个人的状态。逻辑主语是 'each'（与主句主语不同）。",
+            "example_sentence": "They formed a queue, each carrying a bucket or a pot.",
+            "common_mistake": "❌ They formed a queue, each carried a bucket. → ✅ each carrying（非谓语动词）",
+            "contrast": "独立主格与 'with' 复合结构类似：'with each carrying a bucket' 也可用。"
+          },
+          {
+            "structure": "不定式被动语态作定语（an interval to be endured）",
+            "explanation": "不定式被动语态 'to be endured' 修饰 'interval'，表示“需要被忍受的间隔”。不定式作定语常表示将来或情态含义。",
+            "example_sentence": "The wait was not an interval to be endured.",
+            "common_mistake": "❌ an interval to endure（主动形式可能被误解为“去忍受的间隔”，主语是间隔本身时应用被动）",
+            "contrast": "比较 'something to do'（主动，某人做某事）与 'something to be done'（被动，某事被做）。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "That experience reshaped my attitude towards waiting. Back in the city, I began to use waiting moments differently. Instead of checking my phone impatiently, I would observe my surroundings—the expressions of strangers, the play of light on buildings, the rhythm of footsteps. I learned to treat waiting as a pause, a brief respite from the relentless pace of modern life. Gradually, I found that these small intervals, once despised, had become treasured fragments of calm.",
+      "zh": "那次经历重塑了我对等待的态度。回到城市后，我开始以不同的方式利用等待的时刻。我不再不耐烦地查看手机，而是观察周围的环境——陌生人的表情、光线在建筑物上的变幻、脚步的节奏。我学会了将等待视为一种停顿，是从现代生活无情的节奏中短暂喘息的机会。渐渐地，我发现这些曾经被鄙视的小小间歇，变成了宝贵的平静片段。",
+      "vocabulary": [
+        {
+          "word": "reshape",
+          "phonetic": "/ˌriːˈʃeɪp/",
+          "meaning": "v. 重塑；改变形状",
+          "example": "The experience reshaped his entire worldview.",
+          "derivatives": "reshape (v.) → shape (v./n.) 形状；塑造 → reshaping (n.) 重塑"
+        },
+        {
+          "word": "respite",
+          "phonetic": "/ˈrespaɪt/",
+          "meaning": "n. 喘息；暂时的休息",
+          "example": "The rain gave us a brief respite from the heat.",
+          "derivatives": "respite (n.) → reprieve (v./n.) 缓刑；暂缓（近义）→ rest (n./v.) 休息（近义）"
+        },
+        {
+          "word": "relentless",
+          "phonetic": "/rɪˈlentləs/",
+          "meaning": "adj. 无情的；不懈的",
+          "example": "The relentless pursuit of success can lead to burnout.",
+          "derivatives": "relentless (adj.) → relent (v.) 变温和 → relentlessly (adv.) 无情地 → relentlessness (n.)"
+        },
+        {
+          "word": "despise",
+          "phonetic": "/dɪˈspaɪz/",
+          "meaning": "v. 鄙视；厌恶",
+          "example": "She despised the hypocrisy of the social elite.",
+          "derivatives": "despise (v.) → despicable (adj.) 可鄙的 → despite (prep.) 尽管（非同源）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Gradually, I found that these small intervals, once despised, had become treasured fragments of calm.",
+          "zh": "渐渐地，我发现这些曾经被鄙视的小小间歇，变成了宝贵的平静片段。",
+          "grammar": "主句 'I found' 后接 that 宾语从句。从句中 'once despised' 是过去分词短语作定语，修饰 'intervals'，相当于 'which were once despised'。",
+          "pattern": "S + find + that + S + (past participle phrase) + V...",
+          "note": "过去分词短语作定语常置于名词后，表示被动或完成。注意 'once' 表示“曾经”。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "That experience reshaped my attitude towards waiting.",
+          "zh": "那次经历重塑了我对等待的态度。",
+          "function": "主句（主语+谓语+宾语）"
+        },
+        {
+          "en": "Back in the city, I began to use waiting moments differently.",
+          "zh": "回到城市后，我开始以不同的方式利用等待的时刻。",
+          "function": "地点状语 + 主句"
+        },
+        {
+          "en": "Instead of checking my phone impatiently, I would observe my surroundings—the expressions of strangers, the play of light on buildings, the rhythm of footsteps.",
+          "zh": "我不再不耐烦地查看手机，而是观察周围的环境——陌生人的表情、光线在建筑物上的变幻、脚步的节奏。",
+          "function": "状语（instead of 短语）+ 主句 + 同位语（列举周围的事物）"
+        },
+        {
+          "en": "I learned to treat waiting as a pause, a brief respite from the relentless pace of modern life.",
+          "zh": "我学会了将等待视为一种停顿，是从现代生活无情的节奏中短暂喘息的机会。",
+          "function": "主句 + 宾语补足语"
+        },
+        {
+          "en": "Gradually, I found that these small intervals, once despised, had become treasured fragments of calm.",
+          "zh": "渐渐地，我发现这些曾经被鄙视的小小间歇，变成了宝贵的平静片段。",
+          "function": "时间状语 + 主句 + that 宾语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "过去分词短语作定语（once despised）",
+            "explanation": "过去分词短语 'once despised' 作定语修饰 'intervals'，相当于一个定语从句 'which were once despised'。表示被动和过去。",
+            "example_sentence": "These small intervals, once despised, had become treasured fragments.",
+            "common_mistake": "❌ Intervals once despised have become... → ✅ 正确，但注意主谓一致。另外，如果分词短语置于名词前（单个分词）则说 'despised intervals'。",
+            "contrast": "比较现在分词作定语（主动进行）和过去分词（被动完成）。例如 'the waiting crowd'（等待的人群，主动）vs 'the waited crowd'（不常见，应为 'the crowd that was waited upon' 被服务的人群）。"
+          },
+          {
+            "structure": "instead of + 动名词短语作状语",
+            "explanation": "'Instead of checking my phone' 是介词短语，其中 'checking' 是动名词。表示“而不是……”，在句中作方式状语。",
+            "example_sentence": "Instead of checking my phone impatiently, I would observe my surroundings.",
+            "common_mistake": "❌ Instead check my phone... → ✅ Instead of checking...（缺少 of）",
+            "contrast": "比较 'instead of'（介词，后接名词/动名词）与 'instead'（副词，通常放句末或句首，但不接宾语）。例如：'I didn't check my phone. Instead, I observed...'。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Now, I no longer resent waiting. Whether in a queue at the supermarket or in traffic during rush hour, I accept the delay with equanimity. I often carry a book or simply let my mind wander. I have come to understand that waiting is an integral part of life—it forces us to slow down and observe the world more carefully. Patience, I realized, is not a passive resignation, but an active skill that can be cultivated. And like any skill, it grows stronger with practice.",
+      "zh": "现在，我不再怨恨等待。无论是在超市排队还是在高峰期的交通中，我都平静地接受延迟。我常常带一本书，或者干脆让思绪漫游。我渐渐明白等待是生活不可分割的一部分——它迫使我们放慢脚步，更仔细地观察世界。我意识到，耐心不是被动的顺从，而是一种可以培养的积极技能。就像任何技能一样，它会随着练习而变得更强。",
+      "vocabulary": [
+        {
+          "word": "resent",
+          "phonetic": "/rɪˈzent/",
+          "meaning": "v. 怨恨；愤恨",
+          "example": "He resented being treated like a child.",
+          "derivatives": "resent (v.) → resentment (n.) 怨恨 → resentful (adj.) 怨恨的 → resentfully (adv.)"
+        },
+        {
+          "word": "equanimity",
+          "phonetic": "/ˌekwəˈnɪməti/",
+          "meaning": "n. 平静；镇定",
+          "example": "She faced the crisis with remarkable equanimity.",
+          "derivatives": "equanimity (n.) → equitable (adj.) 公正的（无关）→ calmness (n.) 平静（近义）"
+        },
+        {
+          "word": "integral",
+          "phonetic": "/ˈɪntɪɡrəl/",
+          "meaning": "adj. 必不可少的；整体的",
+          "example": "Exercise is an integral part of a healthy lifestyle.",
+          "derivatives": "integral (adj.) → integrate (v.) 整合 → integration (n.) 整合 → integrity (n.) 完整；正直"
+        },
+        {
+          "word": "cultivate",
+          "phonetic": "/ˈkʌltɪveɪt/",
+          "meaning": "v. 培养；耕作",
+          "example": "It takes time to cultivate a good habit.",
+          "derivatives": "cultivate (v.) → cultivation (n.) 培养；耕种 → cultivated (adj.) 有教养的 → cultivator (n.) 耕种者；培养者"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Patience, I realized, is not a passive resignation, but an active skill that can be cultivated.",
+          "zh": "我意识到，耐心不是被动的顺从，而是一种可以培养的积极技能。",
+          "grammar": "主句 'Patience is not... but...' 中插入 'I realized' 作为插入语（也可看作 'I realized that patience is...' 的变体）。'that can be cultivated' 是定语从句修饰 'skill'。",
+          "pattern": "S, S + V, is not A but B that... (插入语结构)",
+          "note": "插入语 'I realized' 可以放在句中，表示说话人的想法。注意主谓一致：主语 'Patience' 用单数。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Now, I no longer resent waiting.",
+          "zh": "现在，我不再怨恨等待。",
+          "function": "时间状语 + 主句"
+        },
+        {
+          "en": "Whether in a queue at the supermarket or in traffic during rush hour, I accept the delay with equanimity.",
+          "zh": "无论是在超市排队还是在高峰期的交通中，我都平静地接受延迟。",
+          "function": "让步状语（whether...or...）+ 主句"
+        },
+        {
+          "en": "I often carry a book or simply let my mind wander.",
+          "zh": "我常常带一本书，或者干脆让思绪漫游。",
+          "function": "主句（并列谓语）"
+        },
+        {
+          "en": "I have come to understand that waiting is an integral part of life—it forces us to slow down and observe the world more carefully.",
+          "zh": "我渐渐明白等待是生活不可分割的一部分——它迫使我们放慢脚步，更仔细地观察世界。",
+          "function": "主句 + that 宾语从句（破折号后解释说明）"
+        },
+        {
+          "en": "Patience, I realized, is not a passive resignation, but an active skill that can be cultivated.",
+          "zh": "我意识到，耐心不是被动的顺从，而是一种可以培养的积极技能。",
+          "function": "主句 + 插入语 + 表语从句（not...but...）"
+        },
+        {
+          "en": "And like any skill, it grows stronger with practice.",
+          "zh": "就像任何技能一样，它会随着练习而变得更强。",
+          "function": "状语 + 主句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "插入语（I realized）",
+            "explanation": "插入语 'I realized' 被放在主语和谓语之间，打破正常语序，使表达更口语化、自然。",
+            "example_sentence": "Patience, I realized, is not a passive resignation.",
+            "common_mistake": "❌ Patience I realized is not... → ✅ 需要逗号分隔插入语。另外，插入语不能是句子主要结构的一部分。",
+            "contrast": "类似插入语还有 'I believe', 'I think', 'it seems' 等。如 'The problem, I think, is easily solved.' 注意与宾语从句的区别：'I think the problem is easily solved.'（无逗号，是主从复合句）。"
+          },
+          {
+            "structure": "让步状语从句（whether...or...）",
+            "explanation": "'Whether...or...' 引导让步状语从句，表示“无论是……还是……”。这里省略了主语和谓语（'I am'），因为从句主语与主句一致。完整形式：'Whether I am in a queue... or in traffic...'",
+            "example_sentence": "Whether in a queue at the supermarket or in traffic during rush hour, I accept the delay with equanimity.",
+            "common_mistake": "❌ Whether in a queue... or in traffic... 可用。但注意：如果主语不一致，不能省略。例如：'Whether you like it or not, I will do it.' 中不能省略 'you like'。",
+            "contrast": "比较 'whether...or...'（二选一）与 'no matter whether...or...'（语气更强）。也可用 'whether...or not'。"
+          }
+        ]
+      }
+    }
+  ]
+}
