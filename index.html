@@ -766,6 +766,1200 @@ input, textarea, select {
 
 <script>
 // 多源数据加载（国内访问 GitHub CDN 不稳定，依次尝试多个源）
+
+// ===== 嵌入式全部文章数据（零网络请求，即时加载） =====
+const EMBEDDED_ARTICLES = {
+  "2026-06-17": {
+    "date": "2026-06-17",
+    "source": "NCE 精读",
+    "title": "The Battle for Artificial General Intelligence",
+    "url": "https://www.economist.com/leaders/2026/06/15/the-battle-for-artificial-general-intelligence",
+    "paragraphs": [
+      {
+        "en": "The race to build artificial general intelligence (AGI) has become the defining technological contest of the 2020s. A handful of firms, chiefly OpenAI, Google DeepMind and Anthropic, are pouring tens of billions of dollars into training ever-larger models. Their premise is simple: scale is all you need. Feed enough data and computing power into a neural network, and genuine reasoning will eventually emerge.",
+        "zh": "构建通用人工智能（AGI）的竞赛已成为2020年代最具决定性的技术角逐。少数几家公司——主要是OpenAI、Google DeepMind和Anthropic——正在向训练越来越大的模型投入数百亿美元。它们的前提很简单：规模就是你需要的一切。将足够的数据和算力输入神经网络，真正的推理能力终将涌现。",
+        "vocabulary": [
+          {
+            "word": "defining",
+            "phonetic": "/dɪˈfaɪnɪŋ/",
+            "meaning": "adj. 决定性的；最具代表性的",
+            "example": "Climate change is the defining issue of our generation."
+          },
+          {
+            "word": "contest",
+            "phonetic": "/ˈkɒntest/",
+            "meaning": "n. 竞赛；角逐",
+            "example": "The leadership contest was closely watched by investors."
+          },
+          {
+            "word": "premise",
+            "phonetic": "/ˈpremɪs/",
+            "meaning": "n. 前提；假设",
+            "example": "The argument rests on a false premise."
+          },
+          {
+            "word": "eventually",
+            "phonetic": "/ɪˈventʃuəli/",
+            "meaning": "adv. 最终；终于",
+            "example": "She eventually found a job after months of searching."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Their premise is simple: scale is all you need.",
+            "zh": "它们的前提很简单：规模就是一切。这里的 'scale' 指模型参数量、训练数据量和计算资源的规模。'all you need' 是口语化表达，意为'唯一需要的要素'。",
+            "grammar": "冒号后接同位语/解释说明；'all you need' 是省略了 that 的定语从句，修饰前面的 scale 概念。"
+          }
+        ]
+      },
+      {
+        "en": "Sceptics counter that scaling alone will hit diminishing returns. They point to the growing gap between benchmark performance and real-world usefulness. A model that aces a graduate-level mathematics exam may still struggle to draft a coherent email or plan a week of meals. The gap between 'knowing' and 'doing' remains stubbornly wide.",
+        "zh": "怀疑论者反驳说，单纯扩大规模终将面临边际收益递减。他们指出基准测试表现与现实实用性之间的差距正在扩大。一个能轻松通过研究生数学考试模型，可能仍然难以起草一封连贯的电子邮件或规划一周的饮食。'知道'和'做到'之间的差距依然顽固地存在。",
+        "vocabulary": [
+          {
+            "word": "sceptic",
+            "phonetic": "/ˈskeptɪk/",
+            "meaning": "n. 怀疑论者（英式拼写，美式为 skeptic）",
+            "example": "Climate sceptics continue to challenge mainstream science."
+          },
+          {
+            "word": "diminishing",
+            "phonetic": "/dɪˈmɪnɪʃɪŋ/",
+            "meaning": "adj. 递减的；逐渐减弱的",
+            "example": "The returns on investment showed diminishing returns after the third year."
+          },
+          {
+            "word": "coherent",
+            "phonetic": "/kəʊˈhɪərənt/",
+            "meaning": "adj. 连贯的；条理清楚的",
+            "example": "She struggled to give a coherent account of what had happened."
+          },
+          {
+            "word": "stubbornly",
+            "phonetic": "/ˈstʌbənli/",
+            "meaning": "adv. 顽固地；固执地",
+            "example": "Inflation has stubbornly refused to fall below 3%."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "They point to the growing gap between benchmark performance and real-world usefulness.",
+            "zh": "他们指出基准测试表现与现实实用性之间不断扩大的差距。'point to' 意为'指出、援引作为证据'。",
+            "grammar": "'between... and...' 是固定搭配；'benchmark performance' 和 'real-world usefulness' 是两个并列的名词短语作 between 的宾语。"
+          }
+        ]
+      },
+      {
+        "en": "Yet the optimists are doubling down. OpenAI's latest model reportedly cost over $100m to train and consumes more electricity than a small town. The firm's leadership has spoken of reaching AGI within the next two to three years. Such claims invite eyerolls from researchers in academic labs, but the sheer volume of capital flowing into the field suggests that investors, at least, are taking the prospect seriously.",
+        "zh": "然而乐观主义者却在加码投入。据报道，OpenAI最新的模型训练成本超过1亿美元，消耗的电力超过一个小镇。该公司领导层曾表示将在未来两三年内实现AGI。此类说法引来了学术实验室研究人员的翻白眼，但涌入该领域的巨额资本至少表明投资者对这一前景是认真的。",
+        "vocabulary": [
+          {
+            "word": "doubling down",
+            "phonetic": "",
+            "meaning": "phr. 加码；加大投入（源自赌场术语，意为在已有赌注上加倍下注）",
+            "example": "The company doubled down on its AI strategy despite early setbacks."
+          },
+          {
+            "word": "reportedly",
+            "phonetic": "/rɪˈpɔːtɪdli/",
+            "meaning": "adv.据报道",
+            "example": "The CEO reportedly resigned after the scandal broke."
+          },
+          {
+            "word": "eyeroll",
+            "phonetic": "/ˈaɪrəʊl/",
+            "meaning": "n. 翻白眼（表示不屑或不以为然）",
+            "example": "His comments were met with eyerolls from the audience."
+          },
+          {
+            "word": "sheer",
+            "phonetic": "/ʃɪə/",
+            "meaning": "adj. 纯粹的；十足的（强调数量之大或程度之深）",
+            "example": "The sheer scale of the operation was impressive."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Such claims invite eyerolls from researchers in academic labs, but the sheer volume of capital flowing into the field suggests that investors, at least, are taking the prospect seriously.",
+            "zh": "此类说法引来学术研究人员的不屑，但涌入该领域的巨额资本表明，至少投资者对这个前景是认真的。'invite' 这里不是'邀请'，而是'招致、引发'的意思。",
+            "grammar": "转折句结构：'Such claims invite X, but Y suggests Z'。插入语 'at least' 用来限定主语范围。'flowing into the field' 是现在分词短语作 capital 的后置定语。"
+          }
+        ]
+      },
+      {
+        "en": "Whatever the outcome, the AGI race is reshaping geopolitics. America's export controls on advanced chips, China's push for self-sufficiency in semiconductors and the European Union's attempt to regulate AI through the AI Act are all, at their core, responses to the same underlying reality: whoever cracks AGI first will wield enormous economic and strategic power. The stakes, in other words, could hardly be higher.",
+        "zh": "无论结果如何，AGI竞赛正在重塑地缘政治格局。美国对先进芯片的出口管制、中国在半导体领域追求自给自足、欧盟试图通过AI法案监管人工智能——所有这些举措，从根本上说，都是对同一潜在现实的回应：谁率先突破AGI，谁就将拥有巨大的经济和战略权力。换言之，赌注再高不过如此。",
+        "vocabulary": [
+          {
+            "word": "geopolitics",
+            "phonetic": "/ˌdʒiːəʊˈpɒlɪtɪks/",
+            "meaning": "n. 地缘政治",
+            "example": "The war has fundamentally altered the geopolitics of the region."
+          },
+          {
+            "word": "self-sufficiency",
+            "phonetic": "/ˌselfsəˈfɪʃnsi/",
+            "meaning": "n. 自给自足",
+            "example": "The country achieved self-sufficiency in food production."
+          },
+          {
+            "word": "underlying",
+            "phonetic": "/ˌʌndəˈlaɪɪŋ/",
+            "meaning": "adj. 潜在的；根本的；底层的",
+            "example": "The underlying problem is a lack of trust between the parties."
+          },
+          {
+            "word": "wield",
+            "phonetic": "/wiːld/",
+            "meaning": "v. 行使（权力）；运用（影响力）",
+            "example": "The president wields enormous influence over the party."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "America's export controls on advanced chips, China's push for self-sufficiency in semiconductors and the European Union's attempt to regulate AI through the AI Act are all, at their core, responses to the same underlying reality.",
+            "zh": "这句话是典型的三项并列主语结构。三个政治举措（美国芯片管制、中国半导体自立、欧盟AI立法）共用一个谓语 'are all responses to'。插入语 'at their core' 起强调作用。",
+            "grammar": "主语由三个较长的名词短语并列构成（A's X, B's Y, and C's Z），谓语动词 are 后接表语 'responses to'。'at their core' 是插入语，可理解为'从根本上说'。"
+          }
+        ]
+      }
+    ],
+    "titleZh": "通用人工智能争夺战"
+  },
+  "2026-06-18": {
+    "date": "2026-06-18",
+    "source": "NCE 精读",
+    "title": "The 15-Minute City: Urban Planning's New Obsession",
+    "url": "https://www.economist.com/urbanisation/2026/06/17/the-15-minute-city-urban-plannings-new-obsession",
+    "paragraphs": [
+      {
+        "en": "In city halls from Paris to Melbourne, a new urban planning concept is taking hold: the 15-minute city. The idea is elegantly simple. Every resident should be able to reach everything they need for daily life — work, shops, schools, green spaces, healthcare — within a 15-minute walk or bike ride from their front door. No car required. No hour-long commutes. No dependence on fossil fuels for basic errands.",
+        "zh": "从巴黎到墨尔本，一种新的城市规划理念正在城市政府中流行：15分钟城市。这个想法简洁而优雅。每个居民都应该能够从家门口出发，在步行或骑自行车15分钟的距离内到达日常生活所需的一切——工作、商店、学校、绿地、医疗。不需要汽车。没有长达一小时的通勤。不需要依赖化石燃料来处理日常琐事。",
+        "vocabulary": [
+          {
+            "word": "taking hold",
+            "phonetic": "",
+            "meaning": "phr. 流行开来；站稳脚跟",
+            "example": "The new fashion has taken hold in major cities across Europe."
+          },
+          {
+            "word": "elegantly",
+            "phonetic": "/ˈelɪɡəntli/",
+            "meaning": "adv. 简洁地；优雅地",
+            "example": "The problem can be elegantly solved with a simple equation."
+          },
+          {
+            "word": "errand",
+            "phonetic": "/ˈerənd/",
+            "meaning": "n. 差事；跑腿（购物、邮寄等）",
+            "example": "I need to run a few errands before the shops close."
+          },
+          {
+            "word": "fossil fuel",
+            "phonetic": "",
+            "meaning": "n. 化石燃料（煤、石油、天然气）",
+            "example": "The world must phase out fossil fuels to combat climate change."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "The idea is elegantly simple.",
+            "zh": "这个想法简洁而优雅。此处 'elegantly' 不是指外表优雅，而是指逻辑上简洁巧妙。",
+            "grammar": "系表结构（主语 + is + 表语）。副词 'elegantly' 修饰形容词 'simple'，表示程度或方式。"
+          }
+        ]
+      },
+      {
+        "en": "Paris has become the concept's most high-profile laboratory. Mayor Anne Hidalgo's administration has been closing major arteries to car traffic, converting lanes into cycle paths, and planting urban forests in former parking lots. The results have been striking. Commute times have fallen by an average of 22 minutes. Air pollution levels in central districts have dropped to their lowest since reliable records began in the 1970s. Cycling rates have tripled.",
+        "zh": "巴黎已成为这一理念最受瞩目的实验场。市长安娜·伊达尔戈的政府一直在关闭主要汽车干道，将车道改建为自行车道，并在废弃停车场种植城市森林。结果令人瞩目。平均通勤时间减少了22分钟。中心区的空气污染水平已降至20世纪70年代有可靠记录以来的最低点。骑行出行率增加了两倍。",
+        "vocabulary": [
+          {
+            "word": "high-profile",
+            "phonetic": "/ˌhaɪ ˈprəʊfaɪl/",
+            "meaning": "adj. 受高度关注的；引人注目的",
+            "example": "The government launched a high-profile campaign against smoking."
+          },
+          {
+            "word": "artery",
+            "phonetic": "/ˈɑːtəri/",
+            "meaning": "n. 干道；动脉（引申为交通要道）",
+            "example": "Oxford Street is one of London's main arterial roads."
+          },
+          {
+            "word": "striking",
+            "phonetic": "/ˈstraɪkɪŋ/",
+            "meaning": "adj. 显著的；引人注目的",
+            "example": "There is a striking resemblance between the two brothers."
+          },
+          {
+            "word": "tripled",
+            "phonetic": "/ˈtrɪpld/",
+            "meaning": "v. 变成三倍；增加两倍（triple的过去分词）",
+            "example": "Sales have tripled since the product redesign."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Air pollution levels in central districts have dropped to their lowest since reliable records began in the 1970s.",
+            "zh": "中心区的空气污染水平已降至有可靠记录以来的最低点。这里 'their lowest' 指的是空气污染达到了自有可靠记录（1970年代）以来的最低值。注意 'since' 在句中引导时间状语从句。",
+            "grammar": "'drop to + 最低点'（降至最低）。'since reliable records began in the 1970s' 是现在完成时的时间状语从句，说明从何时开始计算。"
+          }
+        ]
+      },
+      {
+        "en": "Not everyone is applauding. Critics argue that the 15-minute city is really a scheme to gentrify neighbourhoods and drive out long-term residents. By making areas more pleasant and desirable, property values rise, and rents follow. Those who once lived conveniently close to city centres find themselves priced out and forced to move to suburbs — exactly the kind of long-distance commuting that the concept was designed to eliminate.",
+        "zh": "并非所有人都在鼓掌喝彩。批评者认为，15分钟城市实际上是一个绅士化社区、将长期居民驱逐出去的计划。通过让区域变得更舒适、更具吸引力，房价上涨，租金随之攀升。那些曾经方便地住在市中心附近的人发现自己的居住成本超出了承受范围，被迫搬到郊区——而这正是这一理念本应消除的长距离通勤。",
+        "vocabulary": [
+          {
+            "word": "applauding",
+            "phonetic": "/əˈplɔːdɪŋ/",
+            "meaning": "v. 鼓掌；称赞（applaud的现在分词）",
+            "example": "The audience was applauding enthusiastically after the performance."
+          },
+          {
+            "word": "gentrify",
+            "phonetic": "/ˈdʒentrɪfaɪ/",
+            "meaning": "v. 绅士化；（通过翻修提高社区档次导致原居民被迫迁出）",
+            "example": "The neighbourhood has been rapidly gentrified over the past decade."
+          },
+          {
+            "word": "priced out",
+            "phonetic": "",
+            "meaning": "phr. 被过高价格排斥在外；因负担不起而离开",
+            "example": "Young families are being priced out of the housing market."
+          },
+          {
+            "word": "suburb",
+            "phonetic": "/ˈsʌbɜːb/",
+            "meaning": "n. 郊区；城郊住宅区",
+            "example": "They moved to the suburbs to raise their children."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Those who once lived conveniently close to city centres find themselves priced out and forced to move to suburbs.",
+            "zh": "那些曾经方便地住在市中心附近的人发现自己的居住成本超出了承受范围，被迫搬到郊区。'find themselves priced out' 是一种使役结构，'find oneself + V-ed' 表示某人不知不觉发现自己处于某种状态。",
+            "grammar": "'find themselves priced out' = '发现自己被排斥'。同样是 'find + oneself + V-ed' 结构，表示一种被动的、非自愿的结果。'forced to move' 是过去分词短语，与 'priced out' 并列作宾语补足语。"
+          }
+        ]
+      },
+      {
+        "en": "There is genuine tension between the 15-minute city's green ambitions and its social consequences. But proponents counter that car-centric cities are not exactly equitable either. In sprawling American metros, the poorest residents are often the most car-dependent — spending a disproportionate share of their income on vehicles, petrol and insurance, while the wealthy zip around in private automobiles. The answer, they argue, is not to preserve car culture but to build public services and local amenities that serve everyone.",
+        "zh": "15分钟城市的绿色野心与其社会后果之间确实存在真实的矛盾。但支持者反驳说，以汽车为中心的城市也并非公平。在美国那些无序扩张的大都市中，最贫穷的居民往往最依赖汽车——在车辆、汽油和保险上花费占收入的不成比例的一部分，而富人则乘坐私人汽车四处穿梭。他们认为，答案不是维护汽车文化，而是建设服务所有人的公共服务和本地设施。",
+        "vocabulary": [
+          {
+            "word": "tension",
+            "phonetic": "/ˈtenʃn/",
+            "meaning": "n. 矛盾；张力；紧张关系",
+            "example": "There is growing tension between economic growth and environmental protection."
+          },
+          {
+            "word": "sprawling",
+            "phonetic": "/ˈsprɔːlɪŋ/",
+            "meaning": "adj. 无序扩张的；摊大饼式的（城市）",
+            "example": "Los Angeles is a sprawling metropolis with limited public transport."
+          },
+          {
+            "word": "disproportionate",
+            "phonetic": "/ˌdɪsprəˈpɔːʃənət/",
+            "meaning": "adj. 不成比例的；过大的",
+            "example": "Black Americans make up a disproportionate share of the prison population."
+          },
+          {
+            "word": "amenity",
+            "phonetic": "/əˈmiːnəti/",
+            "meaning": "n. 便利设施；舒适条件",
+            "example": "The neighbourhood lacks basic amenities like parks and clinics."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "The poorest residents are often the most car-dependent — spending a disproportionate share of their income on vehicles, petrol and insurance, while the wealthy zip around in private automobiles.",
+            "zh": "最贫穷的居民往往最依赖汽车——在车辆、汽油和保险上花费占收入的不成比例的一部分，而富人则乘坐私人汽车四处穿梭。'most car-dependent' 是 'the most + 形容词' 构成最高级，修饰 'residents'。'spending...' 是现在分词短语作伴随状语，说明具体在哪些方面依赖汽车。",
+            "grammar": "主句 'The poorest residents are often the most car-dependent'。'spending...' 是现在分词（V-ing）作伴随状语。'while the wealthy...' 是 while 引导的对比状语从句，描述富人的情况与穷人形成对比。"
+          }
+        ]
+      }
+    ],
+    "titleZh": "15分钟城市：城市规划的新执念"
+  },
+  "2026-06-18b": {
+    "date": "2026-06-18b",
+    "source": "NCE 精读",
+    "title": "The Psychology of Procrastination: Why We Delay What Matters",
+    "url": "https://www.economist.com/science-and-technology/2026/06/17/the-psychology-of-procrastination-why-we-delay-what-matters",
+    "paragraphs": [
+      {
+        "en": "Procrastination is not laziness. That distinction matters more than most people realise. Psychologists have spent decades studying why intelligent, capable individuals routinely postpone tasks they know are important — filing tax returns, starting exercise regimens, preparing for exams. The answer, it turns out, has less to do with poor time management and more to do with emotional regulation. When a task triggers anxiety, boredom or self-doubt, the brain seeks relief in the nearest available distraction.",
+        "zh": "拖延不是懒惰。这一区分比大多数人意识到的更重要。心理学家花了几十年时间研究为什么聪明、有能力的人会经常推迟他们知道重要的任务——报税、开始锻炼计划、准备考试。答案证明，这与糟糕的时间管理关系不大，而更多与情绪调节有关。当一个任务引发焦虑、无聊或自我怀疑时，大脑会在最近的可用消遣中寻求解脱。",
+        "vocabulary": [
+          {
+            "word": "procrastination",
+            "phonetic": "/prəˌkræstɪˈneɪʃn/",
+            "meaning": "n. 拖延症；耽搁",
+            "example": "Procrastination is the thief of time."
+          },
+          {
+            "word": "distinction",
+            "phonetic": "/dɪˈstɪŋkʃn/",
+            "meaning": "n. 区分；差别",
+            "example": "There is a clear distinction between confidence and arrogance."
+          },
+          {
+            "word": "regimen",
+            "phonetic": "/ˈredʒɪmən/",
+            "meaning": "n. 规律的训练/养生计划",
+            "example": "She follows a strict exercise regimen every morning."
+          },
+          {
+            "word": "distraction",
+            "phonetic": "/dɪˈstrækʃn/",
+            "meaning": "n. 分心；消遣；干扰",
+            "example": "Phones are the biggest source of distraction in classrooms."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "The answer, it turns out, has less to do with poor time management and more to do with emotional regulation.",
+            "zh": "答案证明，这与糟糕的时间管理关系不大，而更多与情绪调节有关。'has less to do with X and more to do with Y' 是常见句型，表示'与其说跟 X 有关，不如说跟 Y 更有关'。",
+            "grammar": "'has less to do with... and more to do with...' 是比较结构，强调后者。'it turns out' 是插入语，意为'结果证明'。"
+          }
+        ]
+      },
+      {
+        "en": "Tim Pychyl, a professor at Carleton University, has pioneered research into what he calls the 'misguided' nature of procrastination. His fMRI studies show that when participants contemplate a task they have been avoiding, the amygdala — the brain's threat-detection centre — lights up like a fire alarm. The limbic system overrides the prefrontal cortex, which is responsible for rational planning. In evolutionary terms, this makes grim sense: a distant deadline posed no threat to our ancestors, but an immediate source of discomfort demanded action — or avoidance.",
+        "zh": "卡尔顿大学的蒂姆·皮希尔教授开创了对拖延这种'被误导的'本质的研究。他的 fMRI 研究表明，当参与者思考他们一直在回避的任务时，杏仁核——大脑的威胁检测中心——会像火灾警报一样亮起来。边缘系统会压倒负责理性规划的前额叶皮层。从进化角度看，这有着令人沮丧的逻辑：遥远的截止日期对我们的祖先不构成威胁，但即时不适的来源却需要采取行动——或者回避。",
+        "vocabulary": [
+          {
+            "word": "pioneer",
+            "phonetic": "/ˌpaɪəˈnɪər/",
+            "meaning": "v. 开创；先驱（此处作动词）",
+            "example": "She pioneered the use of DNA testing in criminal trials."
+          },
+          {
+            "word": "misguided",
+            "phonetic": "/mɪsˈɡaɪdɪd/",
+            "meaning": "adj. 被误导的；判断失误的",
+            "example": "It would be misguided to assume all protests are violent."
+          },
+          {
+            "word": "amygdala",
+            "phonetic": "/əˈmɪɡdələ/",
+            "meaning": "n. 杏仁核（大脑中负责恐惧和情绪的区域）",
+            "example": "The amygdala plays a key role in processing fear responses."
+          },
+          {
+            "word": "override",
+            "phonetic": "/ˌəʊvəˈraɪd/",
+            "meaning": "v. 压倒；凌驾于…之上；推翻",
+            "example": "Safety concerns should override cost considerations."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "The limbic system overrides the prefrontal cortex, which is responsible for rational planning.",
+            "zh": "边缘系统压倒了负责理性规划的前额叶皮层。'which is responsible for rational planning' 是非限制性定语从句，补充说明前额叶皮层的功能。",
+            "grammar": "非限制性定语从句（which 引导）补充说明先行词 prefrontal cortex。'is responsible for' 意为'对…负责/导致'。"
+          }
+        ]
+      },
+      {
+        "en": "Technology has weaponised these ancient vulnerabilities. Social-media platforms are engineered to exploit the brain's preference for immediate gratification. A scroll through Instagram delivers a cocktail of dopamine hits that no overdue spreadsheet can compete with. Fuschia Sirois, a researcher at Durham University, notes that chronic procrastinators often display higher levels of impulsivity and lower capacity for self-compassion. They judge themselves harshly for delaying, which ironically generates more negative emotion — the very fuel that powers further procrastination.",
+        "zh": "技术将这些古老的弱点武器化了。社交媒体平台经过精心设计，旨在利用大脑对即时满足的偏好。刷一遍 Instagram 能带来一连串的多巴胺刺激，这是任何逾期电子表格都无法竞争的。达勒姆大学的研究员富西亚·西罗瓦指出，慢性拖延者通常表现出更高的冲动性水平和更低的自我同情能力。他们因为拖延而严厉地评判自己，这讽刺地产生了更多负面情绪——而这恰恰是推动进一步拖延的燃料。",
+        "vocabulary": [
+          {
+            "word": "weaponise",
+            "phonetic": "/ˈwepənaɪz/",
+            "meaning": "v. 武器化；将…转化为攻击手段",
+            "example": "Social media has weaponised public opinion."
+          },
+          {
+            "word": "gratification",
+            "phonetic": "/ˌɡrætɪfɪˈkeɪʃn/",
+            "meaning": "n. 满足；快感（尤指即时满足）",
+            "example": "We live in a culture of instant gratification."
+          },
+          {
+            "word": "impulsivity",
+            "phonetic": "/ˌɪmpʌlˈsɪvəti/",
+            "meaning": "n. 冲动性；易冲动",
+            "example": "High impulsivity is linked to poor financial decisions."
+          },
+          {
+            "word": "self-compassion",
+            "phonetic": "",
+            "meaning": "n. 自我同情；对自己宽容",
+            "example": "Practising self-compassion can reduce anxiety and depression."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "They judge themselves harshly for delaying, which ironically generates more negative emotion — the very fuel that powers further procrastination.",
+            "zh": "他们因为拖延而严厉地评判自己，这讽刺地产生了更多负面情绪——而这恰恰是推动进一步拖延的燃料。破折号后的名词短语 'the very fuel...' 对前面 'negative emotion' 进行补充说明。'very' 在此处是形容词，表示'恰恰是、正是'。",
+            "grammar": "'which' 引导非限制性定语从句。'the very fuel that powers further procrastination' 是破折号后的同位语补充说明，其中 'that' 引导限制性定语从句修饰 'fuel'。"
+          }
+        ]
+      },
+      {
+        "en": "The most effective remedy, researchers agree, is deceptively simple: just get started. The ' Zeigarnik effect' — the tendency for unfinished tasks to occupy the mind — means that beginning a task, however imperfectly, reduces the psychological resistance to continuing it. Pychyl recommends 'forgiving yourself' for past procrastination as a first step. Self-forgiveness, counterintuitively, does not breed complacency; it removes the emotional barrier that makes task initiation so painful in the first place. Sometimes the bravest thing is not to finish, but to begin.",
+        "zh": "研究人员一致认为，最有效的补救方法看似简单得具有欺骗性：直接开始就好。'蔡加尼克效应'——未完成的任务占据大脑的倾向——意味着开始一项任务，无论多么不完美，都能降低继续做下去的心理阻力。皮希尔建议把'原谅自己'过去的拖延作为第一步。反直觉地，自我宽恕并不会滋生自满；它消除了让任务启动变得如此痛苦的情绪障碍。有时最勇敢的事情不是完成，而是开始。",
+        "vocabulary": [
+          {
+            "word": "deceptively",
+            "phonetic": "/dɪˈseptɪvli/",
+            "meaning": "adv. 貌似简单实则不然地；具有欺骗性地",
+            "example": "The recipe is deceptively simple but requires great skill."
+          },
+          {
+            "word": "counterintuitively",
+            "phonetic": "/ˌkaʊntərɪnˈtjuːɪtɪvli/",
+            "meaning": "adv. 反直觉地；与常理相反地",
+            "example": "Counterintuitively, higher taxes can sometimes boost economic growth."
+          },
+          {
+            "word": "complacency",
+            "phonetic": "/kəmˈpleɪsənsi/",
+            "meaning": "n. 自满；安于现状",
+            "example": "Complacency is the enemy of progress."
+          },
+          {
+            "word": "initiation",
+            "phonetic": "/ɪˌnɪʃiˈeɪʃn/",
+            "meaning": "n. 开始；启动；发起",
+            "example": "The initiation of the project was delayed by funding issues."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Self-forgiveness, counterintuitively, does not breed complacency; it removes the emotional barrier that makes task initiation so painful in the first place.",
+            "zh": "反直觉地，自我宽恕并不会滋生自满；它消除了让任务启动变得如此痛苦的情绪障碍。'counterintuitively' 是插入语副词。'that makes task initiation so painful' 是限制性定语从句修饰 'barrier'。'in the first place' 意为'本来、起初'。",
+            "grammar": "分号连接两个并列分句。'counterintuitively' 是副词作插入语。'that makes...' 是限制性定语从句，修饰 emotional barrier。'in the first place' 是固定搭配。"
+          }
+        ]
+      }
+    ],
+    "titleZh": "拖延心理学：为何我们总在最后一刻才行动"
+  },
+  "2026-06-22": {
+    "date": "2026-06-22",
+    "source": "NCE 精读",
+    "title": "Global Trade Shifts, Inflation Divergences, and Digital Currency Adoption: 2026 Mid-Year Outlook",
+    "url": "https://www.economist.com/finance-and-economics/2026/06/22/global-trade-shifts-inflation-divergences-and-digital-currency-adoption",
+    "paragraphs": [
+      {
+        "en": "The first half of 2026 has witnessed a tectonic shift in global trade patterns, as nearshoring trends accelerate and regional trade blocs strengthen intra-bloc tariff preferences. Geopolitical frictions have not eroded overall trade volumes, but have reshuffled supply chains to prioritize resilience over pure cost efficiency. Small open economies, particularly in Southeast Asia and Latin America, have emerged as disproportionate beneficiaries of this realignment.",
+        "zh": "2026年上半年，随着近岸外包趋势加速、区域贸易集团强化集团内部关税优惠，全球贸易格局发生了结构性转变。地缘政治摩擦并未削弱整体贸易规模，却推动供应链重构，优先考量韧性而非单纯的成本效率。东南亚和拉美地区的小型开放经济体成为这轮调整的最大受益者，获益幅度远高于其经济体量占比。",
+        "vocabulary": [
+          {
+            "word": "tectonic",
+            "phonetic": "/tekˈtɒnɪk/",
+            "meaning": "结构性的，重大的，影响深远的",
+            "example": "The tectonic shifts in the global labor market have forced many companies to revise their long-term hiring strategies."
+          },
+          {
+            "word": "intra-bloc",
+            "phonetic": "/ˌɪntrəˈblɒk/",
+            "meaning": "集团内部的，同盟内部的",
+            "example": "Intra-bloc trade among ASEAN nations has grown by 12% year on year in the first half of 2026."
+          },
+          {
+            "word": "resilience",
+            "phonetic": "/rɪˈzɪliəns/",
+            "meaning": "韧性，恢复力，抗风险能力",
+            "example": "Supply chain resilience has become a core KPI for 78% of multinational manufacturing firms this year."
+          },
+          {
+            "word": "disproportionate",
+            "phonetic": "/ˌdɪsprəˈpɔːʃənət/",
+            "meaning": "不成比例的，不相称的",
+            "example": "Low-income households bear a disproportionate share of the burden from rising global food prices."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "The first half of 2026 has witnessed a tectonic shift in global trade patterns, as nearshoring trends accelerate and regional trade blocs strengthen intra-bloc tariff preferences.",
+            "zh": "2026年上半年，随着近岸外包趋势加速、区域贸易集团强化集团内部关税优惠，全球贸易格局发生了结构性转变。",
+            "grammar": "本句为主从复合句，主句使用现在完成时描述从过去持续到当前的趋势，拟人化动词witness赋予时间主语动作属性；as引导两个并列的原因状语从句，说明两大驱动因素。"
+          }
+        ]
+      },
+      {
+        "en": "Stubborn core inflation remains a thorny challenge for most advanced economies, even as headline inflation has retreated from 2022-2023 peaks. Service-sector price stickiness, driven by persistent wage growth in hospitality and healthcare sectors, has forced major central banks to keep policy rates elevated for longer than market participants initially anticipated. Emerging economies, by contrast, have largely tamed inflation thanks to earlier monetary tightening.",
+        "zh": "尽管整体通胀已从2022-2023年的峰值回落，顽固的核心通胀仍是多数发达经济体面临的棘手挑战。受酒店和医疗行业持续工资增长推动的服务业价格粘性，迫使主要央行将政策利率维持在高位的时间长于市场参与者最初的预期。与之相反，新兴经济体由于更早收紧货币政策，已基本控制住通胀。",
+        "vocabulary": [
+          {
+            "word": "stubborn",
+            "phonetic": "/ˈstʌbən/",
+            "meaning": "顽固的，难以消除的",
+            "example": "Stubborn core inflation has dashed market hopes of an imminent interest rate cut in the Eurozone."
+          },
+          {
+            "word": "thorny",
+            "phonetic": "/ˈθɔːni/",
+            "meaning": "棘手的，麻烦的，难以解决的",
+            "example": "Policymakers are still grappling with the thorny issue of balancing inflation control and economic growth."
+          },
+          {
+            "word": "stickiness",
+            "phonetic": "/ˈstɪkinəs/",
+            "meaning": "粘性，指价格、工资等难以下调的特性",
+            "example": "Price stickiness in the housing market has slowed the transmission of monetary policy adjustments."
+          },
+          {
+            "word": "tamed",
+            "phonetic": "/teɪmd/",
+            "meaning": "被控制的，被驯服的",
+            "example": "After 18 months of aggressive rate hikes, inflation in Brazil has been tamed to within the central bank's target range."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Service-sector price stickiness, driven by persistent wage growth in hospitality and healthcare sectors, has forced major central banks to keep policy rates elevated for longer than market participants initially anticipated.",
+            "zh": "受酒店和医疗行业持续工资增长推动的服务业价格粘性，迫使主要央行将政策利率维持在高位的时间长于市场参与者最初的预期。",
+            "grammar": "主干为 Service-sector price stickiness...has forced...banks to keep...elevated，过去分词短语 driven by...作后置定语修饰主语；句末 than 引导比较状语从句。"
+          }
+        ]
+      },
+      {
+        "en": "Central bank digital currencies (CBDCs) have moved far beyond experimental pilot phases in 2026, with 17 major economies now rolling out retail CBDCs for widespread public use. Cross-border CBDC payment systems, jointly developed by the BIS and multiple member states, have cut remittance costs by 60% on average and reduced settlement times from three business days to near-instant. Regulatory frameworks have been updated to mitigate privacy and exclusion risks.",
+        "zh": "2026年，央行数字货币已远远超出试验试点阶段，17个主要经济体正在推出面向公众广泛使用的零售型CBDC。由国际清算银行与多个成员国联合开发的跨境CBDC支付系统，平均将汇款成本降低60%，结算时间从3个工作日缩短至近乎即时。监管框架已完成更新，以缓解隐私和金融排斥风险。",
+        "vocabulary": [
+          {
+            "word": "pilot",
+            "phonetic": "/ˈpaɪlət/",
+            "meaning": "试点的，试验性的",
+            "example": "The digital yuan pilot program has now expanded to cover 20 provinces across China."
+          },
+          {
+            "word": "remittance",
+            "phonetic": "/rɪˈmɪtns/",
+            "meaning": "汇款，汇付",
+            "example": "Remittance flows to low-income countries are expected to reach  billion in 2026."
+          },
+          {
+            "word": "settlement",
+            "phonetic": "/ˈsetlmənt/",
+            "meaning": "结算，清算",
+            "example": "Real-time settlement of cross-border transactions was once considered a distant goal."
+          },
+          {
+            "word": "mitigate",
+            "phonetic": "/ˈmɪtɪɡeɪt/",
+            "meaning": "缓解，减轻",
+            "example": "New data protection rules are designed to mitigate risks associated with digital currency transactions."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Cross-border CBDC payment systems, jointly developed by the BIS and multiple member states, have cut remittance costs by 60% on average and reduced settlement times from three business days to near-instant.",
+            "zh": "由国际清算银行与多个成员国联合开发的跨境CBDC支付系统，平均将汇款成本降低60%，结算时间从3个工作日缩短至近乎即时。",
+            "grammar": "两个并列谓语 have cut...and reduced...，过去分词短语 jointly developed by...作非限制性定语。"
+          }
+        ]
+      },
+      {
+        "en": "The interplay between global trade restructuring, persistent inflationary pressures, and digital currency innovation is reshaping the global financial architecture for the coming decade. Firms that adjust supply chains to leverage regional trade preferences, hedge against inflation volatility, and adopt digital currency payment rails will gain a significant competitive edge. Policymakers must coordinate across jurisdictions to avoid fragmented regulations that could hamper cross-border activity.",
+        "zh": "全球贸易重构、持续通胀压力与数字货币创新之间的相互作用，正在重塑未来十年的全球金融架构。调整供应链以利用区域贸易优惠、对冲通胀波动、采用数字货币支付轨道的企业，将获得显著竞争优势。政策制定者必须跨司法管辖区协调，以避免碎片化监管阻碍跨境经济活动。",
+        "vocabulary": [
+          {
+            "word": "interplay",
+            "phonetic": "/ˈɪntəpleɪ/",
+            "meaning": "相互作用，相互影响",
+            "example": "The interplay between monetary and fiscal policy will determine the trajectory of global growth."
+          },
+          {
+            "word": "leverage",
+            "phonetic": "/ˈliːvərɪdʒ/",
+            "meaning": "利用，借助",
+            "example": "Multinational firms can leverage regional trade agreements to cut cross-border logistics costs."
+          },
+          {
+            "word": "hedge",
+            "phonetic": "/hedʒ/",
+            "meaning": "对冲，防范风险",
+            "example": "Many commodity exporters use currency futures to hedge against exchange rate volatility."
+          },
+          {
+            "word": "hamper",
+            "phonetic": "/ˈhæmpə(r)/",
+            "meaning": "阻碍，妨碍",
+            "example": "Inconsistent regulatory standards could hamper the global rollout of CBDC payment systems."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Firms that adjust their supply chains to leverage regional trade preferences, hedge against inflation volatility, and adopt digital currency payment rails will gain a significant competitive edge.",
+            "zh": "调整供应链以利用区域贸易优惠、对冲通胀波动、采用数字货币支付轨道的企业，将获得显著竞争优势。",
+            "grammar": "主干 Firm...will gain...edge，that定语从句中包含三个并列不定式目的状语。"
+          }
+        ]
+      }
+    ],
+    "titleZh": "全球贸易格局转变、通胀分化与数字货币采用：2026中期展望"
+  },
+  "2026-06-22b": {
+    "date": "2026-06-22",
+    "source": "NCE 精读",
+    "title": "The Global Algorithm: Racing to Regulate Artificial Intelligence",
+    "url": "",
+    "paragraphs": [
+      {
+        "en": "The global race to regulate artificial intelligence has intensified, with policymakers contending with the dual imperatives of fostering innovation and mitigating existential risks. The European Union’s pioneering AI Act, now entering enforcement, sets a precedent for risk-based oversight, while the United States champions a more laissez-faire approach. Meanwhile, China’s stringent state-led framework prioritises social stability and surveillance. This regulatory fragmentation threatens to precipitate a digital Balkanisation, impeding cross-border collaboration on AI safety research.",
+        "zh": "全球人工智能监管竞赛愈演愈烈，政策制定者正艰难应对促进创新与降低生存风险的双重紧迫任务。欧盟开创性的《人工智能法案》现已进入执行阶段，为基于风险的监管确立了先例，而美国则推崇更自由放任的做法。与此同时，中国严格的国家主导框架优先考虑社会稳定与监控。这种监管碎片化可能引发数字巴尔干化，阻碍人工智能安全研究的跨境合作。",
+        "vocabulary": [
+          {
+            "word": "precipitate",
+            "phonetic": "/prɪˈsɪp.ɪ.teɪt/",
+            "meaning": "v. 导致，促成",
+            "example": "Hasty decisions could precipitate a crisis."
+          },
+          {
+            "word": "mitigate",
+            "phonetic": "/ˈmɪt.ɪ.ɡeɪt/",
+            "meaning": "v. 减轻，缓解",
+            "example": "Efforts to mitigate climate change are urgent."
+          },
+          {
+            "word": "laissez-faire",
+            "phonetic": "/ˌleɪ.seɪˈfeər/",
+            "meaning": "n./adj. 自由放任（的）",
+            "example": "The government adopted a laissez-faire attitude toward tech companies."
+          },
+          {
+            "word": "fragmentation",
+            "phonetic": "/ˌfræɡ.menˈteɪ.ʃən/",
+            "meaning": "n. 分裂，碎片化",
+            "example": "The fragmentation of regulatory standards complicates international trade."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "This regulatory fragmentation threatens to precipitate a digital Balkanisation, impeding cross-border collaboration on AI safety research.",
+            "zh": "这种监管碎片化可能引发数字巴尔干化，阻碍人工智能安全研究的跨境合作。",
+            "grammar": "主谓宾结构，主语'This regulatory fragmentation'，谓语'threatens'，不定式'to precipitate'作宾语，现在分词短语'impeding...'作伴随状语。"
+          }
+        ]
+      },
+      {
+        "en": "A central conundrum lies in the tension between transparency and proprietary interests. Mandating disclosure of training data and algorithmic decision-making could bolster trust, yet tech firms argue it compromises trade secrets. The concept of 'algorithmic auditing' has emerged, requiring independent ethical reviews before deployment. However, the expertise required is scarce, and auditors face conflicts of interest when funded by the very companies they scrutinise. Without robust enforcement mechanisms, such oversight risks becoming perfunctory.",
+        "zh": "核心难题在于透明度与专有利益之间的冲突。强制要求披露训练数据和算法决策过程可增强信任，但科技公司认为这会损害商业秘密。‘算法审计’的概念应运而生，要求在部署前进行独立的伦理审查。然而，所需专家稀缺，且审计员若由受其审查的公司资助，则面临利益冲突。缺乏强有力的执行机制，这种监督可能沦为形式主义。",
+        "vocabulary": [
+          {
+            "word": "conundrum",
+            "phonetic": "/kəˈnʌn.drəm/",
+            "meaning": "n. 难题，复杂问题",
+            "example": "The conundrum of balancing privacy and security persists."
+          },
+          {
+            "word": "proprietary",
+            "phonetic": "/prəˈpraɪ.ə.tər.i/",
+            "meaning": "adj. 专有的，所有权的",
+            "example": "The software uses proprietary algorithms."
+          },
+          {
+            "word": "scrutinise",
+            "phonetic": "/ˈskruː.tɪ.naɪz/",
+            "meaning": "v. 仔细审查",
+            "example": "Regulators scrutinise AI models for bias."
+          },
+          {
+            "word": "perfunctory",
+            "phonetic": "/pəˈfʌŋk.tər.i/",
+            "meaning": "adj. 敷衍的，马虎的",
+            "example": "The audit was merely perfunctory and missed key issues."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "However, the expertise required is scarce, and auditors face conflicts of interest when funded by the very companies they scrutinise.",
+            "zh": "然而，所需专家稀缺，且审计员若由受其审查的公司资助，则面临利益冲突。",
+            "grammar": "并列句由'and'连接，'when funded...'是状语从句的省略形式，补充完整为'when they are funded by...'，其中'the very companies'是强调用法，'they scrutinise'是定语从句修饰'companies'。"
+          }
+        ]
+      },
+      {
+        "en": "Divergent philosophies on AI safety reflect deeper cultural and political schisms. The European emphasis on precaution and individual rights contrasts with American optimism about market-driven solutions. China’s integration of AI into social credit systems reveals a utilitarian calculus that subordinates individual autonomy to collective stability. These disparate approaches complicate efforts to forge international norms, particularly on lethal autonomous weapons. Without consensus, the risk of an AI arms race—both kinetic and economic—looms large.",
+        "zh": "人工智能安全的理念分歧折射出更深层的文化与政治裂痕。欧洲强调预防原则与个人权利，与美国对市场驱动解决方案的乐观态度形成对比。中国将人工智能融入社会信用体系，揭示了一种实用主义考量——个人自主权从属于集体稳定。这些截然不同的做法加大了形成国际规范的难度，尤其是在致命自主武器方面。缺乏共识，人工智能军备竞赛——包括动能与经济领域——的风险日益凸显。",
+        "vocabulary": [
+          {
+            "word": "divergent",
+            "phonetic": "/daɪˈvɜː.dʒənt/",
+            "meaning": "adj. 分歧的，不同的",
+            "example": "Divergent opinions on regulation hinder progress."
+          },
+          {
+            "word": "schism",
+            "phonetic": "/ˈskɪz.əm/",
+            "meaning": "n. 分裂，分歧",
+            "example": "The political schism over AI policy deepens."
+          },
+          {
+            "word": "utilitarian",
+            "phonetic": "/ˌjuː.tɪ.lɪˈteər.i.ən/",
+            "meaning": "adj. 功利主义的，实用的",
+            "example": "A utilitarian approach prioritises the greatest good for the greatest number."
+          },
+          {
+            "word": "kinetic",
+            "phonetic": "/kɪˈnet.ɪk/",
+            "meaning": "adj. 动力的，运动的",
+            "example": "Kinetic warfare involves physical force, unlike cyber warfare."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "China’s integration of AI into social credit systems reveals a utilitarian calculus that subordinates individual autonomy to collective stability.",
+            "zh": "中国将人工智能融入社会信用体系，揭示了一种实用主义考量——个人自主权从属于集体稳定。",
+            "grammar": "主语'China’s integration of AI into social credit systems'，谓语'reveals'，宾语'a utilitarian calculus'，后接定语从句'that subordinates...to...'修饰'calculus'，从句中谓语'subordinates'，宾语'individual autonomy'，介词短语'to collective stability'。"
+          }
+        ]
+      },
+      {
+        "en": "To avert a regulatory race to the bottom, multilateral forums like the OECD and G7 are striving to establish common guardrails. Yet enforcement remains toothless without binding commitments. A nascent proposal advocates for an international AI agency akin to the IAEA, overseeing frontier developments. The timeline is compressed: as models become more powerful, the window for preemptive governance narrows. The prize is not merely safety, but ensuring that humanity remains the author of its technological destiny.",
+        "zh": "为避免监管竞次，经合组织与七国集团等多边论坛正努力建立共同护栏。然而，若无具有约束力的承诺，执行仍将软弱无力。一项新兴提案主张成立一个类似于国际原子能机构的国际人工智能机构，监督前沿进展。时间紧迫：随着模型愈发强大，抢先治理的机会窗口正在缩小。目标不仅是安全，更是确保人类仍是其技术命运的书写者。",
+        "vocabulary": [
+          {
+            "word": "toothless",
+            "phonetic": "/ˈtuːθ.ləs/",
+            "meaning": "adj. 无效的，无牙的",
+            "example": "Regulations without penalties are toothless."
+          },
+          {
+            "word": "akin",
+            "phonetic": "/əˈkɪn/",
+            "meaning": "adj. 类似的，相近的",
+            "example": "A new agency akin to the IAEA could oversee AI."
+          },
+          {
+            "word": "preemptive",
+            "phonetic": "/priˈemp.tɪv/",
+            "meaning": "adj. 先发制人的，抢先的",
+            "example": "Preemptive regulation may curb future risks."
+          },
+          {
+            "word": "compressed",
+            "phonetic": "/kəmˈprest/",
+            "meaning": "adj. 压缩的，紧迫的",
+            "example": "The compressed timeline demands swift action."
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "The timeline is compressed: as models become more powerful, the window for preemptive governance narrows.",
+            "zh": "时间紧迫：随着模型愈发强大，抢先治理的机会窗口正在缩小。",
+            "grammar": "主句'The timeline is compressed'后跟冒号引出解释性分句，分句'as models become more powerful'是时间状语从句，主句'the window for preemptive governance narrows'为简单主谓结构。"
+          }
+        ]
+      }
+    ],
+    "titleZh": "全球算法竞赛：人工智能监管立法加速"
+  },
+  "2026-06-25": {
+    "date": "2026-06-25",
+    "source": "NCE 精读",
+    "title": "The Timeless Charm of Kyoto",
+    "titleZh": "京都的永恒魅力",
+    "url": "",
+    "paragraphs": [
+      {
+        "en": "Our first encounter with Kyoto was at dawn, when the city still slumbered beneath a veil of mist. The ancient temples, with their gracefully curved roofs, emerged like silent guardians from the fog. We walked along the Philosopher's Path, a narrow canal lined with cherry trees, whose blossoms had long since fallen. Yet the tranquillity of the scene was so profound that it felt as though time itself had paused to admire the view.",
+        "zh": "我们初遇京都时正值黎明，这座城市仍沉睡在薄雾的面纱之下。那些古寺，以其优雅的弧形屋顶，如沉默的守护者般从雾中浮现。我们沿着哲学家小径漫步，这是一条两岸种满樱树的狭窄水道，樱花早已凋谢。然而这景象的静谧如此深沉，仿佛连时间也停下脚步，来欣赏这片风光。",
+        "vocabulary": [
+          {
+            "word": "slumbered",
+            "phonetic": "/ˈslʌmbəd/",
+            "meaning": "v. 沉睡；安睡",
+            "example": "The entire village slumbered until the rooster crowed.",
+            "derivatives": "slumber (v./n.) → slumberous (adj.) 昏昏欲睡的 → slumberer (n.) 沉睡者"
+          },
+          {
+            "word": "gracefully",
+            "phonetic": "/ˈɡreɪsfəli/",
+            "meaning": "adv. 优雅地；优美地",
+            "example": "The swan glided gracefully across the lake.",
+            "derivatives": "grace (n.) → graceful (adj.) → gracefully (adv.) → gracefulness (n.)"
+          },
+          {
+            "word": "tranquillity",
+            "phonetic": "/træŋˈkwɪləti/",
+            "meaning": "n. 宁静；安静；平静",
+            "example": "The tranquillity of the countryside was a welcome escape from the city noise.",
+            "derivatives": "tranquil (adj.) → tranquilly (adv.) → tranquillity (n.) → tranquilize (v.) 使镇静"
+          },
+          {
+            "word": "profound",
+            "phonetic": "/prəˈfaʊnd/",
+            "meaning": "adj. 深沉的；深刻的；意义深远的",
+            "example": "The experience had a profound effect on her worldview.",
+            "derivatives": "profound (adj.) → profoundly (adv.) → profundity (n.) 深奥"
+          }
+        ],
+        "chunks": [
+          {
+            "en": "Our first encounter with Kyoto",
+            "zh": "我们与京都的初次相遇",
+            "function": "主语"
+          },
+          {
+            "en": "was at dawn",
+            "zh": "是在黎明时分",
+            "function": "系表结构（谓语）"
+          },
+          {
+            "en": "when the city still slumbered beneath a veil of mist",
+            "zh": "那时城市仍沉睡在薄雾的面纱之下",
+            "function": "定语从句修饰dawn"
+          },
+          {
+            "en": "The ancient temples, with their gracefully curved roofs, emerged like silent guardians from the fog",
+            "zh": "那些古寺，以其优雅的弧形屋顶，如沉默的守护者般从雾中浮现",
+            "function": "主句"
+          },
+          {
+            "en": "We walked along the Philosopher's Path, a narrow canal lined with cherry trees, whose blossoms had long since fallen",
+            "zh": "我们沿着哲学家小径漫步，这是一条两岸种满樱树的狭窄水道，樱花早已凋谢",
+            "function": "主句+同位语+定语从句"
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "Yet the tranquillity of the scene was so profound that it felt as though time itself had paused to admire the view.",
+            "zh": "然而这景象的静谧如此深沉，仿佛连时间也停下脚步，来欣赏这片风光。",
+            "grammar": "本句包含 so...that... 结果状语从句，以及 as though 引导的方式状语从句（虚拟语气）。",
+            "pattern": "so + adj. + that + 从句 (如此……以至于……) ; as though + 从句 (仿佛……，常用虚拟语气)",
+            "note": "so...that... 中that从句表示结果；as though 后常接过去完成时或一般过去时表示虚拟。"
+          }
+        ],
+        "grammar_analysis": {
+          "points": [
+            {
+              "structure": "定语从句（非限制性）",
+              "explanation": "用 whose 引导非限制性定语从句，表示所属关系，修饰 cherry trees。",
+              "example_sentence": "We walked along the Philosopher's Path, a narrow canal lined with cherry trees, whose blossoms had long since fallen.",
+              "common_mistake": "❌ 误用 which 代替 whose → ✅ whose 表示“它们的（花朵）”，正确。",
+              "contrast": "限制性定语从句与非限制性定语从句的区别：非限制性从句用逗号隔开，去掉后主句意思仍完整。"
+            },
+            {
+              "structure": "as though + 虚拟语气",
+              "explanation": "as though(仿佛)引导的从句表示与事实相反的假设，主句为过去时，从句用过去完成时。",
+              "example_sentence": "It felt as though time itself had paused to admire the view.",
+              "common_mistake": "❌ 用现在时 had paused → ✅ 虚拟语气：had paused 表示对过去的虚拟。",
+              "contrast": "as if 与 as though 同义，可互换，但 as though 稍显正式。"
+            }
+          ]
+        }
+      },
+      {
+        "en": "Later that morning, we visited Kinkaku-ji, the Golden Pavilion, whose exterior is entirely covered in gold leaf. It stood by a mirror-like pond, surrounded by meticulously raked gravel gardens. The reflection of the pavilion in the water created a perfect symmetry that seemed almost unreal. A group of schoolchildren in uniform giggled and pointed, their delight as genuine as the shimmering gold itself.",
+        "zh": "那天上午晚些时候，我们参观了金阁寺，其外表完全覆盖着金箔。它矗立在一个镜面般的水池旁，周围是精心耙制的枯山水。金阁在水中的倒影形成了完美的对称，近乎不真实。一群身着校服的学童咯咯笑着、指指点点，他们的喜悦如同那闪烁的金色本身一样真实。",
+        "vocabulary": [
+          {
+            "word": "exterior",
+            "phonetic": "/ɪkˈstɪriər/",
+            "meaning": "n. 外表；外部；外观",
+            "example": "The exterior of the building is modern, while the interior remains traditional.",
+            "derivatives": "exterior (n./adj.) → exteriorly (adv.) 外部地 → interior (反义词)"
+          },
+          {
+            "word": "meticulously",
+            "phonetic": "/mɪˈtɪkjələsli/",
+            "meaning": "adv. 细致地；一丝不苟地",
+            "example": "He meticulously checked every detail before submitting the report.",
+            "derivatives": "meticulous (adj.) → meticulously (adv.) → meticulousness (n.)"
+          },
+          {
+            "word": "symmetry",
+            "phonetic": "/ˈsɪmɪtri/",
+            "meaning": "n. 对称；匀称",
+            "example": "The symmetry of the ancient architecture is visually pleasing.",
+            "derivatives": "symmetrical (adj.) → symmetrically (adv.) → asymmetry (n.) 不对称"
+          },
+          {
+            "word": "genuine",
+            "phonetic": "/ˈdʒenjuɪn/",
+            "meaning": "adj. 真正的；真诚的；真实的",
+            "example": "She showed genuine concern for the well-being of others.",
+            "derivatives": "genuine (adj.) → genuinely (adv.) → genuineness (n.)"
+          }
+        ],
+        "chunks": [
+          {
+            "en": "Later that morning, we visited Kinkaku-ji, the Golden Pavilion",
+            "zh": "那天上午晚些时候，我们参观了金阁寺",
+            "function": "主句（时间状语+主语+谓语+宾语+同位语）"
+          },
+          {
+            "en": "whose exterior is entirely covered in gold leaf",
+            "zh": "其外表完全覆盖着金箔",
+            "function": "定语从句修饰Kinkaku-ji"
+          },
+          {
+            "en": "It stood by a mirror-like pond, surrounded by meticulously raked gravel gardens",
+            "zh": "它矗立在一个镜面般的水池旁，周围是精心耙制的枯山水",
+            "function": "主句+过去分词短语作状语"
+          },
+          {
+            "en": "The reflection of the pavilion in the water created a perfect symmetry that seemed almost unreal",
+            "zh": "金阁在水中的倒影形成了完美的对称，近乎不真实",
+            "function": "主句含定语从句"
+          },
+          {
+            "en": "A group of schoolchildren in uniform giggled and pointed, their delight as genuine as the shimmering gold itself",
+            "zh": "一群身着校服的学童咯咯笑着、指指点点，他们的喜悦如同那闪烁的金色本身一样真实",
+            "function": "主句+独立主格结构"
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "The reflection of the pavilion in the water created a perfect symmetry that seemed almost unreal.",
+            "zh": "金阁在水中的倒影形成了完美的对称，近乎不真实。",
+            "grammar": "主句主语为 The reflection of the pavilion in the water，谓语 created，宾语 a perfect symmetry，后接 that 引导的限定性定语从句修饰 symmetry。",
+            "pattern": "主语 + 谓语 + 宾语 + 定语从句 (that + 谓语 + 表语)",
+            "note": "seemed almost unreal 中 almost 修饰 unreal，表示程度。"
+          }
+        ],
+        "grammar_analysis": {
+          "points": [
+            {
+              "structure": "独立主格结构",
+              "explanation": "在句中作伴随状语，其逻辑主语与主句主语不同，结构为 '名词/代词 + 形容词/介词短语/分词'。",
+              "example_sentence": "A group of schoolchildren in uniform giggled and pointed, their delight as genuine as the shimmering gold itself.",
+              "common_mistake": "❌ 误用 with their delight as genuine → ✅ 可直接用独立主格，省略 with。",
+              "contrast": "独立主格与‘with+名词+形容词’结构功能相同，但独立主格更简洁、文学性强。"
+            },
+            {
+              "structure": "whose 引导定语从句",
+              "explanation": "whose 表示'某人的/某物的'，先行词可以是人或物。",
+              "example_sentence": "Later that morning, we visited Kinkaku-ji, the Golden Pavilion, whose exterior is entirely covered in gold leaf.",
+              "common_mistake": "❌ 混淆 whose 与 which: which 不能表示所属关系；✅ whose 可指物。",
+              "contrast": "of which 可代替 whose 用于正式文体，如 the exterior of which。"
+            }
+          ]
+        }
+      },
+      {
+        "en": "In the afternoon, we ventured into a hidden alley in the Gion district, where the tradition of geisha still endures. We were fortunate enough to catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse. Her wooden sandals clicked rhythmically on the cobblestones, and her elaborate kimono rustled like autumn leaves. The fleeting sight left us with a sense of having witnessed something precious and intangible.",
+        "zh": "下午，我们走进祇园区一条隐蔽的小巷，那里艺伎的传统仍然延续。我们有幸瞥见一���舞伎（见习艺伎）匆匆赶往一间茶屋。她的木屐在鹅卵石上有节奏地咔嗒作响，精致的和服沙沙作响，宛如秋叶。这转瞬即逝的一幕让我们感觉自己目睹了某种珍贵而难以捉摸的东西。",
+        "vocabulary": [
+          {
+            "word": "ventured",
+            "phonetic": "/ˈventʃərd/",
+            "meaning": "v. 冒险；敢于去",
+            "example": "They ventured into the dark forest without a map.",
+            "derivatives": "venture (v./n.) → venturer (n.) 冒险者 → adventurous (adj.) 冒险的"
+          },
+          {
+            "word": "endures",
+            "phonetic": "/ɪnˈdjʊərz/",
+            "meaning": "v. 持续；持久；忍耐",
+            "example": "Some traditions endure for centuries despite modernization.",
+            "derivatives": "endure (v.) → endurance (n.) 耐力 → enduring (adj.) 持久的"
+          },
+          {
+            "word": "fleeting",
+            "phonetic": "/ˈfliːtɪŋ/",
+            "meaning": "adj. 短暂的；飞逝的",
+            "example": "We had only a fleeting glimpse of the comet before it disappeared.",
+            "derivatives": "fleet (n./v./adj.) → fleeting (adj.) → fleetingly (adv.)"
+          },
+          {
+            "word": "intangible",
+            "phonetic": "/ɪnˈtændʒəbəl/",
+            "meaning": "adj. 无形的；难以捉摸的",
+            "example": "The value of cultural heritage is often intangible but immense.",
+            "derivatives": "tangible (adj.) 有形的 → intangible (adj.) → intangibility (n.)"
+          }
+        ],
+        "chunks": [
+          {
+            "en": "In the afternoon, we ventured into a hidden alley in the Gion district",
+            "zh": "下午，我们走进祇园区一条隐蔽的小巷",
+            "function": "主句（含时间状语和地点状语）"
+          },
+          {
+            "en": "where the tradition of geisha still endures",
+            "zh": "那里艺伎的传统仍然延续",
+            "function": "定语从句修饰alley"
+          },
+          {
+            "en": "We were fortunate enough to catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse",
+            "zh": "我们有幸瞥见一名舞伎（见习艺伎）匆匆赶往一间茶屋",
+            "function": "主句含不定式短语作结果状语和同位语"
+          },
+          {
+            "en": "Her wooden sandals clicked rhythmically on the cobblestones, and her elaborate kimono rustled like autumn leaves",
+            "zh": "她的木屐在鹅卵石上有节奏地咔嗒作响，精致的和服沙沙作响，宛如秋叶",
+            "function": "并列主句"
+          },
+          {
+            "en": "The fleeting sight left us with a sense of having witnessed something precious and intangible",
+            "zh": "这转瞬即逝的一幕让我们感觉自己目睹了某种珍贵而难以捉摸的东西",
+            "function": "主句含介词短语作宾语补足语"
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "We were fortunate enough to catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse.",
+            "zh": "我们有幸瞥见一名舞伎（见习艺伎）匆匆赶往一间茶屋。",
+            "grammar": "不定式短语 'to catch...' 作结果状语；'hurrying to a teahouse' 是现在分词短语作定语修饰 maiko。",
+            "pattern": "主语 + be + adj. + enough + to do sth. (足够……以至于能做某事)",
+            "note": "fortunate enough 后接不定式表示‘有幸做某事’，其中 enough 修饰形容词。"
+          }
+        ],
+        "grammar_analysis": {
+          "points": [
+            {
+              "structure": "where 引导定语从句",
+              "explanation": "where 是关系副词，在定语从句中作地点状语，先行词是表示地点的名词。",
+              "example_sentence": "In the afternoon, we ventured into a hidden alley in the Gion district, where the tradition of geisha still endures.",
+              "common_mistake": "❌ 误用 which 代替 where (which 后句子不完整) → ✅ where 后接完整句子。",
+              "contrast": "in which 等于 where，但 where 更简洁口语化。"
+            },
+            {
+              "structure": "现在分词短语作定语",
+              "explanation": "现��分词 hurrying 修饰 a maiko，表示主动和进行。",
+              "example_sentence": "...catch a glimpse of a maiko, an apprentice geisha, hurrying to a teahouse.",
+              "common_mistake": "❌ 用 hurried（过去分词）表示被动 → ✅ 用 hurrying 表示主动。",
+              "contrast": "过去分词表示被动/完成，现在分词表示主动/进行。"
+            }
+          ]
+        }
+      },
+      {
+        "en": "As dusk fell, we found ourselves at the Yasaka Pagoda, its silhouette dark against the twilight sky. The neighbourhood, a maze of narrow lanes and wooden townhouses, felt frozen in an earlier century. We dined in a small restaurant that served kaiseki, a multi-course meal that is as much an art form as a culinary experience. Each dish was a miniature landscape, delicate and ephemeral, leaving us with a profound respect for Japanese aesthetics.",
+        "zh": "黄昏降临时，我们来到八坂塔，其轮廓在暮色天穹下显得幽暗。这个街区，由狭窄的小巷和木质町屋构成的迷宫，仿佛凝固在了更早的世纪。我们在一个小餐馆用餐，品尝了怀石料理——一种多道菜式的餐食，它既是烹饪体验，也是一门艺术形式。每道菜都是微缩的风景，精致而短暂，令我们对日本美学产生了深深的敬意。",
+        "vocabulary": [
+          {
+            "word": "silhouette",
+            "phonetic": "/ˌsɪluˈet/",
+            "meaning": "n. 轮廓；剪影",
+            "example": "We saw the silhouette of a deer against the sunset.",
+            "derivatives": "silhouette (n./v.) → silhouetted (adj.) 显出轮廓的"
+          },
+          {
+            "word": "maze",
+            "phonetic": "/meɪz/",
+            "meaning": "n. 迷宫；错综复杂的网络",
+            "example": "The old city is a maze of winding streets.",
+            "derivatives": "maze (n.) → mazy (adj.) 像迷宫般的 → amaze (v.) 使惊奇（同源）"
+          },
+          {
+            "word": "ephemeral",
+            "phonetic": "/ɪˈfemərəl/",
+            "meaning": "adj. 短暂的；昙花一现的",
+            "example": "The beauty of cherry blossoms is ephemeral but deeply moving.",
+            "derivatives": "ephemeral (adj.) → ephemerally (adv.) → ephemerality (n.)"
+          },
+          {
+            "word": "aesthetics",
+            "phonetic": "/iːsˈθetɪks/",
+            "meaning": "n. 美学；审美观（常作单数）",
+            "example": "Japanese aesthetics emphasize simplicity and imperfection.",
+            "derivatives": "aesthetic (adj.) → aesthetically (adv.) → aestheticism (n.) 唯美主义"
+          }
+        ],
+        "chunks": [
+          {
+            "en": "As dusk fell, we found ourselves at the Yasaka Pagoda",
+            "zh": "黄昏降临时，我们来到八坂塔",
+            "function": "时间状语从句+主句"
+          },
+          {
+            "en": "its silhouette dark against the twilight sky",
+            "zh": "其轮廓在暮色天穹下显得幽暗",
+            "function": "独立主格结构（形容词短语）"
+          },
+          {
+            "en": "The neighbourhood, a maze of narrow lanes and wooden townhouses, felt frozen in an earlier century",
+            "zh": "这个街区，由狭窄的小巷和木质町屋构成的迷宫，仿佛凝固在了更早的世纪",
+            "function": "主句含同位语"
+          },
+          {
+            "en": "We dined in a small restaurant that served kaiseki, a multi-course meal that is as much an art form as a culinary experience",
+            "zh": "我们在一个小餐馆用餐，品尝了怀石料理——一种多道菜式的餐食，它既是烹饪体验，也是一门艺术形式",
+            "function": "主句含定语从句和同位语"
+          },
+          {
+            "en": "Each dish was a miniature landscape, delicate and ephemeral, leaving us with a profound respect for Japanese aesthetics",
+            "zh": "每道菜都是微缩的风景，精致而短暂，令我们对日本美学产生了深深的敬意",
+            "function": "主句含形容词短语作定语和现在分词短语作结果状语"
+          }
+        ],
+        "difficult_sentences": [
+          {
+            "en": "We dined in a small restaurant that served kaiseki, a multi-course meal that is as much an art form as a culinary experience.",
+            "zh": "我们在一个小餐馆用餐，品尝了怀石料理——一种多道菜式的餐食，它既是烹饪体验，也是一门艺术形式。",
+            "grammar": "主句含两个定语从句：第一个that修饰restaurant；第二个that修饰meal；同位语a multi-course meal补充说明kaiseki；as much...as...表示两者同等程度。",
+            "pattern": "as much + n. + as + n. (既是……又是……，同样程度的)",
+            "note": "as much...as...用于比较同一种性质的两个名词，结构中对等。"
+          }
+        ],
+        "grammar_analysis": {
+          "points": [
+            {
+              "structure": "独立主格结构（名词+形容词短语）",
+              "explanation": "its silhouette dark against the twilight sky 独立主格作伴随状语，逻辑主语its silhouette，形容词短语 dark against...。",
+              "example_sentence": "As dusk fell, we found ourselves at the Yasaka Pagoda, its silhouette dark against the twilight sky.",
+              "common_mistake": "❌ 误写成完整句子 its silhouette was dark... 导致逗号连接两个句子 → ✅ 改为独立主格。",
+              "contrast": "with its silhouette dark... 也是常见结构，但独立主格更简洁。"
+            },
+            {
+              "structure": "as much ... as ... 结构",
+              "explanation": "表示‘和……一样多/一样是’，as much...as... 后接名词时，much为形容词。",
+              "example_sentence": "...a multi-course meal that is as much an art form as a culinary experience.",
+              "common_mistake": "❌ 写作 as many as（用于可数名词复数）→ ✅ as much...as... 用于不可数或抽象名词（an art form 抽象）。",
+              "contrast": "as many...as... 用于可数名词复数，如 as many books as possible。"
+            }
+          ]
+        }
+      }
+    ]
+  }
+};
+const EMBEDDED_DATES_MAP = {
+  "2026-06-17": [
+    {
+      "id": "2026-06-17",
+      "title": "The Battle for Artificial General Intelligence",
+      "titleZh": "通用人工智能争夺战"
+    }
+  ],
+  "2026-06-18": [
+    {
+      "id": "2026-06-18",
+      "title": "The 15-Minute City: Urban Planning's New Obsession",
+      "titleZh": "15分钟城市：城市规划的新执念"
+    }
+  ],
+  "2026-06-18b": [
+    {
+      "id": "2026-06-18b",
+      "title": "The Psychology of Procrastination: Why We Delay What Matters",
+      "titleZh": "拖延心理学：为何我们总在最后一刻才行动"
+    }
+  ],
+  "2026-06-22": [
+    {
+      "id": "2026-06-22",
+      "title": "Global Trade Shifts, Inflation Divergences, and Digital Currency Adoption: 2026 Mid-Year Outlook",
+      "titleZh": "全球贸易格局转变、通胀分化与数字货币采用：2026中期展望"
+    },
+    {
+      "id": "2026-06-22b",
+      "title": "The Global Algorithm: Racing to Regulate Artificial Intelligence",
+      "titleZh": "全球算法竞赛：人工智能监管立法加速"
+    }
+  ],
+  "2026-06-25": [
+    {
+      "id": "2026-06-25",
+      "title": "The Timeless Charm of Kyoto",
+      "titleZh": "京都的永恒魅力"
+    }
+  ]
+};
+const EMBEDDED_ARTICLE_IDS = ["2026-06-17", "2026-06-18", "2026-06-18b", "2026-06-22", "2026-06-22b", "2026-06-25"];
+
 const SOURCES = [
   'https://raw.githubusercontent.com/moutianci/english-daily/main',
   'https://moutianci.github.io/english-daily'
@@ -804,52 +1998,26 @@ async function fetchJSON(path) {
   return null;
 }
 
-// 文章缓存（避免重复请求）
-const articleCache = {};
-
+// 从嵌入式数据加载（零延迟，网络仅兜底未来新增文章）
 async function loadArticle(articleId) {
-  if (articleCache[articleId]) return articleCache[articleId];
+  if (EMBEDDED_ARTICLES[articleId]) return EMBEDDED_ARTICLES[articleId];
   const data = await fetchJSON(`data/${articleId}.json`);
-  if (data) articleCache[articleId] = data;
+  if (data) { EMBEDDED_ARTICLES[articleId] = data; }
   return data || null;
 }
 
 let articlesMap = {}; // { '2026-06-18': [{ id: '2026-06-18', title: '...' }, ...], ... }
 
+
+// 直接从嵌入式数据构建（零网络请求）
 async function loadArticlesMap() {
-  // 1. 并行拉取 dates.json + 最新一篇文章（零等待）
-  const [data, latestId] = await Promise.all([
-    fetchJSON('dates.json'),
-    // 试探最新日期的首个文章 ID（从 EMBEDDED_DATES 快速拿到，不等 dates.json）
-    Promise.resolve(EMBEDDED_DATES[0]?.id || null)
-  ]);
-
-  const map = {};
-  if (data && typeof data === 'object' && !Array.isArray(data)) {
-    // dates.json 格式: { "2026-06-22": [{ id:"...", title:"..." }, ...] }
-    for (const [date, entries] of Object.entries(data)) {
-      map[date] = entries.map(e => typeof e === 'object' && e.id
-        ? { id: e.id, title: e.title || e.id, titleZh: e.titleZh || '' }
-        : { id: e, title: e, titleZh: '' }
-      );
-    }
-  } else if (Array.isArray(data)) {
-    for (const d of data) map[d] = [{ id: d, title: d, titleZh: '' }];
-  } else {
-    for (const e of EMBEDDED_DATES) map[e.id] = [{ id: e.id, title: e.title || e.id, titleZh: e.titleZh || '' }];
+  articlesMap = {};
+  for (const [date, entries] of Object.entries(EMBEDDED_DATES_MAP)) {
+    articlesMap[date] = entries;
   }
-
-  // 2. 用最新文章的完整数据预填充缓存（页面可立即渲染，无需再等请求）
-  if (latestId) {
-    const cached = await loadArticle(latestId);
-    if (cached) {
-      // 标题已从 dates.json 拿到，不需要再取
-    }
-  }
-
-  articlesMap = map;
-  return map;
+  return articlesMap;
 }
+
 
 async function listDates() {
   const map = articlesMap;
