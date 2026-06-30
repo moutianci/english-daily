@@ -4385,7 +4385,7 @@ function renderArticle(article) {
     // Chunks (意群分析)
     if (p.chunks && p.chunks.length) {
       html += `<div class="chunks-section"><div class="chunks-toggle" onclick="toggleChunks(${i})">🔪 意群分析 (${p.chunks.length})</div>`;
-      html += `<div class="chunks-content" id="chunks-${i}">`;
+      html += `<div class="chunks-content" id="chunks-${i}" style="display:none">`;
       for (const ck of p.chunks) {
         html += `<div class="chunk-item">
           <span class="chunk-en">${ck.en}</span>
@@ -4399,7 +4399,7 @@ function renderArticle(article) {
     // Difficult sentences
     if (p.difficult_sentences.length) {
       html += `<div class="grammar-section"><div class="grammar-toggle" onclick="toggleGrammar(${i})">✏️ 难句解析 (${p.difficult_sentences.length})</div>`;
-      html += `<div class="grammar-content" id="grammar-${i}">`;
+      html += `<div class="grammar-content" id="grammar-${i}" style="display:none">`;
       for (const s of p.difficult_sentences) {
         html += `<div class="grammar-item">
           <div class="en-sentence">${s.en}</div>
@@ -4415,7 +4415,7 @@ function renderArticle(article) {
     // Overall grammar analysis (语法总析)
     if (p.grammar_analysis && p.grammar_analysis.points && p.grammar_analysis.points.length) {
       html += `<div class="grammar-section"><div class="grammar-toggle" onclick="toggleGrammarAnalysis(${i})">📐 语法总析 (${p.grammar_analysis.points.length})</div>`;
-      html += `<div class="grammar-content" id="grammar-analysis-${i}" style="border-left-color:var(--accent2)">`;
+      html += `<div class="grammar-content" id="grammar-analysis-${i}" style="display:none;border-left-color:var(--accent2)">`;
       for (const pt of p.grammar_analysis.points) {
         html += `<div class="grammar-item">
           <div class="en-sentence">🔷 ${pt.structure}</div>
