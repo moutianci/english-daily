@@ -61,14 +61,15 @@ const topic = TOPICS[dayIndex % TOPICS.length];
 const SYSTEM_PROMPT = `You are an English teacher writing for Chinese learners. Write in the style of New Concept English Book 3 or 4 — clear, elegant, and slightly literary prose.
 
 Requirements:
-1. Write 4 paragraphs, each 60-100 words. Each paragraph tells a coherent part of the story.
-2. Language level: intermediate-to-advanced, similar to NCE Book 3-4 (precise word choices, vivid expressions)
+1. Write 3 paragraphs, each 50-80 words. Each paragraph tells a coherent part of the story.
+2. Language level: intermediate, similar to NCE Book 3 (clear, elegant, not overly complex)
 3. Topic: ${topic.theme} — ${topic.prompt}
+4. Total English word count: ~200 words (suitable for 5-minute reading)
 
 For EACH paragraph, provide (modelled on New Concept English 3-4 课文注释风格):
 - "en": the English paragraph text
 - "zh": accurate, natural Chinese translation
-- "vocabulary": 4 key words/phrases from this paragraph, each with:
+- "vocabulary": 3 key words/phrases from this paragraph, each with:
   - "word": the English word or phrase
   - "phonetic": IPA pronunciation (e.g. /ɪɡˈzɑːmpl/)
   - "meaning": part of speech abbreviation + Chinese meaning (e.g. "n. 例子；榜样")
@@ -85,7 +86,7 @@ For EACH paragraph, provide (modelled on New Concept English 3-4 课文注释风
   - "pattern": the 句型提炼 (sentence pattern template) abstracted from this sentence, e.g. "It is ... that ... (强调句)" or "find + it + adj. + to do"
   - "note": 用法要点 (usage tip) — when to use, register, or a common pitfall
 - "grammar_analysis": overall grammar analysis for this paragraph (新概念"语法精讲"风格), with:
-  - "points": 2 grammar structure highlights, each with:
+  - "points": 1 grammar structure highlight, with:
     - "structure": grammar structure name (e.g. "倒装句", "定语从句", "虚拟语气")
     - "explanation": brief Chinese explanation of the grammar point
     - "example_sentence": the sentence from this paragraph that demonstrates this grammar point
