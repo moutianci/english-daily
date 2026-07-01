@@ -1,0 +1,304 @@
+{
+  "date": "2026-07-01",
+  "title": "The Fox in the Moonlight",
+  "titleZh": "月光下的狐狸",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "On a clear summer night, the forest was bathed in silver moonlight. The air was still, and the only sound was the gentle rustle of leaves. A young fox emerged from the undergrowth, its eyes gleaming like tiny stars as it sniffed the cool breeze.",
+      "zh": "在一个晴朗的夏夜，森林沐浴在银色月光中。空气静止，唯一的声音是树叶轻柔的沙沙声。一只小狐狸从灌木丛中钻出来，眼睛像小星星一样闪烁，嗅着凉爽的微风。",
+      "vocabulary": [
+        {
+          "word": "bathed in",
+          "phonetic": "/beɪðd ɪn/",
+          "meaning": "v. 沐浴在…中，被…笼罩",
+          "example": "The garden was bathed in warm sunlight.",
+          "derivatives": "bath (n.) → bathe (v.) → bath (n.) → bathed (adj.) 常见搭配：be bathed in moonlight/sunlight/light"
+        },
+        {
+          "word": "rustle",
+          "phonetic": "/ˈrʌsəl/",
+          "meaning": "n. 沙沙声；v. 发出沙沙声",
+          "example": "The rustle of leaves announced the deer's approach.",
+          "derivatives": "rustle (n./v.) → rustling (adj.) 沙沙作响的 → rustle up (phr.) 凑集"
+        },
+        {
+          "word": "gleam",
+          "phonetic": "/ɡliːm/",
+          "meaning": "v. 闪烁，发微光；n. 微光",
+          "example": "Her eyes gleamed with excitement.",
+          "derivatives": "gleam (v./n.) → gleaming (adj.) 闪闪发光的 → a gleam of hope (短语) 一线希望"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "A young fox emerged from the undergrowth, its eyes gleaming like tiny stars as it sniffed the cool breeze.",
+          "zh": "一只小狐狸从灌木丛中钻出来，眼睛像小星星一样闪烁，嗅着凉爽的微风。",
+          "grammar": "独立主格结构+时间状语从句。'its eyes gleaming like tiny stars' 是独立主格结构，作伴随状语，补充说明狐狸的状态；'as it sniffed the cool breeze' 是时间状语从句。",
+          "pattern": "主语 + 谓语, + 名词 + 现在分词短语 + as 从句",
+          "note": "独立主格结构常用于书面描写，使句子更生动简洁，注意其逻辑主语与主句主语不同。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "On a clear summer night",
+          "zh": "在一个晴朗的夏夜",
+          "function": "时间状语"
+        },
+        {
+          "en": "the forest was bathed in silver moonlight",
+          "zh": "森林沐浴在银色月光中",
+          "function": "主句"
+        },
+        {
+          "en": "The air was still",
+          "zh": "空气静止",
+          "function": "并列句"
+        },
+        {
+          "en": "and the only sound was the gentle rustle of leaves",
+          "zh": "唯一的声音是树叶轻柔的沙沙声",
+          "function": "并列句"
+        },
+        {
+          "en": "A young fox emerged from the undergrowth, its eyes gleaming like tiny stars as it sniffed the cool breeze",
+          "zh": "一只小狐狸从灌木丛中钻出来，眼睛像小星星一样闪烁，嗅着凉爽的微风",
+          "function": "主句+独立主格+时间状语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格结构",
+            "explanation": "由名词/代词 + 现在分词/过去分词/不定式/形容词/副词/介词短语构成，在句中作状语，表示伴随、原因��条件等。本句中'its eyes gleaming like tiny stars'是名词+现在分词短语，作伴随状语。",
+            "example_sentence": "A young fox emerged from the undergrowth, its eyes gleaming like tiny stars as it sniffed the cool breeze.",
+            "common_mistake": "❌ 错误写法：Its eyes gleaming...（缺少连接词）→ ✅ 正确：使用逗号隔开，不要用连词。常见错误：中国学生容易加 and，如 '... and its eyes gleaming...' 应去掉 and。",
+            "contrast": "独立主格结构 vs 分词短语：独立主格有自己的逻辑主语（与主句主语不同），而分词短语的逻辑主语通常与主句主语一致。例如：Walking in the forest, I saw a fox. (walking的逻辑主语是I) 而 The fox appeared, its eyes glowing. (its eyes是独立主语)"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The fox moved cautiously toward the stream, its paws barely disturbing the fallen leaves. It stopped frequently to listen, ears twitching at every distant sound. After a long moment, it lowered its head and began to drink, the water rippling around its muzzle.",
+      "zh": "狐狸小心翼翼地走向溪流，它的爪子几乎不惊动落叶。它频频停下来倾听，耳朵每一次远方声响都会抽动。过了好一会儿，它低下头开始饮水，水花在它的嘴鼻周围泛起涟漪。",
+      "vocabulary": [
+        {
+          "word": "cautiously",
+          "phonetic": "/ˈkɔːʃəsli/",
+          "meaning": "adv. 谨慎地，小心地",
+          "example": "She opened the door cautiously.",
+          "derivatives": "caution (n.) → cautious (adj.) → cautiously (adv.) → overcautious (adj.) 过分谨慎的"
+        },
+        {
+          "word": "twitch",
+          "phonetic": "/twɪtʃ/",
+          "meaning": "v. (使)抽动，抽搐；n. 抽动",
+          "example": "His eye twitched nervously.",
+          "derivatives": "twitch (v./n.) → twitchy (adj.) 紧张的 → twitcher (n.) 观鸟者"
+        },
+        {
+          "word": "muzzle",
+          "phonetic": "/ˈmʌzəl/",
+          "meaning": "n. (动物的)口鼻部；枪口",
+          "example": "The dog's muzzle was wet from drinking.",
+          "derivatives": "muzzle (n.) → muzzle (v.) 给…戴口套；压制 → muzzle brake (n.) 枪口制退器"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It stopped frequently to listen, ears twitching at every distant sound.",
+          "zh": "它频频停下来倾听，耳朵在每一次远方声响时都会抽动。",
+          "grammar": "不定式作目的状语 + 独立主格结构。'to listen' 表示停下的目的；'ears twitching at every distant sound' 是独立主格，表示伴随动作。",
+          "pattern": "主语 + 谓语 + 状语 + to do, + 主语 + 现在分词短语",
+          "note": "独立主格中现在分词动作与主句动作同时发生，表示伴随状态。常用于描写动物的细微动作。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The fox moved cautiously toward the stream",
+          "zh": "狐狸小心翼翼地走向溪流",
+          "function": "主句（主语+谓语+方式状语+地点状语）"
+        },
+        {
+          "en": "its paws barely disturbing the fallen leaves",
+          "zh": "它的爪子几乎不惊动落叶",
+          "function": "独立主格（伴随状语）"
+        },
+        {
+          "en": "It stopped frequently to listen",
+          "zh": "它频频停下来倾听",
+          "function": "主句（谓语+频率状语+目的状语）"
+        },
+        {
+          "en": "ears twitching at every distant sound",
+          "zh": "耳朵在每一次远方声响时都会抽动",
+          "function": "独立主格（伴随状语）"
+        },
+        {
+          "en": "After a long moment, it lowered its head and began to drink, the water rippling around its muzzle",
+          "zh": "过了好一会儿，它低下头开始饮水，水花在它的嘴鼻周围泛起涟漪",
+          "function": "时间状语+主句+并列谓语+独立主格"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格结构（再次出现）",
+            "explanation": "本段出现了两个独立主格：'its paws barely disturbing...' 和 'ears twitching...' 以及 'the water rippling...'。它们分别表示伴随动作或结果，使描写更细腻。",
+            "example_sentence": "The fox moved cautiously toward the stream, its paws barely disturbing the fallen leaves.",
+            "common_mistake": "❌ 误用分词逻辑主语不一致：如 'Moving cautiously, its paws...' 错，因为moving的逻辑主语是fox，但paws不是。应改为独立主格。",
+            "contrast": "伴随状语可以用with结构替换：'with its paws barely disturbing...'。但独立主格更简洁书面。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Suddenly, the fox stiffened. Its head shot up, ears forward, eyes fixed on a point beyond the stream. A twig snapped in the darkness. Without a second thought, it turned and vanished into the shadowy forest, leaving only the faint sound of retreating footsteps.",
+      "zh": "突然，狐狸僵住了。它猛地抬头，耳朵向前，眼睛紧紧盯着溪流对岸的某一点。黑暗中一根树枝咔嚓断裂。它毫不犹豫，转身消失在阴暗的森林中，只留下远去的脚步声。",
+      "vocabulary": [
+        {
+          "word": "stiffen",
+          "phonetic": "/ˈstɪfən/",
+          "meaning": "v. 变僵硬，绷紧",
+          "example": "He stiffened when he heard the noise.",
+          "derivatives": "stiff (adj.) → stiffen (v.) → stiffness (n.) → stiffener (n.) 使变硬的东西"
+        },
+        {
+          "word": "snap",
+          "phonetic": "/snæp/",
+          "meaning": "v. 咔嚓折断；突然中断；猛地咬住",
+          "example": "The branch snapped under the weight.",
+          "derivatives": "snap (v./n.) → snappy (adj.) 干脆的 → snap shot (n.) 快照"
+        },
+        {
+          "word": "vanish",
+          "phonetic": "/ˈvænɪʃ/",
+          "meaning": "v. 消失，突然不见",
+          "example": "The magician vanished in a puff of smoke.",
+          "derivatives": "vanish (v.) → vanishing (adj.) 正在消失的 → vanish into thin air (短语) 凭空消失"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Without a second thought, it turned and vanished into the shadowy forest, leaving only the faint sound of retreating footsteps.",
+          "zh": "它毫不犹豫，转身消失在阴暗的森林中，只留下远去的脚步声。",
+          "grammar": "介词短语作状语 + 并列谓语 + 现在分词短语作结果状语。'Without a second thought' 是介词短语作方式状语；'turned and vanished' 是并列谓语；'leaving only...' 是现在分词短语作结果状语。",
+          "pattern": "Without + 名词短语, 主语 + 谓语1 and 谓语2, + leaving + 宾语 + 定语",
+          "note": "现在分词短语作结果状语常用于描述前一动作带来的自然结果，逻辑主语是主句主语。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Suddenly, the fox stiffened",
+          "zh": "突然，狐狸僵住了",
+          "function": "时间状语+主句"
+        },
+        {
+          "en": "Its head shot up, ears forward, eyes fixed on a point beyond the stream",
+          "zh": "它猛地抬头，耳朵向前，眼睛紧紧盯着溪流对岸的某一点",
+          "function": "三个并列独立主格结构（伴随状���）"
+        },
+        {
+          "en": "A twig snapped in the darkness",
+          "zh": "黑暗中一根树枝咔嚓断裂",
+          "function": "主句（原因）"
+        },
+        {
+          "en": "Without a second thought, it turned and vanished into the shadowy forest",
+          "zh": "它毫不犹豫，转身消失在阴暗的森林中",
+          "function": "方式状语+主语+并列谓语+地点状语"
+        },
+        {
+          "en": "leaving only the faint sound of retreating footsteps",
+          "zh": "只留下远去的脚步声",
+          "function": "结果状语（现在分词短语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格结构（列举式）",
+            "explanation": "本段'Its head shot up, ears forward, eyes fixed on...' 是三个并列独立主格，分别用名词+副词、名词+副词、名词+过去分词短语。它们共同构成伴随状语，描写狐狸警觉时的瞬间状态。",
+            "example_sentence": "Its head shot up, ears forward, eyes fixed on a point beyond the stream.",
+            "common_mistake": "❌ 误用谓语动词：'Its head shot up, ears were forward...' 错，because独立主格需要非谓语形式。正确应为 'ears forward' (名词+副词) 或 'ears being forward' (但有being不简洁)。",
+            "contrast": "独立主格中的名词+副词结构（如 ears forward）相当于 with its ears forward，但更简洁。副词前省略了being。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "I stood still for a long while, holding my breath. The forest had returned to its silent vigil, as if nothing had happened. Perhaps that is the way of the wild: we are only passing guests; it is the creatures who truly belong here.",
+      "zh": "我久久站着不动，屏住呼吸。森林已恢复它寂静的守望，仿佛什么都没有发生过。或许这就是荒野之道：我们只是匆匆过客；真正属于这里的，是那些生灵。",
+      "vocabulary": [
+        {
+          "word": "vigil",
+          "phonetic": "/ˈvɪdʒɪl/",
+          "meaning": "n. 守夜，监视；保持警惕",
+          "example": "The mother kept a vigil at her child's bedside.",
+          "derivatives": "vigil (n.) → vigilant (adj.) 警惕的 → vigiliance (n.) 警觉"
+        },
+        {
+          "word": "creature",
+          "phonetic": "/ˈkriːtʃər/",
+          "meaning": "n. 生物，动物；人",
+          "example": "All creatures great and small.",
+          "derivatives": "creature (n.) → create (v.) 创造 → creation (n.) → creator (n.)"
+        },
+        {
+          "word": "belong",
+          "phonetic": "/bɪˈlɒŋ/",
+          "meaning": "v. 属于；应在（某处）",
+          "example": "This book belongs to me.",
+          "derivatives": "belong (v.) → belonging (n.) 归属感 → belongings (n.) 所有物"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Perhaps that is the way of the wild: we are only passing guests; it is the creatures who truly belong here.",
+          "zh": "或许这就是荒野之道：我们只是匆匆过客；真正属于这里的，是那些生灵。",
+          "grammar": "分号连接的两个并列句，其中第二个分句是强调句'it is...who...'，强调主语'the creatures'。冒号后解释'way of the wild'。",
+          "pattern": "Perhaps + 主语 + is + 名词 + : 解释; it is + 强调部分 + who + 谓语",
+          "note": "强调句结构'It is/was + 被强调部分 + that/who...'，去掉It is/was和that/who后句子应仍然完整。此处强调主语'the creatures'，关系代词用who。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "I stood still for a long while",
+          "zh": "���久久站着不动",
+          "function": "主句（主语+谓语+方式状语+时间状语）"
+        },
+        {
+          "en": "holding my breath",
+          "zh": "屏住呼吸",
+          "function": "伴随状语（现在分词短语）"
+        },
+        {
+          "en": "The forest had returned to its silent vigil",
+          "zh": "森林已恢复它寂静的守望",
+          "function": "主句（主语+谓语+宾语）"
+        },
+        {
+          "en": "as if nothing had happened",
+          "zh": "仿佛什么都没有发生过",
+          "function": "方式状语从句（虚拟语气）"
+        },
+        {
+          "en": "Perhaps that is the way of the wild: we are only passing guests; it is the creatures who truly belong here",
+          "zh": "或许这就是荒野之道：我们只是匆匆过客；真正属于这里的，是那些生灵",
+          "function": "主句+解释（两个并列分句，第二个是强调句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "强调句（It is...who...）",
+            "explanation": "强调句用于突出句子的某个成分，本句强调主语'the creatures'。结构：It is/was + 被强调部分 + that/who + 句子其余部分。去掉强调结构后句子依然完整：'the creatures truly belong here.'",
+            "example_sentence": "it is the creatures who truly belong here.",
+            "common_mistake": "❌ 误用that代替who当强调人时：'It is the creatures that...' 虽可接受但不够正式；更常见 who。另外注意不要把强调句与定语从句混淆：强调句去掉It is...that后句子完整，而定语从句中that是关系词。",
+            "contrast": "强调句 vs 定语从句：比较 'It is the creatures that/who truly belong here.' (强调句) 和 'The creatures that truly belong here are wild.' (定语从句)。前者可去掉It is...that变为'creatures truly belong here'；后者去掉that变成'the creatures are wild'不完整。"
+          }
+        ]
+      }
+    }
+  ]
+}
