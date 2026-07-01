@@ -1,0 +1,314 @@
+{
+  "date": "2026-07-02",
+  "title": "The Art of Finding the Right Job",
+  "titleZh": "寻觅合适工作之道",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "For most of us, work occupies a significant portion of our waking lives. It is not merely a means of earning a living; it is a source of identity and purpose. Ideally, a job should align with one's interests and skills, yet many people find themselves trapped in roles that fail to bring satisfaction.",
+      "zh": "对我们大多数人来说，工作占据了我们清醒时相当大的一部分时间。它不仅仅是谋生的手段，更是身份和目标的来源。理想情况下，一份工作应与个人的兴趣和技能相吻合，然而许多人发现自己被困在那些无法带来满足感的职位上。",
+      "vocabulary": [
+        {
+          "word": "occupy",
+          "phonetic": "/ˈɒkjʊpaɪ/",
+          "meaning": "v. 占据；占用",
+          "example": "Hobbies occupy most of his free time.",
+          "derivatives": "occupy (v.) → occupation (n.) 职业；占有 → occupied (adj.) 已占用的"
+        },
+        {
+          "word": "merely",
+          "phonetic": "/ˈmɪəli/",
+          "meaning": "adv. 仅仅；只不过",
+          "example": "He spoke merely to break the silence.",
+          "derivatives": "mere (adj.) 仅仅的 → merely (adv.)"
+        },
+        {
+          "word": "fail to",
+          "phonetic": "/feɪl tuː/",
+          "meaning": "v. 未能；无法",
+          "example": "She failed to meet the deadline.",
+          "derivatives": "fail (v.) → failure (n.) 失败 → failing (n.) 缺点"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "For most of us",
+          "zh": "对我们大多数人来说",
+          "function": "状语"
+        },
+        {
+          "en": "work occupies a significant portion of our waking lives",
+          "zh": "工作占据了我们清醒时相当大的一部分时间",
+          "function": "主句"
+        },
+        {
+          "en": "It is not merely a means of earning a living",
+          "zh": "它不仅仅是谋生的手段",
+          "function": "主句（并列部分）"
+        },
+        {
+          "en": "it is a source of identity and purpose",
+          "zh": "更是身份和目标的来源",
+          "function": "并列句"
+        },
+        {
+          "en": "Ideally, a job should align with one's interests and skills",
+          "zh": "理想情况下，一份工作应与个��的兴趣和技能相吻合",
+          "function": "主句"
+        },
+        {
+          "en": "yet many people find themselves trapped in roles that fail to bring satisfaction",
+          "zh": "然而许多人发现自己被困在那些无法带来满足感的职位上",
+          "function": "并列句（含定语从句）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "yet many people find themselves trapped in roles that fail to bring satisfaction.",
+          "zh": "然而许多人发现自己被困在那些无法带来满足感的职位上。",
+          "grammar": "find + 宾语 + 宾语补足语（过去分词）结构，后接 that 引导的定语从句修饰 roles。",
+          "pattern": "find + oneself + past participle (e.g. find oneself trapped in...)",
+          "note": "此结构表示“发现自己处于某种（不愉快的）状态”，过去分词表被动与状态。常见搭配：find oneself lost/confused/surrounded."
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "定语从句 (Attributive Clause)",
+            "explanation": "关系代词 that 引导的定语从句修饰先行词 roles，做从句的主语。",
+            "example_sentence": "yet many people find themselves trapped in roles that fail to bring satisfaction.",
+            "common_mistake": "❌ roles which fail → ✅ roles that fail（在口语中 which 也可，但限制性定语从句 that 更常见）",
+            "contrast": "that 与 which 的区别：that 既可指人也可指物，在限制性定语从句中常代替 which；但介词后只能用 which。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Consider the case of a young lawyer who, after years of study, secured a high-paying position at a prestigious firm. External observers envied her apparent success. Yet inside, she felt a profound emptiness. The work demanded long hours and intense pressure, leaving little room for her true passion for painting.",
+      "zh": "试想一位年轻律师的例子：她经过多年学习，在一家知名律所获得了一份高薪职位。外人羡慕她表面上的成功。然而内心深处，她却感到一种深深的空虚。工作耗时长、压力大，几乎没有留出空间给她对绘画的真正热情。",
+      "vocabulary": [
+        {
+          "word": "secure",
+          "phonetic": "/sɪˈkjʊə/",
+          "meaning": "v. 获得；争取到",
+          "example": "He secured a place at a top university.",
+          "derivatives": "secure (v./adj.) → security (n.) 安全 → securely (adv.) 安全地"
+        },
+        {
+          "word": "prestigious",
+          "phonetic": "/preˈstɪdʒəs/",
+          "meaning": "adj. 有声望的； prestigious",
+          "example": "She works for a prestigious fashion house.",
+          "derivatives": "prestige (n.) 声望 → prestigious (adj.)"
+        },
+        {
+          "word": "profound",
+          "phonetic": "/prəˈfaʊnd/",
+          "meaning": "adj. 深刻的；深远的",
+          "example": "The experience had a profound effect on him.",
+          "derivatives": "profound (adj.) → profoundly (adv.) 深深地 → profundity (n.) 深度"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Consider the case of a young lawyer",
+          "zh": "试想一位年轻律师的例子",
+          "function": "祈使句谓语+宾语"
+        },
+        {
+          "en": "who, after years of study, secured a high-paying position at a prestigious firm",
+          "zh": "她经过多年学习，在一家知名律所获得了一份高薪职位",
+          "function": "定语从句（修饰 lawyer）"
+        },
+        {
+          "en": "External observers envied her apparent success",
+          "zh": "外人羡慕她表面上的成功",
+          "function": "主句"
+        },
+        {
+          "en": "Yet inside, she felt a profound emptiness",
+          "zh": "然而内心深处，她却感到一种深深的空虚",
+          "function": "转折句"
+        },
+        {
+          "en": "The work demanded long hours and intense pressure",
+          "zh": "工作耗时长、压力大",
+          "function": "主句"
+        },
+        {
+          "en": "leaving little room for her true passion for painting",
+          "zh": "几乎没有留出空间给她对绘画的真正热情",
+          "function": "结果状语（现在分词短语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Consider the case of a young lawyer who, after years of study, secured a high-paying position at a prestigious firm.",
+          "zh": "试想一位年轻律师的例子：她经过多年学习，在一家知名律所获得了一份高薪职位。",
+          "grammar": "复合句：主句（祈使句）+ 定语从句（关系代词 who 引导），定语从句中包含插入的时间状语 after years of study。",
+          "pattern": "Consider the case of ... who ... (举某个例子) ",
+          "note": "此句型常用于举例，后接定语从句展开描述。注意插入语前后逗号的使用。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作结果状语",
+            "explanation": "现在分词短语 leaving little room... 表示前一句动作带来的自然结果。",
+            "example_sentence": "The work demanded long hours and intense pressure, leaving little room for her true passion for painting.",
+            "common_mistake": "❌ leaving 前加 and → ✅ 直接逗号 + leaving（分词短语作结果状语，不需要连词）",
+            "contrast": "与不定式作目的状语的区别：leaving 表示伴随结果；to leave 表示目的。例如：He worked hard to leave a good impression.（目的）vs He worked hard, leaving little time for rest.（结果）"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The key to a fulfilling career lies not in chasing prestige, but in self-awareness. One must ask: What truly matters to me? Am I driven by passion, stability, or creativity? A careful examination of one's values can guide the search. It is better to take a modest job that nurtures growth than a glamorous one that stifles the spirit.",
+      "zh": "找到令人满意的职业的关键不在于追逐声望，而在于自我认知。人们必须问自己：对我而言真正重要的是什么？我受激情、稳定还是创造力驱动？仔细审视自己的价值观可以指引求职方向。从事一份能促进成长的普通工作，好过一份扼杀精神的华丽职位。",
+      "vocabulary": [
+        {
+          "word": "fulfilling",
+          "phonetic": "/fʊlˈfɪlɪŋ/",
+          "meaning": "adj. 令人满意的；有成就感的",
+          "example": "She finds teaching very fulfilling.",
+          "derivatives": "fulfill (v.) 实现 → fulfilling (adj.) → fulfillment (n.) 满足感"
+        },
+        {
+          "word": "nurtures",
+          "phonetic": "/ˈnɜːtʃəz/",
+          "meaning": "v. 滋养；促进（发展）",
+          "example": "The school nurtures students' talents.",
+          "derivatives": "nurture (v./n.) → nurturer (n.) 培育者 → nurturant (adj.) 有滋养作用的"
+        },
+        {
+          "word": "stifles",
+          "phonetic": "/ˈstaɪfəlz/",
+          "meaning": "v. 扼杀；抑制",
+          "example": "Fear stifles creativity.",
+          "derivatives": "stifle (v.) → stifling (adj.) 令人窒息的 → stifled (adj.) 被抑制的"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The key to a fulfilling career lies not in chasing prestige, but in self-awareness",
+          "zh": "找到令人满意的职业的关键不在于追逐声望，而在于自我认知",
+          "function": "主句"
+        },
+        {
+          "en": "One must ask",
+          "zh": "人们必须问自己",
+          "function": "主句"
+        },
+        {
+          "en": "What truly matters to me? Am I driven by passion, stability, or creativity?",
+          "zh": "对我而言真正重要的是什么？我受激情、稳定还是创造力驱动？",
+          "function": "间接引语（两个问句）"
+        },
+        {
+          "en": "A careful examination of one's values can guide the search",
+          "zh": "仔细审视自己的价值观可以指引求职方向",
+          "function": "主句"
+        },
+        {
+          "en": "It is better to take a modest job that nurtures growth than a glamorous one that stifles the spirit",
+          "zh": "从事一份能促进成长的普通工作，好过一份扼杀精神的华丽职位",
+          "function": "比较结构句（含两��定语从句）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It is better to take a modest job that nurtures growth than a glamorous one that stifles the spirit.",
+          "zh": "从事一份能促进成长的普通工作，好过一份扼杀精神的华丽职位。",
+          "grammar": "比较句型：It is better to do A than B. 其中A和B各带一个定语从句。先行词job/one分别由that引导的从句修饰。",
+          "pattern": "It is better to take + noun + that-clause than + noun + that-clause.",
+          "note": "该结构用于比较两种事物，强调前者更优。注意平行结构：to take 与后面的名词短语保持平衡。也可以省略 to take，直接比较名词。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "比较结构 (Comparative Structure)",
+            "explanation": "It is better to do A than B 是比较级句型，A和B可以是名词短语或动词不定式。这里A和B分别带有定语从句。",
+            "example_sentence": "It is better to take a modest job that nurtures growth than a glamorous one that stifles the spirit.",
+            "common_mistake": "❌ It is better to take a modest job that nurtures growth than a glamorous job that stifles the spirit. （重复 job）→ ✅ 用 one 代替 job 避免��复",
+            "contrast": "与 prefer A to B 的区别：prefer 后接名词/动名词，It is better to do 后接不定式。例如：I prefer a modest job to a glamorous one. = It is better to take a modest job than a glamorous one."
+          }
+        ]
+      }
+    },
+    {
+      "en": "Choosing the right career is a journey, not a destination. It requires patience, experimentation, and the courage to change course. Many successful people have shifted directions several times before finding their calling. The important thing is to remain curious and honest with yourself. In the end, the right job feels less like work and more like life.",
+      "zh": "选择合适的职业是一段旅程，而非终点。它需要耐心、尝试以及改变方向的勇气。许多成功人士在找到自己的使命之前都曾多次调整方向。重要的是保持好奇心，对自己诚实。最终，合适的工作感觉更像是生活，而不是工作。",
+      "vocabulary": [
+        {
+          "word": "calling",
+          "phonetic": "/ˈkɔːlɪŋ/",
+          "meaning": "n. 使命感；天职",
+          "example": "She felt a calling to become a doctor.",
+          "derivatives": "call (v.) 召唤 → calling (n.)"
+        },
+        {
+          "word": "shifted directions",
+          "phonetic": "/ʃɪftɪd dɪˈrekʃənz/",
+          "meaning": "短语 v. 改变方向；转换职业道路",
+          "example": "He shifted directions after five years in finance.",
+          "derivatives": "shift (v./n.) 转变 + direction (n.) 方向 → 动宾搭配"
+        },
+        {
+          "word": "curious",
+          "phonetic": "/ˈkjʊriəs/",
+          "meaning": "adj. 好奇的；求知欲强的",
+          "example": "Children are naturally curious.",
+          "derivatives": "curious (adj.) → curiosity (n.) 好奇心 → curiously (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Choosing the right career is a journey, not a destination",
+          "zh": "选择合适的职业是一段旅程，而非终点",
+          "function": "主句（系表结构）"
+        },
+        {
+          "en": "It requires patience, experimentation, and the courage to change course",
+          "zh": "它需要耐心、尝试以及改变方向的勇气",
+          "function": "主句"
+        },
+        {
+          "en": "Many successful people have shifted directions several times before finding their calling",
+          "zh": "许多成功人士在找到自己的使命之前都曾多次调整方向",
+          "function": "主句"
+        },
+        {
+          "en": "The important thing is to remain curious and honest with yourself",
+          "zh": "重要的是保持好奇心，对自己诚实",
+          "function": "主句（不定式作表语）"
+        },
+        {
+          "en": "In the end, the right job feels less like work and more like life",
+          "zh": "最终，合适的工作感觉更像是生活，而不是工作",
+          "function": "主句（系表结构+比较）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "In the end, the right job feels less like work and more like life.",
+          "zh": "最终，合适的工作感觉更像是生活，而不是工作。",
+          "grammar": "系动词 feels + 介词短语 like... 比较结构 less like A and more like B 表示“更像B而不像A”。",
+          "pattern": "feel less like A and more like B (更像是B而不是A)",
+          "note": "此句式用于对比两种性质。也可以说 feel more like B than A。注意 less...and more... 的平行结构。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "系动词 + 介词短语作表语",
+            "explanation": "feels like 是系动词 feel 与介词 like 的搭配，意为“感觉像是”。后面跟名词或动名词。",
+            "example_sentence": "In the end, the right job feels less like work and more like life.",
+            "common_mistake": "❌ feels like to work → ✅ feels like work（like 是介词，后接名词）",
+            "contrast": "feel like 与 look like/sound like 类似，但 feel like 还可表达“想要做某事”：I feel like eating out. 注意区别。"
+          }
+        ]
+      }
+    }
+  ]
+}
