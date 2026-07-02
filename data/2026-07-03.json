@@ -1,0 +1,359 @@
+{
+  "date": "2026-07-03",
+  "title": "The Way of Tea in Kyoto",
+  "titleZh": "京都茶道之旅",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "On a quiet autumn morning, I was invited to a traditional tea ceremony in a secluded Kyoto garden. The hostess, dressed in a formal kimono, greeted me with a silent bow. The tatami room was sparse yet exquisite, with a single scroll and a seasonal flower arrangement. I felt both nervous and curious, aware that I was entering a world of profound ritual.",
+      "zh": "在一个宁静的秋日清晨，我被邀请到京都一处幽静的庭园参加传统茶道。女主人身着正式和服，以无声的鞠躬迎接我。榻榻米房间朴素而雅致，只有一幅挂轴和当季的花道。我既紧张又好奇，深知自己正踏入一个充满深厚仪式的世界。",
+      "vocabulary": [
+        {
+          "word": "secluded",
+          "phonetic": "/sɪˈkluːdɪd/",
+          "meaning": "adj. 僻静的；隐蔽的",
+          "example": "The cottage was secluded from the main road.",
+          "derivatives": "seclude (v.) 使隔离 → secluded (adj.) → seclusion (n.) 隐居"
+        },
+        {
+          "word": "profound",
+          "phonetic": "/prəˈfaʊnd/",
+          "meaning": "adj. 深远的；深刻的",
+          "example": "The book had a profound impact on my thinking.",
+          "derivatives": "profound (adj.) → profoundly (adv.) → profundity (n.) 深奥"
+        },
+        {
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃuəl/",
+          "meaning": "n. 仪式；惯例",
+          "example": "The tea ceremony is a traditional ritual in Japan.",
+          "derivatives": "ritual (n./adj.) → ritualistic (adj.) → ritualistically (adv.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "I felt both nervous and curious, aware that I was entering a world of profound ritual.",
+          "zh": "我既紧张又好奇，深知自己正踏入一个充满深厚仪式的世界。",
+          "grammar": "主句 + 形容词短语作状语 (aware that...)。'aware' 后接 that 从句，表示意识到某事。",
+          "pattern": "主语 + feel both ... and ..., aware that + 从句",
+          "note": "形容词短语作伴随状语，描述主语的心理状态，常见于文学描写。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "On a quiet autumn morning",
+          "zh": "在一个宁静的秋日清晨",
+          "function": "时间状语"
+        },
+        {
+          "en": "I was invited to a traditional tea ceremony in a secluded Kyoto garden.",
+          "zh": "我被邀请到京都一处幽静的庭园参加传统茶道。",
+          "function": "主句"
+        },
+        {
+          "en": "The hostess, dressed in a formal kimono,",
+          "zh": "女主人身着正式和服",
+          "function": "主语 + 定语"
+        },
+        {
+          "en": "greeted me with a silent bow.",
+          "zh": "以无声的鞠躬迎接我。",
+          "function": "谓语 + 宾语 + 方式状语"
+        },
+        {
+          "en": "The tatami room was sparse yet exquisite,",
+          "zh": "榻榻米房间朴素而雅致",
+          "function": "主句"
+        },
+        {
+          "en": "with a single scroll and a seasonal flower arrangement.",
+          "zh": "只有一幅挂轴和当季的花道。",
+          "function": "伴随状语"
+        },
+        {
+          "en": "I felt both nervous and curious,",
+          "zh": "我既紧张又好奇",
+          "function": "主句"
+        },
+        {
+          "en": "aware that I was entering a world of profound ritual.",
+          "zh": "深知自己正踏入一个充满深厚仪式的世界。",
+          "function": "形容词短语作状语"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "形容词短语作伴随状语",
+            "explanation": "形容词短语 (aware + that从句) 可作状语，表示主语在做主要动作时的心理状态或伴随情况。",
+            "example_sentence": "I felt both nervous and curious, aware that I was entering a world of profound ritual.",
+            "common_mistake": "❌ I felt nervous, aware of enter... → ✅ I felt nervous, aware that I was entering...",
+            "contrast": "with结构也可作伴随状语：'with a scroll on the wall' 强调物体，而形容词短语强调心理。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The ceremony began in absolute silence. The hostess meticulously purified each utensil with slow, deliberate movements. Every gesture, from the way she whisked the matcha to how she presented the bowl, seemed to carry centuries of tradition. I watched, mesmerized, as the tea was prepared with an almost meditative grace.",
+      "zh": "仪式在绝对的寂静中开始。女主人以缓慢而从容的动作细致地清洁每件器具。从点茶的手法到捧碗的方式，每个姿态似乎都承载着数百年的传统。我着迷地看着，茶被以一种近乎冥思的优雅姿态冲泡出来。",
+      "vocabulary": [
+        {
+          "word": "meticulously",
+          "phonetic": "/məˈtɪkjələsli/",
+          "meaning": "adv. 一丝不苟地；细致地",
+          "example": "She meticulously folded the kimono.",
+          "derivatives": "meticulous (adj.) → meticulously (adv.) → meticulousness (n.)"
+        },
+        {
+          "word": "deliberate",
+          "phonetic": "/dɪˈlɪbərət/",
+          "meaning": "adj. 从容的；深思熟虑的",
+          "example": "He spoke in a slow, deliberate manner.",
+          "derivatives": "deliberate (adj./v.) → deliberately (adv.) → deliberation (n.)"
+        },
+        {
+          "word": "mesmerized",
+          "phonetic": "/ˈmezməraɪzd/",
+          "meaning": "adj. 入迷的；着迷的",
+          "example": "The audience was mesmerized by her performance.",
+          "derivatives": "mesmerize (v.) → mesmerizing (adj.) → mesmerized (adj.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Every gesture, from the way she whisked the matcha to how she presented the bowl, seemed to carry centuries of tradition.",
+          "zh": "从点茶的手法到捧碗的方式，每个姿态似乎都承载着数百年的传统。",
+          "grammar": "主语 (Every gesture) 后接插入语 (from...bowl) 修饰，谓语 (seemed to carry)。'from... to...' 结构列举了范围。",
+          "pattern": "主语 + , from ... to ..., + 谓语 + 不定式宾语",
+          "note": "这种插入语结构用于举例说明，使句子更生动。注意前后逗号。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The ceremony began in absolute silence.",
+          "zh": "仪式在绝对的寂静中开始。",
+          "function": "主句"
+        },
+        {
+          "en": "The hostess meticulously purified each utensil",
+          "zh": "女主人细致地清洁每件器具",
+          "function": "主句"
+        },
+        {
+          "en": "with slow, deliberate movements.",
+          "zh": "以缓慢而从容的动作。",
+          "function": "方式状语"
+        },
+        {
+          "en": "Every gesture, from the way she whisked the matcha to how she presented the bowl,",
+          "zh": "每个姿态，从点茶的手法到捧碗的方式",
+          "function": "主语 + 插入语"
+        },
+        {
+          "en": "seemed to carry centuries of tradition.",
+          "zh": "似乎承载着数百年的传统。",
+          "function": "谓语 + 宾语"
+        },
+        {
+          "en": "I watched, mesmerized,",
+          "zh": "我着迷地看着",
+          "function": "主句 + 伴随状语"
+        },
+        {
+          "en": "as the tea was prepared with an almost meditative grace.",
+          "zh": "茶被以一种近乎冥思的优雅姿态冲泡出来。",
+          "function": "状语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "as 引导的时间状语从句",
+            "explanation": "as 可表示“当……时”，强调两个动作同时进行。这里 'as the tea was prepared' 与主句 'I watched' 同时发生。",
+            "example_sentence": "I watched, mesmerized, as the tea was prepared with an almost meditative grace.",
+            "common_mistake": "❌ I watched while the tea prepared → ✅ I watched as the tea was prepared (被动语态正确)",
+            "contrast": "while 侧重持续时间，as 侧重同时发生。本句用 as 更恰当，因为“准备” 是瞬间动作与“观看”同步。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "When I finally received the bowl, I hesitated. Custom demanded that I turn it slightly before drinking, to avoid drinking from the front. This small yet meaningful gesture revealed a culture that values humility and respect. I sipped the bitter matcha slowly, feeling the warmth of the bowl against my hands and the weight of tradition in my heart.",
+      "zh": "当我终于接过茶碗时，我犹豫了。习俗要求我在饮用前轻轻转动茶碗，以免正对着碗口喝。这个微小却有意义的姿态揭示了一种崇尚谦逊与尊重的文化。我慢慢啜饮苦涩的抹茶，感受着掌心的温暖和心中传统的分量。",
+      "vocabulary": [
+        {
+          "word": "hesitate",
+          "phonetic": "/ˈhezɪteɪt/",
+          "meaning": "v. 犹豫；迟疑",
+          "example": "She hesitated before answering the question.",
+          "derivatives": "hesitate (v.) → hesitation (n.) → hesitant (adj.) → hesitantly (adv.)"
+        },
+        {
+          "word": "custom",
+          "phonetic": "/ˈkʌstəm/",
+          "meaning": "n. 习俗；习惯",
+          "example": "It is a local custom to bow when greeting.",
+          "derivatives": "custom (n.) → customary (adj.) 习惯性的 → customarily (adv.)"
+        },
+        {
+          "word": "reveal",
+          "phonetic": "/rɪˈviːl/",
+          "meaning": "v. 揭示；展现",
+          "example": "The report revealed the truth about the accident.",
+          "derivatives": "reveal (v.) → revelation (n.) → revealing (adj.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Custom demanded that I turn it slightly before drinking, to avoid drinking from the front.",
+          "zh": "习俗要求我在饮用前轻轻转动茶碗，以免正对着碗口喝。",
+          "grammar": "主句 (Custom demanded) + 宾语从句 (that I turn...)，从句中用了虚拟语气 (turn 而非 turned)，因为 demand 等词后 that 从句用动词原形。",
+          "pattern": "主语 + demand that + 主语 + (should) + 动词原形",
+          "note": "demand, suggest, recommend 等动词后的 that 从句常用虚拟语气 (should + do 或直接 do)。美式英语 prefer 直接 do。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "When I finally received the bowl,",
+          "zh": "当我终于接过茶碗时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "I hesitated.",
+          "zh": "我犹豫了。",
+          "function": "主句"
+        },
+        {
+          "en": "Custom demanded that I turn it slightly before drinking,",
+          "zh": "习俗要求我在饮用前轻轻转动茶碗",
+          "function": "主句 + 宾语从句"
+        },
+        {
+          "en": "to avoid drinking from the front.",
+          "zh": "以免正对着碗口喝。",
+          "function": "目的状语"
+        },
+        {
+          "en": "This small yet meaningful gesture",
+          "zh": "这个微小却有意义的姿态",
+          "function": "主语"
+        },
+        {
+          "en": "revealed a culture that values humility and respect.",
+          "zh": "揭示了一种崇尚谦逊与尊重的文化。",
+          "function": "谓语 + 宾语 + 定语从句"
+        },
+        {
+          "en": "I sipped the bitter matcha slowly,",
+          "zh": "我慢慢啜饮苦涩的抹茶",
+          "function": "主句"
+        },
+        {
+          "en": "feeling the warmth of the bowl against my hands and the weight of tradition in my heart.",
+          "zh": "感受着掌心的温暖和心中传统的分量。",
+          "function": "现在分词短语作伴随状语"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "虚拟语气在宾语从句中 (demand that...)",
+            "explanation": "当主句动词表示“要求、建议、命令”时，that 从句用虚拟语气，即 (should) + 动词原形。",
+            "example_sentence": "Custom demanded that I turn it slightly before drinking.",
+            "common_mistake": "❌ Custom demanded that I turned it → ✅ Custom demanded that I turn it (动词原形)",
+            "contrast": "insist 表示“坚持要求”时也用虚拟，但表示“坚持认为”时不用虚拟：He insisted that she is right. (事实)"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Leaving the tea house, I felt a deep sense of gratitude. The experience taught me that true cultural immersion goes beyond sightseeing; it requires patience and openness. In a world that moves ever faster, the slow, mindful art of tea reminds us to appreciate the present moment. Kyoto had given me not just a lesson, but a new perspective.",
+      "zh": "离开茶室时，我心中充满深深的感激。这次经历让我明白，真正的文化沉浸远不止观光游览；它需要耐心和开放的心态。在一个节奏日益加快的世界里，茶道这门缓慢而专注的艺术提醒我们要珍惜当下。京都给予我的不仅是一堂课，更是一种新的视角。",
+      "vocabulary": [
+        {
+          "word": "gratitude",
+          "phonetic": "/ˈɡrætɪtjuːd/",
+          "meaning": "n. 感激；感恩",
+          "example": "She expressed her gratitude for the help.",
+          "derivatives": "grateful (adj.) → gratefully (adv.) → gratitude (n.)"
+        },
+        {
+          "word": "immersion",
+          "phonetic": "/ɪˈmɜːrʒən/",
+          "meaning": "n. 沉浸；浸入",
+          "example": "Language immersion is an effective way to learn.",
+          "derivatives": "immerse (v.) → immersion (n.) → immersive (adj.)"
+        },
+        {
+          "word": "perspective",
+          "phonetic": "/pərˈspektɪv/",
+          "meaning": "n. 视角；观点",
+          "example": "Travel gives you a new perspective on life.",
+          "derivatives": "perspective (n.) → perspectival (adj.) 视角的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The experience taught me that true cultural immersion goes beyond sightseeing; it requires patience and openness.",
+          "zh": "这次经历让我明白，真正的文化沉浸远不止观光游览；它需要耐心和开放的心态。",
+          "grammar": "主句 (The experience taught me) + that 宾语从句。分号连接两个并列分句，第二个分句解释第一个。",
+          "pattern": "主语 + teach + 间接宾语 + that + 从句；+ 分句解释",
+          "note": "分号用于连接两个紧密相关的句子，避免使用连词。书面语中常见。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Leaving the tea house,",
+          "zh": "离开茶室时",
+          "function": "时间状语 (现在分词短语)"
+        },
+        {
+          "en": "I felt a deep sense of gratitude.",
+          "zh": "我心中充满深深的感激。",
+          "function": "主句"
+        },
+        {
+          "en": "The experience taught me",
+          "zh": "这次经历让我明白",
+          "function": "主句"
+        },
+        {
+          "en": "that true cultural immersion goes beyond sightseeing;",
+          "zh": "真正的文化沉浸远不止观光游览",
+          "function": "宾语从句"
+        },
+        {
+          "en": "it requires patience and openness.",
+          "zh": "它需要耐心和开放的心态。",
+          "function": "并列分句"
+        },
+        {
+          "en": "In a world that moves ever faster,",
+          "zh": "在一个节奏日益加快的世界里",
+          "function": "地点状语 + 定语从句"
+        },
+        {
+          "en": "the slow, mindful art of tea reminds us to appreciate the present moment.",
+          "zh": "茶道这门缓慢而专注的艺术提醒我们要珍惜当下。",
+          "function": "主句"
+        },
+        {
+          "en": "Kyoto had given me not just a lesson, but a new perspective.",
+          "zh": "京都给予我的不仅是一堂课，更是一种新的视角。",
+          "function": "主句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作时间状语",
+            "explanation": "现在分词短语 (Leaving the tea house) 可作时间状语，相当于 When I left the tea house。主语 I 与 leave 是主动关系。",
+            "example_sentence": "Leaving the tea house, I felt a deep sense of gratitude.",
+            "common_mistake": "❌ Left the tea house, I felt... → ✅ Leaving the tea house, I felt... (主语一致时用现在分词)",
+            "contrast": "过去分词作状语表示被动：Given the chance, I would go again. (被给予机会)"
+          }
+        ]
+      }
+    }
+  ]
+}
