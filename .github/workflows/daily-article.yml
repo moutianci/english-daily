@@ -30,7 +30,7 @@ jobs:
 
       - name: Verify article was generated
         run: |
-          TODAY=$(date -u +%Y-%m-%d)
+          TODAY=$(date -d '+8 hours' -u +%Y-%m-%d)
           if [ ! -f "data/${TODAY}.json" ]; then
             echo "::error::Article for ${TODAY} was not generated!"
             exit 1
