@@ -1,0 +1,299 @@
+{
+  "date": "2026-07-11",
+  "title": "A Signal from the Stars",
+  "titleZh": "来自星辰的信号",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "In 1967, a young graduate student named Jocelyn Bell was operating a large radio telescope in Cambridge. She noticed something peculiar: a faint, regular signal that appeared at precise intervals of 1.337 seconds. At first, she dismissed it as interference from earthly sources. But the signal persisted, repeating with astonishing accuracy.",
+      "zh": "1967年，一位名叫乔斯琳·贝尔的年轻研究生正在剑桥操作一台大型射电望远镜。她注意到一些奇特的现象：一个微弱的、规律性的信号每隔1.337秒精确出现。起初她认为是地球上的干扰信号。但这个信号持续存在，以惊人的准确性重复着。",
+      "vocabulary": [
+        {
+          "word": "peculiar",
+          "phonetic": "/pɪˈkjuːliər/",
+          "meaning": "adj. 奇特的；异常的",
+          "example": "The bright object in the sky looked peculiar.",
+          "derivatives": "peculiar (adj.) → peculiarly (adv.) 特别地 → peculiarity (n.) 特性"
+        },
+        {
+          "word": "interval",
+          "phonetic": "/ˈɪntərvəl/",
+          "meaning": "n. 间隔；幕间休息",
+          "example": "Buses run at 10-minute intervals.",
+          "derivatives": "interval (n.) → interlude (n.) 插曲 → intervening (adj.) 介入的"
+        },
+        {
+          "word": "dismiss",
+          "phonetic": "/dɪsˈmɪs/",
+          "meaning": "v. 不予考虑；驳回",
+          "example": "She dismissed the rumour as nonsense.",
+          "derivatives": "dismiss (v.) → dismissal (n.) 解雇；不予理会 → dismissive (adj.) 轻蔑的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "She noticed something peculiar: a faint, regular signal that appeared at precise intervals of 1.337 seconds.",
+          "zh": "她注意到一些奇特的现象：一个微弱的、规律性的信号每隔1.337秒精确出现。",
+          "grammar": "主句 + 同位语从句（冒号后解释something peculiar），其中signal后接定语从句that appeared...。",
+          "pattern": "主语 + 谓语 + something + 形容词 : 同位语从句",
+          "note": "冒号常用于引出解释或列举，口语中也可用破折号。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "In 1967",
+          "zh": "1967年",
+          "function": "时间状语"
+        },
+        {
+          "en": "a young graduate student named Jocelyn Bell was operating a large radio telescope in Cambridge",
+          "zh": "一位名叫乔斯琳·贝尔的年轻研究生正在剑桥操作一台大型射电望远镜",
+          "function": "主句（主语+谓语+宾语+地点状语）"
+        },
+        {
+          "en": "She noticed something peculiar",
+          "zh": "她注意到一些奇特的现象",
+          "function": "主句（主语+谓语+宾语+宾语补足语）"
+        },
+        {
+          "en": "a faint, regular signal that appeared at precise intervals of 1.337 seconds",
+          "zh": "一个微弱的、规律性的信号每隔1.337秒精确出现",
+          "function": "同位语（具体说明something peculiar）"
+        },
+        {
+          "en": "At first, she dismissed it as interference from earthly sources",
+          "zh": "起初她认为是地球上的干扰信号",
+          "function": "主句（时间状语+主语+谓语+宾语+宾语补足语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "定语从句（限制性）",
+            "explanation": "本段使用that引导的限制性定语从句修饰a faint, regular signal，表示信号的特征。",
+            "example_sentence": "a faint, regular signal that appeared at precise intervals of 1.337 seconds",
+            "common_mistake": "❌ 混淆that和which：在限制性定语从句中，指物时两者可互换，但若先行词为不定代词（如something）时只能用that。",
+            "contrast": "限制性定语从句（无逗号）vs 非限制性定语从句（有逗号）。限制性删去后句子不完整；非限制性删去后主句仍然成立。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Intrigued, Bell and her supervisor Anthony Hewish studied the signal more closely. They ruled out all known astronomical sources, such as variable stars. The signal's incredible regularity—like a ticking clock—seemed artificial. Could it be a message from an alien civilization? They half-jokingly named the source LGM-1, short for 'Little Green Men'.",
+      "zh": "贝尔和她的导师安东尼·休伊什被深深吸引，更仔细地研究了这一信号。他们排除了所有已知的天文来源，比如变星。信号那难以置信的规律性——如同滴答作响的时钟——看起来像是人造的。这会是外星文明传来的信息吗？他们半开玩笑地将这个信号源命名为 LGM-1，即“小绿人”的缩写。",
+      "vocabulary": [
+        {
+          "word": "intrigue",
+          "phonetic": "/ɪnˈtriːɡ/",
+          "meaning": "v. 引起…的兴趣；n. 阴谋",
+          "example": "The puzzle intrigued the children.",
+          "derivatives": "intrigue (v./n.) → intriguing (adj.) 令人着迷的 → intriguingly (adv.)"
+        },
+        {
+          "word": "rule out",
+          "phonetic": "/ruːl aʊt/",
+          "meaning": "phr. 排除；把…排除在外",
+          "example": "The police ruled out foul play.",
+          "derivatives": "rule (v.) → rule out 排除 → overrule (v.) 否决"
+        },
+        {
+          "word": "artificial",
+          "phonetic": "/ˌɑːrtɪˈfɪʃl/",
+          "meaning": "adj. 人造的；虚假的",
+          "example": "Artificial intelligence is changing our lives.",
+          "derivatives": "artificial (adj.) → artificially (adv.) → artificiality (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The signal's incredible regularity—like a ticking clock—seemed artificial.",
+          "zh": "信号那难以置信的规律性——如同滴答作响的时钟——看起来像是人造的。",
+          "grammar": "主谓结构，主语The signal's incredible regularity，插入语like a ticking clock（破折号分隔），系动词seemed，表语artificial。",
+          "pattern": "主语 + 插入语（破折号） + 系动词 + 表语",
+          "note": "破折号插入语可用于补充说明或强调，使句子更生动。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Intrigued",
+          "zh": "被吸引",
+          "function": "独立主格（过去分词短语作状语，表原因或伴随）"
+        },
+        {
+          "en": "Bell and her supervisor Anthony Hewish studied the signal more closely",
+          "zh": "贝尔和她的导师安东尼·休伊什更仔细地研究了这一信号",
+          "function": "主句（主语+谓语+宾语+状语）"
+        },
+        {
+          "en": "They ruled out all known astronomical sources",
+          "zh": "他们排除了所有已知的天文来源",
+          "function": "主句（主语+谓语+宾语）"
+        },
+        {
+          "en": "such as variable stars",
+          "zh": "比如变星",
+          "function": "举例插入语"
+        },
+        {
+          "en": "The signal's incredible regularity—like a ticking clock—seemed artificial",
+          "zh": "信号那难以置信的规律性——如同滴答作响的时钟——看起来像是人造的",
+          "function": "主句（主语+插入语+系动词+表语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "过去分词短语作状语（独立结构）",
+            "explanation": "Intrigued 是过去分词短语，逻辑主语是主句主语Bell and her supervisor，表示“被吸引之后”。这种结构常用于书面语，简洁明了。",
+            "example_sentence": "Intrigued, Bell and her supervisor... studied the signal more closely.",
+            "common_mistake": "❌ 悬垂分词：若分词逻辑主语与主句主语不一致，如“Intrigued, the telescope was studied.” 应改为“Intrigued, they studied the telescope.”",
+            "contrast": "现在分词（主动）与过去分词（被动）的区别：Seeing the signal, Bell felt excited. / Intrigued by the signal, Bell studied it."
+          }
+        ]
+      }
+    },
+    {
+      "en": "Further observations revealed that the signal was coming from a rapidly spinning neutron star—a pulsar. The 'Little Green Men' turned out to be a natural phenomenon, yet no less astonishing. The discovery earned Hewish the Nobel Prize in Physics in 1974, though many felt Bell was unjustly overlooked. It opened a new window onto the universe.",
+      "zh": "进一步的观测显示，这一信号来自一颗快速旋转的中子星——脉冲星。“小绿人”原来是一种自然现象，但同样令人惊叹。这一发现使休伊什获得了1974年的诺贝尔物理学奖，但许多人认为贝尔被不公正地忽略了。它为宇宙打开了一扇新的窗户。",
+      "vocabulary": [
+        {
+          "word": "reveal",
+          "phonetic": "/rɪˈviːl/",
+          "meaning": "v. 揭示；透露",
+          "example": "The investigation revealed the truth.",
+          "derivatives": "reveal (v.) → revelation (n.) 启示 → revelatory (adj.) 揭示性的"
+        },
+        {
+          "word": "turn out to be",
+          "phonetic": "/tɜːrn aʊt tə biː/",
+          "meaning": "phr. 结果是；原来是",
+          "example": "The noise turned out to be a cat.",
+          "derivatives": "turn out (phr. v.) 结果是；生产；出席"
+        },
+        {
+          "word": "overlook",
+          "phonetic": "/ˌoʊvərˈlʊk/",
+          "meaning": "v. 忽略；俯视",
+          "example": "Don't overlook the small details.",
+          "derivatives": "overlook (v.) → oversight (n.) 疏忽 → overlooked (adj.) 被忽视的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Further observations revealed that the signal was coming from a rapidly spinning neutron star—a pulsar.",
+          "zh": "进一步的观测显示，这一信号来自一颗快速旋转的中子星——脉冲星。",
+          "grammar": "主语+谓语+that宾语从句；破折号引出同位语a pulsar。",
+          "pattern": "主语 + revealed + that + 从句（主语 + was coming from + 名词）",
+          "note": "reveal后接that从句非常正式；常用report, show, indicate等替换。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Further observations revealed",
+          "zh": "进一步的观测显示",
+          "function": "主句（主语+谓语）"
+        },
+        {
+          "en": "that the signal was coming from a rapidly spinning neutron star—a pulsar",
+          "zh": "这一信号来自一颗快速旋转的中子星——脉冲星",
+          "function": "宾语从句（主语+过去进行时+介词短语+同位语）"
+        },
+        {
+          "en": "The 'Little Green Men' turned out to be a natural phenomenon",
+          "zh": "“小绿人”原来是一种自然现象",
+          "function": "主句（主语+谓语+表语）"
+        },
+        {
+          "en": "yet no less astonishing",
+          "zh": "但同样令人惊叹",
+          "function": "让步状语（省略主语和系动词）"
+        },
+        {
+          "en": "It opened a new window onto the universe",
+          "zh": "它为宇宙打开了一扇新的窗户",
+          "function": "主句（主语+谓语+宾语+宾语补足语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "同位语（破折号补充）",
+            "explanation": "破折号后的 a pulsar 是 a rapidly spinning neutron star 的同位语，进一步说明其性质。",
+            "example_sentence": "a rapidly spinning neutron star—a pulsar",
+            "common_mistake": "❌ 混淆同位语和定语从句：同位语是名词或名词短语，定语从句是句子。如“a star which is a pulsar”是定语从句。",
+            "contrast": "逗号同位语 vs 破折号同位语：逗号语气较弱，破折号更强调补充信息。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The discovery of pulsars has since become a cornerstone of astrophysics. These cosmic lighthouses allow scientists to test theories of gravity and to study extreme states of matter. Every regular 'blip' reminds us that the universe is full of wonders far stranger than fiction. Science, after all, is a journey from the unknown to the known—and sometimes back again.",
+      "zh": "脉冲星的发现自此成为天体物理学的基石。这些宇宙灯塔使科学家能够检验引力理论，并研究物质在极端状态下的行为。每一次有规律的“滴答声”都在提醒我们，宇宙充满了比科幻小说还要离奇的奇迹。毕竟，科学是一场从未知到已知的旅程——有时还会回到未知。",
+      "vocabulary": [
+        {
+          "word": "cornerstone",
+          "phonetic": "/ˈkɔːrnərstoʊn/",
+          "meaning": "n. 基石；基础",
+          "example": "Trust is the cornerstone of any relationship.",
+          "derivatives": "cornerstone (n.) 基石 → foundation (n.) 基础"
+        },
+        {
+          "word": "extreme",
+          "phonetic": "/ɪkˈstriːm/",
+          "meaning": "adj. 极端的；极度的",
+          "example": "Extreme weather is becoming more common.",
+          "derivatives": "extreme (adj.) → extremely (adv.) → extremity (n.) 末端；极端"
+        },
+        {
+          "word": "fiction",
+          "phonetic": "/ˈfɪkʃən/",
+          "meaning": "n. 小说；虚构的事",
+          "example": "He enjoys reading science fiction.",
+          "derivatives": "fiction (n.) → fictional (adj.) 虚构的 → nonfiction (n.) 非小说类文学作品"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Every regular 'blip' reminds us that the universe is full of wonders far stranger than fiction.",
+          "zh": "每一次有规律的“滴答声”都在提醒我们，宇宙充满了比科幻小说还要离奇的奇迹。",
+          "grammar": "主语Every regular 'blip' + 谓语reminds + 间接宾语us + that宾语从句，宾语从句中有比较结构far stranger than fiction。",
+          "pattern": "主语 + reminds + 间接宾语 + that + 从句（含比较级）",
+          "note": "remind sb that ... 是常见句型；far用于加强比较。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The discovery of pulsars has since become a cornerstone of astrophysics",
+          "zh": "脉冲星的发现自此成为天体物理学的基石",
+          "function": "主句（主语+时间状语+谓语+表语）"
+        },
+        {
+          "en": "These cosmic lighthouses allow scientists to test theories of gravity and to study extreme states of matter",
+          "zh": "这些宇宙灯塔使科学家能够检验引力理论，并研究极端物质状态",
+          "function": "主句���主语+谓语+宾语+宾语补足语【不定式短语】）"
+        },
+        {
+          "en": "Every regular 'blip' reminds us that the universe is full of wonders far stranger than fiction",
+          "zh": "每一次有规律的“滴答声”都在提醒我们，宇宙充满了比科幻小说还要离奇的奇迹",
+          "function": "主句（主语+谓语+间接宾语+宾语从句）"
+        },
+        {
+          "en": "Science, after all, is a journey from the unknown to the known—and sometimes back again",
+          "zh": "毕竟，科学是一场从未知到已知的旅程——有时还会回到未知",
+          "function": "主句（主语+插入语+系动词+表语+破折号补充）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "双宾语结构（间接宾语+直接宾语）",
+            "explanation": "reminds us that...中，us是间接宾语，that从句是直接宾语。类似动词：tell, show, teach等。",
+            "example_sentence": "Every regular 'blip' reminds us that the universe is full of wonders.",
+            "common_mistake": "❌ 漏掉间接宾语：'Reminds that...' 错误，必须说明被提醒的人。",
+            "contrast": "remind sb of sth / remind sb to do sth：of短语接名词，to do接动作。"
+          }
+        ]
+      }
+    }
+  ]
+}
