@@ -1,0 +1,179 @@
+{
+  "id": "2026-07-08",
+  "date": "2026-07-08",
+  "source": "NCE 精读",
+  "title": "The Secret Life of the Forest",
+  "titleZh": "森林的秘密生活",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Beneath the dense canopy of an ancient forest, a hidden world teems with activity. Sunlight filters through the leaves, casting dappled shadows on the mossy floor. Here, every creature plays a vital role in the delicate balance of nature.",
+      "zh": "在一片古老森林茂密的树冠下，一个隐藏的世界充满了生机。阳光透过树叶，在长满苔藓的地面上投下斑驳的阴影。在这里，每一种生物都在微妙的自然平衡中扮演着至关重要的角色。",
+      "vocabulary": [
+        {
+          "word": "canopy",
+          "phonetic": "/ˈkænəpi/",
+          "meaning": "n. 树冠；顶篷",
+          "example": "The forest canopy blocks most of the sunlight.",
+          "derivatives": "canopy (n.) → canopied (adj.)"
+        },
+        {
+          "word": "dappled",
+          "phonetic": "/ˈdæpld/",
+          "meaning": "adj. 斑驳的；有斑点的",
+          "example": "Dappled sunlight danced on the forest floor.",
+          "derivatives": "dapple (v./n.) → dappled (adj.)"
+        },
+        {
+          "word": "delicate",
+          "phonetic": "/ˈdelɪkət/",
+          "meaning": "adj. 微妙的；脆弱的",
+          "example": "The ecosystem is a delicate balance of life.",
+          "derivatives": "delicacy (n.) → delicate (adj.) → delicately (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Beneath the dense canopy of an ancient forest,",
+          "zh": "在一片古老森林茂密的树冠下，",
+          "grammar": "Prepositional phrase (adverbial of place)"
+        },
+        {
+          "en": "a hidden world teems with activity.",
+          "zh": "一个隐藏的世界充满了生机。",
+          "grammar": "Main clause (S + V + O)"
+        },
+        {
+          "en": "Sunlight filters through the leaves,",
+          "zh": "阳光透过树叶，",
+          "grammar": "Main clause (S + V + Adverbial)"
+        },
+        {
+          "en": "casting dappled shadows on the mossy floor.",
+          "zh": "在长满苔藓的地面上投下斑驳的阴影。",
+          "grammar": "Participial phrase (adverbial of result)"
+        },
+        {
+          "en": "Here, every creature plays a vital role in the delicate balance of nature.",
+          "zh": "在这里，每一种生物都在微妙的自然平衡中扮演着至关重要的角色。",
+          "grammar": "Main clause (S + V + O + Adverbial)"
+        }
+      ]
+    },
+    {
+      "en": "A red squirrel scurries up a rough-barked oak, its bushy tail flicking. It pauses, sniffing the air for danger. Nearby, a fox silently stalks a mouse through the undergrowth, its ears twitching at the slightest sound.",
+      "zh": "一只红松鼠匆匆爬上一棵树皮粗糙的橡树，毛茸茸的尾巴轻快地摆动着。它停下来，嗅着空气以察觉危险。不远处，一只狐狸悄无声息地穿过灌木丛，追踪着一只老鼠，它的耳朵因最细微的声响而抽动。",
+      "vocabulary": [
+        {
+          "word": "scurry",
+          "phonetic": "/ˈskɜːri/",
+          "meaning": "v. 急匆匆地跑；疾走",
+          "example": "The mice scurried into their holes.",
+          "derivatives": "scurry (v./n.) → scurrying (adj.)"
+        },
+        {
+          "word": "flick",
+          "phonetic": "/flɪk/",
+          "meaning": "v. 轻快地摆动；轻弹",
+          "example": "The cat flicked its tail in annoyance.",
+          "derivatives": "flick (v./n.) → flicking (adj.)"
+        },
+        {
+          "word": "stalk",
+          "phonetic": "/stɔːk/",
+          "meaning": "v. 悄悄追踪；潜近",
+          "example": "The lion stalked its prey through the grass.",
+          "derivatives": "stalk (v./n.) → stalker (n.) → stalking (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "A red squirrel scurries up a rough-barked oak,",
+          "zh": "一只红松鼠匆匆爬上一棵树皮粗糙的橡树，",
+          "grammar": "Main clause (S + V + Adverbial)"
+        },
+        {
+          "en": "its bushy tail flicking.",
+          "zh": "毛茸茸的尾巴轻快地摆动着。",
+          "grammar": "Absolute construction (noun + present participle)"
+        },
+        {
+          "en": "It pauses, sniffing the air for danger.",
+          "zh": "它停下来，嗅着空气以察觉危险。",
+          "grammar": "Main clause + participial phrase (adverbial of purpose)"
+        },
+        {
+          "en": "Nearby, a fox silently stalks a mouse through the undergrowth,",
+          "zh": "不远处，一只狐狸悄无声息地穿过灌木丛，追踪着一只老鼠，",
+          "grammar": "Main clause (S + V + O + Adverbial)"
+        },
+        {
+          "en": "its ears twitching at the slightest sound.",
+          "zh": "它的耳朵因最细微的声响而抽动。",
+          "grammar": "Absolute construction (noun + present participle)"
+        }
+      ]
+    },
+    {
+      "en": "As dusk falls, the forest transforms. Owls begin their haunting calls, while fireflies blink like tiny stars. The cycle of life continues undisturbed, reminding us that nature's secrets are best left observed, not disturbed.",
+      "zh": "当黄昏降临，森林变了模样。猫头鹰开始发出令人难忘的叫声，而萤火虫像小星星一样闪烁。生命的循环不受干扰地继续着，提醒我们大自然的秘密最好只被观察，而不是被打扰。",
+      "vocabulary": [
+        {
+          "word": "haunting",
+          "phonetic": "/ˈhɔːntɪŋ/",
+          "meaning": "adj. 令人难忘的；萦绕心头的",
+          "example": "She heard a haunting melody in the distance.",
+          "derivatives": "haunt (v.) → haunting (adj.) → hauntingly (adv.)"
+        },
+        {
+          "word": "blink",
+          "phonetic": "/blɪŋk/",
+          "meaning": "v. 闪烁；眨眼",
+          "example": "The lights of the city blinked in the distance.",
+          "derivatives": "blink (v./n.) → blinking (adj.)"
+        },
+        {
+          "word": "undisturbed",
+          "phonetic": "/ˌʌndɪˈstɜːrbd/",
+          "meaning": "adj. 不受干扰的；未被扰乱的",
+          "example": "The ancient ruins remained undisturbed for centuries.",
+          "derivatives": "disturb (v.) → disturbed (adj.) → undisturbed (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "As dusk falls,",
+          "zh": "当黄昏降临，",
+          "grammar": "Adverbial clause of time"
+        },
+        {
+          "en": "the forest transforms.",
+          "zh": "森林变了模样。",
+          "grammar": "Main clause (S + V)"
+        },
+        {
+          "en": "Owls begin their haunting calls,",
+          "zh": "猫头鹰开始发出令人难忘的叫声，",
+          "grammar": "Main clause (S + V + O)"
+        },
+        {
+          "en": "while fireflies blink like tiny stars.",
+          "zh": "而萤火虫像小星星一样闪烁。",
+          "grammar": "Adverbial clause of comparison"
+        },
+        {
+          "en": "The cycle of life continues undisturbed,",
+          "zh": "生命的循环不受干扰地继续着，",
+          "grammar": "Main clause (S + V + Subject complement)"
+        },
+        {
+          "en": "reminding us that nature's secrets are best left observed, not disturbed.",
+          "zh": "提醒我们大自然的秘密最好只被观察，而不是被打扰。",
+          "grammar": "Participial phrase (adverbial of result) with object clause"
+        }
+      ]
+    }
+  ],
+  "grammar_analysis": "This passage uses present simple tense to describe habitual or general truths about nature. It employs participial phrases (e.g., 'casting dappled shadows') and absolute constructions (e.g., 'its bushy tail flicking') to add descriptive detail without creating separate sentences. Adverbial clauses of time ('As dusk falls') and comparison ('while fireflies blink') create vivid imagery. The passive voice ('are best left observed') emphasizes the action over the doer, fitting a reflective tone.",
+  "difficulty": "intermediate"
+}

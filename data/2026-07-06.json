@@ -1,0 +1,169 @@
+{
+  "id": "2026-07-06",
+  "date": "2026-07-06",
+  "source": "NCE 精读",
+  "title": "The Art of Balanced Living",
+  "titleZh": "平衡生活的艺术",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "In the hustle and bustle of modern life, many people neglect their health. They often skip breakfast, stay up late, and rely on fast food. These habits may seem harmless at first, but they gradually take a toll on the body. A healthy lifestyle requires conscious effort and consistent practice.",
+      "zh": "在现代生活的忙碌中，许多人忽视了健康。他们经常不吃早餐、熬夜，并依赖快餐。这些习惯起初看似无害，但逐渐会对身体造成损害。健康的生活方式需要刻意的努力和持续的实践。",
+      "vocabulary": [
+        {
+          "word": "neglect",
+          "phonetic": "/nɪˈɡlekt/",
+          "meaning": "v. 忽视，疏忽",
+          "example": "Do not neglect your daily exercise routine.",
+          "derivatives": "neglect (v./n.) → neglectful (adj.) → neglected (adj.)"
+        },
+        {
+          "word": "toll",
+          "phonetic": "/təʊl/",
+          "meaning": "n. 损害，代价",
+          "example": "Years of smoking have taken a heavy toll on his health.",
+          "derivatives": "toll (n.) → toll-free (adj.)"
+        },
+        {
+          "word": "conscious",
+          "phonetic": "/ˈkɒnʃəs/",
+          "meaning": "adj. 有意识的，刻意的",
+          "example": "She made a conscious decision to eat more vegetables.",
+          "derivatives": "conscious (adj.) → consciousness (n.) → consciously (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "In the hustle and bustle of modern life,",
+          "zh": "在现代生活的忙碌中，",
+          "grammar": "Prepositional phrase (adverbial of place/context)"
+        },
+        {
+          "en": "many people neglect their health.",
+          "zh": "许多人忽视了健康。",
+          "grammar": "Subject + verb + object (simple present)"
+        },
+        {
+          "en": "They often skip breakfast, stay up late, and rely on fast food.",
+          "zh": "他们经常不吃早餐、熬夜，并依赖快餐。",
+          "grammar": "Subject + adverb + verb + objects (compound predicate with parallel verbs)"
+        },
+        {
+          "en": "These habits may seem harmless at first,",
+          "zh": "这些习惯起初看似无害，",
+          "grammar": "Subject + linking verb + adjective + adverbial phrase (present tense)"
+        },
+        {
+          "en": "but they gradually take a toll on the body.",
+          "zh": "但逐渐会对身体造成损害。",
+          "grammar": "Conjunction + subject + adverb + verb + object + prepositional phrase (present tense)"
+        },
+        {
+          "en": "A healthy lifestyle requires conscious effort and consistent practice.",
+          "zh": "健康的生活方式需要刻意的努力和持续的实践。",
+          "grammar": "Subject + verb + object (noun phrase with compound nouns)"
+        }
+      ]
+    },
+    {
+      "en": "A balanced diet is the cornerstone of good health. It provides essential nutrients and energy for daily activities. Eating a variety of fresh fruits, vegetables, whole grains, and lean proteins is highly recommended. Meanwhile, limiting processed foods and sugary drinks can prevent many chronic diseases.",
+      "zh": "均衡的饮食是良好健康的基石。它提供日常活动所需的必需营养素和能量。建议多食用各种新鲜水果、蔬菜、全谷物和瘦肉蛋白。同时，限制加工食品和含糖饮料可以预防许多慢性疾病。",
+      "vocabulary": [
+        {
+          "word": "cornerstone",
+          "phonetic": "/ˈkɔːnəstəʊn/",
+          "meaning": "n. 基石，基础",
+          "example": "Regular exercise is the cornerstone of a healthy lifestyle.",
+          "derivatives": "cornerstone (n.) → corner (n.)"
+        },
+        {
+          "word": "essential",
+          "phonetic": "/ɪˈsenʃl/",
+          "meaning": "adj. 必需的，基本的",
+          "example": "Water is essential for life.",
+          "derivatives": "essential (adj.) → essence (n.) → essentially (adv.)"
+        },
+        {
+          "word": "chronic",
+          "phonetic": "/ˈkrɒnɪk/",
+          "meaning": "adj. 慢性的，长期的",
+          "example": "Chronic stress can lead to serious health issues.",
+          "derivatives": "chronic (adj.) → chronically (adv.) → chronicle (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "A balanced diet is the cornerstone of good health.",
+          "zh": "均衡的饮食是良好健康的基石。",
+          "grammar": "Subject + linking verb + noun phrase (present tense)"
+        },
+        {
+          "en": "It provides essential nutrients and energy for daily activities.",
+          "zh": "它提供日常活动所需的必需营养素和能量。",
+          "grammar": "Subject + verb + object + prepositional phrase (present tense)"
+        },
+        {
+          "en": "Eating a variety of fresh fruits, vegetables, whole grains, and lean proteins is highly recommended.",
+          "zh": "建议多食用各种新鲜水果、蔬菜、全谷物和瘦肉蛋白。",
+          "grammar": "Gerund phrase as subject + linking verb + adverb + past participle (passive voice)"
+        },
+        {
+          "en": "Meanwhile, limiting processed foods and sugary drinks can prevent many chronic diseases.",
+          "zh": "同时，限制加工食品和含糖饮料可以预防许多慢性疾病。",
+          "grammar": "Conjunctive adverb + gerund phrase as subject + modal verb + verb + object (present tense)"
+        }
+      ]
+    },
+    {
+      "en": "Regular physical activity is equally important. It not only strengthens the heart and muscles but also improves mental well-being. Even moderate exercise, such as brisk walking or cycling for thirty minutes a day, can make a significant difference. Consistency matters more than intensity.",
+      "zh": "定期的身体活动同样重要。它不仅增强心脏和肌肉，还改善心理健康。即使是适度的运动，例如每天快走或骑自行车三十分钟，也能产生显著效果。坚持比强度更重要。",
+      "vocabulary": [
+        {
+          "word": "moderate",
+          "phonetic": "/ˈmɒdərət/",
+          "meaning": "adj. 适度的，温和的",
+          "example": "Moderate exercise is beneficial for most people.",
+          "derivatives": "moderate (adj./v.) → moderation (n.) → moderately (adv.)"
+        },
+        {
+          "word": "significant",
+          "phonetic": "/sɪɡˈnɪfɪkənt/",
+          "meaning": "adj. 显著的，重要的",
+          "example": "This change has had a significant impact on her health.",
+          "derivatives": "significant (adj.) → significance (n.) → significantly (adv.)"
+        },
+        {
+          "word": "consistency",
+          "phonetic": "/kənˈsɪstənsi/",
+          "meaning": "n. 一致性，坚持",
+          "example": "Consistency in your diet is key to success.",
+          "derivatives": "consistency (n.) → consistent (adj.) → consistently (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Regular physical activity is equally important.",
+          "zh": "定期的身体活动同样重要。",
+          "grammar": "Subject + linking verb + adverb + adjective (present tense)"
+        },
+        {
+          "en": "It not only strengthens the heart and muscles but also improves mental well-being.",
+          "zh": "它不仅增强心脏和肌肉，还改善心理健康。",
+          "grammar": "Subject + correlative conjunction (not only...but also) + verb + object (present tense)"
+        },
+        {
+          "en": "Even moderate exercise, such as brisk walking or cycling for thirty minutes a day, can make a significant difference.",
+          "zh": "即使是适度的运动，例如每天快走或骑自行车三十分钟，也能产生显著效果。",
+          "grammar": "Subject (with appositive phrase) + modal verb + verb + object (present tense)"
+        },
+        {
+          "en": "Consistency matters more than intensity.",
+          "zh": "坚持比强度更重要。",
+          "grammar": "Subject + verb + comparative phrase (present tense)"
+        }
+      ]
+    }
+  ],
+  "grammar_analysis": "This passage primarily uses simple present tense to describe general truths and habits. It employs subject-verb-object structures, linking verbs with adjectives, and compound predicates. Passive voice appears in 'is recommended'. Correlative conjunctions like 'not only...but also' are used for emphasis. Gerund phrases serve as subjects. The text is straightforward, suitable for intermediate learners to practice basic grammar patterns.",
+  "difficulty": "intermediate"
+}

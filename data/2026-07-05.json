@@ -1,0 +1,159 @@
+{
+  "id": "2026-07-05",
+  "date": "2026-07-05",
+  "source": "NCE 精读",
+  "title": "The Unseen Hand of History",
+  "titleZh": "历史的无形之手",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Great historical events are seldom the result of deliberate human planning. Instead, they often emerge from a complex interplay of social forces and unforeseen circumstances. The French Revolution, for instance, was not simply the product of revolutionary ideology but of a profound economic crisis that eroded the foundations of the old order.",
+      "zh": "重大历史事件很少是人类精心策划的结果。相反，它们往往源于社会力量与不可预见情况之间复杂的相互作用。例如，法国大革命不仅仅是革命意识形态的产物，更是一场深刻的经济危机侵蚀了旧秩序的基础。",
+      "vocabulary": [
+        {
+          "word": "deliberate",
+          "phonetic": "/dɪˈlɪbərət/",
+          "meaning": "adj. 故意的，深思熟虑的",
+          "example": "Her deliberate choice of words showed her careful planning.",
+          "derivatives": "deliberate (adj.) → deliberately (adv.) → deliberation (n.)"
+        },
+        {
+          "word": "interplay",
+          "phonetic": "/ˈɪntərpleɪ/",
+          "meaning": "n. 相互作用",
+          "example": "The interplay of light and shadow created a dramatic effect.",
+          "derivatives": "interplay (n.) → inter (prefix) + play (v.)"
+        },
+        {
+          "word": "erode",
+          "phonetic": "/ɪˈroʊd/",
+          "meaning": "v. 侵蚀，削弱",
+          "example": "Constant criticism eroded her confidence.",
+          "derivatives": "erode (v.) → erosion (n.) → erosive (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Great historical events are seldom the result of deliberate human planning.",
+          "zh": "重大历史事件很少是人类精心策划的结果。",
+          "grammar": "主系表结构 (Subject + Linking Verb + Predicative)"
+        },
+        {
+          "en": "Instead, they often emerge from a complex interplay of social forces and unforeseen circumstances.",
+          "zh": "相反，它们往往源于社会力量与不可预见情况之间复杂的相互作用。",
+          "grammar": "主谓宾结构 (Subject + Verb + Object)"
+        },
+        {
+          "en": "The French Revolution, for instance, was not simply the product of revolutionary ideology",
+          "zh": "例如，法国大革命不仅仅是���命意识形态的产物，",
+          "grammar": "插入语 + 主系表结构 (Parenthesis + Subject + Linking Verb + Predicative)"
+        },
+        {
+          "en": "but of a profound economic crisis that eroded the foundations of the old order.",
+          "zh": "更是一场深刻的经济危机侵蚀了旧秩序的基础。",
+          "grammar": "并列结构 + 定语从句 (Coordinate Structure + Attributive Clause)"
+        }
+      ]
+    },
+    {
+      "en": "Similarly, cultural heritage is not a static relic of the past but a living tradition, constantly reinterpreted by each generation. The Great Wall of China, for example, has transformed from a military fortification into a symbol of national unity and perseverance. Its meaning continues to evolve with changing social values.",
+      "zh": "同样，文化遗产不是静态的过去遗迹，而是一个活的传统，被每一代人不断重新诠释。例如，中国的长城已经从军事防御工事转变为国家统一和坚韧的象征。它的意义随着社会价值观的变化而继续演变。",
+      "vocabulary": [
+        {
+          "word": "static",
+          "phonetic": "/ˈstætɪk/",
+          "meaning": "adj. 静态的，不变的",
+          "example": "The population remained static for several years.",
+          "derivatives": "static (adj.) → station (n.) → stationary (adj.)"
+        },
+        {
+          "word": "fortification",
+          "phonetic": "/ˌfɔːrtɪfɪˈkeɪʃn/",
+          "meaning": "n. 防御工事",
+          "example": "The ancient fortification protected the city from invaders.",
+          "derivatives": "fortify (v.) → fortification (n.) → fortress (n.)"
+        },
+        {
+          "word": "perseverance",
+          "phonetic": "/ˌpɜːrsəˈvɪrəns/",
+          "meaning": "n. 毅力，坚韧不拔",
+          "example": "Her perseverance in the face of difficulty was admirable.",
+          "derivatives": "persevere (v.) → perseverance (n.) → persevering (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Similarly, cultural heritage is not a static relic of the past but a living tradition,",
+          "zh": "同样，文化遗产不是静态的过去遗迹，而是一个活的传统，",
+          "grammar": "否定并列结构 (Negative Coordinate Structure)"
+        },
+        {
+          "en": "constantly reinterpreted by each generation.",
+          "zh": "被每一代人不断重新诠释。",
+          "grammar": "过去分词短语作定语 (Past Participle Phrase as Attribute)"
+        },
+        {
+          "en": "The Great Wall of China, for example, has transformed from a military fortification into a symbol of national unity and perseverance.",
+          "zh": "例如，中国的长城已经从军事防御工事转变为国家统一和坚韧的象征。",
+          "grammar": "插入语 + 现在完成时主谓宾 (Parenthesis + Present Perfect Subject-Verb-Object)"
+        },
+        {
+          "en": "Its meaning continues to evolve with changing social values.",
+          "zh": "它的意义随着社会价值观的变化而继续演变。",
+          "grammar": "主谓宾结构 + 伴随状语 (Subject + Verb + Object + Adverbial of Accompaniment)"
+        }
+      ]
+    },
+    {
+      "en": "Famous figures, too, are shaped by their historical context. Abraham Lincoln's leadership during the American Civil War was not merely a matter of personal genius. His policies reflected the deep divisions within American society, and his Emancipation Proclamation was a strategic move as much as a moral statement.",
+      "zh": "著名人物也受其历史背景的塑造。亚伯拉罕·林肯在美国内战期间的领导不仅仅关乎个人天才。他的政策反映了美国社会内部的深刻分裂，而他的《解放宣言》既是一种道德声明，也是一项战略举措。",
+      "vocabulary": [
+        {
+          "word": "context",
+          "phonetic": "/ˈkɑːntekst/",
+          "meaning": "n. 背景，环境",
+          "example": "The decision must be understood within its historical context.",
+          "derivatives": "context (n.) → contextual (adj.) → contextualize (v.)"
+        },
+        {
+          "word": "genius",
+          "phonetic": "/ˈdʒiːniəs/",
+          "meaning": "n. 天才，天赋",
+          "example": "Einstein was a mathematical genius.",
+          "derivatives": "genius (n.) → genial (adj.) → ingenious (adj.)"
+        },
+        {
+          "word": "proclamation",
+          "phonetic": "/ˌprɑːkləˈmeɪʃn/",
+          "meaning": "n. 宣言，声明",
+          "example": "The king issued a proclamation of peace.",
+          "derivatives": "proclaim (v.) → proclamation (n.) → proclamatory (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Famous figures, too, are shaped by their historical context.",
+          "zh": "著名人物也受其历史背景的塑造。",
+          "grammar": "被动语态 (Passive Voice)"
+        },
+        {
+          "en": "Abraham Lincoln's leadership during the American Civil War was not merely a matter of personal genius.",
+          "zh": "亚伯拉罕·林肯在美国内战期间的领导不仅仅关乎个人天才。",
+          "grammar": "主系表结构 (Subject + Linking Verb + Predicative)"
+        },
+        {
+          "en": "His policies reflected the deep divisions within American society,",
+          "zh": "他的政策反映了美国社会内部的深刻分裂，",
+          "grammar": "主谓宾结构 (Subject + Verb + Object)"
+        },
+        {
+          "en": "and his Emancipation Proclamation was a strategic move as much as a moral statement.",
+          "zh": "而他的《解放宣言》既是一种道德声明，也是一项战略举措。",
+          "grammar": "并列句 + 比较结构 (Compound Sentence + Comparative Structure)"
+        }
+      ]
+    }
+  ],
+  "grammar_analysis": "本文主要使用一般过去时和现在完成时来叙述历史事件和人物，突出其过去发生但影响持续的特点。被动语态（如'are shaped by'）强调历史背景对人物和事件的塑造作用。并列结构（如'not...but...' 和 'as much as'）用于对比和递进，增强论证的逻辑性。定语从句和过去分词短语作为修饰成分，丰富了句子的信息层次。",
+  "difficulty": "intermediate"
+}

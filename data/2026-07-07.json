@@ -1,0 +1,174 @@
+{
+  "id": "2026-07-07",
+  "date": "2026-07-07",
+  "source": "NCE 精读",
+  "title": "A Quiet Morning Discovery",
+  "titleZh": "清晨的发现",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Waking early on a summer morning, I noticed a gentle rustling sound from the garden. Curious, I slipped out of bed and tiptoed to the window. The sight that met my eyes was truly enchanting: a family of sparrows was bathing in a small puddle left by last night's rain.",
+      "zh": "夏日清晨，我早早醒来，注意到花园里传来一阵轻柔的沙沙声。出于好奇，我悄悄溜下床，踮着脚尖走到窗前。映入眼帘的景象真是迷人：一窝麻雀正在昨夜雨水留下的小水坑里洗澡。",
+      "vocabulary": [
+        {
+          "word": "rustling",
+          "phonetic": "/ˈrʌslɪŋ/",
+          "meaning": "n. 沙沙声",
+          "example": "The rustling of leaves announced the arrival of autumn.",
+          "derivatives": "rustle (v./n.) → rustling (adj./n.)"
+        },
+        {
+          "word": "enchanting",
+          "phonetic": "/ɪnˈtʃɑːntɪŋ/",
+          "meaning": "adj. 迷人的",
+          "example": "The enchanting melody captivated everyone in the room.",
+          "derivatives": "enchant (v.) → enchanting (adj.) → enchantment (n.)"
+        },
+        {
+          "word": "puddle",
+          "phonetic": "/ˈpʌdl/",
+          "meaning": "n. 水坑",
+          "example": "Children love to jump in puddles after a rainstorm.",
+          "derivatives": "puddle (n.) → puddled (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Waking early on a summer morning",
+          "zh": "夏日清晨早早醒来",
+          "grammar": "Participial phrase (adverbial of time)"
+        },
+        {
+          "en": "I noticed a gentle rustling sound from the garden",
+          "zh": "我注意到花园里传来轻柔的沙沙声",
+          "grammar": "Main clause (SVO structure)"
+        },
+        {
+          "en": "Curious",
+          "zh": "出于好奇",
+          "grammar": "Adjective (reason/state)"
+        },
+        {
+          "en": "I slipped out of bed and tiptoed to the window",
+          "zh": "我悄悄溜下床，踮着脚尖走到窗前",
+          "grammar": "Compound predicate (coordinated verbs)"
+        },
+        {
+          "en": "The sight that met my eyes was truly enchanting",
+          "zh": "映入眼帘的景象真是迷人",
+          "grammar": "Main clause with relative clause"
+        }
+      ]
+    },
+    {
+      "en": "They splashed joyfully, their tiny wings fluttering rapidly. One sparrow shook itself vigorously, sending droplets flying like diamonds in the morning light. I stood motionless, afraid to disturb this peaceful scene. It was a simple reminder that happiness often hides in the smallest moments.",
+      "zh": "它们欢快地扑腾着，细小的翅膀快速扇动。一只麻雀使劲抖了抖身子，水珠飞溅，在晨光中宛如钻石。我一动不动地站着，生怕打扰这宁静的一幕。这让我想起，快乐往往藏在最微小的时刻里。",
+      "vocabulary": [
+        {
+          "word": "flutter",
+          "phonetic": "/ˈflʌtə/",
+          "meaning": "v. 拍打（翅膀）",
+          "example": "The butterfly fluttered from flower to flower.",
+          "derivatives": "flutter (v./n.) → fluttering (adj.)"
+        },
+        {
+          "word": "vigorously",
+          "phonetic": "/ˈvɪɡərəsli/",
+          "meaning": "adv. 用力地",
+          "example": "He scrubbed the floor vigorously until it shone.",
+          "derivatives": "vigorous (adj.) → vigorously (adv.) → vigor (n.)"
+        },
+        {
+          "word": "motionless",
+          "phonetic": "/ˈməʊʃənləs/",
+          "meaning": "adj. 不动的",
+          "example": "The cat sat motionless, watching the bird.",
+          "derivatives": "motion (n.) → motionless (adj.) → motionlessly (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "They splashed joyfully",
+          "zh": "它们欢快地扑腾着",
+          "grammar": "Main clause (SVA structure)"
+        },
+        {
+          "en": "their tiny wings fluttering rapidly",
+          "zh": "细小的翅膀快速扇动",
+          "grammar": "Absolute construction (with subject and present participle)"
+        },
+        {
+          "en": "One sparrow shook itself vigorously",
+          "zh": "一只麻雀使劲抖了抖身子",
+          "grammar": "Main clause (SVO structure)"
+        },
+        {
+          "en": "sending droplets flying like diamonds in the morning light",
+          "zh": "水珠飞溅，在晨光中宛如钻石",
+          "grammar": "Participial phrase (result/attendant circumstance)"
+        },
+        {
+          "en": "I stood motionless, afraid to disturb this peaceful scene",
+          "zh": "我一动不动地站着，生怕打扰这宁静的一幕",
+          "grammar": "Main clause with adjective phrase (reason)"
+        }
+      ]
+    },
+    {
+      "en": "After a few minutes, they flew away, leaving the garden silent again. I returned to bed with a warm feeling inside. That morning, I learned that life's true beauty lies not in grand events, but in the quiet, ordinary moments we often overlook. Nature, it seems, has a way of teaching us patience.",
+      "zh": "几分钟后，它们飞走了，花园又恢复了寂静。我回到床上，心里暖暖的。那天早上，我懂得了生活的真美不在于宏大的事件，而在于那些我们常常忽略的安静平凡时刻。大自然似乎总有办法教我们学会耐心。",
+      "vocabulary": [
+        {
+          "word": "overlook",
+          "phonetic": "/ˌəʊvəˈlʊk/",
+          "meaning": "v. 忽略",
+          "example": "Don't overlook the small details in your work.",
+          "derivatives": "overlook (v./n.)"
+        },
+        {
+          "word": "patience",
+          "phonetic": "/ˈpeɪʃns/",
+          "meaning": "n. 耐心",
+          "example": "Learning a language requires patience and practice.",
+          "derivatives": "patient (adj./n.) → patience (n.) → patiently (adv.)"
+        },
+        {
+          "word": "grand",
+          "phonetic": "/ɡrænd/",
+          "meaning": "adj. 宏大的",
+          "example": "They made a grand entrance at the party.",
+          "derivatives": "grand (adj.) → grandly (adv.) → grandeur (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "After a few minutes",
+          "zh": "几分钟后",
+          "grammar": "Prepositional phrase (adverbial of time)"
+        },
+        {
+          "en": "they flew away",
+          "zh": "它们飞走了",
+          "grammar": "Main clause (SV structure)"
+        },
+        {
+          "en": "leaving the garden silent again",
+          "zh": "花园又恢复了寂静",
+          "grammar": "Participial phrase (result)"
+        },
+        {
+          "en": "I returned to bed with a warm feeling inside",
+          "zh": "我回到床上，心里暖暖的",
+          "grammar": "Main clause with prepositional phrase (manner)"
+        },
+        {
+          "en": "That morning, I learned that life's true beauty lies not in grand events, but in the quiet, ordinary moments we often overlook",
+          "zh": "那天早上，我懂得了生活的真美不在于宏大的事件，而在于那些我们常常忽略的安静平凡时刻",
+          "grammar": "Complex sentence with noun clause (object) and correlative conjunction 'not...but...'"
+        }
+      ]
+    }
+  ],
+  "grammar_analysis": "The passage uses a mix of simple and complex sentences. Participial phrases (e.g., 'Waking early...', 'leaving the garden...') add descriptive detail and variation. Absolute constructions ('their tiny wings fluttering...') provide vivid imagery. The correlative structure 'not...but...' is used for contrast. Overall, the grammar is accessible for intermediate learners, with a focus on narrative and reflection.",
+  "difficulty": "intermediate"
+}

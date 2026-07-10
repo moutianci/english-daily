@@ -1,0 +1,174 @@
+{
+  "id": "2026-07-04",
+  "date": "2026-07-04",
+  "source": "NCE 精读",
+  "title": "A New Frontier in Space Exploration",
+  "titleZh": "太空探索的新前沿",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "In the year 2026, scientists made a remarkable breakthrough in space exploration. They discovered a new exoplanet orbiting a distant star, which could potentially support life. This discovery has excited astronomers worldwide.",
+      "zh": "2026年，科学家在太空探索中取得了显著突破。他们发现了一颗围绕遥远恒星运行的新系外行星，这颗行星可能支持生命存在。这一发现令全球天文学家兴奋不已。",
+      "vocabulary": [
+        {
+          "word": "breakthrough",
+          "phonetic": "/ˈbreɪkθruː/",
+          "meaning": "n. 突破",
+          "example": "The breakthrough in medical science saved many lives.",
+          "derivatives": "breakthrough (n.) → break through (v. phr.)"
+        },
+        {
+          "word": "exoplanet",
+          "phonetic": "/ˈeksəʊplænɪt/",
+          "meaning": "n. 系外行星",
+          "example": "Astronomers have identified thousands of exoplanets.",
+          "derivatives": "exoplanet (n.) → exoplanetary (adj.)"
+        },
+        {
+          "word": "orbit",
+          "phonetic": "/ˈɔːbɪt/",
+          "meaning": "v. 绕轨道运行",
+          "example": "The satellite orbits the Earth every 90 minutes.",
+          "derivatives": "orbit (n./v.) → orbital (adj.) → orbiter (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "In the year 2026,",
+          "zh": "在2026年，",
+          "grammar": "Prepositional phrase (time)"
+        },
+        {
+          "en": "scientists made a remarkable breakthrough",
+          "zh": "科学家取得了显著突破",
+          "grammar": "Subject + Verb + Object phrase"
+        },
+        {
+          "en": "in space exploration.",
+          "zh": "在太空探索中。",
+          "grammar": "Prepositional phrase (context)"
+        },
+        {
+          "en": "They discovered a new exoplanet orbiting a distant star,",
+          "zh": "他们发现了一颗围绕遥远恒星运行的新系外行星，",
+          "grammar": "Subject + Verb + Object + Participial phrase"
+        },
+        {
+          "en": "which could potentially support life.",
+          "zh": "��颗行星可能支持生命存在。",
+          "grammar": "Relative clause (non-restrictive)"
+        }
+      ]
+    },
+    {
+      "en": "The planet, named Kepler-452b, is located in the habitable zone of its star. This means it receives just the right amount of heat for water to exist. Liquid water is essential for life as we know it.",
+      "zh": "这颗名为Kepler-452b的行星位于其恒星的宜居带内。这意味着它接收到的热量恰到好处，足以使水存在。液态水是我们所知生命所必需的。",
+      "vocabulary": [
+        {
+          "word": "habitable",
+          "phonetic": "/ˈhæbɪtəbl/",
+          "meaning": "adj. 适宜居住的",
+          "example": "Scientists are searching for habitable planets beyond our solar system.",
+          "derivatives": "habitable (adj.) → habitat (n.) → inhabit (v.)"
+        },
+        {
+          "word": "essential",
+          "phonetic": "/ɪˈsenʃl/",
+          "meaning": "adj. 必不可少的",
+          "example": "Water is essential for all living organisms.",
+          "derivatives": "essential (adj.) → essentially (adv.) → essence (n.)"
+        },
+        {
+          "word": "liquid",
+          "phonetic": "/ˈlɪkwɪd/",
+          "meaning": "adj./n. 液态的；液体",
+          "example": "Mercury is a liquid metal at room temperature.",
+          "derivatives": "liquid (adj./n.) → liquefy (v.) → liquidity (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The planet, named Kepler-452b,",
+          "zh": "这颗名为Kepler-452b的行星，",
+          "grammar": "Noun phrase with appositive"
+        },
+        {
+          "en": "is located in the habitable zone",
+          "zh": "位于宜居带内",
+          "grammar": "Passive verb phrase"
+        },
+        {
+          "en": "of its star.",
+          "zh": "其恒星的。",
+          "grammar": "Prepositional phrase (possession)"
+        },
+        {
+          "en": "This means it receives just the right amount of heat",
+          "zh": "这意味着它接收到的热量恰到好处",
+          "grammar": "Main clause + object clause"
+        },
+        {
+          "en": "for water to exist.",
+          "zh": "足以使水存在。",
+          "grammar": "Infinitive phrase (purpose)"
+        }
+      ]
+    },
+    {
+      "en": "Future missions aim to study this exoplanet in greater detail. Using advanced telescopes, scientists hope to analyze its atmosphere for signs of life. The quest for extraterrestrial life continues to inspire humanity.",
+      "zh": "未来的任务旨在更详细地研究这颗系外行星。利用先进望远镜，科学家希望��析其大气层以寻找生命迹象。对外星生命的探索继续激励着人类。",
+      "vocabulary": [
+        {
+          "word": "mission",
+          "phonetic": "/ˈmɪʃn/",
+          "meaning": "n. 任务；使命",
+          "example": "The space mission to Mars was a success.",
+          "derivatives": "mission (n.) → missionary (adj./n.) → mission statement (n.)"
+        },
+        {
+          "word": "analyze",
+          "phonetic": "/ˈænəlaɪz/",
+          "meaning": "v. 分析",
+          "example": "Chemists analyze substances to determine their composition.",
+          "derivatives": "analyze (v.) → analysis (n.) → analytical (adj.)"
+        },
+        {
+          "word": "extraterrestrial",
+          "phonetic": "/ˌekstrətəˈrestriəl/",
+          "meaning": "adj./n. 外星（的）；外星人",
+          "example": "Many people believe in the existence of extraterrestrial life.",
+          "derivatives": "extraterrestrial (adj./n.) → terrestrial (adj.) → terra (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Future missions aim to study this exoplanet",
+          "zh": "未来的任务旨在研究这颗系外行星",
+          "grammar": "Subject + Verb + Infinitive phrase"
+        },
+        {
+          "en": "in greater detail.",
+          "zh": "更详细地。",
+          "grammar": "Prepositional phrase (manner)"
+        },
+        {
+          "en": "Using advanced telescopes,",
+          "zh": "利用先进望远镜，",
+          "grammar": "Participial phrase (instrument)"
+        },
+        {
+          "en": "scientists hope to analyze its atmosphere",
+          "zh": "科学家希望分析其大气层",
+          "grammar": "Subject + Verb + Infinitive phrase"
+        },
+        {
+          "en": "for signs of life.",
+          "zh": "以寻找生命迹象。",
+          "grammar": "Prepositional phrase (purpose)"
+        }
+      ]
+    }
+  ],
+  "grammar_analysis": "This passage uses a mix of simple present and present perfect tenses to describe current discoveries and ongoing research. It features non-restrictive relative clauses (e.g., 'which could potentially support life'), passive constructions (e.g., 'is located'), and infinitive phrases of purpose (e.g., 'to study', 'to analyze'). Prepositional phrases are frequently used for time, context, and manner. The text is factual and declarative, suitable for intermediate learners.",
+  "difficulty": "intermediate"
+}

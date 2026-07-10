@@ -1,0 +1,179 @@
+{
+  "id": "2026-07-09",
+  "date": "2026-07-09",
+  "source": "NCE 精读",
+  "title": "The Secret to a Fulfilling Career",
+  "titleZh": "成就事业的秘诀",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Many people mistakenly believe that a high salary is the key to job satisfaction. They chase promotions and pay rises, only to find themselves feeling empty and unfulfilled. True career fulfillment, however, comes from aligning your work with your personal values and passions. When you do what you love, work no longer feels like a burden.",
+      "zh": "许多人错误地认为高薪是工作满意度的关键。他们追逐升职和加薪，却发现自己感到空虚和不满足。然而，真正的职业成就感来自于将你的工作与个人价值观和热情相结合。当你做你所热爱的事情时，工作不再是一种负担。",
+      "vocabulary": [
+        {
+          "word": "mistakenly",
+          "phonetic": "/mɪˈsteɪkənli/",
+          "meaning": "adv. 错误地",
+          "example": "He mistakenly thought the meeting was at 3 PM.",
+          "derivatives": "mistake (n./v.) → mistaken (adj.) → mistakenly (adv.)"
+        },
+        {
+          "word": "fulfillment",
+          "phonetic": "/fʊlˈfɪlmənt/",
+          "meaning": "n. 满足感；实现",
+          "example": "She found great fulfillment in teaching.",
+          "derivatives": "fulfill (v.) → fulfilled (adj.) → fulfillment (n.)"
+        },
+        {
+          "word": "aligning",
+          "phonetic": "/əˈlaɪnɪŋ/",
+          "meaning": "v. 使一致；对齐",
+          "example": "Aligning your goals with your actions is crucial.",
+          "derivatives": "align (v.) → alignment (n.) → aligned (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Many people mistakenly believe",
+          "zh": "许多人错误地认为",
+          "grammar": "Subject + adverb + verb (present simple)"
+        },
+        {
+          "en": "that a high salary is the key to job satisfaction",
+          "zh": "高薪是工作满意度的关键",
+          "grammar": "Noun clause as object"
+        },
+        {
+          "en": "They chase promotions and pay rises",
+          "zh": "他们追逐升职和加薪",
+          "grammar": "Subject + verb + direct object (compound noun)"
+        },
+        {
+          "en": "only to find themselves feeling empty and unfulfilled",
+          "zh": "却发现自己感到空虚和不满足",
+          "grammar": "Infinitive of result"
+        },
+        {
+          "en": "True career fulfillment, however, comes from aligning your work with your personal values and passions",
+          "zh": "然而，真正的职业成就感来自于将你的工作与个人价值观和热情相结合",
+          "grammar": "Subject + adverb + verb + prepositional phrase + gerund"
+        }
+      ]
+    },
+    {
+      "en": "Consider the story of a young accountant who left a lucrative position to become a park ranger. Everyone thought he was crazy. Yet, he felt more content watching the sunrise over the mountains than crunching numbers in a sterile office. His income decreased, but his happiness soared. This illustrates that financial reward is not the sole measure of success.",
+      "zh": "考虑一下一位年轻会计师的故事，他放弃了高薪职位去当公园管理员。所有人都认为他疯了。然而，他感到在山顶看日出比在枯燥的办公室里计算数字更满足。他的收入减少了，但他的幸福感飙升了。这表明经济回报并非成功的唯一衡量标准。",
+      "vocabulary": [
+        {
+          "word": "lucrative",
+          "phonetic": "/ˈluːkrətɪv/",
+          "meaning": "adj. 获利丰厚的",
+          "example": "She accepted a lucrative contract.",
+          "derivatives": "lucrative (adj.) → lucratively (adv.)"
+        },
+        {
+          "word": "sterile",
+          "phonetic": "/ˈsteraɪl/",
+          "meaning": "adj. 枯燥的；无菌的",
+          "example": "The sterile environment of the lab can feel oppressive.",
+          "derivatives": "sterile (adj.) → sterility (n.) ��� sterilize (v.)"
+        },
+        {
+          "word": "soared",
+          "phonetic": "/sɔːrd/",
+          "meaning": "v. 飙升；猛增",
+          "example": "Her confidence soared after the success.",
+          "derivatives": "soar (v.) → soaring (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Consider the story of a young accountant",
+          "zh": "考虑一下一位年轻会计师的故事",
+          "grammar": "Imperative verb phrase + prepositional phrase"
+        },
+        {
+          "en": "who left a lucrative position to become a park ranger",
+          "zh": "他放弃了高薪职位去当公园管理员",
+          "grammar": "Relative clause (defining) + infinitive of purpose"
+        },
+        {
+          "en": "Everyone thought he was crazy",
+          "zh": "所有人都认为他疯了",
+          "grammar": "Subject + verb + object clause (past simple)"
+        },
+        {
+          "en": "Yet, he felt more content watching the sunrise over the mountains than crunching numbers in a sterile office",
+          "zh": "然而，他感到在山顶看日出比在枯燥的办公室里计算数字更满足",
+          "grammar": "Comparative structure with gerund phrases"
+        },
+        {
+          "en": "His income decreased, but his happiness soared",
+          "zh": "他的收入减少了，但他的幸福感飙升了",
+          "grammar": "Compound sentence with contrasting conjunction"
+        }
+      ]
+    },
+    {
+      "en": "To build a fulfilling career, start by reflecting on what truly matters to you. Identify your core values, such as creativity, helping others, or independence. Then, seek roles that allow you to express these values daily. Remember, it is never too late to change direction. A career is a journey, not a destination. Embrace the process of growth and discovery.",
+      "zh": "要建立一个令人满足的事业，首先反思什么对你真正重要。确定你的核心价值观，比如创造力、帮助他人或独立性。然后，寻找能让你每天表达这些价值观的角色。记住，改变方向永远不会太晚。事业是旅程，而非终点。拥抱成长和发现的过程。",
+      "vocabulary": [
+        {
+          "word": "reflecting",
+          "phonetic": "/rɪˈflektɪŋ/",
+          "meaning": "v. 反思；反映",
+          "example": "Take time reflecting on your past experiences.",
+          "derivatives": "reflect (v.) → reflection (n.) → reflective (adj.)"
+        },
+        {
+          "word": "core",
+          "phonetic": "/kɔːr/",
+          "meaning": "adj. 核心的",
+          "example": "Honesty is a core value in our company.",
+          "derivatives": "core (n./adj.) → coreless (adj.)"
+        },
+        {
+          "word": "embrace",
+          "phonetic": "/ɪmˈbreɪs/",
+          "meaning": "v. 拥抱；欣然接受",
+          "example": "We should embrace new challenges.",
+          "derivatives": "embrace (v./n.) → embraceable (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "To build a fulfilling career",
+          "zh": "要建立一个令人满足的事业",
+          "grammar": "Infinitive of purpose"
+        },
+        {
+          "en": "start by reflecting on what truly matters to you",
+          "zh": "首先反思什么对你真正重要",
+          "grammar": "Imperative verb + prepositional phrase + noun clause"
+        },
+        {
+          "en": "Identify your core values",
+          "zh": "确定你的核心价值观",
+          "grammar": "Imperative verb + direct object"
+        },
+        {
+          "en": "such as creativity, helping others, or independence",
+          "zh": "比如创造力、帮助他人或独立性",
+          "grammar": "Prepositional phrase with examples"
+        },
+        {
+          "en": "Then, seek roles that allow you to express these values daily",
+          "zh": "然后，寻找能让你每天表达这些价值观的角色",
+          "grammar": "Adverb + imperative verb + relative clause"
+        },
+        {
+          "en": "Remember, it is never too late to change direction",
+          "zh": "记住，改变方向永远不会太晚",
+          "grammar": "Imperative + object clause with 'it' as dummy subject"
+        }
+      ]
+    }
+  ],
+  "grammar_analysis": "The passage uses simple present tense for general truths and advice, past simple for anecdotal stories, and imperatives for direct guidance. It features noun clauses (e.g., 'that a high salary is the key'), relative clauses (e.g., 'who left a lucrative position'), gerund phrases (e.g., 'watching the sunrise'), and infinitive phrases for purpose (e.g., 'To build a fulfilling career'). Compound sentences with conjunctions like 'but' and 'yet' show contrast. The structure is logical and persuasive, typical of NCE intermediate level.",
+  "difficulty": "intermediate"
+}
