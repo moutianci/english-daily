@@ -1,0 +1,309 @@
+{
+  "date": "2026-07-10",
+  "title": "An Unforgettable Afternoon Tea",
+  "titleZh": "一次难忘的下午茶",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "My first visit to London left me with a deep impression of its orderly yet vibrant streets. The double-decker buses moved with surprising precision, and the polite queues at every bus stop were a testament to British courtesy. It was a world where tradition and modernity coexisted harmoniously.",
+      "zh": "我第一次访问伦敦，对其井然有序却又充满活力的街道留下了深刻印象。双层巴士以惊人的精准度行驶，每个公交车站礼貌的排队队伍都是英国式礼貌的明证。这是一个传统与现代和谐共存的世界。",
+      "vocabulary": [
+        {
+          "word": "orderly",
+          "phonetic": "/ˈɔːrdərli/",
+          "meaning": "adj. 有序的；整齐的",
+          "example": "The orderly flow of traffic impressed the visitors.",
+          "derivatives": "order (n./v.) → orderly (adj.) → orderliness (n.)"
+        },
+        {
+          "word": "testament",
+          "phonetic": "/ˈtestəmənt/",
+          "meaning": "n. 证明；证据",
+          "example": "His success is a testament to his hard work.",
+          "derivatives": "test (v./n.) → testament (n.) → testify (v.)"
+        },
+        {
+          "word": "coexisted",
+          "phonetic": "/ˌkoʊɪɡˈzɪstɪd/",
+          "meaning": "v. 共存；和平共处",
+          "example": "Different cultures coexist peacefully in this city.",
+          "derivatives": "coexist (v.) → coexistence (n.) → coexistent (adj.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The double-decker buses moved with surprising precision, and the polite queues at every bus stop were a testament to British courtesy.",
+          "zh": "双层巴士以惊人的精准度行驶，每个公交车站礼貌的排队队伍都是英国式礼貌的明证。",
+          "grammar": "这是一个由and连接的并列句。前半句主语为The double-decker buses，谓语moved，介词短语with surprising precision作方式状语；后半句主语为the polite queues，系动词were，表语为a testament to British courtesy，介词短语at every bus stop作定语修饰queues。",
+          "pattern": "N + V + with + adj. + N, and + N + be + a testament to + N.",
+          "note": "a testament to 是固定搭配，表示‘...的证明’，常用于正式或文学语境。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "My first visit to London",
+          "zh": "我第一次访问伦敦",
+          "function": "主语"
+        },
+        {
+          "en": "left me with a deep impression",
+          "zh": "给我留下了深刻印象",
+          "function": "谓语+宾语+宾语补足语"
+        },
+        {
+          "en": "of its orderly yet vibrant streets",
+          "zh": "对其井然有序却又充满活力的街道",
+          "function": "定语（修饰impression）"
+        },
+        {
+          "en": "The double-decker buses moved with surprising precision",
+          "zh": "双层巴士以惊人的精准度行驶",
+          "function": "主句"
+        },
+        {
+          "en": "and the polite queues at every bus stop were a testament to British courtesy",
+          "zh": "每个公交车站礼貌的排队队伍都是英国式礼貌的明证",
+          "function": "并列句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "并列句",
+            "explanation": "由and连接两个独立的句子，表示并列关系。在描述连续的现象时很常用。",
+            "example_sentence": "The double-decker buses moved with surprising precision, and the polite queues at every bus stop were a testament to British courtesy.",
+            "common_mistake": "❌ 使用逗号连接两个独立句子（逗号拼接）→ ✅ 使用and或分号连接。",
+            "contrast": "and（并列）vs. but（转折）：and表顺承，but表对比。这里两个事实都是正面描述，用and更合适。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "One afternoon, I was invited to experience a traditional English afternoon tea. The three-tiered stand was laden with delicate sandwiches, scones with clotted cream, and exquisite pastries. As I sipped the steaming Earl Grey tea, I realized that this leisurely ritual was far more than a meal — it was a celebration of social connection.",
+      "zh": "一天下午，我受邀体验了传统的英式下午茶。三层架子上摆满了精致的三明治、配凝脂奶油的司康饼和精美的糕点。当我啜饮着热气腾腾的伯爵茶时，我意识到这种悠闲的仪式远不止是一顿饭——它是对社交联结的庆祝。",
+      "vocabulary": [
+        {
+          "word": "laden",
+          "phonetic": "/ˈleɪdn/",
+          "meaning": "adj. 满载的；装满的",
+          "example": "The table was laden with delicious food.",
+          "derivatives": "lade (v.) → laden (adj.) → unladen (adj.) 空载的"
+        },
+        {
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃuəl/",
+          "meaning": "n. 仪式；惯例",
+          "example": "Morning coffee is a daily ritual for many people.",
+          "derivatives": "rite (n.) → ritual (n./adj.) → ritualistic (adj.)"
+        },
+        {
+          "word": "exquisite",
+          "phonetic": "/ɪkˈskwɪzɪt/",
+          "meaning": "adj. 精致的；精美的",
+          "example": "The artist created an exquisite sculpture.",
+          "derivatives": "exquisite (adj.) → exquisitely (adv.) → exquisiteness (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "As I sipped the steaming Earl Grey tea, I realized that this leisurely ritual was far more than a meal — it was a celebration of social connection.",
+          "zh": "当我啜饮着热气腾腾的伯爵茶时，我意识到这种悠闲的仪式远不止是一顿饭——它是对社交联结的庆祝。",
+          "grammar": "主句为I realized，后接that引导的宾语从句；从句中主干是this leisurely ritual was far more than a meal，破折号后为补充说明。As引导时间状语从句，表示‘当…时’。",
+          "pattern": "As + 主语 + 动词 + 宾语, 主语 + realized + that + 主语 + was far more than + 名词 — it was + 名词短语.",
+          "note": "far more than 意为‘远不止’，比much more than语气更强。破折号常用来引出解释或强调，书面语中常见。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "One afternoon",
+          "zh": "一天下午",
+          "function": "时间状语"
+        },
+        {
+          "en": "I was invited to experience a traditional English afternoon tea",
+          "zh": "我受邀体验了传统的英式下午茶",
+          "function": "主句（被动语态）"
+        },
+        {
+          "en": "The three-tiered stand was laden with delicate sandwiches, scones with clotted cream, and exquisite pastries",
+          "zh": "三层架子上摆满了精致的三明治、配凝脂奶油的司康饼和精美的糕点",
+          "function": "补充描述（独立句子）"
+        },
+        {
+          "en": "As I sipped the steaming Earl Grey tea",
+          "zh": "当我啜饮着热气腾腾的伯爵茶时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "I realized that this leisurely ritual was far more than a meal — it was a celebration of social connection",
+          "zh": "我意识到这种悠闲的仪式远不止是一顿饭——它是对社交联结的庆祝",
+          "function": "主句+宾语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "时间状语从句",
+            "explanation": "由as引导，表示主句动作发生时伴随的动作。as强调两个动作同时发生，比when更强调伴随。",
+            "example_sentence": "As I sipped the steaming Earl Grey tea, I realized that this leisurely ritual was far more than a meal.",
+            "common_mistake": "❌ As I was sipping, I realized... 时态无误，但若主从句都用一般过去时也是可以的。常见错误：用when代替as，但when更侧重时间点，as侧重背景动作。",
+            "contrast": "as（强调同时）vs. when（表示时间点）vs. while（强调持续过程，常与进行时连用）。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "During my stay, I also visited the British Museum. Standing in the Great Court, I was overwhelmed by the sheer scale of human history. The Rosetta Stone and the Parthenon sculptures were not merely artifacts — they bore witness to civilizations long past. To walk among them was to travel through time.",
+      "zh": "逗留期间，我还参观了大英博物馆。站在大中庭，我被人类历史的宏大规模所震撼。罗塞塔石碑和帕特农神庙雕塑不仅仅是文物——它们见证了早已逝去的文明。走在它们中间，就如同穿越时空。",
+      "vocabulary": [
+        {
+          "word": "overwhelmed",
+          "phonetic": "/ˌoʊvərˈwelmd/",
+          "meaning": "adj. 被压倒的；不知所措的",
+          "example": "She was overwhelmed by the beauty of the landscape.",
+          "derivatives": "overwhelm (v.) → overwhelming (adj.) → overwhelmingly (adv.)"
+        },
+        {
+          "word": "artifacts",
+          "phonetic": "/ˈɑːrtɪfækts/",
+          "meaning": "n. 人工制品；文物",
+          "example": "The museum displays artifacts from ancient Egypt.",
+          "derivatives": "artifact (n.) → artifactual (adj.) 人工制品的"
+        },
+        {
+          "word": "bore witness to",
+          "phonetic": "/bɔːr ˈwɪtnəs tuː/",
+          "meaning": "v. 见证；证明",
+          "example": "The ruins bear witness to a once-great civilization.",
+          "derivatives": "bear witness (v.) → witness (n./v.) → eyewitness (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The Rosetta Stone and the Parthenon sculptures were not merely artifacts — they bore witness to civilizations long past.",
+          "zh": "罗塞塔石碑和帕特农神庙雕塑不仅仅是文物——它们见证了早已逝去的文明。",
+          "grammar": "这是一个并列句，由破折号连接。前半句主语为The Rosetta Stone and the Parthenon sculptures，系动词were，表语为not merely artifacts；后半句主语they，谓语bore witness to，宾语civilizations long past（long past为形容词短语后置作定语）。",
+          "pattern": "主语 + be + not merely + 名词 — 主语 + bear witness to + 名词.",
+          "note": "not merely… — … 相当于 not only…but also… 的强调形式。bear witness to 是正式短语，相当于 testify to。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "During my stay",
+          "zh": "逗留期间",
+          "function": "时间状语"
+        },
+        {
+          "en": "I also visited the British Museum",
+          "zh": "我还参观了大英博物馆",
+          "function": "主句"
+        },
+        {
+          "en": "Standing in the Great Court",
+          "zh": "站在大中庭",
+          "function": "现在分词短语作时间状语"
+        },
+        {
+          "en": "I was overwhelmed by the sheer scale of human history",
+          "zh": "我被人类历史的宏大规模所震撼",
+          "function": "主句（被动语态）"
+        },
+        {
+          "en": "The Rosetta Stone and the Parthenon sculptures were not merely artifacts — they bore witness to civilizations long past",
+          "zh": "罗塞塔石碑和帕特农神庙雕塑不仅仅是文物——它们见证了早已逝去的文明",
+          "function": "并列句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词作状语",
+            "explanation": "Standing in the Great Court是现在分词短语，作时间状语，表示主句动作发生时的伴随状态。相当于When I stood in the Great Court。",
+            "example_sentence": "Standing in the Great Court, I was overwhelmed by the sheer scale of human history.",
+            "common_mistake": "❌ 使用过去分词Standed → ✅ 现在分词Standing。注意分词逻辑主语要与主句主语一致（I）。",
+            "contrast": "现在分词（主动）vs. 过去分词（被动）：如Standing（我站）vs. Surrounded（我被包围）。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Reflecting on my trip, I concluded that travel is not merely about seeing new places — it is a profound encounter with different ways of life. British reserve surprised me at first, but soon I came to appreciate its underlying warmth. Perhaps the greatest lesson I learned was to embrace unfamiliar customs with an open mind.",
+      "zh": "回顾我的旅行，我得出结论：旅行不仅仅是看新地方——它是对不同生活方式的深刻邂逅。起初英国人的内敛让我惊讶，但很快我开始欣赏它暗藏的温暖。或许我学到的最大的教训是以开放的心态接纳不熟悉的习俗。",
+      "vocabulary": [
+        {
+          "word": "profound",
+          "phonetic": "/prəˈfaʊnd/",
+          "meaning": "adj. 深刻的；意义深远的",
+          "example": "The book had a profound impact on me.",
+          "derivatives": "profound (adj.) → profoundly (adv.) → profundity (n.)"
+        },
+        {
+          "word": "reserve",
+          "phonetic": "/rɪˈzɜːrv/",
+          "meaning": "n. 矜持；内敛",
+          "example": "The British are known for their reserve.",
+          "derivatives": "reserve (v./n.) → reserved (adj.) → unreserved (adj.) 无保留的"
+        },
+        {
+          "word": "embrace",
+          "phonetic": "/ɪmˈbreɪs/",
+          "meaning": "v. 欣然接受；拥抱",
+          "example": "We should embrace new technologies.",
+          "derivatives": "embrace (v./n.) → embracing (adj.) → embracement (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Reflecting on my trip, I concluded that travel is not merely about seeing new places — it is a profound encounter with different ways of life.",
+          "zh": "回顾我的旅行，我得出结论：旅行不仅仅是看新地方——它是对不同生活方式的深刻邂逅。",
+          "grammar": "Reflecting on my trip为现在分词短语作时间状语。主句为I concluded，后接that引导的宾语从句。从句中主干是travel is not merely about seeing new places，破折号后补充说明，it指代travel。",
+          "pattern": "Reflecting on + 名词, 主语 + concluded that + 主语 + be not merely about + 名词 — it be + 名词 + with + 名词.",
+          "note": "reflect on 意为‘反思’；encounter with 是固定搭配，意为‘与…的相遇’；be not merely about 比 be not only about 更正式。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Reflecting on my trip",
+          "zh": "回顾我的旅行",
+          "function": "时间状语（现在分词短语）"
+        },
+        {
+          "en": "I concluded that travel is not merely about seeing new places",
+          "zh": "我得出结论：旅行不仅仅是看新地方",
+          "function": "主句+宾语从句"
+        },
+        {
+          "en": "— it is a profound encounter with different ways of life",
+          "zh": "——它是对不同生活方式的深刻邂逅",
+          "function": "补充说明（破折号后）"
+        },
+        {
+          "en": "British reserve surprised me at first",
+          "zh": "起初英国人的内敛让我惊讶",
+          "function": "并列句1"
+        },
+        {
+          "en": "but soon I came to appreciate its underlying warmth",
+          "zh": "但很快我开始欣赏它暗藏的温暖",
+          "function": "并列句2（but转折）"
+        },
+        {
+          "en": "Perhaps the greatest lesson I learned was to embrace unfamiliar customs with an open mind",
+          "zh": "或许我学到的最大的教训是以开放的心态接纳不熟悉的习俗",
+          "function": "主句（表语为不定式短语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "不定式作表语",
+            "explanation": "在the greatest lesson I learned was to embrace...中，不定式短语to embrace...作表语，说明lesson的内容。这种结构用于定义或解释主语。",
+            "example_sentence": "Perhaps the greatest lesson I learned was to embrace unfamiliar customs with an open mind.",
+            "common_mistake": "❌ 用动名词：was embracing → ✅ 不定式：was to embrace。不定式更强调目的或未来。",
+            "contrast": "不定式作表语（to do）vs. 动名词作表语（doing）：前者侧重具体动作或尚未发生，后者侧重习惯或一般事实。例如：My job is to teach.（具体任务）vs. My job is teaching.（职业性质）。"
+          }
+        ]
+      }
+    }
+  ]
+}
