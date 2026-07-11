@@ -1,0 +1,304 @@
+{
+  "date": "2026-07-12",
+  "title": "The Rediscovery of Pompeii",
+  "titleZh": "庞贝古城的重新发现",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "In 79 AD, Mount Vesuvius erupted with terrifying force, burying the Roman city of Pompeii under a thick layer of ash and pumice. For nearly seventeen centuries, the city lay forgotten, its ruins hidden beneath the earth. It was not until the 18th century that systematic excavations began, revealing an astonishingly well-preserved snapshot of ancient Roman life.",
+      "zh": "公元79年，维苏威火山以可怕的力量喷发，将罗马城市庞贝埋在厚厚的火山灰和浮石之下。近十七个世纪，这座城市被遗忘，其废墟隐藏在地下。直到18世纪，系统的挖掘才开始，揭示了一幅保存得令人惊叹的古代罗马生活快照。",
+      "vocabulary": [
+        {
+          "word": "erupt",
+          "phonetic": "/ɪˈrʌpt/",
+          "meaning": "v. 喷发",
+          "example": "The volcano erupted without warning, destroying nearby villages.",
+          "derivatives": "eruption (n.) → eruptive (adj.) → eruptively (adv.)"
+        },
+        {
+          "word": "bury",
+          "phonetic": "/ˈberi/",
+          "meaning": "v. 埋葬；掩埋",
+          "example": "The earthquake buried many buildings under debris.",
+          "derivatives": "burial (n.) → buried (adj.) → burying (present participle)"
+        },
+        {
+          "word": "systematic",
+          "phonetic": "/ˌsɪstəˈmætɪk/",
+          "meaning": "adj. 系统的",
+          "example": "A systematic approach is essential for archaeological work.",
+          "derivatives": "system (n.) → systematically (adv.) → systematicness (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "In 79 AD, Mount Vesuvius erupted with terrifying force",
+          "zh": "公元79年，维苏威火山以可怕的力量喷发",
+          "function": "时间状语+主语+谓语+方式状语"
+        },
+        {
+          "en": "burying the Roman city of Pompeii under a thick layer of ash and pumice",
+          "zh": "将罗马城市庞贝埋在厚厚的火山灰和浮石之下",
+          "function": "伴随状语（现在分词短语）"
+        },
+        {
+          "en": "For nearly seventeen centuries, the city lay forgotten",
+          "zh": "近十七个世纪，这座城市被遗忘",
+          "function": "时间状语+主语+系动词+表语"
+        },
+        {
+          "en": "its ruins hidden beneath the earth",
+          "zh": "其废墟隐藏在地下",
+          "function": "独立主格结构"
+        },
+        {
+          "en": "revealing an astonishingly well-preserved snapshot of ancient Roman life",
+          "zh": "揭示了一幅保存得令人惊叹的古代罗马生活快照",
+          "function": "伴随状语（现在分词短语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It was not until the 18th century that systematic excavations began, revealing an astonishingly well-preserved snapshot of ancient Roman life.",
+          "zh": "直到18世纪，系统的挖掘才开始，揭示了一幅保存得令人惊叹的古代罗马生活快照。",
+          "grammar": "强调句型 It was not until... that... 强调时间状语，后面现在分词短语作结果状语。",
+          "pattern": "It is/was not until ... that ... (强调句)",
+          "note": "强调句可强调主语、宾语或状语，去掉 It is/was...that 后句子仍完整。本句强调时间，that 后从句用陈述语序。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "强调句",
+            "explanation": "使用 It is/was...that... 结构强调句子中的某个成分。本句强调时间状语 not until the 18th century。",
+            "example_sentence": "It was not until the 18th century that systematic excavations began...",
+            "common_mistake": "❌ It was not until the 18th century when systematic excavations began → ✅ It was not until the 18th century that systematic excavations began (强调句用 that，不用 when)",
+            "contrast": "强调句与定语从句：强调句去掉 It is/was...that... 后句子仍完整；定语从句中 that/who 是关系词，在从句中充当成分。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The excavations uncovered entire streets, houses, and public buildings frozen in time. Frescoes, mosaics, and everyday objects emerged from the ashes, remarkably intact. Even the bodies of the victims were preserved as cavities in the hardened ash, which archaeologists filled with plaster to create poignant casts.",
+      "zh": "挖掘工作揭露出了整个街道、房屋和公共建筑，时光仿佛凝固。壁画、马赛克和日常用品从灰烬中显现，保存得异常完好。甚至遇难者的遗体也被保存在硬化的灰烬中成为空腔，考古学家用石膏填充这些空腔，制作出了令人动容的铸型。",
+      "vocabulary": [
+        {
+          "word": "uncover",
+          "phonetic": "/ʌnˈkʌvər/",
+          "meaning": "v. 揭露；发掘",
+          "example": "Archaeologists uncovered a hidden tomb beneath the hill.",
+          "derivatives": "cover (v.) → uncovering (n.) → uncovered (adj.)"
+        },
+        {
+          "word": "intact",
+          "phonetic": "/ɪnˈtækt/",
+          "meaning": "adj. 完整无缺的",
+          "example": "The ancient pottery was found intact inside the grave.",
+          "derivatives": "intactness (n.) → intactly (adv.)  (常用搭配：remain intact, keep intact)"
+        },
+        {
+          "word": "poignant",
+          "phonetic": "/ˈpɔɪnjənt/",
+          "meaning": "adj. 令人心痛的；感人的",
+          "example": "The abandoned village offers a poignant reminder of war.",
+          "derivatives": "poignancy (n.) → poignantly (adv.) → poignantly (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The excavations uncovered entire streets, houses, and public buildings",
+          "zh": "挖掘工作揭露出了整个街道、房屋和公共建筑",
+          "function": "主语+谓语+宾语"
+        },
+        {
+          "en": "frozen in time",
+          "zh": "时光仿佛凝固",
+          "function": "定语（过去分词短语修饰 buildings）"
+        },
+        {
+          "en": "Frescoes, mosaics, and everyday objects emerged from the ashes",
+          "zh": "壁画、马赛克和日常用品从灰烬中显现",
+          "function": "主语+谓语+状语"
+        },
+        {
+          "en": "remarkably intact",
+          "zh": "保存得异常完好",
+          "function": "状语+形容词（结果状语）"
+        },
+        {
+          "en": "which archaeologists filled with plaster to create poignant casts",
+          "zh": "考古学家用石膏填充这些空腔，制作出了令人动容的铸型",
+          "function": "非限制性定语从句（关系代词 which 指代 cavities）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Even the bodies of the victims were preserved as cavities in the hardened ash, which archaeologists filled with plaster to create poignant casts.",
+          "zh": "甚至遇难者的遗体也被保存在硬化的灰烬中成为空腔，考古学家用石膏填充这些空腔，制作出了令人动容的铸型。",
+          "grammar": "主句后跟非限制性定语从句，which 指代 cavities，从句中 filled 的宾语是 which，to create 是目的状语。",
+          "pattern": "... , which + 从句 (非限制性定语从句)",
+          "note": "非限制性定语从句用逗号与主句隔开，which 可指代整个或部分先行词，不能省略。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "非限制性定语从句",
+            "explanation": "用逗号与主句隔开，关系代词 which 指代前文的名词或短语。本句中 which 指代 cavities。",
+            "example_sentence": "Even the bodies of the victims were preserved as cavities in the hardened ash, which archaeologists filled with plaster...",
+            "common_mistake": "❌ which前不加逗号（变成限制性定语从句，意思变为区分不同 cavity）→ ✅ 非限制性必须加逗号",
+            "contrast": "限制性定语从句对先行词进行限定，去掉后句子意思不完整；非限制性只作补充说明，去掉后主句仍然完整。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The discoveries at Pompeii offered an unparalleled window into the daily life of a Roman city. From bakeries with loaves still in the oven to taverns with wine jars, every detail revealed the bustling nature of the town. The site has since become one of the most important archaeological treasures, attracting millions of visitors each year.",
+      "zh": "庞贝的发现为人们了解罗马城市的日常生活提供了一个无与伦比的窗口。从面包房里仍在烤炉中的面包到小酒馆里的酒罐，每一个细节都揭示了这座城镇的繁华本质。该遗址从此成为最重要的考古宝藏之一，每年吸引数百万游客。",
+      "vocabulary": [
+        {
+          "word": "unparalleled",
+          "phonetic": "/ʌnˈpærəleld/",
+          "meaning": "adj. 无比的；空前的",
+          "example": "The library's collection is unparalleled in its depth.",
+          "derivatives": "parallel (adj.) → paralleled (adj.) → unparalleled (adj.) (同根词：unparallelled 英式变体)"
+        },
+        {
+          "word": "bustling",
+          "phonetic": "/ˈbʌslɪŋ/",
+          "meaning": "adj. 繁忙的；熙熙攘攘的",
+          "example": "The bustling harbour was full of traders.",
+          "derivatives": "bustle (v./n.) → bustlingly (adv.) (常用搭配：bustling city, bustling with activity)"
+        },
+        {
+          "word": "treasure",
+          "phonetic": "/ˈtreʒər/",
+          "meaning": "n. 宝藏；珍宝",
+          "example": "The museum houses many national treasures.",
+          "derivatives": "treasury (n.) → treasurer (n.) → treasure (v.) (常用搭配：treasure trove, treasure hunt)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The discoveries at Pompeii offered an unparalleled window",
+          "zh": "庞贝的发现提供了一个无与伦比的窗口",
+          "function": "主语+谓语+宾语"
+        },
+        {
+          "en": "into the daily life of a Roman city",
+          "zh": "了解罗马城市的日常生活",
+          "function": "定语（介词短语修饰 window）"
+        },
+        {
+          "en": "From bakeries with loaves still in the oven to taverns with wine jars",
+          "zh": "从面包房里仍在烤炉中的面包到小酒馆里的酒罐",
+          "function": "状语（from...to...列举结构）"
+        },
+        {
+          "en": "every detail revealed the bustling nature of the town",
+          "zh": "每一个细节都揭示了这座城镇的繁华本质",
+          "function": "主语+谓语+宾语"
+        },
+        {
+          "en": "attracting millions of visitors each year",
+          "zh": "每年吸引��百万游客",
+          "function": "伴随状语（现在分词短语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "From bakeries with loaves still in the oven to taverns with wine jars, every detail revealed the bustling nature of the town.",
+          "zh": "从面包房里仍在烤炉中的面包到小酒馆里的酒罐，每一个细节都揭示了这座城镇的繁华本质。",
+          "grammar": "From...to... 介词短语作状语，列举典型场景。with复合结构（with + 名词 + 介词短语/形容词）作定语修饰 bakeries 和 taverns。主干是 every detail revealed the bustling nature。",
+          "pattern": "From...to..., + 主句 (列举结构)",
+          "note": "该结构常用来列举两个极端或典型例子，中间用 to 连接。with复合结构表示伴随特征，写作时注意使用非谓语形式。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "with复合结构作定语",
+            "explanation": "with + 名词 + 介词短语/形容词/分词，表示伴随特征。本句中 with loaves still in the oven 作定语修饰 bakeries。",
+            "example_sentence": "From bakeries with loaves still in the oven to taverns with wine jars...",
+            "common_mistake": "❌ with loaves are still in the oven → ��� with loaves still in the oven (with后不能跟完整句子，应使用非谓语结构)",
+            "contrast": "with复合结构与独立主格结构：都可表示伴随，但with结构的逻辑主语是with后的名词；独立主格结构没有with，且名词在前，分词在后。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Yet Pompeii is more than a museum; it is a poignant reminder of nature's immense power and human vulnerability. The eruption served as a stark warning for future generations living near active volcanoes. Today, the site continues to teach us about history, while also prompting reflection on how we preserve cultural heritage for posterity.",
+      "zh": "然而庞贝不仅仅是一个博物馆；它是对大自然巨大力量以及人类脆弱性的一个令人心碎的提醒。那次喷发给生活在活火山附近的子孙后代敲响了警钟。今天，该遗址继续教给我们历史知识，同时也促使我们思考如何为后代保护文化遗产。",
+      "vocabulary": [
+        {
+          "word": "vulnerability",
+          "phonetic": "/ˌvʌlnərəˈbɪləti/",
+          "meaning": "n. 脆弱性",
+          "example": "The vulnerability of ancient structures to earthquakes is a major concern.",
+          "derivatives": "vulnerable (adj.) → vulnerably (adv.) → vulnerability (n.)"
+        },
+        {
+          "word": "stark",
+          "phonetic": "/stɑːrk/",
+          "meaning": "adj. 明显的；严峻的；赤裸裸的",
+          "example": "The statistics give a stark picture of poverty.",
+          "derivatives": "starkly (adv.) → starkness (n.) (常用搭配：stark warning, stark contrast)"
+        },
+        {
+          "word": "posterity",
+          "phonetic": "/pɑːˈsterəti/",
+          "meaning": "n. 后代；子孙",
+          "example": "We have a duty to preserve the planet for posterity.",
+          "derivatives": "posterior (adj.) → posterity (n.) (常用搭配：for posterity, to posterity)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Yet Pompeii is more than a museum",
+          "zh": "然而庞贝不仅仅是一个博物馆",
+          "function": "主语+系动词+表语（more than 结构）"
+        },
+        {
+          "en": "it is a poignant reminder of nature's immense power and human vulnerability",
+          "zh": "它是对大自然巨大力量以及人类脆弱性的一个令人心碎的提醒",
+          "function": "并列句（解释说明）"
+        },
+        {
+          "en": "The eruption served as a stark warning for future generations living near active volcanoes",
+          "zh": "那次喷发给生活在活火山附近的子孙后代敲响了警钟",
+          "function": "主语+谓语+宾语（as 短语）"
+        },
+        {
+          "en": "Today, the site continues to teach us about history",
+          "zh": "今天，该遗址继续教给我们历史知识",
+          "function": "时间状语+主语+谓语+宾语+状语"
+        },
+        {
+          "en": "while also prompting reflection on how we preserve cultural heritage for posterity",
+          "zh": "同时也促使我们思考如何为后代保护文化遗产",
+          "function": "伴随状语（while + 现在分词短语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Today, the site continues to teach us about history, while also prompting reflection on how we preserve cultural heritage for posterity.",
+          "zh": "今天，该遗址继续教给我们历史知识，同时也促使我们思考如何为后代保护文化遗产。",
+          "grammar": "while also prompting... 是现在分词短语作伴随状语，相当于 while it also prompts... 的省略形式。how we preserve... 是介词 on 的宾语从句。",
+          "pattern": "..., while also + doing... (伴随状语，表示同时发生的动作)",
+          "note": "while also 后接现在分词，当主从句主语一致时省略主语和 be 动词。注意 while 也可换用 but also 但语气不同。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "伴随状语（while + 现在分词）",
+            "explanation": "当主从句主语一致时，可用 while + 现在分词表示同时发生的动作。本句中 while also prompting 相当于 while it also prompts。",
+            "example_sentence": "Today, the site continues to teach us about history, while also prompting reflection on how we preserve cultural heritage for posterity.",
+            "common_mistake": "❌ while also prompts (保留原动词形式) → ✅ while also prompting (使用分词形式，省略主语和助动词)",
+            "contrast": "while doing 与 when doing 的区别：while 强调两个动作同时进行；when 强调一个动作发生时另一个动作发生。"
+          }
+        ]
+      }
+    }
+  ]
+}
