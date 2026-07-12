@@ -1,0 +1,304 @@
+{
+  "date": "2026-07-13",
+  "title": "The Gentle Art of Morning Walking",
+  "titleZh": "晨间散步的温柔艺术",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "For years, I was a slave to my alarm clock, hitting the snooze button again and again. My mornings were rushed and chaotic, setting a frantic tone for the entire day. Then, one particularly weary evening, I decided enough was enough. The very next morning, I dragged myself out of bed an hour earlier, not for work, but for a simple walk around the neighbourhood.",
+      "zh": "多年来，我一直是闹钟的奴隶，一遍又一遍地按下贪睡按钮。我的早晨总是匆忙而混乱，为全天定下了狂乱的基调。后来，在一个特别疲惫的夜晚，我决定受够了。就在第二天早上，我提前一个小时把自己拖下床，不是为了工作，只是为了在附近散个步。",
+      "vocabulary": [
+        {
+          "word": "slave to",
+          "phonetic": "/sleɪv tuː/",
+          "meaning": "phr. 受…支配的人；…的奴隶",
+          "example": "He is a slave to his habits.",
+          "derivatives": "slave (n.) → slavery (n.) → enslaved (adj.) 被奴役的"
+        },
+        {
+          "word": "snooze button",
+          "phonetic": "/snuːz ˈbʌtən/",
+          "meaning": "n. 贪睡按钮",
+          "example": "I hit the snooze button three times this morning.",
+          "derivatives": "snooze (n./v.) 打盹；button (n.) 按钮 → push/press the snooze button"
+        },
+        {
+          "word": "frantic",
+          "phonetic": "/ˈfræntɪk/",
+          "meaning": "adj. 狂乱的；紧张的",
+          "example": "The frantic pace of city life exhausted her.",
+          "derivatives": "frantically (adv.) 狂乱地；frenzy (n.) 狂乱"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "For years",
+          "zh": "多年来",
+          "function": "时间状语"
+        },
+        {
+          "en": "I was a slave to my alarm clock",
+          "zh": "我是闹钟的奴隶",
+          "function": "主句（主语+系动词+表语）"
+        },
+        {
+          "en": "hitting the snooze button again and again",
+          "zh": "一遍又一遍地按下贪睡按钮",
+          "function": "伴随状语（现在分词短语）"
+        },
+        {
+          "en": "My mornings were rushed and chaotic",
+          "zh": "我的早晨总是匆忙而混乱",
+          "function": "并列句1"
+        },
+        {
+          "en": "setting a frantic tone for the entire day",
+          "zh": "为全天定下了狂乱的基调",
+          "function": "结果状语（现在分词短语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The very next morning, I dragged myself out of bed an hour earlier, not for work, but for a simple walk around the neighbourhood.",
+          "zh": "就在第二天早上，我提前一个小时把自己拖下床，不是为了工作，只是为了在附近散个步。",
+          "grammar": "这是一个简单句，主干为I dragged myself out of bed。副词短语an hour earlier为时间状语。not for work, but for…为并列介词短语作目的状语，表否定前项、肯定后项。",
+          "pattern": "not for A, but for B (不是为了A，而是为了B)",
+          "note": "此结构用于对比两种目的，强调后者。注意not与but后成分必须平行（都是介词短语）。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作状语",
+            "explanation": "现在分词短语可以在句中表示伴随、结果或原因。本段第一句用“hitting the snooze button again and again”作伴随状语，第二句用“setting a frantic tone”作结果状语。",
+            "example_sentence": "My mornings were rushed and chaotic, setting a frantic tone for the entire day.",
+            "common_mistake": "❌ 误用不定式表示伴随：I woke up, to hit the snooze button. ✅ 应改为：I woke up, hitting the snooze button.",
+            "contrast": "现在分词表主动进行，过去分词表被动完成。例如：Walking in the park, I felt relaxed.（主动） vs. Exhausted from work, I went straight to bed.（被动）"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Stepping outside, the world was still half-asleep. The air was crisp and cool, carrying the faint scent of dew on grass. I walked at a leisurely pace, noticing how the rising sun painted the clouds in shades of pink and gold. My only company was the occasional bird, singing its morning song. For twenty minutes, I existed in a state of calm awareness.",
+      "zh": "走出门外，世界还半梦半醒。空气清冽凉爽，带着草地上露水的淡淡气息。我悠闲地走着，注意到初升的太阳把云朵染成了粉红与金色。我唯一的同伴是偶尔的鸟儿，唱着它的晨歌。二十分钟里，我处于一种平静专注的状态。",
+      "vocabulary": [
+        {
+          "word": "half-asleep",
+          "phonetic": "/hɑːf əˈsliːp/",
+          "meaning": "adj. 半睡半醒的",
+          "example": "The city was half-asleep at dawn.",
+          "derivatives": "half- (前缀，一半) + asleep → 复合形容词；类似：half-awake 半醒的"
+        },
+        {
+          "word": "leisurely",
+          "phonetic": "/ˈleʒəli/",
+          "meaning": "adj./adv. 悠闲的（地）",
+          "example": "We took a leisurely walk along the beach.",
+          "derivatives": "leisure (n.) → leisurely (adj./adv.) → leisured (adj.) 有闲暇的"
+        },
+        {
+          "word": "awareness",
+          "phonetic": "/əˈweənəs/",
+          "meaning": "n. 意识；觉察",
+          "example": "Meditation increases self-awareness.",
+          "derivatives": "aware (adj.) → awareness (n.) → unaware (adj.) 未觉察的"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Stepping outside",
+          "zh": "走出门外",
+          "function": "时间状语（现在分词短语）"
+        },
+        {
+          "en": "the world was still half-asleep",
+          "zh": "世界还半梦半醒",
+          "function": "主句"
+        },
+        {
+          "en": "The air was crisp and cool",
+          "zh": "空气清冽凉爽",
+          "function": "并列句1"
+        },
+        {
+          "en": "carrying the faint scent of dew on grass",
+          "zh": "带着草地上露水的淡淡气息",
+          "function": "伴随状语（现在分词短语）"
+        },
+        {
+          "en": "I walked at a leisurely pace",
+          "zh": "我悠闲地走着",
+          "function": "主句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "My only company was the occasional bird, singing its morning song.",
+          "zh": "我唯一的同伴是偶尔的鸟儿，唱着它的晨歌。",
+          "grammar": "这是一个简单句，主干为My only company was the bird。singing its morning song为现在分词短语作定语，修饰bird，相当于which sang its morning song。",
+          "pattern": "主语 + be + 名词, 现在分词短语 (定语)",
+          "note": "该结构将定语后置，使句子更简洁生动。注意分词短语的逻辑主语是前面的名词。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作定语",
+            "explanation": "现在分词短语可以放在被修饰名词之后，相当于一个定语从句，表示主动或进行。本句中'singing its morning song'修饰'bird'。",
+            "example_sentence": "My only company was the occasional bird, singing its morning song.",
+            "common_mistake": "❌ 误用过去分词：the bird singing its song → 注意birds sing主动，所以用现在分词。若说the bird killed by a cat才用过去分词。",
+            "contrast": "现在分词作定语表示主动/进行；过去分词表示被动/完成。例如：the man sitting there (正在坐着的男人) vs. the man seated there (已就座的男人)。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Within a week, I noticed a remarkable change. The sleepiness I usually carried into the morning had vanished, replaced by a gentle energy. My concentration at work improved, and I no longer snapped at colleagues out of irritation. Physical benefits also appeared: my digestion became more regular, and my lower back pain, which had plagued me for months, began to ease.",
+      "zh": "一周之内，我注意到一个显著的变化。我通常带入早晨的困意消失了，取而代之的是一种温和的能量。我在工作中的专注力提高了，也不再因烦躁而冲同事发火。身体上的好处也出现了：我的消化变得更加规律，折磨了我数月的下背痛也开始缓解。",
+      "vocabulary": [
+        {
+          "word": "vanish",
+          "phonetic": "/ˈvænɪʃ/",
+          "meaning": "v. 消失，消散",
+          "example": "The pain vanished after he took the medicine.",
+          "derivatives": "vanish (v.) → vanishing (adj.) 消失中的 → vanish into thin air 消失得无影无踪（习语）"
+        },
+        {
+          "word": "snap at",
+          "phonetic": "/snæp æt/",
+          "meaning": "phr. 厉声对……说；不耐烦地责备",
+          "example": "She snapped at her son for being late.",
+          "derivatives": "snap (v.) 啪地折断；厉声说 → snappy (adj.) 尖刻的；snap out of it 摆脱坏情绪（习语）"
+        },
+        {
+          "word": "plague",
+          "phonetic": "/pleɪɡ/",
+          "meaning": "v. 折磨；困扰",
+          "example": "He was plagued by doubts.",
+          "derivatives": "plague (n.) 瘟疫 (v.) 折磨 → plaguing (adj.) 折磨人的；plague-ridden (adj.) 瘟疫横行的"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Within a week",
+          "zh": "一周之内",
+          "function": "时间状语"
+        },
+        {
+          "en": "I noticed a remarkable change",
+          "zh": "我注意到一个显著的变化",
+          "function": "主句"
+        },
+        {
+          "en": "The sleepiness I usually carried into the morning had vanished",
+          "zh": "我通常带入早晨的困意消失了",
+          "function": "从句（定语从句修饰sleepiness）+ 主句谓语"
+        },
+        {
+          "en": "replaced by a gentle energy",
+          "zh": "取而代之的是一种温和的能量",
+          "function": "伴随状语（过去分词短语）"
+        },
+        {
+          "en": "My concentration at work improved",
+          "zh": "我在工作中的专注力提高了",
+          "function": "并列句1"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Physical benefits also appeared: my digestion became more regular, and my lower back pain, which had plagued me for months, began to ease.",
+          "zh": "身体上的好处也出现了：我的消化变得更加规律，折磨了我数月的下背痛也开始缓解。",
+          "grammar": "这是一个带冒号解释说明的并列复合句。冒号后有两个并列分句，用and连接。第二个分句中包含一个非限制性定语从句'which had plagued me for months'修饰'pain'。",
+          "pattern": "主句 + 冒号 + 并列分句1, and + 并列分句2（含非限制性定语从句）",
+          "note": "冒号用于引出具体说明。非限制性定语从句与先行词之间用逗号隔开，去掉后句子主干仍完整。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "非限��性定语从句",
+            "explanation": "非限制性定语从句用逗号与主句隔开，对先行词进行补充说明，不影响句子主干的完整性。本句中'which had plagued me for months'是插入性的修饰。",
+            "example_sentence": "my lower back pain, which had plagued me for months, began to ease.",
+            "common_mistake": "❌ 误用that引导非限制性定语从句：my pain, that had plagued me… ✅ 非限制性定语从句只能使用who/whom/whose/which，不可用that。",
+            "contrast": "限制性定语从句不用逗号，是先行词不可或缺的修饰。例如：The pain that was severe required treatment. (特指严重的疼痛) vs. The pain, which was severe, required treatment. (所有疼痛都严重，补充说明)"
+          }
+        ]
+      }
+    },
+    {
+      "en": "What began as a small act of rebellion against my own lethargy has now become an indispensable ritual. The morning walk is not merely exercise; it is a moment of stillness before the day demands its due. I have learned that the simplest habits, when practised consistently, can reshape not only our bodies but also our minds. Truly, we are what we repeatedly do.",
+      "zh": "起初只是一场对自己懒惰的小小反抗，如今却已成为不可或缺的仪式。晨间散步不仅仅是锻炼；它是在一天计程开始前片刻的宁静。我懂得了，最简单习惯只要坚持实践，不仅能重塑我们的身体，也能重塑我们的心灵。的确，我们就是自己反复做的事。",
+      "vocabulary": [
+        {
+          "word": "rebellion",
+          "phonetic": "/rɪˈbeljən/",
+          "meaning": "n. 反叛；反抗",
+          "example": "The rebellion against the boss failed.",
+          "derivatives": "rebel (v./n.) 反叛 → rebellion (n.) → rebellious (adj.) 反叛的 → rebelliously (adv.)"
+        },
+        {
+          "word": "lethargy",
+          "phonetic": "/ˈleθədʒi/",
+          "meaning": "n. 懒散；无精打采",
+          "example": "Afternoon lethargy often hits after lunch.",
+          "derivatives": "lethargic (adj.) 昏昏欲睡的 → lethargically (adv.)"
+        },
+        {
+          "word": "indispensable",
+          "phonetic": "/ˌɪndɪˈspensəbl/",
+          "meaning": "adj. 不可或缺的",
+          "example": "A good dictionary is indispensable for a language learner.",
+          "derivatives": "indispensable (adj.) → indispensably (adv.) → dispensable (adj.) 可替代的"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "What began as a small act of rebellion against my own lethargy",
+          "zh": "起初只是一场对自己懒惰的小小反抗",
+          "function": "主语从句"
+        },
+        {
+          "en": "has now become an indispensable ritual",
+          "zh": "如今却已成为不可或缺的仪式",
+          "function": "主句谓语+表语"
+        },
+        {
+          "en": "The morning walk is not merely exercise",
+          "zh": "晨间散步不仅仅是锻炼",
+          "function": "并列句1"
+        },
+        {
+          "en": "it is a moment of stillness before the day demands its due",
+          "zh": "它是在一天计程开始前片刻的宁静",
+          "function": "并列句2"
+        },
+        {
+          "en": "we are what we repeatedly do",
+          "zh": "我们就是自己反复做的事",
+          "function": "引语（表语从句）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "I have learned that the simplest habits, when practised consistently, can reshape not only our bodies but also our minds.",
+          "zh": "我懂得了，最简单习惯只要坚持实践，不仅能重塑我们的身体，也能重塑我们的心灵。",
+          "grammar": "这是一个复合句。主句I have learned后接that引导的宾语从句。从句中主语为habits，插入了一个省略形式的状语从句'when (they are) practised consistently'，谓语为can reshape，宾语为not only our bodies but also our minds (并列结构)。",
+          "pattern": "主语 + have/has learned that + 宾语从句 (含插入状语: when + 过去分词)",
+          "note": "在when, while, if等连词引导的状语从句中，若从句主语与主句主语一致且谓语含be，常省略主语和be。例如'when practised' = 'when they are practised'。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "省略状语从句",
+            "explanation": "在时间、条件、让步等状语从句中，如果从句主语与主句主语相同，且从句谓语为be动词，可以省略从句的主语和be动词。本句中'when practised consistently'即省略了'they are'。",
+            "example_sentence": "the simplest habits, when practised consistently, can reshape our bodies.",
+            "common_mistake": "❌ 忘记省略：when they are practised consistently → 虽正确但啰嗦。注意省略后动词形式：若主动用现在分词，若被动用过去分词。例如：when (he is) asked, he always answers. → when asked, he always answers.",
+            "contrast": "独立主格结构：若从句主语与主句不同则不能省略，如：The work finished, he went home. (独立主格) vs. When the work was finished, he went home. (状语从句)"
+          }
+        ]
+      }
+    }
+  ]
+}
