@@ -1,0 +1,364 @@
+{
+  "date": "2026-07-15",
+  "title": "The First Lesson of the Hunt",
+  "titleZh": "狩猎的第一课",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "The golden savannah stretched into the hazy horizon as the first rays of sunlight touched the grass. A cheetah mother, lean and alert, led her two cubs across the dew-covered plain. Their spotted coats blended perfectly with the dry vegetation, making them almost invisible to the grazing Thomson's gazelles in the distance.",
+      "zh": "金色的稀树草原延伸到朦胧的地平线，第一缕阳光触碰到草丛。一只身形瘦削而警觉的猎豹妈妈，带着她的两只幼崽穿过覆盖着露珠的平原。它们带斑点的皮毛与干枯的植被完美融为一体，使远处的汤氏瞪羚几乎无法察觉它们。",
+      "vocabulary": [
+        {
+          "word": "savannah",
+          "phonetic": "/səˈvænə/",
+          "meaning": "n. 热带稀树草原",
+          "example": "Lions roam the vast savannah in search of prey.",
+          "derivatives": "savannah (n.) → savannah-like (adj.) 类似稀树草原的"
+        },
+        {
+          "word": "coats",
+          "phonetic": "/kəʊts/",
+          "meaning": "n. (动物的) 皮毛",
+          "example": "The zebra's striped coat provides camouflage in the grass.",
+          "derivatives": "coating (n.) 涂层 → coat (v.) 覆盖"
+        },
+        {
+          "word": "blended perfectly",
+          "phonetic": "/ˈblendɪd ˈpɜːfɪktli/",
+          "meaning": "v. 完美融合",
+          "example": "The chameleon blended perfectly with the tree branch.",
+          "derivatives": "blend (v.) → blend in (phr.) 融合 → perfect blend (n.) 完美结合"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Their spotted coats blended perfectly with the dry vegetation, making them almost invisible to the grazing Thomson's gazelles in the distance.",
+          "zh": "它们带斑点的皮毛与干枯的植被完美融为一体，使远处的汤氏瞪羚几乎无法察觉它们。",
+          "grammar": "现在分词短语 making them almost invisible 作结果状语，表示主语带来的自然结果。",
+          "pattern": "..., making + 宾语 + 形容词 (结果状语)",
+          "note": "现在分词短语作结果状语时，通常表示顺理成章的结果，前面常加逗号。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The golden savannah stretched into the hazy horizon",
+          "zh": "金色的稀树草原延伸到朦胧的地平线",
+          "function": "主语+谓语+地点状语"
+        },
+        {
+          "en": "as the first rays of sunlight touched the grass",
+          "zh": "当第一缕阳光触碰到草丛时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "A cheetah mother, lean and alert,",
+          "zh": "一只身形瘦削而警觉的猎豹妈妈",
+          "function": "主语+插入定语"
+        },
+        {
+          "en": "led her two cubs across the dew-covered plain",
+          "zh": "带着她的两只幼崽穿过覆盖着露珠的平原",
+          "function": "谓语+宾语+地点状语"
+        },
+        {
+          "en": "Their spotted coats blended perfectly with the dry vegetation,",
+          "zh": "它们带斑点的皮毛与干枯的植被完美融为一体",
+          "function": "主语+谓语+状语"
+        },
+        {
+          "en": "making them almost invisible to the grazing Thomson's gazelles in the distance",
+          "zh": "使远处的汤氏瞪羚几乎无法察觉它们",
+          "function": "结果状语"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作结果状语",
+            "explanation": "现在分词短语可置于句尾，表示主句动作带来的自然结果，相当于 and this makes...。",
+            "example_sentence": "Their spotted coats blended perfectly with the dry vegetation, making them almost invisible to the grazing Thomson's gazelles in the distance.",
+            "common_mistake": "❌ 混淆目的与结果，例如用 to make 表示结果 → ✅ 结果用 making，目的用 to make",
+            "contrast": "现在分词短语作结果状语与不定式作目的状语：前者强调结果，后者强调意图。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The mother suddenly crouched low, her muscles tensing beneath her sleek fur. The cubs imitated her, pressing their bellies against the earth. With eyes fixed on a young gazelle that had strayed slightly from the herd, she began to creep forward, inch by inch. The morning breeze blew towards her, carrying her scent away from the prey.",
+      "zh": "猎豹妈妈突然伏低身子，肌肉在光滑的皮毛下紧绷。幼崽们模仿着她，把肚皮紧贴地面。她的目光锁定在一只稍稍离群的小瞪羚身上，开始一寸一寸地向前爬行。晨风迎面吹来，把她的气味吹离猎物。",
+      "vocabulary": [
+        {
+          "word": "crouched",
+          "phonetic": "/kraʊtʃt/",
+          "meaning": "v. 蹲伏；蜷缩",
+          "example": "The tiger crouched in the tall grass, waiting to spring.",
+          "derivatives": "crouch (v./n.) → crouching (adj.) 蹲伏的"
+        },
+        {
+          "word": "strayed",
+          "phonetic": "/streɪd/",
+          "meaning": "v. 走离；偏离",
+          "example": "A lost sheep strayed from the flock and wandered into the forest.",
+          "derivatives": "stray (v.) → stray (adj.) 迷路的 → astray (adv.) 迷路地"
+        },
+        {
+          "word": "creep forward",
+          "phonetic": "/kriːp ˈfɔːwəd/",
+          "meaning": "v. 匍匐前进；悄悄移动",
+          "example": "The soldier crept forward under the cover of darkness.",
+          "derivatives": "creep (v.) → creeping (adj.) 爬行的 → forward (adv.) 向前"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "With eyes fixed on a young gazelle that had strayed slightly from the herd, she began to creep forward, inch by inch.",
+          "zh": "她的目光锁定在一只稍稍离群的小瞪羚身上，开始一寸一寸地向前爬行。",
+          "grammar": "With + 名词 + 过去分词 (with eyes fixed) 构成独立主格结构，作伴随状语。",
+          "pattern": "With + 名词 + 过去分词/现在分词/介词短语，主句 (独立主格结构)",
+          "note": "独立主格结构常用于书面语，表示伴随状态，其逻辑主语与主句主语不同。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The mother suddenly crouched low,",
+          "zh": "猎豹妈妈突然伏低身子",
+          "function": "主语+谓语+状语"
+        },
+        {
+          "en": "her muscles tensing beneath her sleek fur",
+          "zh": "肌肉在光滑的皮毛下紧绷",
+          "function": "独立主格结构（伴随状语）"
+        },
+        {
+          "en": "The cubs imitated her,",
+          "zh": "幼崽们模仿着她",
+          "function": "主语+谓语+宾语"
+        },
+        {
+          "en": "pressing their bellies against the earth",
+          "zh": "把肚皮紧贴地面",
+          "function": "现在分词短语作方式状语"
+        },
+        {
+          "en": "With eyes fixed on a young gazelle that had strayed slightly from the herd,",
+          "zh": "目光锁定在一只稍稍离群的小瞪羚身上",
+          "function": "独立主格结构（伴随状语）"
+        },
+        {
+          "en": "she began to creep forward, inch by inch",
+          "zh": "她开始一寸一寸地向前爬行",
+          "function": "主句+方式状语"
+        },
+        {
+          "en": "The morning breeze blew towards her,",
+          "zh": "晨风迎面吹来",
+          "function": "主语+谓语+状语"
+        },
+        {
+          "en": "carrying her scent away from the prey",
+          "zh": "把她的气味吹离猎物",
+          "function": "现在分词短语作结果状语"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格结构",
+            "explanation": "由 with + 名词 + 非谓语动词/介词短语构成，表示伴随状态，主语与主句不同。",
+            "example_sentence": "With eyes fixed on a young gazelle that had strayed slightly from the herd, she began to creep forward, inch by inch.",
+            "common_mistake": "❌ 漏掉 with 或误用主格，如 Her eyes fixed... → ✅ With her eyes fixed...",
+            "contrast": "独立主格结构与分词作状语的区别：独立主格有自己的逻辑主语；分词作状语默认与主句主语一致。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "When the distance narrowed to thirty metres, the cheetah exploded into a sprint. Her body stretched and contracted like a spring, covering ground at an astonishing speed. But the gazelle detected the movement at the last instant and darted away. The chase lasted only twenty seconds. Panting, the mother slowed down and returned to her cubs, her lesson unfinished.",
+      "zh": "当距离缩短到三十米时，猎豹猛然冲刺。她的身体像弹簧一样伸展收缩，以惊人的速度掠过地面。但瞪羚在最后一刻察觉到了动静，疾速逃开了。追逐只持续了二十秒。母亲喘着气放慢脚步，回到幼崽身边，她的课程尚未完成。",
+      "vocabulary": [
+        {
+          "word": "exploded into a sprint",
+          "phonetic": "/ɪkˈspləʊdɪd ˈɪntuː ə sprɪnt/",
+          "meaning": "v. phrase 猛然冲刺",
+          "example": "The runner exploded into a sprint as he approached the finish line.",
+          "derivatives": "explode (v.) → explosion (n.) → sprint (n./v.) 冲刺"
+        },
+        {
+          "word": "covering ground",
+          "phonetic": "/ˈkʌvərɪŋ ɡraʊnd/",
+          "meaning": "v. phrase 快速前进；覆盖距离",
+          "example": "The cheetah was covering ground so quickly that the camera could barely track it.",
+          "derivatives": "cover (v.) → coverage (n.) 覆盖范围"
+        },
+        {
+          "word": "detected",
+          "phonetic": "/dɪˈtektɪd/",
+          "meaning": "v. 察觉；发现",
+          "example": "The radar detected an approaching aircraft.",
+          "derivatives": "detect (v.) → detection (n.) 探测 → detective (n.) 侦探"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Her body stretched and contracted like a spring, covering ground at an astonishing speed.",
+          "zh": "她的身体像弹簧一样伸展收缩，以惊人的速度掠过地面。",
+          "grammar": "现在分词短语 covering ground 伴随谓语动词 stretched and contracted，表示同时发生的动作。",
+          "pattern": "主语 + 谓语 + like a simile, + 分词短语 + 状语",
+          "note": "伴随状语用现在分词，强调与主要动作同时进行。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "When the distance narrowed to thirty metres,",
+          "zh": "当距离缩短到三十米时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "the cheetah exploded into a sprint",
+          "zh": "猎豹猛然冲刺",
+          "function": "主句"
+        },
+        {
+          "en": "Her body stretched and contracted like a spring,",
+          "zh": "她的身体像弹簧一样伸展收缩",
+          "function": "主语+谓语+比喻状语"
+        },
+        {
+          "en": "covering ground at an astonishing speed",
+          "zh": "以惊人的速度掠过地面",
+          "function": "伴随状语（现在分词）"
+        },
+        {
+          "en": "But the gazelle detected the movement at the last instant",
+          "zh": "但瞪羚在最后一刻察觉到了动静",
+          "function": "转折句主语+谓语+宾语+时间状语"
+        },
+        {
+          "en": "and darted away",
+          "zh": "并疾速逃开了",
+          "function": "并列谓语"
+        },
+        {
+          "en": "The chase lasted only twenty seconds",
+          "zh": "追逐只持续了二十秒",
+          "function": "独立句"
+        },
+        {
+          "en": "Panting, the mother slowed down and returned to her cubs,",
+          "zh": "母亲喘着气放慢脚步，回到幼崽身边",
+          "function": "主语+谓语+并列谓语+宾语"
+        },
+        {
+          "en": "her lesson unfinished",
+          "zh": "她的课程尚未完成",
+          "function": "独立主格结构（伴随状态）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词作伴随状语",
+            "explanation": "现在分词短语可表示与谓语同时发生的动作，逻辑主语与主句主语一致。",
+            "example_sentence": "Her body stretched and contracted like a spring, covering ground at an astonishing speed.",
+            "common_mistake": "❌ 用不定式表示伴随，如 to cover ground → ✅ covering ground",
+            "contrast": "现在分词与过去分词作伴随状语：现在分词表主动，过去分词表被动。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Nature is a harsh teacher. The cubs watched their mother with wide eyes, learning that failure is part of survival. Over the following weeks, she would teach them patience, stealth, and the precise timing needed for a successful ambush. One day, these tiny spotted hunters will become the fastest killers on the plains, but today they simply followed their mother home, their bellies still empty.",
+      "zh": "大自然是一位严酷的老师。幼崽们睁大眼睛看着母亲，明白了失败是生存的一部分。在接下来的几周里，她会教它们耐心、隐秘以及成功伏击所需的精确时机。总有一天，这些带斑点的小猎手会成为平原上速度最快的杀手，但今天它们只是跟着母亲回家，肚子依然空空的。",
+      "vocabulary": [
+        {
+          "word": "harsh",
+          "phonetic": "/hɑːʃ/",
+          "meaning": "adj. 严酷的；严厉的",
+          "example": "The desert climate is harsh and unforgiving.",
+          "derivatives": "harsh (adj.) → harshness (n.) 严酷 → harshly (adv.) 严厉地"
+        },
+        {
+          "word": "ambush",
+          "phonetic": "/ˈæmbʊʃ/",
+          "meaning": "n./v. 伏击",
+          "example": "The lion set up an ambush near the waterhole.",
+          "derivatives": "ambush (n./v.) → ambusher (n.) 伏击者"
+        },
+        {
+          "word": "fastest killers",
+          "phonetic": "/fɑːstɪst ˈkɪləz/",
+          "meaning": "n. phrase 速度最快的杀手",
+          "example": "The peregrine falcon is one of the fastest killers in the bird world.",
+          "derivatives": "fast (adj.) → faster (比较级) → fastest (最高级); kill (v.) → killer (n.) 杀手"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Over the following weeks, she would teach them patience, stealth, and the precise timing needed for a successful ambush.",
+          "zh": "在接下来的几周里，她会教它们耐心、隐秘以及成功伏击所需的精确时机。",
+          "grammar": "would + 动词原形表示过去将来或过去的习惯性动作；过去分词短语 needed for... 作后置定语修饰 timing。",
+          "pattern": "would + 动词原形 (过去将来/习惯) + 宾语 + 过去分词短语作定语",
+          "note": "would 在此表示过去的习惯或计划性行为，常用于叙述过去一段时间内反复发���的事。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Nature is a harsh teacher",
+          "zh": "大自然是一位严酷的老师",
+          "function": "主系表句"
+        },
+        {
+          "en": "The cubs watched their mother with wide eyes,",
+          "zh": "幼崽们睁大眼睛看着母亲",
+          "function": "主语+谓语+宾语+方式状语"
+        },
+        {
+          "en": "learning that failure is part of survival",
+          "zh": "明白了失败是生存的一部分",
+          "function": "现在分词短语作伴随状语"
+        },
+        {
+          "en": "Over the following weeks,",
+          "zh": "在接下来的几周里",
+          "function": "时间状语"
+        },
+        {
+          "en": "she would teach them patience, stealth,",
+          "zh": "她会教它们耐心、隐秘",
+          "function": "谓语+间接宾语+直接宾语"
+        },
+        {
+          "en": "and the precise timing needed for a successful ambush",
+          "zh": "以及成功伏击所需的精确时机",
+          "function": "并列宾语（含过去分词短语作定语）"
+        },
+        {
+          "en": "One day, these tiny spotted hunters will become the fastest killers on the plains,",
+          "zh": "总有一天，这些带斑点的小猎手会成为平原上速度最快的杀手",
+          "function": "时间状语+主语+谓语+表语+地点状语"
+        },
+        {
+          "en": "but today they simply followed their mother home,",
+          "zh": "但今天它们只是跟着母亲回家",
+          "function": "转折句主语+谓语+宾语+地点状语"
+        },
+        {
+          "en": "their bellies still empty",
+          "zh": "肚子依然空空的",
+          "function": "独立主格结构"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "过去分词短语作后置定语",
+            "explanation": "及物动词的过去分词可放在名词后作定语，表示被动或完成。",
+            "example_sentence": "the precise timing needed for a successful ambush",
+            "common_mistake": "❌ 混淆主动与被动，如 timing needing → ✅ timing needed",
+            "contrast": "现在分词短语作定语表示主动进行，过去分词短语作定语表示被动完成。"
+          }
+        ]
+      }
+    }
+  ]
+}
