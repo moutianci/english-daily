@@ -1,0 +1,294 @@
+{
+  "date": "2026-07-16",
+  "title": "A Leap of Faith: From Banker to Teacher",
+  "titleZh": "信念的一跃：从银行职员到教师",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "For ten years, David worked as a banker in a bustling city. Every day was a routine of numbers and deadlines. Despite his comfortable salary, he felt an increasing sense of emptiness. The concrete walls of his office seemed to close in on him, and he often found himself staring at the clock, waiting for the day to end.",
+      "zh": "十年来，大卫在一座繁华的城市里做银行职员。每天都是数字和截止日期的例行公事。尽管薪水优厚，他却感到越来越空虚。办公室的混凝土墙似乎向他压来，他经常盯着时钟，等待一天结束。",
+      "vocabulary": [
+        {
+          "word": "routine",
+          "phonetic": "/ruːˈtiːn/",
+          "meaning": "n. 例行公事；常规",
+          "example": "His daily routine never changes.",
+          "derivatives": "routine (n.) → routine (adj.) 常规的 → routinely (adv.) 例行地"
+        },
+        {
+          "word": "deadline",
+          "phonetic": "/ˈdedlaɪn/",
+          "meaning": "n. 截止日期；最后期限",
+          "example": "We must finish this report before the deadline.",
+          "derivatives": "deadline (n.) → 无常见派生词；常见搭配：meet a deadline, miss a deadline"
+        },
+        {
+          "word": "emptiness",
+          "phonetic": "/ˈemptɪnəs/",
+          "meaning": "n. 空虚；空白",
+          "example": "After the party, he felt a sense of emptiness.",
+          "derivatives": "empty (adj.) → emptiness (n.) → empty (v.) 倒空"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "For ten years, David worked as a banker in a bustling city.",
+          "zh": "十年来，大卫在一座繁华的城市里做银行职员。",
+          "function": "主句（时间状语 + 主语 + 谓语 + 主语补足语 + 地点状语）"
+        },
+        {
+          "en": "Every day was a routine of numbers and deadlines.",
+          "zh": "每天都是数字和截止日期的例行公事。",
+          "function": "主句"
+        },
+        {
+          "en": "Despite his comfortable salary, he felt an increasing sense of emptiness.",
+          "zh": "尽管薪水优厚，他却感到越来越空虚。",
+          "function": "让步状语 + 主句"
+        },
+        {
+          "en": "The concrete walls of his office seemed to close in on him, and he often found himself staring at the clock, waiting for the day to end.",
+          "zh": "办公室的混凝土墙似乎向他压来，他经常盯着时钟，等待一天结束。",
+          "function": "并列句（主语 + 谓语 + 不定式宾语补足语；连接词 + 主语 + 谓语 + 宾语 + 现在分词短语作伴随状语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Despite his comfortable salary, he felt an increasing sense of emptiness.",
+          "zh": "尽管薪水优厚，他却感到越来越空虚。",
+          "grammar": "Despite 引导让步状语/介词短语，后面跟名词性短语。主句为简单句。",
+          "pattern": "Despite + noun phrase, subject + verb... (让步状语)",
+          "note": "Despite 比 in spite of 更正式；后面不能接从句，若接从句要用 although/even though。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "介词短语作让步状语",
+            "explanation": "Despite 引导介词短语表示让步，相当于“虽然”",
+            "example_sentence": "Despite his comfortable salary, he felt an increasing sense of emptiness.",
+            "common_mistake": "❌ Despite he had a comfortable salary → ✅ Despite his comfortable salary",
+            "contrast": "Although 后接从句：Although he had a comfortable salary, ..."
+          }
+        ]
+      }
+    },
+    {
+      "en": "One evening, after a particularly stressful week, he told his wife, 'I cannot do this anymore.' She replied calmly, 'Then do what makes you happy.' Those simple words struck a chord. The next morning, David handed in his resignation. His colleagues were astonished, but he felt a strange relief.",
+      "zh": "一天晚上，在特别紧张的一周之后，他对妻子说：“我不能再这样下去了。”她平静地回答：“那就做让你开心的事。”这些简单的话打动了他。第二天早上，大卫递交了辞呈。同事们很惊讶，但他却感到一种奇怪的轻松。",
+      "vocabulary": [
+        {
+          "word": "strike a chord",
+          "phonetic": "/straɪk ə kɔːrd/",
+          "meaning": "phrase. 引起共鸣；打动",
+          "example": "Her speech struck a chord with the audience.",
+          "derivatives": "常用搭配：strike a chord (with someone)"
+        },
+        {
+          "word": "resignation",
+          "phonetic": "/ˌrezɪɡˈneɪʃən/",
+          "meaning": "n. 辞职；辞呈",
+          "example": "He submitted his resignation yesterday.",
+          "derivatives": "resign (v.) → resignation (n.) → resigned (adj.) 顺从的"
+        },
+        {
+          "word": "astonished",
+          "phonetic": "/əˈstɒnɪʃt/",
+          "meaning": "adj. 惊讶的；震惊的",
+          "example": "We were astonished to see the change.",
+          "derivatives": "astonish (v.) → astonished (adj.) → astonishing (adj.) → astonishment (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "One evening, after a particularly stressful week, he told his wife, 'I cannot do this anymore.'",
+          "zh": "一天晚上，在特别紧张的一周之后，他对妻子说：“我不能再这样下去了。”",
+          "function": "时间状语 + 主句（主语 + 谓语 + 间接宾语 + 直接宾语）"
+        },
+        {
+          "en": "She replied calmly, 'Then do what makes you happy.'",
+          "zh": "她平静地回答：“那就做让你开心的事。”",
+          "function": "主句（主语 + 谓语 + 方式状语 + 直接宾语）"
+        },
+        {
+          "en": "Those simple words struck a chord.",
+          "zh": "这些简单的话打动了他。",
+          "function": "主句"
+        },
+        {
+          "en": "The next morning, David handed in his resignation.",
+          "zh": "第二天早上，大卫递交了辞呈。",
+          "function": "时间状语 + 主句"
+        },
+        {
+          "en": "His colleagues were astonished, but he felt a strange relief.",
+          "zh": "同事们很惊讶，但他却感到一种奇怪的轻松。",
+          "function": "并列句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Those simple words struck a chord.",
+          "zh": "这些简单的话打动了他。",
+          "grammar": "简单句，主语 + 谓语 + 宾语。strike a chord 是固定短语。",
+          "pattern": "Something strikes a chord (with someone). (某事物引起共鸣)",
+          "note": "该短语常用于比喻意义，表示某观点或感受与某人的情感或经历相契合。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "直接引语",
+            "explanation": "直接引用人物所说的话，使用引号，动词如 told, replied 后接宾语从句或直接引语。",
+            "example_sentence": "He told his wife, 'I cannot do this anymore.'",
+            "common_mistake": "❌ He told his wife that 'I cannot do this anymore.' → ✅ He told his wife, 'I cannot do this anymore.' (直接引语前不用 that)",
+            "contrast": "间接引语：He told his wife that he could not do that anymore."
+          }
+        ]
+      }
+    },
+    {
+      "en": "A month later, David started teaching at a local primary school. At first, the noise and chaos overwhelmed him. But gradually, he discovered a deep joy in helping children learn. Their laughter and curiosity filled his days with meaning. He no longer watched the clock; time flew by.",
+      "zh": "一个月后，大卫在当地一所小学开始教书。起初，噪音和混乱让他无所适从。但渐渐地，他在帮助孩子们学习中发现了深深的快乐。他们的笑声和好奇心让他的日子充满意义。他不再看时间；时光飞逝。",
+      "vocabulary": [
+        {
+          "word": "overwhelm",
+          "phonetic": "/ˌəʊvərˈwelm/",
+          "meaning": "v. 淹没；压倒；使不知所措",
+          "example": "The workload overwhelmed the new employee.",
+          "derivatives": "overwhelm (v.) → overwhelming (adj.) 压倒性的 → overwhelmingly (adv.)"
+        },
+        {
+          "word": "curiosity",
+          "phonetic": "/ˌkjʊərɪˈɒsɪti/",
+          "meaning": "n. 好奇心",
+          "example": "Children show great curiosity about the world.",
+          "derivatives": "curious (adj.) → curiosity (n.) → curiously (adv.)"
+        },
+        {
+          "word": "fly by",
+          "phonetic": "/flaɪ baɪ/",
+          "meaning": "phr. v. 飞逝（时间过得快）",
+          "example": "The weekend flew by too quickly.",
+          "derivatives": "常见搭配：time flies / fly by"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "A month later, David started teaching at a local primary school.",
+          "zh": "一个月后，大卫在当地一所小学开始教书。",
+          "function": "时间状语 + 主句"
+        },
+        {
+          "en": "At first, the noise and chaos overwhelmed him.",
+          "zh": "起初，噪音和混乱让他无所适从。",
+          "function": "时间状语 + 主句"
+        },
+        {
+          "en": "But gradually, he discovered a deep joy in helping children learn.",
+          "zh": "但渐渐地，他在帮助孩子们学习中发现了深深的快乐。",
+          "function": "转折状语 + 主句"
+        },
+        {
+          "en": "Their laughter and curiosity filled his days with meaning.",
+          "zh": "他们的笑声和好奇心让他的日子充满意义。",
+          "function": "主句"
+        },
+        {
+          "en": "He no longer watched the clock; time flew by.",
+          "zh": "他不再看时间；时光飞逝。",
+          "function": "并列句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "But gradually, he discovered a deep joy in helping children learn.",
+          "zh": "但渐渐地，他在帮助孩子们学习中发现了深深的快乐。",
+          "grammar": "简单句，主语 + 谓语 + 宾语 + 介词短语（in doing something）作状语。",
+          "pattern": "discover + joy/pleasure + in doing something (在做某事中发现快乐)",
+          "note": "介词 in 后接动名词，表示在某活动中。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "介词短语作状语",
+            "explanation": "in helping children learn 是介词短语，在句中作方面状语，说明发现快乐所依据的活动。",
+            "example_sentence": "he discovered a deep joy in helping children learn.",
+            "common_mistake": "❌ he discovered a deep joy to help children learn → ✅ he discovered a deep joy in helping children learn",
+            "contrast": "不定式也可表示目的：He discovered joy (in order) to help children learn. 但意思不同：前者是“帮助孩子学习的过程中发现快乐”，后者是“为了帮助孩子学习而发现快乐”，不太自然。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Looking back, David realized that he had not left the bank; he had found himself. Teaching gave him purpose, not just a paycheck. He often says, 'A career is not a cage; it is a path to becoming who you truly are.' For him, the leap of faith was well worth taking.",
+      "zh": "回顾过去，大卫意识到他并没有离开银行；他找到了自己。教书给了他目标，而不仅仅是薪水。他常说：“职业不是牢笼，而是通往真正自我的道路。”对他来说，这信念的一跃非常值得。",
+      "vocabulary": [
+        {
+          "word": "leap of faith",
+          "phonetic": "/liːp əv feɪθ/",
+          "meaning": "phr. 信念的飞跃；大胆尝试",
+          "example": "Starting his own business was a leap of faith.",
+          "derivatives": "常见搭配：take a leap of faith"
+        },
+        {
+          "word": "purpose",
+          "phonetic": "/ˈpɜːrpəs/",
+          "meaning": "n. 目的；意义",
+          "example": "She found a new purpose in life after retirement.",
+          "derivatives": "purpose (n.) → purposeful (adj.) → purposefully (adv.)"
+        },
+        {
+          "word": "worth taking",
+          "phonetic": "/wɜːrθ ˈteɪkɪŋ/",
+          "meaning": "adj. 值得做（固定搭配 be worth doing）",
+          "example": "The exhibition is worth visiting.",
+          "derivatives": "worth (adj.) + doing 结构"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Looking back, David realized that he had not left the bank; he had found himself.",
+          "zh": "回顾过去，大卫意识到他并没有离开银行；他找到了自己。",
+          "function": "现在分词短语作状语 + 主句（谓语 + 宾语从句；分号连接并列从句）"
+        },
+        {
+          "en": "Teaching gave him purpose, not just a paycheck.",
+          "zh": "教书给了他目标，而不仅仅是薪水。",
+          "function": "主句"
+        },
+        {
+          "en": "He often says, 'A career is not a cage; it is a path to becoming who you truly are.'",
+          "zh": "他常说：“职业不是牢笼，而是通往真正自我的道路。”",
+          "function": "主句 + 直接引语（并列句）"
+        },
+        {
+          "en": "For him, the leap of faith was well worth taking.",
+          "zh": "对他来说，这信念的一跃非常值得。",
+          "function": "状语 + 主句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "He often says, 'A career is not a cage; it is a path to becoming who you truly are.'",
+          "zh": "他常说：“职业不是牢笼，而是通往真正自我的道路。”",
+          "grammar": "直接引语包含并列句，分号连接两个独立分句。第二个分句中 to becoming who you truly are 是介词短语作定语修饰 path，其中 who you truly are 是宾语从句。",
+          "pattern": "A is not B; it is C (对比结构：不是……而是……)",
+          "note": "分号连接两个相关分句，比逗号更正式，比句号连接更紧密。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "动名词作介词宾语",
+            "explanation": "to becoming who you truly are 中 becoming 是动名词作介词 to 的宾语。",
+            "example_sentence": "a path to becoming who you truly are",
+            "common_mistake": "❌ a path to become → ✅ a path to becoming (to 为介词时后接动名词)",
+            "contrast": "a path to become 可理解为“成为……的路”，但 to 此时是不定式符号，表示目的；而原文是介词 to，强调“通往……的路”。两者有时可互换，但介词 to + 动名词更常见于固定短语 the key to doing, the path to doing 等。"
+          }
+        ]
+      }
+    }
+  ]
+}
