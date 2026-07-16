@@ -1,0 +1,309 @@
+{
+  "date": "2026-07-17",
+  "title": "The Art of Haggling in a Moroccan Souk",
+  "titleZh": "摩洛哥集市讨价还价的艺术",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "As I stepped into the bustling souk of Marrakech, my senses were instantly overwhelmed. The air was thick with the aroma of spices and the sound of merchants calling out prices. It was a world far removed from the quiet shops of my hometown.",
+      "zh": "当我踏入马拉喀什熙熙攘攘的集市时，我的感官瞬间被淹没。空气中弥漫着香料的香气和商贩们喊价的声音。这是一个与我家乡安静的商店截然不同的世界。",
+      "vocabulary": [
+        {
+          "word": "bustling",
+          "phonetic": "/ˈbʌs.lɪŋ/",
+          "meaning": "adj. 繁忙的；熙熙攘攘的",
+          "example": "The bustling market was full of life.",
+          "derivatives": "bustle (n./v.) 喧闹 → bustling (adj.) 繁忙的 → bustled (v. past) 忙碌"
+        },
+        {
+          "word": "overwhelmed",
+          "phonetic": "/ˌəʊ.vəˈwelmd/",
+          "meaning": "v. (过去分词) 被压倒；不知所措",
+          "example": "She was overwhelmed by the beauty of the scenery.",
+          "derivatives": "overwhelm (v.) 压倒 → overwhelming (adj.) 势不可挡的 → overwhelmingly (adv.) 压倒性地"
+        },
+        {
+          "word": "far removed from",
+          "phonetic": "/fɑːr rɪˈmuːvd frɒm/",
+          "meaning": "短语 与……截然不同",
+          "example": "His lifestyle is far removed from that of his parents.",
+          "derivatives": "remove (v.) 移开 → remote (adj.) 遥远的 → removed (adj.) 远离的（常用搭配：far removed from）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "As I stepped into the bustling souk of Marrakech, my senses were instantly overwhelmed.",
+          "zh": "当我踏入马拉喀什熙熙攘攘的集市时，我的感官瞬间被淹没。",
+          "grammar": "这是一个复合句，由连词\"As\"引导时间状语从句，表示\"当……的时候\"；主句为\"my senses were instantly overwhelmed\"，使用了被动语态描述主语受到的影响。",
+          "pattern": "As + 主语 + 谓语 (时间状语从句) + 主句 (被动语态)",
+          "note": "\"As\"在此处表示两个动作几乎同时发生，比\"when\"更强调过程。注意从句与主句的主语不同，但逻辑主语一致（都是\"I\"）。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "As I stepped into the bustling souk of Marrakech",
+          "zh": "当我踏入马拉喀什熙熙攘攘的集市时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "my senses were instantly overwhelmed",
+          "zh": "我的感官瞬间被淹没",
+          "function": "主句（主语+被动谓语+状语）"
+        },
+        {
+          "en": "The air was thick with the aroma of spices and the sound of merchants calling out prices",
+          "zh": "空气中弥漫着香料的香气和商贩们喊价的声音",
+          "function": "独立句子（主语+系动词+表语+伴随状语）"
+        },
+        {
+          "en": "It was a world far removed from the quiet shops of my hometown",
+          "zh": "这是一个与我家乡安静的商店截然不同的世界",
+          "function": "独立句子（主语+系动词+表语+定语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "时间状语从句 (Adverbial Clause of Time)",
+            "explanation": "\"As\"引导时间状语从句，从句中动作与主句动作同时或几乎同时发生。在本句中，\"stepped\"和\"were overwhelmed\"几乎同时发生。",
+            "example_sentence": "As I stepped into the bustling souk of Marrakech, my senses were instantly overwhelmed.",
+            "common_mistake": "❌ As I stepped into the souk, and my senses were overwhelmed. → ✅ As I stepped into the souk, my senses were overwhelmed. (去掉多余的连词)",
+            "contrast": "\"As\" 强调动作同时进行或渐变；\"When\" 侧重时间点或先后；\"While\" 强调持续动作。例如：When I arrived, he was leaving. (到达时他正要离开)；While I was shopping, he called. (我购物时他打来电话)。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Haggling, I soon discovered, was not merely a transaction but an elaborate dance. The vendor would name an outrageously high price, and I was expected to counter with a much lower offer. This back-and-forth, punctuated by theatrical sighs and smiles, tested both patience and humour.",
+      "zh": "我很快发现，讨价还价不仅仅是一项交易，更是一场精心编排的舞蹈。商贩会报出一个高得离谱的价格，而我要报出一个低得多的还价。这种你来我往，其间穿插着戏剧性的叹息和微笑，考验着耐心和幽默。",
+      "vocabulary": [
+        {
+          "word": "haggling",
+          "phonetic": "/ˈhæɡ.lɪŋ/",
+          "meaning": "n. 讨价还价；争论",
+          "example": "Haggling is an essential skill in the market.",
+          "derivatives": "haggle (v.) 讨价还价 → haggler (n.) 讨价还价的人 → haggling (n./adj.) 还价（的）"
+        },
+        {
+          "word": "elaborate",
+          "phonetic": "/ɪˈlæb.ər.ət/",
+          "meaning": "adj. 精心制作的；复杂的",
+          "example": "They performed an elaborate ceremony.",
+          "derivatives": "elaborate (v./adj.) → elaboration (n.) 精心制作 → elaborately (adv.) 精心地"
+        },
+        {
+          "word": "theatrical",
+          "phonetic": "/θiˈæt.rɪ.kəl/",
+          "meaning": "adj. 戏剧性的；夸张的",
+          "example": "He made a theatrical gesture of despair.",
+          "derivatives": "theatre (n.) 剧院 → theatrical (adj.) 戏剧的 → theatrically (adv.) 戏剧性地"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Haggling, I soon discovered, was not merely a transaction but an elaborate dance.",
+          "zh": "我很快发现，讨价还价不仅仅是一项交易，更是一场精心编排的舞蹈。",
+          "grammar": "句中包含一个插入语\"I soon discovered\"，将主语\"Haggling\"和系动词\"was\"分隔开。主干是\"Haggling was not merely a transaction but an elaborate dance\"，使用了\"not merely...but...\"结构表示递进对比。",
+          "pattern": "主语, 插入语, 谓语 + not merely A but B",
+          "note": "插入语用逗号隔开，去掉后句子依然完整。\"not merely...but...\"也可写成\"not only...but also...\"，但前者更正式、富有文学感。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Haggling, I soon discovered",
+          "zh": "讨价还价，我很快发现",
+          "function": "主语 + 插入语（主语后置）"
+        },
+        {
+          "en": "was not merely a transaction but an elaborate dance",
+          "zh": "不仅仅是一项交易，更是一场精心编排的舞蹈",
+          "function": "谓语（系动词+表语并列）"
+        },
+        {
+          "en": "The vendor would name an outrageously high price",
+          "zh": "商贩会报出一个高得离谱的价格",
+          "function": "独立句子（主语+谓语+宾语）"
+        },
+        {
+          "en": "and I was expected to counter with a much lower offer",
+          "zh": "而我要报出一个低得多的还价",
+          "function": "并列句（主语+被动谓语+不定式短语）"
+        },
+        {
+          "en": "This back-and-forth, punctuated by theatrical sighs and smiles",
+          "zh": "这种你来我往，其间穿插着戏剧性的叹息和微笑",
+          "function": "主语（过去分词短语作定语）"
+        },
+        {
+          "en": "tested both patience and humour",
+          "zh": "考验着耐心和幽默",
+          "function": "谓语+宾语"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "插入语 (Parenthesis)",
+            "explanation": "插入语\"I soon discovered\"用于补充额外信息，通常用逗号与句子其他部分隔开。它不影响句子的主干结构，但可以增加叙事的真实感或情感色彩。",
+            "example_sentence": "Haggling, I soon discovered, was not merely a transaction but an elaborate dance.",
+            "common_mistake": "❌ I soon discovered haggling was not merely a transaction. (缺少逗号，变为宾语从句) → ✅ Haggling, I soon discovered, was not merely... (插入语需加逗号)",
+            "contrast": "插入语与定语从句不同：定语从句修饰名词，如\"Haggling, which I soon discovered, was...\" 但这里直接使用\"I soon discovered\"作插入语更简洁。类似用法的还有\"it seems\"、\"I believe\"等。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Determined to master this art, I observed the locals with keen interest. They negotiated with a mixture of firmness and respect, never taking the process personally. Eventually, I attempted my own negotiation, feeling both nervous and exhilarated when I secured a small carpet at a fair price.",
+      "zh": "决心掌握这门艺术，我饶有兴趣地观察当地人。他们谈判时既坚定又尊重，从不把过程个人化。最终，我尝试了自己的谈判，当我以一个公平的价格买下一块小地毯时，既紧张又兴奋。",
+      "vocabulary": [
+        {
+          "word": "determined",
+          "phonetic": "/dɪˈtɜː.mɪnd/",
+          "meaning": "adj. 下定决心的；坚定的",
+          "example": "She was determined to succeed.",
+          "derivatives": "determine (v.) 决定 → determination (n.) 决心 → determined (adj.) 坚定的 → determinedly (adv.) 坚定地"
+        },
+        {
+          "word": "keen interest",
+          "phonetic": "/kiːn ˈɪn.trəst/",
+          "meaning": "短语 浓厚的兴趣",
+          "example": "He listened to the lecture with keen interest.",
+          "derivatives": "keen (adj.) 热切的；强烈的 → keenly (adv.) 热切地 → keenness (n.) 热切；敏锐"
+        },
+        {
+          "word": "exhilarated",
+          "phonetic": "/ɪɡˈzɪl.ə.reɪ.tɪd/",
+          "meaning": "adj. 非常兴奋的；兴高采烈的",
+          "example": "The crowd was exhilarated by the victory.",
+          "derivatives": "exhilarate (v.) 使兴奋 → exhilaration (n.) 兴奋 → exhilarating (adj.) 令人兴奋的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Eventually, I attempted my own negotiation, feeling both nervous and exhilarated when I secured a small carpet at a fair price.",
+          "zh": "最终，我尝试了自己的谈判，当我以一个公平的价格买下一块小地毯时，既紧张又兴奋。",
+          "grammar": "这是一个简单句，主语\"I\"，谓语\"attempted\"，宾语\"my own negotiation\"；逗号后跟现在分词短语\"feeling both nervous and exhilarated\"作伴随状语，其中又包含一个由\"when\"引导的时间状语从句\"when I secured a small carpet at a fair price\"。",
+          "pattern": "主语 + 谓语 + 宾语, 现在分词短语 + when从句",
+          "note": "\"feeling...\"现在分词短语表伴随状态，逻辑主语与主句主语一致。时间状语从句也可移到句首，但置于句末更自然。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Determined to master this art",
+          "zh": "决心掌握这门艺术",
+          "function": "过去分词短语作原因状语"
+        },
+        {
+          "en": "I observed the locals with keen interest",
+          "zh": "我饶有兴趣地观察当地人",
+          "function": "主句（主语+谓语+宾语+方式状语）"
+        },
+        {
+          "en": "They negotiated with a mixture of firmness and respect",
+          "zh": "他们谈判时既坚定又尊重",
+          "function": "独立句子（主语+谓语+方式状语）"
+        },
+        {
+          "en": "never taking the process personally",
+          "zh": "从不把过程个人化",
+          "function": "现在分词短语作伴随状语"
+        },
+        {
+          "en": "Eventually, I attempted my own negotiation",
+          "zh": "最终，我尝试了自己的谈判",
+          "function": "主句（时间状语+主语+谓语+宾语）"
+        },
+        {
+          "en": "feeling both nervous and exhilarated when I secured a small carpet at a fair price",
+          "zh": "当我以一个公平的价格买下一块小地毯时，既紧张又兴奋",
+          "function": "现在分词短语作伴随状语，内含时间状语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "分词短语作状语 (Participial Phrase as Adverbial)",
+            "explanation": "过��分词短语\"Determined to master this art\"在句首作原因状语，相当于\"Because I was determined to...\"；现在分词短语\"feeling both nervous and exhilarated\"作伴随状语，补充说明主语的状态。分词短语的主语必须与主句主语一致。",
+            "example_sentence": "Determined to master this art, I observed the locals with keen interest.",
+            "common_mistake": "❌ Determined to master this art, the locals were observed. (错误逻辑：分词主语与主句主语不一致) → ✅ Determined to master this art, I observed the locals. (保持一致)",
+            "contrast": "现在分词短语表示主动进行，过去分词短语通常表示被动完成。例如：Seeing the market (主动), I stopped. / Seen from afar (被动), the market looked small."
+          }
+        ]
+      }
+    },
+    {
+      "en": "Looking back, that experience taught me more than bargaining skills. It revealed that commerce in Morocco is a social ritual, a way of building relationships. I returned home with not just souvenirs, but a deeper appreciation for cultural differences.",
+      "zh": "回顾起来，那次经历教给我的不仅仅是讨价还价的技巧。它揭示了摩洛哥的商业是一种社交仪式，一种建立关系的方式。我回家时不仅带着纪念品，更带着对文化差异的更深理解。",
+      "vocabulary": [
+        {
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃ.u.əl/",
+          "meaning": "n. 仪式；惯例",
+          "example": "The morning coffee is a daily ritual for him.",
+          "derivatives": "rite (n.) 典礼 → ritual (n./adj.) 仪式（的） → ritually (adv.) 仪式地"
+        },
+        {
+          "word": "appreciation",
+          "phonetic": "/əˌpriː.ʃiˈeɪ.ʃən/",
+          "meaning": "n. 欣赏；感激；理解",
+          "example": "She has a deep appreciation of classical music.",
+          "derivatives": "appreciate (v.) 欣赏；感激 → appreciative (adj.) 赞赏的 → appreciatively (adv.) 赞赏地"
+        },
+        {
+          "word": "cultural differences",
+          "phonetic": "/ˈkʌl.tʃər.əl ˈdɪf.ər.ən.sɪz/",
+          "meaning": "短语 文化差异",
+          "example": "Understanding cultural differences is crucial in business.",
+          "derivatives": "culture (n.) 文化 → cultural (adj.) 文化的 → culturally (adv.) 文化上 differ (v.) 不同 → difference (n.) 差异 → different (adj.) 不同的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It revealed that commerce in Morocco is a social ritual, a way of building relationships.",
+          "zh": "它揭示了摩洛哥的商业是一种社交仪式���一种建立关系的方式。",
+          "grammar": "主句结构为\"It revealed that...\"，其中\"that\"引导宾语从句。宾语从句中\"commerce\"是主语，\"is\"是系动词，表语为\"a social ritual\"，其后是同位语\"a way of building relationships\"，对\"social ritual\"进行补充说明。",
+          "pattern": "主语 + 谓语 + that + 宾语从句 (包含同位语)",
+          "note": "同位语通常用逗号与先行词隔开，解释其具体内容。也可以改成\"a social ritual, that is, a way of building relationships\"。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Looking back",
+          "zh": "回顾起来",
+          "function": "分词短语作时间状语"
+        },
+        {
+          "en": "that experience taught me more than bargaining skills",
+          "zh": "那次经历教给我的不仅仅是讨价还价的技巧",
+          "function": "主句（主语+谓语+间接宾语+直接宾语+比较级）"
+        },
+        {
+          "en": "It revealed that commerce in Morocco is a social ritual",
+          "zh": "它揭示了摩洛哥的商业是一种社交仪式",
+          "function": "主句（主语+谓语+宾语从句）"
+        },
+        {
+          "en": "a way of building relationships",
+          "zh": "一种建立关系的方式",
+          "function": "同位语"
+        },
+        {
+          "en": "I returned home with not just souvenirs, but a deeper appreciation for cultural differences",
+          "zh": "我回家时不仅带着纪念品，更带着对文化差异的更深理解",
+          "function": "独立句子（主语+谓语+状语+并列宾语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "同位语 (Appositive)",
+            "explanation": "同位语通常放在名词或名词词组之后，对其内容进行补充说明或定义。在本句中，\"a way of building relationships\"是\"a social ritual\"的同位语，用逗号隔开。同位语可以是一个名词（短语）、代词或从句。",
+            "example_sentence": "It revealed that commerce in Morocco is a social ritual, a way of building relationships.",
+            "common_mistake": "❌ It revealed that commerce is a social ritual, which is a way of building relationships. (使用定语从句虽然不错，但同位语更精简) → ✅ 同位语更直接，尤其当解释名词本质时。",
+            "contrast": "同位语与定语从句的区别：同位语对名词进行重命名或补充，删除后句子语法仍完整；定语从句修饰名词，提供额外信息。例如：My friend, a talented artist, (同位语) vs. My friend who is a talented artist (定语从句)"
+          }
+        ]
+      }
+    }
+  ]
+}
