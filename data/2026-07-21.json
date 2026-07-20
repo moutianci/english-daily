@@ -1,0 +1,284 @@
+{
+  "date": "2026-07-21",
+  "title": "The Morning Ritual",
+  "titleZh": "晨间仪式",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Each morning, I walk the same path through the park. The trees stand like silent guardians, their leaves whispering in the breeze. I have taken this route for years, yet each day offers a new shade of light or a different bird's song. It is a ritual that grounds me before the day begins.",
+      "zh": "每天早晨，我都沿着公园里同一条小路散步。树木宛如沉默的卫士，枝叶在微风中低语。这条路我已走了多年，但每天都有新的光影变化或不同的鸟鸣。这是一种仪式，让我在一天开始前安定下来。",
+      "vocabulary": [
+        {
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃuəl/",
+          "meaning": "n. 仪式；惯例",
+          "example": "Morning coffee is a ritual for many people.",
+          "derivatives": "ritual (n.) → ritualistic (adj.) 仪式性的 → ritually (adv.) 仪式性地"
+        },
+        {
+          "word": "whisper",
+          "phonetic": "/ˈwɪspər/",
+          "meaning": "v. 低语；沙沙作响",
+          "example": "The wind whispered through the trees.",
+          "derivatives": "whisper (v.) → whispered (adj.) 低语的 → whispering (n.) 低语声"
+        },
+        {
+          "word": "ground",
+          "phonetic": "/ɡraʊnd/",
+          "meaning": "v. 使安定；使立足",
+          "example": "Reading poetry grounds me in difficult times.",
+          "derivatives": "ground (v.) → grounded (adj.) 稳重的 → grounding (n.) 基础训练"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Each morning, I walk the same path through the park.",
+          "zh": "每天早晨，我都沿着公园里同一条小路散步。",
+          "function": "主句（主语+谓语+地点状语）"
+        },
+        {
+          "en": "The trees stand like silent guardians, their leaves whispering in the breeze.",
+          "zh": "树木宛如沉默的卫士，枝叶在微风中低语。",
+          "function": "并列句（独立主格结构作伴随状语）"
+        },
+        {
+          "en": "I have taken this route for years, yet each day offers a new shade of light or a different bird's song.",
+          "zh": "这条路我已走了多年，但每天都有新的光影变化或不同的鸟鸣。",
+          "function": "并列句（转折）"
+        },
+        {
+          "en": "It is a ritual that grounds me before the day begins.",
+          "zh": "这是一种仪式，让我在一天开始前安定下来。",
+          "function": "主句含定语从句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The trees stand like silent guardians, their leaves whispering in the breeze.",
+          "zh": "树木宛如沉默的卫士，枝叶在微风中低语。",
+          "grammar": "独立主格结构：名词+现在分词短语，表示伴随状态。",
+          "pattern": "noun + present participle phrase (独立主格结构)",
+          "note": "此结构用于描述生动场景，省去连词，多用于文学或正式文体。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格结构",
+            "explanation": "由“名词+现在分词”构成，表示伴随情况或原因，通常用于书面语，使句子更简洁。",
+            "example_sentence": "The trees stand like silent guardians, their leaves whispering in the breeze.",
+            "common_mistake": "❌ The trees stand, their leaves are whispering → ✅ The trees stand, their leaves whispering (避免使用完整从句)",
+            "contrast": "与with结构对比：'with their leaves whispering'更口语化，独立主格更正式、文雅。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "One morning, I noticed an elderly man sitting on a bench. He wore a faded coat and held a book, but his eyes were closed, his face turned towards the sun. I wondered what memories lingered behind his peaceful expression. Perhaps he was not reading the book, but the morning itself.",
+      "zh": "一天早晨，我注意到一位老人坐在长椅上。他穿着一件褪色的外套，手里拿着一本书，但眼睛闭着，脸朝向太阳。我好奇他平静的表情背后藏着怎样的回忆。也许他读的不是书，而是清晨本身。",
+      "vocabulary": [
+        {
+          "word": "elderly",
+          "phonetic": "/ˈɛldərli/",
+          "meaning": "adj. 年老的；上了年纪的",
+          "example": "An elderly couple walked slowly hand in hand.",
+          "derivatives": "elder (n./adj.) → elderly (adj.) → eldership (n.) 长辈身份"
+        },
+        {
+          "word": "linger",
+          "phonetic": "/ˈlɪŋɡər/",
+          "meaning": "v. 徘徊；继续存留",
+          "example": "The smell of coffee lingered in the room.",
+          "derivatives": "linger (v.) → lingering (adj.) 缠绵的 → lingerer (n.) 逗留者"
+        },
+        {
+          "word": "faded",
+          "phonetic": "/ˈfeɪdɪd/",
+          "meaning": "adj. 褪色的；暗淡的",
+          "example": "The photograph was faded with age.",
+          "derivatives": "fade (v.) → faded (adj.) → fading (n.) 褪色"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "One morning, I noticed an elderly man sitting on a bench.",
+          "zh": "一天早晨，我注意到一位老人坐在长椅上。",
+          "function": "主句（宾语补足语）"
+        },
+        {
+          "en": "He wore a faded coat and held a book, but his eyes were closed, his face turned towards the sun.",
+          "zh": "他穿着一件褪色的外套，手里拿着一本书，但眼睛闭着，脸朝向太阳。",
+          "function": "并列句（转折，独立主格）"
+        },
+        {
+          "en": "I wondered what memories lingered behind his peaceful expression.",
+          "zh": "我好奇他平静的表情背后藏着怎样的回忆。",
+          "function": "主句含宾语从句"
+        },
+        {
+          "en": "Perhaps he was not reading the book, but the morning itself.",
+          "zh": "也许他读的不是书，而是清晨本身。",
+          "function": "主句（not...but...结构）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Perhaps he was not reading the book, but the morning itself.",
+          "zh": "也许他读的不是书，而是清晨本身。",
+          "grammar": "not...but...并列结构，连接两个名词短语作宾语。",
+          "pattern": "not A, but B",
+          "note": "此结构强调对比，B 是真正的重点；注意前后成分平行。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "并列结构 not...but...",
+            "explanation": "连接两个平行成分，表示“不是…而是…”。常用于纠正或对比。",
+            "example_sentence": "Perhaps he was not reading the book, but the morning itself.",
+            "common_mistake": "❌ He not read the book but the morning → ✅ He was not reading the book but the morning itself (保持动词时态一致)",
+            "contrast": "与rather than对比：rather than后接动名词形式，如'…rather than reading the book'，语气更正式。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "His stillness taught me a lesson. In our busy lives, we often hurry past the present, clutching our phones and schedules. Yet here was a man who had mastered the art of being still, of letting the world come to him. It is a skill I long to learn.",
+      "zh": "他的静止给我上了一课。在忙碌的生活中，我们常常匆匆掠过当下，紧握手机和日程表。而眼前这位老人却掌握了静默的艺术，让世界向他走来。这是我渴望学会的本领。",
+      "vocabulary": [
+        {
+          "word": "stillness",
+          "phonetic": "/ˈstɪlnɪs/",
+          "meaning": "n. 静止；寂静",
+          "example": "The stillness of the forest was broken by a bird's call.",
+          "derivatives": "still (adj.) → stillness (n.) → still (adv.) 仍然"
+        },
+        {
+          "word": "master",
+          "phonetic": "/ˈmæstər/",
+          "meaning": "v. 掌握；精通",
+          "example": "She mastered the technique after years of practice.",
+          "derivatives": "master (v./n.) → mastery (n.) 精通 → masterful (adj.) 技艺高超的"
+        },
+        {
+          "word": "art",
+          "phonetic": "/ɑːrt/",
+          "meaning": "n. 艺术；技艺",
+          "example": "Cooking is an art that requires creativity.",
+          "derivatives": "art (n.) → artistic (adj.) 艺术的 → artist (n.) 艺术家"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "His stillness taught me a lesson.",
+          "zh": "他的静止给我上了一课。",
+          "function": "主句（主语+谓语+间接宾语+直接宾语）"
+        },
+        {
+          "en": "In our busy lives, we often hurry past the present, clutching our phones and schedules.",
+          "zh": "在忙碌的生活中，我们常常匆匆掠过当下，紧握手机和日程表。",
+          "function": "主句（伴随状语）"
+        },
+        {
+          "en": "Yet here was a man who had mastered the art of being still, of letting the world come to him.",
+          "zh": "而眼前这位老人却掌握了静默的艺术，让世界向他走来。",
+          "function": "倒装句（定语从句，并列介词短语）"
+        },
+        {
+          "en": "It is a skill I long to learn.",
+          "zh": "这是我渴望学会的本领。",
+          "function": "主句含省略关系词的定语从句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Yet here was a man who had mastered the art of being still, of letting the world come to him.",
+          "zh": "而眼前这位老人却掌握了静默的艺术，让世界向他走来。",
+          "grammar": "here引导的倒装句，定语从句包含两个并列的of介词短语。",
+          "pattern": "Here + be + noun + 定语从句",
+          "note": "倒装句强调地点或引入新信息；定语从句中的介词短语并列，表示同一领域的不同方面。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "倒装句 (Inversion with 'here')",
+            "explanation": "将'here'置于句首引起倒装，正常语序为'Yet a man was here...'，倒装后更强调这人的出现。",
+            "example_sentence": "Yet here was a man who had mastered the art of being still, of letting the world come to him.",
+            "common_mistake": "❌ Yet here a man was → ✅ Yet here was a man (主谓倒装)",
+            "contrast": "与there be句型对比：there be表存在，here be强调位置或引入具体人物。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Since that morning, I have tried to incorporate stillness into my routine. I now pause occasionally on my walks, closing my eyes and feeling the sun. I may not fully master the art, but I have begun. And perhaps that is enough.",
+      "zh": "从那天早晨起，我试着将静默融入日常。现在散步时，我会偶尔停下，闭上眼睛感受阳光。也许我无法完全掌握这门艺术，但我已经开始了。或许这就足够了。",
+      "vocabulary": [
+        {
+          "word": "incorporate",
+          "phonetic": "/ɪnˈkɔrpəreɪt/",
+          "meaning": "v. 包含；融入",
+          "example": "We need to incorporate these changes into the plan.",
+          "derivatives": "incorporate (v.) → incorporation (n.) 纳入 → incorporated (adj.) 合并的"
+        },
+        {
+          "word": "pause",
+          "phonetic": "/pɔːz/",
+          "meaning": "v./n. 暂停；停顿",
+          "example": "He paused for a moment to catch his breath.",
+          "derivatives": "pause (v./n.) → pausal (adj.) 停顿的 → pauser (n.) 暂停者"
+        },
+        {
+          "word": "enough",
+          "phonetic": "/ɪˈnʌf/",
+          "meaning": "adv./adj. 足够",
+          "example": "Is the food enough for everyone?",
+          "derivatives": "enough (adj./adv.) → suffice (v.) 足够 → sufficiency (n.) 充足"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Since that morning, I have tried to incorporate stillness into my routine.",
+          "zh": "从那天早晨起，我试着将静默融入日常。",
+          "function": "主句（时间状语）"
+        },
+        {
+          "en": "I now pause occasionally on my walks, closing my eyes and feeling the sun.",
+          "zh": "现在散步时，我会偶尔停下，闭上眼睛感受阳光。",
+          "function": "主句（伴随状语）"
+        },
+        {
+          "en": "I may not fully master the art, but I have begun.",
+          "zh": "也许我无法完全掌握这门艺术，但我已经开始了。",
+          "function": "并列句（转折）"
+        },
+        {
+          "en": "And perhaps that is enough.",
+          "zh": "或许这就足够了。",
+          "function": "主句（主系表）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "I may not fully master the art, but I have begun.",
+          "zh": "也许我无法完全掌握这门艺术，但我已经开始了。",
+          "grammar": "may not...but结构，表示让步转折。",
+          "pattern": "may not + 动词，but + 肯定句",
+          "note": "此结构表达尽管有局限，但仍有积极进展；'may not'表示可能性或让步。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "让步转折结构 may not...but",
+            "explanation": "用may not承认前者的可能，再以but转折强调后者，语气委婉而坚定。",
+            "example_sentence": "I may not fully master the art, but I have begun.",
+            "common_mistake": "❌ I may not fully master, but I began → ✅ I may not fully master, but I have begun (时态一致，强调开始的状态)",
+            "contrast": "与might not...but对比：might语气更不确定、更委婉；may较直接。"
+          }
+        ]
+      }
+    }
+  ]
+}
