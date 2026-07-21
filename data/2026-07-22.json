@@ -1,0 +1,397 @@
+{
+  "date": "2026-07-22",
+  "title": "The Sparrows in the Courtyard",
+  "titleZh": "庭院里的麻雀",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Every morning, as the first rays of sunlight touch the old brick wall, a dozen sparrows descend into the courtyard. They chirp cheerfully while hopping among the cracks of the stone pavement, searching for crumbs left from yesterday. Their movements are quick and restless, as if time itself compels them to hurry.",
+      "zh": "每天早晨，当第一缕阳光触及古老的砖墙时，十几只麻雀便降落在庭院中。它们一边在石板路的缝隙间跳跃，一边欢快地唧唧喳喳，寻找着昨天留下的面包屑。它们的动作迅速而不安，仿佛时间本身在催促它们。",
+      "vocabulary": [
+        {
+          "word": "descend",
+          "phonetic": "/dɪˈsend/",
+          "meaning": "v. 下降；降临",
+          "example": "The eagle descended swiftly from the sky.",
+          "derivatives": "descend (v.) → descent (n.) 下降 → descendant (n.) 后代"
+        },
+        {
+          "word": "chirp cheerfully",
+          "phonetic": "/tʃɜːp ˈtʃɪəfəli/",
+          "meaning": "adv.+v. 欢快地唧喳叫",
+          "example": "The birds chirp cheerfully in the spring morning.",
+          "derivatives": "chirp (v./n.) 唧唧声；cheerful (adj.) 快乐的 → cheerfully (adv.) → cheerfulness (n.)"
+        },
+        {
+          "word": "restless",
+          "phonetic": "/ˈrestləs/",
+          "meaning": "adj. 不安的；忙碌不停的",
+          "example": "The baby grew restless during the long flight.",
+          "derivatives": "rest (n./v.) + less (否定后缀) → restless (adj.) → restlessly (adv.) → restlessness (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "They chirp cheerfully while hopping among the cracks of the stone pavement, searching for crumbs left from yesterday.",
+          "zh": "它们一边在石板路的缝隙间跳跃，一边欢快地唧唧喳喳，寻找着昨天留下的面包屑。",
+          "grammar": "主句为 They chirp cheerfully；while hopping... 是时间状语从句的省略形式（while they are hopping）；searching for... 是现在分词短语作伴随状语。",
+          "pattern": "主语 + 谓语 + 状语，while + 现在分词短语，现在分词短语 (伴随状语)",
+          "note": "while + 现在分词表同时进行的动作，逻辑主语与主句一致；searching for 与主句动作同时发生。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Every morning,",
+          "zh": "每天早晨",
+          "function": "时间状语"
+        },
+        {
+          "en": "as the first rays of sunlight touch the old brick wall,",
+          "zh": "当第一缕阳光触及古老的砖墙时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "a dozen sparrows descend into the courtyard.",
+          "zh": "十几只麻雀便降落在庭院中",
+          "function": "主句"
+        },
+        {
+          "en": "They chirp cheerfully while hopping among the cracks of the stone pavement,",
+          "zh": "它们一边在石板路的缝隙间跳跃，一边欢快地唧唧喳喳",
+          "function": "主句+时间状语从句（省略）"
+        },
+        {
+          "en": "searching for crumbs left from yesterday.",
+          "zh": "寻找着昨天留下的面包屑",
+          "function": "伴随状语"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "as 引导的时间状语从句",
+            "explanation": "as 强调主句动作与从句动作同时发生，常译为“当……时”或“随着”。",
+            "example_sentence": "Every morning, as the first rays of sunlight touch the old brick wall, a dozen sparrows descend into the courtyard.",
+            "common_mistake": "❌ Every morning, when the first rays... → as/when 都可，但 as 更强调同时，且 as 从句常用一般现在时表习惯。",
+            "contrast": "as / when / while: while 强调持续过程；when 可指瞬时或持续；as 常与“一边…一边…”或“随着”对应。"
+          },
+          {
+            "structure": "伴随状语（现在分词短语）",
+            "explanation": "现在分词短语 searching for... 表示与主句动作同时发生的伴随动作。逻辑主语是句子的主语 they。",
+            "example_sentence": "They chirp cheerfully […] searching for crumbs left from yesterday.",
+            "common_mistake": "❌ They chirp, and search → 可使用分词结构使句子更紧凑，但需保证逻辑主语一致。",
+            "contrast": "伴随状语 vs. 并列谓语：分词短语更简洁，常用于描写性文字。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "I often watch them from my window, careful not to disturb their routine. They seem to trust me now, for they no longer fly away when I approach. Yet they remain alert, turning their heads in quick jerks. This small community has become a comfort—a reminder that even between city walls, life persists with its own gentle rhythm.",
+      "zh": "我常常从窗户观察它们，小心翼翼不打扰它们的日常。它们似乎现在信任我了，因为当我走近时它们不再飞走。然而它们依然保持警觉，快速地扭动脑袋。这个小社群已成为一种安慰——它提醒我，即使在城市的高墙之间，生命仍以它自己温和的节奏存续。",
+      "vocabulary": [
+        {
+          "word": "disturb",
+          "phonetic": "/dɪˈstɜːb/",
+          "meaning": "v. 打扰；扰乱",
+          "example": "Please do not disturb the sleeping patient.",
+          "derivatives": "disturb (v.) → disturbance (n.) 干扰 → undisturbed (adj.) 未受干扰的"
+        },
+        {
+          "word": "alert",
+          "phonetic": "/əˈlɜːt/",
+          "meaning": "adj. 警觉的；警惕的",
+          "example": "The guard remained alert all night.",
+          "derivatives": "alert (adj.) → alertness (n.) 警觉 → alarm (n.) 警报"
+        },
+        {
+          "word": "gentle rhythm",
+          "phonetic": "/ˈdʒentl ˈrɪðəm/",
+          "meaning": "n. 温和的节奏",
+          "example": "She fell asleep to the gentle rhythm of the waves.",
+          "derivatives": "gentle (adj.) 温和的 + rhythm (n.) 节奏 → gentle rhythm (常见搭配)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "They seem to trust me now, for they no longer fly away when I approach.",
+          "zh": "它们似乎现在信任我了，因为当我走近时它们不再飞走。",
+          "grammar": "主句：They seem to trust me now；for 是并列连词，表示原因（补充说明）；when I approach 是时间状语从句修饰 fly away。",
+          "pattern": "主语 + seem + to do + 逗号 + for + 完整从句（表原因）",
+          "note": "for 比 because 更正式，用于书面语，语气较弱，通常放在主句之后，用逗号隔开。不可用于回答 why 问句。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "I often watch them from my window,",
+          "zh": "我常常从窗户观察它们",
+          "function": "主句 + 地点状语"
+        },
+        {
+          "en": "careful not to disturb their routine.",
+          "zh": "小心翼翼不打扰它们的日常",
+          "function": "形容词短语作伴随状语"
+        },
+        {
+          "en": "They seem to trust me now,",
+          "zh": "它们似乎现在信任我了",
+          "function": "主句"
+        },
+        {
+          "en": "for they no longer fly away when I approach.",
+          "zh": "因为当我走近时它们不再飞走",
+          "function": "并列分句（表原因）"
+        },
+        {
+          "en": "Yet they remain alert, turning their heads in quick jerks.",
+          "zh": "然而它们依然保持警觉，快速地扭动脑袋",
+          "function": "转折并列句 + 分词短语伴随"
+        },
+        {
+          "en": "This small community has become a comfort",
+          "zh": "这个小社群已成为一种安慰",
+          "function": "主句"
+        },
+        {
+          "en": "—a reminder that even between city walls, life persists with its own gentle rhythm.",
+          "zh": "——它提醒我，即使在城市的高墙之间，生命仍以它自己温和的节奏存续",
+          "function": "同位语（解释 comfort）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "for 表示原因的并列连词",
+            "explanation": "for 是并列连词，连接两个并列分句，表示对前面内容的补充理由或推断。语气比 because 弱，不能用于句首。",
+            "example_sentence": "They seem to trust me now, for they no longer fly away when I approach.",
+            "common_mistake": "❌ Because they no longer fly away... → for 不能用于回答 why；because 可。且 for 前常有逗号。",
+            "contrast": "because / since / as / for: because 语气最强；since 和 as 常于句首；for 最弱，书面。"
+          },
+          {
+            "structure": "形容词短语作状语",
+            "explanation": "careful not to disturb their routine 是形容词短语（careful + 不定式），用作伴随状语，描述主语的状态。",
+            "example_sentence": "I often watch them from my window, careful not to disturb their routine.",
+            "common_mistake": "❌ I often watch them from my window, and careful not to → 直接使用形容词短语作状语，不用 and。",
+            "contrast": "现在分词短语作状语 vs. 形容词短语作状语：分词表示主动动作，形容词表示伴随状态。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "As winter approached, the courtyard grew quiet. Fewer sparrows came, and those that did appeared thinner, their feathers ruffled against the cold wind. I scattered extra grains on the stone, hoping to help them through the harsh months. Day after day, the grains disappeared, but the birds remained scarce. I feared the worst.",
+      "zh": "随着冬天临近，庭院变得寂静。来的麻雀更少了，而那些来的麻雀显得更加消瘦，羽毛被寒风吹得蓬乱。我在石板上撒了额外的谷粒，希望能帮助它们度过严酷的几个月。日复一日，谷粒消失了，但鸟儿仍然稀少。我担心最坏的情况会发生。",
+      "vocabulary": [
+        {
+          "word": "ruffled",
+          "phonetic": "/ˈrʌfld/",
+          "meaning": "adj. 起皱的；蓬乱的（羽毛）",
+          "example": "The bird's feathers were ruffled by the wind.",
+          "derivatives": "ruffle (v.) 弄皱 → ruffled (adj.) → unruffled (adj.) 平静的"
+        },
+        {
+          "word": "scatter",
+          "phonetic": "/ˈskætə/",
+          "meaning": "v. 撒；分散",
+          "example": "She scattered flower petals along the path.",
+          "derivatives": "scatter (v.) → scattered (adj.) 分散的 → scatterbrain (n.) 注意力不集中的人"
+        },
+        {
+          "word": "scarce",
+          "phonetic": "/skeəs/",
+          "meaning": "adj. 稀少的；缺乏的",
+          "example": "Clean water became scarce during the drought.",
+          "derivatives": "scarce (adj.) → scarcity (n.) 稀缺 → scarcely (adv.) 几乎不"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Fewer sparrows came, and those that did appeared thinner, their feathers ruffled against the cold wind.",
+          "zh": "来的麻雀更少了，而那些来的麻雀显得更加消瘦，羽毛被寒风吹得蓬乱。",
+          "grammar": "并列句由 and 连接；第一个分句 Fewer sparrows came；第二个分句 those (sparrows) that did appeared thinner，其中 that did 是定语从句（did 替代 came）；their feathers ruffled... 是独立主格结构（名词+过去分词短语），作伴随状语。",
+          "pattern": "并列句 + 定语从句（that did）+ 独立主格结构（名词 + 过去分词短语）",
+          "note": "独立主格结构有自己逻辑主语，与主句主语不同；用在描写性文字中，增加画面感。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "As winter approached,",
+          "zh": "随着冬天临近",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "the courtyard grew quiet.",
+          "zh": "庭院变得寂静",
+          "function": "主句"
+        },
+        {
+          "en": "Fewer sparrows came,",
+          "zh": "来的麻雀更少了",
+          "function": "并列分句1"
+        },
+        {
+          "en": "and those that did appeared thinner,",
+          "zh": "而那些来的麻雀显得更加消瘦",
+          "function": "并列分句2（含定语从句）"
+        },
+        {
+          "en": "their feathers ruffled against the cold wind.",
+          "zh": "羽毛被寒风吹得蓬乱",
+          "function": "独立主格结构（伴随状语）"
+        },
+        {
+          "en": "I scattered extra grains on the stone,",
+          "zh": "我在石板上撒了额外的谷粒",
+          "function": "主句"
+        },
+        {
+          "en": "hoping to help them through the harsh months.",
+          "zh": "希望能帮助它们度过严酷的几个月",
+          "function": "现在分词短语作目的状语"
+        },
+        {
+          "en": "Day after day, the grains disappeared,",
+          "zh": "日复一日，谷粒消失了",
+          "function": "时间状语 + 主句"
+        },
+        {
+          "en": "but the birds remained scarce.",
+          "zh": "但鸟儿仍然稀少",
+          "function": "转折并列分句"
+        },
+        {
+          "en": "I feared the worst.",
+          "zh": "我担心最坏的情况会发生",
+          "function": "主句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格结构",
+            "explanation": "独立主格由“名词/代词 + 分词/形容词/介词短语”构成，用作状语，逻辑主语与主句主语不同。表伴随或原因。",
+            "example_sentence": "their feathers ruffled against the cold wind (独立主格结构）",
+            "common_mistake": "❌ Their feathers were ruffled → 独立主格中不用 be 动词；直接用过去分词 ruffled。",
+            "contrast": "独立主格 vs. 分词短语：分词短语的逻辑主语必须等于主句主语；独立主格有自己的主语。"
+          },
+          {
+            "structure": "those that did (定语从句+替代)",
+            "explanation": "did 替代 came，避免重复。that did 是定语从句修饰 those。",
+            "example_sentence": "and those that did appeared thinner",
+            "common_mistake": "❌ those that came appeared thinner → 意思相同，但用 did 更简洁，常用于文学文体。",
+            "contrast": "do/does/did 替代动词：常用于英语中避免重复，如 He drives faster than I do. 可替代前行动词。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "But spring arrived, as it always does. One morning, I heard a familiar cheerful chirping. Looking out, I saw not only the old sparrows but also several tiny fledglings hopping clumsily behind them. Their parents guided them to the corner where I had scattered grains. The courtyard was alive again. Nature had kept her promise.",
+      "zh": "但春天还是来了，一如既往。一天早晨，我听到熟悉的欢快唧喳声。向外望去，我不仅看到老麻雀，还有几只幼鸟笨拙地跟在它们身后蹦跳。它们的父母引导它们来到我曾撒过谷粒的角落。庭院再次充满生机。大自然信守了她的承诺。",
+      "vocabulary": [
+        {
+          "word": "fledgling",
+          "phonetic": "/ˈfledʒlɪŋ/",
+          "meaning": "n. 雏鸟；初学飞行者",
+          "example": "The fledgling tried its first flight from the nest.",
+          "derivatives": "fledge (v.) 长羽毛 → fledgling (n./adj.) 年幼的"
+        },
+        {
+          "word": "clumsily",
+          "phonetic": "/ˈklʌmzɪli/",
+          "meaning": "adv. 笨拙地",
+          "example": "He climbed clumsily over the wall.",
+          "derivatives": "clumsy (adj.) 笨拙的 → clumsily (adv.) → clumsiness (n.) 笨拙"
+        },
+        {
+          "word": "alive",
+          "phonetic": "/əˈlaɪv/",
+          "meaning": "adj. 活着的；充满活力的",
+          "example": "The market was alive with noise and colours.",
+          "derivatives": "alive (adj.) → live (v.) 活着 / living (adj.) 有生命的 → lively (adj.) 活泼的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Looking out, I saw not only the old sparrows but also several tiny fledglings hopping clumsily behind them.",
+          "zh": "向外望去，我不仅看到老麻雀，还有几只幼鸟笨拙地跟在它们身后蹦跳。",
+          "grammar": "Looking out 是现在分词短语作时间状语（= When I looked out）；主句 I saw not only... but also...；hopping clumsily behind them 是现在分词短语作宾语补足语（修饰 fledglings）。",
+          "pattern": "分词短语 + 主语 + see + not only + n. but also + n. + 现在分词短语（宾补）",
+          "note": "see + 宾语 + doing 强调看见动作正在进行。not only... but also... 连接并列宾语。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "But spring arrived,",
+          "zh": "但春天还是来了",
+          "function": "转折分句"
+        },
+        {
+          "en": "as it always does.",
+          "zh": "一如既往",
+          "function": "方式状语从句"
+        },
+        {
+          "en": "One morning,",
+          "zh": "一天早晨",
+          "function": "时间状语"
+        },
+        {
+          "en": "I heard a familiar cheerful chirping.",
+          "zh": "我听到熟悉的欢快唧喳声",
+          "function": "主句"
+        },
+        {
+          "en": "Looking out,",
+          "zh": "向外望去",
+          "function": "时间状语（分词短语）"
+        },
+        {
+          "en": "I saw not only the old sparrows but also several tiny fledglings",
+          "zh": "我不仅看到老麻雀，还有几只幼鸟",
+          "function": "主句 + 并列宾语"
+        },
+        {
+          "en": "hopping clumsily behind them.",
+          "zh": "笨拙地跟在它们身后蹦跳",
+          "function": "宾语补足语（现在分词短语）"
+        },
+        {
+          "en": "Their parents guided them to the corner",
+          "zh": "它们的父母引导它们来到角落",
+          "function": "主句"
+        },
+        {
+          "en": "where I had scattered grains.",
+          "zh": "我曾撒过谷粒的地方",
+          "function": "定语从句"
+        },
+        {
+          "en": "The courtyard was alive again.",
+          "zh": "庭院再次充满生机",
+          "function": "主句"
+        },
+        {
+          "en": "Nature had kept her promise.",
+          "zh": "大自然信守了她的承诺",
+          "function": "主句（总结）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "as it always does (方式状语从句)",
+            "explanation": "as 引导方式状语从句，意为“正如……那样”。does 替代 arrived。表达自然规律或习惯。",
+            "example_sentence": "But spring arrived, as it always does.",
+            "common_mistake": "❌ as it always arrived → does 替代动词更地道。as 从句常用一般现在时表普遍真理。",
+            "contrast": "as / like: as 是连词接从句；like 是介词接名词短语。如 He works like a slave. / He works as a slave does. 正式。"
+          },
+          {
+            "structure": "see + 宾语 + doing (现在分词作宾补)",
+            "explanation": "表示看见宾语正在做某事；强调动作正在进行。",
+            "example_sentence": "I saw not only the old sparrows but also several tiny fledglings hopping clumsily behind them.",
+            "common_mistake": "❌ I saw fledglings hop → 表示看见全过程用 see sb do；看见正在发生用 doing。",
+            "contrast": "see sb do / see sb doing: do 强调动作事实；doing 强调进行。"
+          }
+        ]
+      }
+    }
+  ]
+}
