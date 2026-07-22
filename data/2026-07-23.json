@@ -1,0 +1,344 @@
+{
+  "date": "2026-07-23",
+  "title": "The Hidden Treasure of a Second Career",
+  "titleZh": "第二份职业的隐藏财富",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "For years, Robert had labored in a large corporation, climbing the corporate ladder with relentless determination. Yet each promotion brought him not satisfaction, but a growing sense of emptiness. The quarterly reports and endless meetings had begun to drain his spirit. He often wondered whether this was all that life had to offer.",
+      "zh": "多年来，罗伯特在一家大公司里辛勤工作，以不懈的决心攀登着企业阶梯。然而，每一次晋升给他带来的不是满足感，而是一种日益增长的空虚感。季度报告和无休止的会议开始耗尽他的精神。他常想，难道生活所能给予的仅此而已。",
+      "vocabulary": [
+        {
+          "word": "labored",
+          "phonetic": "/ˈleɪbərd/",
+          "meaning": "v. 辛勤工作；费力地做",
+          "example": "He labored in the fields from dawn till dusk.",
+          "derivatives": "labor (n./v.) → laborer (n.) → laborious (adj.)"
+        },
+        {
+          "word": "relentless",
+          "phonetic": "/rɪˈlentləs/",
+          "meaning": "adj. 不懈的；无情的",
+          "example": "Her relentless pursuit of excellence inspired everyone.",
+          "derivatives": "relent (v.) → relentless (adj.) → relentlessly (adv.)"
+        },
+        {
+          "word": "drain",
+          "phonetic": "/dreɪn/",
+          "meaning": "v. 耗尽；使……流干",
+          "example": "The long hours began to drain his enthusiasm.",
+          "derivatives": "drain (v.) → drainage (n.) 排水； drain (n.) 排水管"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "For years,",
+          "zh": "多年来",
+          "function": "时间状语"
+        },
+        {
+          "en": "Robert had labored in a large corporation,",
+          "zh": "罗伯特在一家大公司里辛勤工作",
+          "function": "主句"
+        },
+        {
+          "en": "climbing the corporate ladder with relentless determination.",
+          "zh": "以不懈的决心攀登着企业阶梯",
+          "function": "伴随状语"
+        },
+        {
+          "en": "Yet each promotion brought him not satisfaction,",
+          "zh": "然而，每一次晋升给他带来的不是满足感",
+          "function": "主句（转折）"
+        },
+        {
+          "en": "but a growing sense of emptiness.",
+          "zh": "而是一种日益增长的空虚感",
+          "function": "宾语补足语？实际上是“not...but”结构中的第二个宾语"
+        },
+        {
+          "en": "The quarterly reports and endless meetings had begun to drain his spirit.",
+          "zh": "季度报告和无休止的会议开始耗尽他的精神",
+          "function": "主句"
+        },
+        {
+          "en": "He often wondered",
+          "zh": "他常想",
+          "function": "主句"
+        },
+        {
+          "en": "whether this was all that life had to offer.",
+          "zh": "难道生活所能给予的仅此而已",
+          "function": "宾语从句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Yet each promotion brought him not satisfaction, but a growing sense of emptiness.",
+          "zh": "然而，每一次晋升给他带来的不是满足感，而是一种日益增长的空虚感。",
+          "grammar": "这是“not...but...”并列结构，连接两个宾语（名词短语）。注意否定词not位于brought之后、宾语之前。",
+          "pattern": "subject + verb + [not + noun A], but [noun B]",
+          "note": "用于强调对比，表示‘不是A而是B’。注意not和but之间不能用逗号隔开，但此处因有较长宾语，可用逗号。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "否定并列结构：not...but...",
+            "explanation": "用来连接两个平行的成分，强调否定前者而肯定后者。",
+            "example_sentence": "Yet each promotion brought him not satisfaction, but a growing sense of emptiness.",
+            "common_mistake": "❌ He brought not satisfaction but a sense of emptiness. (缺少宾语him) → ✅ He brought him not satisfaction but a sense of emptiness.",
+            "contrast": "与‘not only...but also...’不同，后者表示‘不仅而且’，是递进关系；而not...but...表示转折/对比。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "One evening, after a particularly tedious meeting, Robert decided to change his life. He resigned from his secure position and enrolled in a teacher-training course. His colleagues thought him foolish, but he felt a strange relief. For the first time in years, he was following his heart rather than his paycheck.",
+      "zh": "一天晚上，在一次特别乏味的会议之后，罗伯特决定改变自己的生活。他辞去了稳定的职位，报名参加了一个教师培训课程。他的同事们认为他愚蠢，但他感到一种奇怪的解脱。多年来第一次，他听从的是内心而非薪水。",
+      "vocabulary": [
+        {
+          "word": "tedious",
+          "phonetic": "/ˈtiːdiəs/",
+          "meaning": "adj. 冗长乏味的",
+          "example": "The lecture was so tedious that many students fell asleep.",
+          "derivatives": "tedium (n.) → tedious (adj.) → tediously (adv.)"
+        },
+        {
+          "word": "resigned",
+          "phonetic": "/rɪˈzaɪnd/",
+          "meaning": "v. 辞职",
+          "example": "She resigned from her post after the scandal.",
+          "derivatives": "resign (v.) → resignation (n.) → resigned (adj.) 顺从的"
+        },
+        {
+          "word": "relief",
+          "phonetic": "/rɪˈliːf/",
+          "meaning": "n. 解脱；减轻",
+          "example": "To his relief, the exam was postponed.",
+          "derivatives": "relieve (v.) → relief (n.) → relieved (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "One evening, after a particularly tedious meeting,",
+          "zh": "一天晚上，在一次特别乏味的会议之后",
+          "function": "时间状语"
+        },
+        {
+          "en": "Robert decided to change his life.",
+          "zh": "罗伯特决定改变自己的生活",
+          "function": "主句"
+        },
+        {
+          "en": "He resigned from his secure position",
+          "zh": "他辞去了稳定的职位",
+          "function": "主句（并列谓语1）"
+        },
+        {
+          "en": "and enrolled in a teacher-training course.",
+          "zh": "报名参加了一个教师培训课程",
+          "function": "并列谓语2"
+        },
+        {
+          "en": "His colleagues thought him foolish,",
+          "zh": "他的同事们认为他愚蠢",
+          "function": "主句（但表转折）"
+        },
+        {
+          "en": "but he felt a strange relief.",
+          "zh": "但他感到一种奇怪的解脱",
+          "function": "并列分句"
+        },
+        {
+          "en": "For the first time in years, he was following his heart rather than his paycheck.",
+          "zh": "多年来第一次，他听从的是内心而非薪水",
+          "function": "主句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "For the first time in years, he was following his heart rather than his paycheck.",
+          "zh": "多年来第一次，他听从的是内心而非薪水。",
+          "grammar": "使用‘rather than’连接两个名词短语，表示取舍。‘rather than’是并列连词，连接平行结构。",
+          "pattern": "[subject] + [verb] + [noun A] rather than [noun B]",
+          "note": "rather than 比 instead of 更正式，后面可接名词、动名词或动词原形（当句意平行时）。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "并列连词 rather than",
+            "explanation": "用来表示‘而不是’，连接两个平行结构。",
+            "example_sentence": "For the first time in years, he was following his heart rather than his paycheck.",
+            "common_mistake": "❌ He chose to follow his heart rather than to follow his paycheck. (冗余) → ✅ He chose to follow his heart rather than his paycheck. (平行简洁)",
+            "contrast": "而不是‘instead of’：instead of 后常跟动名词，如：He followed his heart instead of following his paycheck. 但rather than更加书面化且可跟名词原形。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Teaching was far more demanding than Robert had imagined. The long hours of lesson planning and grading often left him exhausted. Yet the moment he saw a student's eyes light up with understanding, all the fatigue vanished. He discovered that true reward comes not from a title, but from making a difference.",
+      "zh": "教学远比他想象的要求更高。备课和批改作业的长时间工作常常让他精疲力竭。然而，当他看到学生眼中闪现出理解的光芒时，所有的疲惫都烟消云散。他发现真正的回报并非来自头衔，而是来自产生影响。",
+      "vocabulary": [
+        {
+          "word": "demanding",
+          "phonetic": "/dɪˈmændɪŋ/",
+          "meaning": "adj. 要求高的；费力的",
+          "example": "The job is physically demanding.",
+          "derivatives": "demand (v./n.) → demanding (adj.) → demandingly (adv.)"
+        },
+        {
+          "word": "exhausted",
+          "phonetic": "/ɪɡˈzɔːstɪd/",
+          "meaning": "adj. 筋疲力尽的",
+          "example": "After the marathon, he was completely exhausted.",
+          "derivatives": "exhaust (v.) → exhausted (adj.) → exhausting (adj.) → exhaustion (n.)"
+        },
+        {
+          "word": "vanish",
+          "phonetic": "/ˈvænɪʃ/",
+          "meaning": "v. 消失；消散",
+          "example": "The magician made the rabbit vanish.",
+          "derivatives": "vanish (v.) → vanishing (adj.) → evanescent (adj.) 短暂的（同源）"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Teaching was far more demanding than Robert had imagined.",
+          "zh": "教学远比他想象的要求更高",
+          "function": "主句（含比较状语从句）"
+        },
+        {
+          "en": "The long hours of lesson planning and grading",
+          "zh": "备课和批改作业的长时间工作",
+          "function": "主语"
+        },
+        {
+          "en": "often left him exhausted.",
+          "zh": "常常让他精疲力竭",
+          "function": "谓语+宾语+宾语补足语"
+        },
+        {
+          "en": "Yet the moment he saw a student's eyes light up with understanding,",
+          "zh": "然而，当他看到学生眼中闪现出理解的光芒时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "all the fatigue vanished.",
+          "zh": "所有的疲惫都烟消云散",
+          "function": "主句"
+        },
+        {
+          "en": "He discovered that true reward comes not from a title, but from making a difference.",
+          "zh": "他发现真正的回报并非来自头衔，而是来自产生影响",
+          "function": "主句+宾语从句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Yet the moment he saw a student's eyes light up with understanding, all the fatigue vanished.",
+          "zh": "然而，当他看到学生眼中闪现出理解的光芒时，所有的疲惫都烟消云散。",
+          "grammar": "the moment 在这里作连词，引导时间状语从句，相当于 as soon as。注意从句中的动词 saw 后接宾语 a student's eyes light up with understanding（不带to的不定式作宾补）。",
+          "pattern": "the moment + 从句 , + 主句",
+          "note": "the moment 是名词短语转连词，类似 the instant, the minute。表示‘一……就……’。后面从句通常用一般现在时或一般过去时。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "the moment 作连词引导时间状语从句",
+            "explanation": "the moment 可以像连词一样使用，表示‘当……的那一刻’。",
+            "example_sentence": "Yet the moment he saw a student's eyes light up with understanding, all the fatigue vanished.",
+            "common_mistake": "❌ The moment he saw her, he fell in love with her. (正确，但学生常加that) → The moment that he saw her... 也可接受但较少见。更常见不加that。",
+            "contrast": "as soon as 更通用，而 the moment 强调瞬间。另外 when 更宽泛，不强调立刻性。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Looking back, Robert realized that his corporate years had not been wasted. They had given him discipline and perspective. But his true vocation lay in the classroom, where he could inspire young minds. He learned that a career is not merely about earning a living; it is about finding a life worth living.",
+      "zh": "回首往事，罗伯特意识到他在公司的那些年并没有荒废。它们给了他自律和远见。但他真正的天职在教室里，在那里他可以启发年轻的心灵。他明白了，职业不仅仅是谋生，更是寻找一种值得过的生活。",
+      "vocabulary": [
+        {
+          "word": "vocation",
+          "phonetic": "/voʊˈkeɪʃən/",
+          "meaning": "n. 天职；使命；职业",
+          "example": "He felt a strong vocation for the priesthood.",
+          "derivatives": "vocation (n.) → vocational (adj.) 职业的 → avocation (n.) 副业"
+        },
+        {
+          "word": "inspire",
+          "phonetic": "/ɪnˈspaɪər/",
+          "meaning": "v. 激发；鼓舞",
+          "example": "Great leaders inspire others to achieve more.",
+          "derivatives": "inspire (v.) → inspiration (n.) → inspiring (adj.) → inspirational (adj.)"
+        },
+        {
+          "word": "merely",
+          "phonetic": "/ˈmɪrli/",
+          "meaning": "adv. 仅仅；只不过",
+          "example": "It is merely a matter of time.",
+          "derivatives": "mere (adj.) → merely (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Looking back,",
+          "zh": "回首往事",
+          "function": "插入语/时间状语"
+        },
+        {
+          "en": "Robert realized that his corporate years had not been wasted.",
+          "zh": "罗伯特意识到他在公司的那些年并没有荒废",
+          "function": "主句+宾语从句"
+        },
+        {
+          "en": "They had given him discipline and perspective.",
+          "zh": "它们给了他自律和远见",
+          "function": "主句"
+        },
+        {
+          "en": "But his true vocation lay in the classroom,",
+          "zh": "但他真正的天职在教室里",
+          "function": "主句（转折）"
+        },
+        {
+          "en": "where he could inspire young minds.",
+          "zh": "在那里他可以启发年轻的心灵",
+          "function": "定语从句，修饰classroom"
+        },
+        {
+          "en": "He learned that a career is not merely about earning a living;",
+          "zh": "他明白了，职业不仅仅是谋生",
+          "function": "主句+宾语从句"
+        },
+        {
+          "en": "it is about finding a life worth living.",
+          "zh": "更是寻找一种值得过的生活",
+          "function": "并列分句（解释说明）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "He learned that a career is not merely about earning a living; it is about finding a life worth living.",
+          "zh": "他明白了，职业不仅仅是谋生；更是寻找一种值得过的生活。",
+          "grammar": "这是一个并列句，用分号连接两个分句。第一个分句含宾语从句；第二个分句省略了主语和谓语的一部分（He learned that）。完整的可以是...and that it is about...但这里用分号强调对比。",
+          "pattern": "Subject + verb (that) + clause 1; it is about + noun phrase.",
+          "note": "分号代替了‘and’，更显节奏感。注意第二个分句用it指代career。‘a life worth living’是名词短语，worth后面接动名词或名词。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "定语从句（关系副词where）",
+            "explanation": "where引导定语从句，修饰表示地点的先行词。",
+            "example_sentence": "But his true vocation lay in the classroom, where he could inspire young minds.",
+            "common_mistake": "❌ He went to the classroom where the teacher teaches. (正确，但易混淆which/that作从句主语/宾语) → He went to the classroom (which/that) the teacher uses. 注意when/where/why的用法区别。",
+            "contrast": "where 相当于 in/at which；when 相当于 at which；why 相当于 for which。此处先行词是教室，所以用where。"
+          }
+        ]
+      }
+    }
+  ]
+}
