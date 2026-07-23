@@ -1,0 +1,269 @@
+{
+  "date": "2026-07-24",
+  "title": "A Taste of Tranquility: The Japanese Tea Ceremony",
+  "titleZh": "品味宁静：日本茶道",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "My first visit to a traditional Japanese tea ceremony left an indelible impression on me. The host, dressed in a simple kimono, greeted us with a deep bow, and we entered a small, serene room. The atmosphere was hushed and respectful, a stark contrast to the bustling streets outside.",
+      "zh": "我第一次参加传统的日本茶道，留下了难以磨灭的印象。主人穿着简朴的和服，深深鞠躬迎接我们，我们走进一间小而宁静的房间。气氛肃静而恭敬，与外面喧嚣的街道形成鲜明对比。",
+      "vocabulary": [
+        {
+          "word": "indelible",
+          "phonetic": "/ɪnˈdelɪbəl/",
+          "meaning": "adj. 难以磨灭的；难忘的",
+          "example": "The experience left an indelible mark on her memory.",
+          "derivatives": "indelible (adj.) → indelibly (adv.)"
+        },
+        {
+          "word": "serene",
+          "phonetic": "/sɪˈriːn/",
+          "meaning": "adj. 宁静的；安详的",
+          "example": "The lake was calm and serene in the early morning.",
+          "derivatives": "serene (adj.) → serenity (n.) → serenely (adv.)"
+        },
+        {
+          "word": "stark contrast",
+          "phonetic": "/stɑːrk ˈkɒntræst/",
+          "meaning": "n. 鲜明的对比",
+          "example": "His behavior was in stark contrast to his words.",
+          "derivatives": "collocations: in stark contrast to; stand in stark contrast"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "My first visit to a traditional Japanese tea ceremony left an indelible impression on me.",
+          "zh": "我第一次参加传统的日本茶道，留下了难以磨灭的印象。",
+          "function": "句子整体（主谓宾）"
+        },
+        {
+          "en": "The host, dressed in a simple kimono, greeted us with a deep bow, and we entered a small, serene room.",
+          "zh": "主人穿着简朴的和服，深深鞠躬迎接我们，我们走进一间小而宁静的房间。",
+          "function": "并列句（主句+and从句）"
+        },
+        {
+          "en": "The atmosphere was hushed and respectful, a stark contrast to the bustling streets outside.",
+          "zh": "气氛肃静而恭敬，与外面喧嚣的街道形成鲜明对比。",
+          "function": "复合句（主句+同位语短语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The host, dressed in a simple kimono, greeted us with a deep bow, and we entered a small, serene room.",
+          "zh": "主人穿着简朴的和服，深深鞠躬迎接我们，我们走进一间小而宁静的房间。",
+          "grammar": "此句为并列句，由 and 连接两个独立分句。第一个分句的主语 'The host' 后跟过去分词短语 'dressed in a simple kimono' 作定语（相当于 which/ who was dressed...），然后谓语 'greeted' 接宾语 'us' 和方式状语 'with a deep bow'。第二个分句是简单的主谓宾结构。",
+          "pattern": "[Subject], [past participle phrase], [verb] [object], and [subject] [verb] [object].（并列句+过去分词短语作定语）",
+          "note": "过去分词短语作定语时，通常表示被动或完成，可后置修饰名词。注意用逗号隔开，表示非限制性定语。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "过去分词短语作定语（非限制性）",
+            "explanation": "过去分词短语可以放在名词后面作定语，相当于一个定语从句的简略形式。常表示被动或状态。本句中 'dressed in a simple kimono' 修饰 'the host'，相当于 'who was dressed in a simple kimono'。",
+            "example_sentence": "The host, dressed in a simple kimono, greeted us with a deep bow.",
+            "common_mistake": "❌ The host dressing in a simple kimono... → ✅ The host dressed in a simple kimono...（主动、被动混淆）",
+            "contrast": "现在分词短语作定语表主动进行（如 'the host wearing a kimono'），过去分词表被动或状态。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The tea master prepared the matcha with deliberate, graceful movements. Every gesture — the way she held the bowl, the turn of her wrist — seemed to have meaning. She whisked the green powder into a frothy liquid with a bamboo whisk. We sipped the tea in silence, appreciating its bitter flavor and the moment of tranquility it brought.",
+      "zh": "茶师以谨慎而优雅的动作准备抹茶。每一个姿势——她拿碗的方式、手腕的转动——似乎都蕴含意义。她用竹筅把绿色粉末搅拌成泡沫丰富的液体。我们静默地品茶，欣赏其苦涩的味道以及它带来的宁静时刻。",
+      "vocabulary": [
+        {
+          "word": "deliberate",
+          "phonetic": "/dɪˈlɪbərɪt/",
+          "meaning": "adj. 从容的；谨慎的",
+          "example": "He made a deliberate effort to speak slowly.",
+          "derivatives": "deliberate (adj.) → deliberately (adv.) → deliberation (n.)"
+        },
+        {
+          "word": "whisk",
+          "phonetic": "/wɪsk/",
+          "meaning": "v. 搅拌；拂",
+          "example": "She whisked the eggs into a frothy mixture.",
+          "derivatives": "whisk (v.) → whisker (n.)（胡须）不相关；常用搭配：whisk away/off（迅速带走）"
+        },
+        {
+          "word": "tranquility",
+          "phonetic": "/træŋˈkwɪlɪti/",
+          "meaning": "n. 宁静；平静",
+          "example": "The garden offered a sense of tranquility.",
+          "derivatives": "tranquil (adj.) → tranquilly (adv.) → tranquility (n.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The tea master prepared the matcha with deliberate, graceful movements.",
+          "zh": "茶师以谨慎而优雅的动作准备抹茶。",
+          "function": "主谓宾+方式状语"
+        },
+        {
+          "en": "Every gesture — the way she held the bowl, the turn of her wrist — seemed to have meaning.",
+          "zh": "每一个姿势——她拿碗的方式、手腕的转动——似乎都蕴含意义。",
+          "function": "主谓宾（主语后带插入语）"
+        },
+        {
+          "en": "She whisked the green powder into a frothy liquid with a bamboo whisk.",
+          "zh": "她用竹筅把绿色粉末搅拌成泡沫丰富的液体。",
+          "function": "主谓宾+结果状语+方式状语"
+        },
+        {
+          "en": "We sipped the tea in silence, appreciating its bitter flavor and the moment of tranquility it brought.",
+          "zh": "我们静默地品茶，欣赏其苦涩的味道以及它带来的宁静时刻。",
+          "function": "主谓宾+方式状语+现在分词短语作伴随状语"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "We sipped the tea in silence, appreciating its bitter flavor and the moment of tranquility it brought.",
+          "zh": "我们静默地品茶，欣赏其苦涩的味道以及它带来的宁静时刻。",
+          "grammar": "本句主句为 'We sipped the tea in silence'，后面跟现在分词短语 'appreciating...' 作伴随状语，表示与 'sipped' 同时发生的动作。'the moment of tranquility' 后跟定语从句 'it brought'（省略了关系代词 that/which），修饰 'moment'。",
+          "pattern": "[Subject] [verb] [object], [present participle] [object] [relative clause].（主句+现在分词伴随状语+定语从句）",
+          "note": "现在分词作伴随状语时，逻辑主语是主句主语。定语从句中关系代词作宾语时可以省略。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作伴随状语",
+            "explanation": "现在分词短语可以放在主句之后，表示与谓语动词同时进行的次要动作。其逻辑主语必须是主句的主语。",
+            "example_sentence": "We sipped the tea in silence, appreciating its bitter flavor...",
+            "common_mistake": "❌ We sipped the tea in silence, appreciated its bitter flavor... → ✅ We sipped the tea in silence, appreciating its bitter flavor...（误用过去分词，应为现在分词表主动伴随）",
+            "contrast": "过去分词作状语表被动或完成（如 'Seen from the hill, the city looks beautiful.'），现在分词表主动进行。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The Japanese tea ceremony embodies the principles of harmony, respect, purity, and tranquility. It is not merely a drink but a spiritual practice that cultivates mindfulness. The host's meticulous attention to detail and the guests' mindful participation create a shared moment of beauty.",
+      "zh": "日本茶道体现了和谐、尊敬、纯净、宁静的原则。它不仅仅是一种饮品，而是一种���养正念的精神修行。主人对细节的一丝不苟和客人的专注参与共同创造了一个美好的共享时刻。",
+      "vocabulary": [
+        {
+          "word": "embody",
+          "phonetic": "/ɪmˈbɒdi/",
+          "meaning": "v. 体现；包含",
+          "example": "The sculpture embodies the spirit of the age.",
+          "derivatives": "embody (v.) → embodiment (n.)"
+        },
+        {
+          "word": "meticulous",
+          "phonetic": "/məˈtɪkjʊləs/",
+          "meaning": "adj. 一丝不苟的；细致的",
+          "example": "She is meticulous in her work.",
+          "derivatives": "meticulous (adj.) → meticulously (adv.) → meticulousness (n.)"
+        },
+        {
+          "word": "mindful",
+          "phonetic": "/ˈmaɪndfəl/",
+          "meaning": "adj. 留意的；专注的",
+          "example": "Be mindful of your surroundings.",
+          "derivatives": "mindful (adj.) → mindfulness (n.) → mindfully (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The Japanese tea ceremony embodies the principles of harmony, respect, purity, and tranquility.",
+          "zh": "日本茶道体现了和谐、尊敬、纯净、宁静的原则。",
+          "function": "主谓宾"
+        },
+        {
+          "en": "It is not merely a drink but a spiritual practice that cultivates mindfulness.",
+          "zh": "它不仅仅是一种饮品，而是一种培养正念的精神修行。",
+          "function": "主系表（并列结构+定语从句）"
+        },
+        {
+          "en": "The host's meticulous attention to detail and the guests' mindful participation create a shared moment of beauty.",
+          "zh": "主人对细节的一丝不苟和客人的专注参与共同创造了一个美好的共享时刻。",
+          "function": "并列主语+谓语+宾语"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It is not merely a drink but a spiritual practice that cultivates mindfulness.",
+          "zh": "它不仅仅是一种饮品，而是一种培养正念的精神修行。",
+          "grammar": "本句使用并列连词 'not merely...but'（相当于 'not only...but also'）连接两个表语 'a drink' 和 'a spiritual practice'。'that cultivates mindfulness' 是定语从句，修饰 'a spiritual practice'。注意 'not merely...but' 强调后者。",
+          "pattern": "It is not merely [noun] but [noun] that [verb].（并列表语+定语从句）",
+          "note": "'not merely...but' 与 'not only...but also' 类似，但 'not merely' 更正式。定语从句的先行词是 'a spiritual practice'，关系代词 that 在从句中作主语，不可省略。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "并列连词 not merely... but",
+            "explanation": "用于连接两个对等的成分，强调后者比前者更重要或更准确。相当于 not only... but also。但 not merely 语气更强。",
+            "example_sentence": "It is not merely a drink but a spiritual practice that cultivates mindfulness.",
+            "common_mistake": "❌ It is not merely a drink but also a spiritual practice.（不必加 'also'，但可以加）→ ✅ It is not merely a drink but a spiritual practice.（更简洁）",
+            "contrast": "'not only... but also' 更常见；'not merely... but' 更正式，常用于书面语。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Leaving the tea room, I felt a profound sense of calm wash over me. The experience taught me a valuable lesson: true luxury lies not in opulence but in simplicity and presence. In our fast-paced world, such moments of introspection are increasingly precious.",
+      "zh": "离开茶室时，我感到一种深深的宁静涌遍全身。这次经历教会了我宝贵的一课：真正的奢侈不在于奢华，而在于简单和当下。在我们快节奏的世界里，这样内省的时刻愈发珍贵。",
+      "vocabulary": [
+        {
+          "word": "profound",
+          "phonetic": "/prəˈfaʊnd/",
+          "meaning": "adj. 深刻的；深远的",
+          "example": "His speech had a profound effect on the audience.",
+          "derivatives": "profound (adj.) → profoundly (adv.) → profundity (n.)"
+        },
+        {
+          "word": "opulence",
+          "phonetic": "/ˈɒpjʊləns/",
+          "meaning": "n. 富裕；奢华",
+          "example": "The palace was a display of opulence.",
+          "derivatives": "opulent (adj.) → opulently (adv.) → opulence (n.)"
+        },
+        {
+          "word": "introspection",
+          "phonetic": "/ɪntrəˈspekʃən/",
+          "meaning": "n. 内省；自省",
+          "example": "She spent time in introspection after the incident.",
+          "derivatives": "introspect (v.) → introspection (n.) → introspective (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Leaving the tea room, I felt a profound sense of calm wash over me.",
+          "zh": "离开茶室时，我感到一种深深的宁静涌遍全身。",
+          "function": "现在分词短语（时间状语）+主谓宾+宾语补足语（动词原形）"
+        },
+        {
+          "en": "The experience taught me a valuable lesson: true luxury lies not in opulence but in simplicity and presence.",
+          "zh": "这次经历教会了我宝贵的一课：真正的奢侈不在于奢华，而在于简单和当下。",
+          "function": "主谓双宾+同位语从句（冒号后解释'lesson'）"
+        },
+        {
+          "en": "In our fast-paced world, such moments of introspection are increasingly precious.",
+          "zh": "在我们快节奏的世界里，这样内省的时刻愈发珍贵。",
+          "function": "地点状语+主系表"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Leaving the tea room, I felt a profound sense of calm wash over me.",
+          "zh": "离开茶室时，我感到一种深深的宁静涌遍全身。",
+          "grammar": "句首现在分词短语 'Leaving the tea room' 作时间状语，表示主句动作发生的时间。主句谓语是 'felt'，后接复合宾语：宾语 'a profound sense of calm' 和宾语补足语 'wash over me'（省略 to 的不定式）。感官动词 'feel' 后可用 '宾语 + 动词原形' 表示感知到完整的动作。",
+          "pattern": "[Present participle phrase], [subject] [sense verb] [object] [base verb].（感官动词+宾语+动词原形）",
+          "note": "感官动词如 feel, see, hear, watch 等后接宾语和动词原形时，表示看到/感觉到动作的全过程；若用 -ing 形式则表示动作正在进行。例如：'I felt the rain fall'（雨落下全过程）vs 'I felt the rain falling'（雨正在落下）。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "感官动词 + 宾语 + 动词原形（省略to的不定式）",
+            "explanation": "感官动词（feel, see, hear, watch 等）后跟宾语和动词原形，表示感知到宾语做一个完整的动作。动词原形前不加 to。",
+            "example_sentence": "Leaving the tea room, I felt a profound sense of calm wash over me.",
+            "common_mistake": "❌ I felt a profound sense of calm to wash over me. → ✅ I felt a profound sense of calm wash over me.（感官动词后不加 to）",
+            "contrast": "感官动词+宾语+doing 强调动作正在进行；+宾语+do 强调动作全过程或事实。比较：'I saw him cross the street'（看到过马路全过程）vs 'I saw him crossing the street'（看到正在过马路）。"
+          }
+        ]
+      }
+    }
+  ]
+}
