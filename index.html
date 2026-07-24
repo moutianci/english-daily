@@ -768,6 +768,9 @@ input, textarea, select {
 // 多源数据加载（国内访问 GitHub CDN 不稳定，依次尝试多个源）
 
 const EMBEDDED_DATES_MAP = {
+  "2026-07-25": [
+    {"id":"2026-07-25","title":"A Planet Beyond Our Solar System","titleZh":"太阳系外的一颗行星"}
+  ],
   "2026-07-24": [
     {"id":"2026-07-24","title":"A Taste of Tranquility: The Japanese Tea Ceremony","titleZh":"品味宁静：日本茶道"}
   ],
@@ -909,7 +912,8 @@ const EMBEDDED_ARTICLE_IDS = [
     "2026-07-21",
     "2026-07-22",
     "2026-07-23",
-    "2026-07-24"
+    "2026-07-24",
+    "2026-07-25"
   ];
 
 // ===== 嵌入式全部文章数据（零网络请求，即时加载） =====
@@ -10227,6 +10231,325 @@ const EMBEDDED_ARTICLES = {
                         "example_sentence": "Leaving the tea room, I felt a profound sense of calm wash over me.",
                         "common_mistake": "❌ I felt a profound sense of calm to wash over me. → ✅ I felt a profound sense of calm wash over me.（感官动词后不加 to）",
                         "contrast": "感官动词+宾语+doing 强调动作正在进行；+宾语+do 强调动作全过程或事实。比较：'I saw him cross the street'（看到过马路全过程）vs 'I saw him crossing the street'（看到正在过马路）。"
+                    }
+                ]
+            }
+        }
+    ]
+},
+  "2026-07-25": {
+    "date": "2026-07-25",
+    "title": "A Planet Beyond Our Solar System",
+    "titleZh": "太阳系外的一颗行星",
+    "url": "",
+    "paragraphs": [
+        {
+            "en": "For centuries, astronomers wondered whether other stars might have planets like our own. It was only a guess, for no one had ever seen one. Then, in the autumn of 1995, a Swiss team announced an astonishing discovery: they had detected a planet orbiting the star 51 Pegasi.",
+            "zh": "几个世纪以来，天文学家一直想知道其他恒星是否也拥有像我们这样的行星。这仅仅是个猜测，因为从来没有人见过一颗。随后，在1995年秋天，一个瑞士团队宣布了一个惊人的发现：他们探测到一颗行星正在绕飞马座51恒星运行。",
+            "vocabulary": [
+                {
+                    "word": "wondered",
+                    "phonetic": "/ˈwʌndəd/",
+                    "meaning": "v. 想知道；感到好奇",
+                    "example": "I wondered what lay beyond the horizon.",
+                    "derivatives": "wonder (v.) → wonderful (adj.) 奇妙的 → wonderment (n.) 惊奇"
+                },
+                {
+                    "word": "detected",
+                    "phonetic": "/dɪˈtektɪd/",
+                    "meaning": "v. 探测；察觉",
+                    "example": "The telescope detected a faint signal from the galaxy.",
+                    "derivatives": "detect (v.) → detection (n.) 探测 → detective (n.) 侦探"
+                },
+                {
+                    "word": "orbiting",
+                    "phonetic": "/ˈɔːrbɪtɪŋ/",
+                    "meaning": "v. 绕轨道运行",
+                    "example": "The moon is orbiting the Earth.",
+                    "derivatives": "orbit (n./v.) → orbital (adj.) 轨道的 → orbiter (n.) 轨道飞行器"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "It was only a guess, for no one had ever seen one.",
+                    "zh": "这仅仅是个猜测，因为从来没有人见过一颗。",
+                    "grammar": "并列句，由for连接表原因。had ever seen为过去完成时，表示到过去某一时间点之前从未见过。",
+                    "pattern": "It was only + 名词, for + 从句 (表示原因)",
+                    "note": "for在此是连词，用法较为正式，常表示补充说明原因，语气比because弱。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "For centuries",
+                    "zh": "几个世纪以来",
+                    "function": "时间状语"
+                },
+                {
+                    "en": "astronomers wondered",
+                    "zh": "天文学家想知道",
+                    "function": "主语+谓语"
+                },
+                {
+                    "en": "whether other stars might have planets like our own",
+                    "zh": "其他恒星是否可能拥有像我们这样的行星",
+                    "function": "宾语从句"
+                },
+                {
+                    "en": "It was only a guess",
+                    "zh": "这仅仅是个猜测",
+                    "function": "主句"
+                },
+                {
+                    "en": "for no one had ever seen one",
+                    "zh": "因为从来没有人见过一颗",
+                    "function": "原因状语从句"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "过去完成时",
+                        "explanation": "表示在过去某个时间点之前已经发生的动作。本句中had ever seen用于强调在1995年之前从未观测到。",
+                        "example_sentence": "It was only a guess, for no one had ever seen one.",
+                        "common_mistake": "❌ I have seen it yesterday. → ✅ I saw it yesterday. (过去完成时需配合过去时间) ",
+                        "contrast": "现在完成时与过去完成时：现在完成时强调对现在的影响，过去完成时强调过去的过去。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "This planet, named 51 Pegasi b, is nothing like Earth. It is a gas giant half the mass of Jupiter, yet it orbits its star every four days—far closer than Mercury is to the Sun. Its surface temperature reaches over 1,000°C. Such a 'hot Jupiter' surprised everyone.",
+            "zh": "这颗名为飞马座51b的行星与地球截然不同。它是一颗气态巨行星，质量是木星的一半，却每四天绕其恒星一周——比水星离太阳还要近得多。其表面温度高达1000°C以上。这样一颗“热木星”令所有人震惊。",
+            "vocabulary": [
+                {
+                    "word": "gas giant",
+                    "phonetic": "/ˈɡæs ˌdʒaɪənt/",
+                    "meaning": "n. 气态巨行星",
+                    "example": "Jupiter and Saturn are gas giants.",
+                    "derivatives": "gas (n.) 气体 + giant (n.) 巨人 → gas giant (复合名词)"
+                },
+                {
+                    "word": "mass",
+                    "phonetic": "/mæs/",
+                    "meaning": "n. 质量；大量",
+                    "example": "The mass of the object determines its gravitational pull.",
+                    "derivatives": "mass (n.) → massive (adj.) 巨大的 → massless (adj.) 无质量的"
+                },
+                {
+                    "word": "surface temperature",
+                    "phonetic": "/ˈsɜːrfɪs ˈtemprətʃər/",
+                    "meaning": "n. 表面温度",
+                    "example": "The surface temperature of Venus is extremely high.",
+                    "derivatives": "surface (n.) 表面 + temperature (n.) 温度 → surface temperature (复合名词)"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "It is a gas giant half the mass of Jupiter, yet it orbits its star every four days—far closer than Mercury is to the Sun.",
+                    "zh": "它是一颗气态巨行星，质量是木星的一半，却每四天绕其恒星一周——比水星离太阳还要近得多。",
+                    "grammar": "主句为It is...，后接名词短语half the mass of Jupiter作同位语。yet连接转折并列分句，破折号后为补充说明，far closer than...为比较级结构。",
+                    "pattern": "It is + 名词 + (同位语), yet + 主谓结构 — 比较级 + than + 从句",
+                    "note": "far修饰比较级表程度，意为“...得多”。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "This planet, named 51 Pegasi b,",
+                    "zh": "这颗名为飞马座51b的行星",
+                    "function": "主语+定语（过去分词短语）"
+                },
+                {
+                    "en": "is nothing like Earth",
+                    "zh": "与地球截然不同",
+                    "function": "谓语"
+                },
+                {
+                    "en": "It is a gas giant half the mass of Jupiter",
+                    "zh": "它是一颗质量是木星一半的气态巨行星",
+                    "function": "主句+同位语"
+                },
+                {
+                    "en": "yet it orbits its star every four days",
+                    "zh": "却每四天绕其恒星一周",
+                    "function": "并列谓语（转折）"
+                },
+                {
+                    "en": "far closer than Mercury is to the Sun",
+                    "zh": "比水星离太阳还要近得多",
+                    "function": "比较状语"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "比较级 + than + 从句",
+                        "explanation": "用于比较两个事物。本句中far closer than Mercury is to the Sun，省略了主谓(is close to the Sun)。",
+                        "example_sentence": "far closer than Mercury is to the Sun",
+                        "common_mistake": "❌ It is more close than... → ✅ It is closer than... (close的比较级是closer) ",
+                        "contrast": "as...as…表示同级比较，than表示超越比较。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "The discovery of 51 Pegasi b revolutionized astronomy. It proved that planets could form in very different ways from our Solar System. Since then, thousands of exoplanets have been found, many of them bizarre worlds—some with two suns, others made entirely of diamond.",
+            "zh": "飞马座51b的发现彻底改变了天文学。它证明了行星可以以与我们太阳系截然不同的方式形成。自那以后，数千颗系外行星被发现，其中许多是奇异的世界——有些拥有两个太阳，另一些完全由钻石构成。",
+            "vocabulary": [
+                {
+                    "word": "revolutionized",
+                    "phonetic": "/ˌrevəˈluːʃənaɪzd/",
+                    "meaning": "v. 彻底改变；革命化",
+                    "example": "The internet has revolutionized communication.",
+                    "derivatives": "revolution (n.) 革命 → revolutionize (v.) 彻底改变 → revolutionary (adj.) 革命性的"
+                },
+                {
+                    "word": "exoplanets",
+                    "phonetic": "/ˈeksoʊˌplænɪts/",
+                    "meaning": "n. 系外行星",
+                    "example": "Exoplanets are planets that orbit stars beyond our Sun.",
+                    "derivatives": "exo- (前缀“外”) + planet (n.) → exoplanet (n.)"
+                },
+                {
+                    "word": "bizarre",
+                    "phonetic": "/bɪˈzɑːr/",
+                    "meaning": "adj. 奇异的；古怪的",
+                    "example": "The creature had a bizarre appearance.",
+                    "derivatives": "bizarre (adj.) → bizarrely (adv.) 古怪地 → bizarreness (n.) 奇异"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Since then, thousands of exoplanets have been found, many of them bizarre worlds—some with two suns, others made entirely of diamond.",
+                    "zh": "自那以后，数千颗系外行星被发现，其中许多是奇异的世界——有些拥有两个太阳，另一些完全由钻石构成。",
+                    "grammar": "主句为现在完成时的被动语态，后接独立主格结构many of them bizarre worlds（名词+名词短语作独立主格），破折号后为补充说明，由some...others...构成并列。",
+                    "pattern": "Since + 时间, 主语 + have/has been + 过去分词, 独立主格结构 — some..., others...",
+                    "note": "独立主格结构常用来说明伴随状态，逻辑主语与主句主语不同。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "The discovery of 51 Pegasi b",
+                    "zh": "飞马座51b的发现",
+                    "function": "主语"
+                },
+                {
+                    "en": "revolutionized astronomy",
+                    "zh": "彻底改变了天文学",
+                    "function": "谓语+宾语"
+                },
+                {
+                    "en": "It proved that planets could form in very different ways",
+                    "zh": "它证明了行星可以以截然不同的方式形成",
+                    "function": "主句+宾语从句"
+                },
+                {
+                    "en": "from our Solar System",
+                    "zh": "与我们太阳系不同",
+                    "function": "方式状语"
+                },
+                {
+                    "en": "Since then, thousands of exoplanets have been found",
+                    "zh": "自那以后，数千颗系外行星被发现",
+                    "function": "时间状语+主句（被动语态）"
+                },
+                {
+                    "en": "many of them bizarre worlds",
+                    "zh": "其中许多是奇异的世界",
+                    "function": "独立主格结构"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "独立主格结构",
+                        "explanation": "由名词/代词+分词/形容词/名词短语构成，在句中作状语，表示伴随状态。本句many of them bizarre worlds中，逻辑主语many of them + 名词短语bizarre worlds。",
+                        "example_sentence": "many of them bizarre worlds",
+                        "common_mistake": "❌ Many of them are bizarre worlds, scientists... (误作独立句) → ✅ Many of them bizarre worlds (独立主格) ",
+                        "contrast": "独立主格与分词状语：分词状语的主语通常与主句主语一致，独立主格有自己的主语。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "Today, astronomers continue the search for Earth-like planets. The James Webb Space Telescope can analyse the atmospheres of distant worlds. Perhaps one day we will find a planet with signs of life. Each new discovery brings us closer to answering the age-old question: Are we alone?",
+            "zh": "如今，天文学家继续搜寻类地行星。詹姆斯·韦伯太空望远镜能分析遥远世界的大气成分。也许有一天我们会找到一颗有生命迹象的行星。每一个新发现都让我们更接近回答那个古老的问题：我们是孤独的吗？",
+            "vocabulary": [
+                {
+                    "word": "analyse",
+                    "phonetic": "/ˈænəlaɪz/",
+                    "meaning": "v. 分析；解析",
+                    "example": "Scientists analyse the data to draw conclusions.",
+                    "derivatives": "analyse (v.) → analysis (n.) 分析 → analytical (adj.) 分析性的"
+                },
+                {
+                    "word": "atmospheres",
+                    "phonetic": "/ˈætməsfɪərz/",
+                    "meaning": "n. 大气层；气氛",
+                    "example": "The atmospheres of Venus and Mars are mostly carbon dioxide.",
+                    "derivatives": "atmosphere (n.) → atmospheric (adj.) 大气的 → atmospherics (n.) 大气干扰"
+                },
+                {
+                    "word": "age-old",
+                    "phonetic": "/ˈeɪdʒ oʊld/",
+                    "meaning": "adj. 古老的；存在已久的",
+                    "example": "The age-old question about the origin of the universe still puzzles us.",
+                    "derivatives": "age (n.) 年龄 + old (adj.) 老的 → age-old (复合形容词)"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Each new discovery brings us closer to answering the age-old question: Are we alone?",
+                    "zh": "每一个新发现都让我们更接近回答那个古老的问题：我们是孤独的吗？",
+                    "grammar": "主句主语Each new discovery，谓语brings，双宾语结构us（间接宾语）和closer to answering...（直接宾语，其中to answering为动名词短语作宾语）。冒号后为同位语从句，直接引出问题。",
+                    "pattern": "主语 + bring + 人 + closer to + 动名词短语 + : + 名词从句",
+                    "note": "bring sb closer to doing sth意为“使某人更接近做某事”。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "Today, astronomers",
+                    "zh": "如今，天文学家",
+                    "function": "时间状语+主语"
+                },
+                {
+                    "en": "continue the search for Earth-like planets",
+                    "zh": "继续搜寻类地行星",
+                    "function": "谓语+宾语"
+                },
+                {
+                    "en": "The James Webb Space Telescope",
+                    "zh": "詹姆斯·韦伯太空望远镜",
+                    "function": "主语"
+                },
+                {
+                    "en": "can analyse the atmospheres of distant worlds",
+                    "zh": "能分析遥远世界的大气成分",
+                    "function": "谓语+宾语"
+                },
+                {
+                    "en": "Perhaps one day we will find a planet with signs of life",
+                    "zh": "也许有一天我们会找到一颗有生命迹象的行星",
+                    "function": "状语+主谓宾"
+                },
+                {
+                    "en": "Each new discovery brings us closer to answering the age-old question",
+                    "zh": "每一个新发现都让我们更接近回答那个古老的问题",
+                    "function": "主句"
+                },
+                {
+                    "en": "Are we alone?",
+                    "zh": "我们是孤独的吗？",
+                    "function": "同位语（问题）"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "宾语补足语 (closer to answering...)",
+                        "explanation": "bring + 宾语 + 补足语（形容词或介词短语）。本句中closer to answering...作宾补，说明宾语us的状态。",
+                        "example_sentence": "Each new discovery brings us closer to answering the age-old question.",
+                        "common_mistake": "❌ bring us closer to answer the question → ✅ bring us closer to answering (to是介词，后跟动名词) ",
+                        "contrast": "bring sth to sb（带来某物给某人）与bring sb to do sth（促使某人做某事）结构不同。"
                     }
                 ]
             }
