@@ -19,9 +19,15 @@ const DRY_RUN = process.argv.includes('--dry-run');
 const REPO = 'moutianci/english-daily';
 
 // ─────────────────────────────────────────────────────────────
-// 1. 从 GitHub 拉取最新 index.html（或从本地文件读取）
+// 1. 读取 index.html（优先本地文件，GitHub Actions 环境里直接用本地）
 // ─────────────────────────────────────────────────────────────
 function fetchIndexHTML() {
+  // 在 GitHub Actions 环境里，直接用本地文件（checkout 已拉取最新）
+  if (process.env.GITHUB_ACTIONS) {
+    console.log('📄 Using local index.html (GitHub Actions)');
+    return fs.readFileSync(INDEX_PATH, 'utf-8');
+  }
+  // 本地开发环境：尝试从 GitHub 拉取最新
   try {
     const { execSync } = require('child_process');
     const raw = execSync(
