@@ -1,0 +1,335 @@
+{
+  "date": "2026-07-26",
+  "title": "The Silk Road: A Bridge of Civilizations",
+  "titleZh": "丝绸之路：文明的桥梁",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "For centuries, the Silk Road was not merely a trade route but a vital link between East and West. It stretched over thousands of miles, connecting China with Central Asia and beyond. Along its dusty paths, merchants carried not only silk and spices, but also ideas and cultures.",
+      "zh": "几个世纪以来，丝绸之路不仅仅是一条贸易路线，更是东西方之间的重要纽带。它绵延数千英里，将中国与中亚及更远地区连接起来。在尘土飞扬的道路上，商人不仅携带丝绸和香料，还传播思想和文化。",
+      "vocabulary": [
+        {
+          "word": "trade route",
+          "phonetic": "/treɪd ruːt/",
+          "meaning": "n. 贸易路线",
+          "example": "The Silk Road was the most famous trade route in ancient times.",
+          "derivatives": "trade (n./v.) 贸易 + route (n.) 路线 → trade route (n.)"
+        },
+        {
+          "word": "stretch",
+          "phonetic": "/stretʃ/",
+          "meaning": "v. 绵延；伸展",
+          "example": "The Great Wall stretches for thousands of kilometers.",
+          "derivatives": "stretch (v.) → stretched (adj.) 拉伸的 → stretchy (adj.) 有弹性的"
+        },
+        {
+          "word": "merchant",
+          "phonetic": "/ˈmɜːrtʃənt/",
+          "meaning": "n. 商人",
+          "example": "Venetian merchants traded goods from the East.",
+          "derivatives": "merchant (n.) → merchandise (n.) 商品 → merchantry (n.) 商业"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "For centuries, the Silk Road was not merely a trade route but a vital link between East and West.",
+          "zh": "几个世纪以来，丝绸之路不仅仅是一条贸易路线，更是东西方之间的重要纽带。",
+          "grammar": "本句使用 not merely... but... 结构，意为‘不仅……而且……’，连接两个并列的表语。",
+          "pattern": "not merely ... but ... (并列结构)",
+          "note": "not merely 比 not only 更正式，可互换。注意 but 后常跟名词或名词短语。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "For centuries",
+          "zh": "几个世纪以来",
+          "function": "时间状语"
+        },
+        {
+          "en": "the Silk Road was not merely a trade route",
+          "zh": "丝绸之路不仅仅是一条贸易路线",
+          "function": "主句（主语+系动词+表语）"
+        },
+        {
+          "en": "but a vital link between East and West",
+          "zh": "更是东西方之间的重要纽带",
+          "function": "并列表语"
+        },
+        {
+          "en": "It stretched over thousands of miles",
+          "zh": "它绵延数千英里",
+          "function": "主句（主语+谓语+状语）"
+        },
+        {
+          "en": "connecting China with Central Asia and beyond",
+          "zh": "将中国与中亚及更远地区连接起来",
+          "function": "伴随状语（现在分词短语）"
+        },
+        {
+          "en": "Along its dusty paths, merchants carried not only silk and spices, but also ideas and cultures",
+          "zh": "在尘土飞扬的道路上，商人不仅携带丝绸和香料，还传播思想和文化",
+          "function": "主句（地点状语+主语+谓语+宾语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "并列结构 not merely... but...",
+            "explanation": "连接两个对等的成分，表示递进关系。",
+            "example_sentence": "For centuries, the Silk Road was not merely a trade route but a vital link between East and West.",
+            "common_mistake": "❌ not merely ... but also ...（注意：原文没有also，加also也可但非必须）",
+            "contrast": "not only... but also... 更口语化，not merely... but... 更正式。"
+          },
+          {
+            "structure": "现在分词作伴随状语",
+            "explanation": "现在分词短语 connecting... 修饰主句，表示伴随动作。",
+            "example_sentence": "It stretched over thousands of miles, connecting China with Central Asia and beyond.",
+            "common_mistake": "❌ 缺失逗号导致歧义：It stretched... connecting (应加逗号) ",
+            "contrast": "现在分词状语与并列谓语的区别：并列谓语用 and connected，表示先后顺序；现在分词状语更强调伴随进行。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "The route began during the Han Dynasty over 2,000 years ago, when Emperor Wudi sent Zhang Qian to the West. Zhang Qian's travels opened up new horizons for trade and diplomacy. Caravans of camels later carried precious goods across deserts and mountains, enduring harsh conditions.",
+      "zh": "这条路线始于2000多年前的汉朝，当时汉武帝派遣张骞出使西域。张骞的旅程为贸易和外交开辟了新天地。后来，骆驼商队穿越沙漠和山脉，运送珍贵货物，忍受着严酷的条件。",
+      "vocabulary": [
+        {
+          "word": "emperor",
+          "phonetic": "/ˈempərər/",
+          "meaning": "n. 皇帝",
+          "example": "The emperor ordered the construction of the Great Wall.",
+          "derivatives": "emperor (n.) → empress (n.) 女皇 → imperial (adj.) 帝国的"
+        },
+        {
+          "word": "horizon",
+          "phonetic": "/həˈraɪzn/",
+          "meaning": "n. 地平线；眼界，视野",
+          "example": "Traveling broadens one's horizons.",
+          "derivatives": "horizon (n.) → horizontal (adj.) 水平的 → horizontally (adv.) 水平地"
+        },
+        {
+          "word": "caravan",
+          "phonetic": "/ˈkærəvæn/",
+          "meaning": "n. 商队；旅行队",
+          "example": "A camel caravan crossed the Sahara desert.",
+          "derivatives": "caravan (n.) → caravanning (n.) 乘大篷车旅行 → caravanserai (n.) 商队客栈"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The route began during the Han Dynasty over 2,000 years ago, when Emperor Wudi sent Zhang Qian to the West.",
+          "zh": "这条路线始于2000多年前的汉朝，当时汉武帝派遣张骞出使西域。",
+          "grammar": "when 引导非限制性定语从句，修饰 the Han Dynasty，补充说明具体时间事件。",
+          "pattern": "名词 + 时间状语从句（when 引导非限制性定语从句）",
+          "note": "when 引导定语从句时，先行词通常是表示时间的名词。非限制性定语从句用逗号隔开。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The route began during the Han Dynasty",
+          "zh": "这条路线始于汉朝",
+          "function": "主句（主语+谓语+时间状语）"
+        },
+        {
+          "en": "over 2,000 years ago",
+          "zh": "2000多年前",
+          "function": "时间状语（同位语）"
+        },
+        {
+          "en": "when Emperor Wudi sent Zhang Qian to the West",
+          "zh": "当时汉武帝派遣张骞出使西域",
+          "function": "定语从句（修饰 the Han Dynasty）"
+        },
+        {
+          "en": "Zhang Qian's travels opened up new horizons for trade and diplomacy",
+          "zh": "张骞的旅程为贸易和外交开辟了新天地",
+          "function": "主句（主语+谓语+宾语+状语）"
+        },
+        {
+          "en": "Caravans of camels later carried precious goods across deserts and mountains",
+          "zh": "后来，骆驼商队穿越沙漠和山脉，运送珍贵货物",
+          "function": "主句（主语+谓语+宾语+状语）"
+        },
+        {
+          "en": "enduring harsh conditions",
+          "zh": "忍受着严酷的条件",
+          "function": "伴随状语（现在分词短语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "when 引导的非限制性定语从句",
+            "explanation": "当先行词是时间名词时，可用 when 引导定语从句，非限制性定语从句用逗号隔开。",
+            "example_sentence": "The route began during the Han Dynasty over 2,000 years ago, when Emperor Wudi sent Zhang Qian to the West.",
+            "common_mistake": "❌ 把 when 当作时间状语从句：The route began... when... （容易混淆，但此处是定语从句）",
+            "contrast": "时间状语从句（when 从句修饰主句动作）vs 定语从句（when 从句修饰先行词 the Han Dynasty）。判断：去掉从句后主句意思是否完整？此处保留主句‘路线始于汉朝’，从句只是补充，故为定语从句。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "More than goods, the Silk Road exchanged religions, technologies, and artistic styles. Buddhism traveled from India to China, while Chinese papermaking and printing spread westward. This cultural fusion enriched civilizations on both ends of the route.",
+      "zh": "丝绸之路交换的不仅是货物，还有宗教、技术和艺术风格。佛教从印度传入中国，而中国的造纸术和印刷术则向西传播。这种文化融合丰富了丝绸之路两端的文明。",
+      "vocabulary": [
+        {
+          "word": "exchange",
+          "phonetic": "/ɪksˈtʃeɪndʒ/",
+          "meaning": "v./n. 交换；交流",
+          "example": "They exchanged gifts during the festival.",
+          "derivatives": "exchange (v.) → exchangeable (adj.) 可交换的 → exchange (n.) 交换"
+        },
+        {
+          "word": "Buddhism",
+          "phonetic": "/ˈbʊdɪzəm/",
+          "meaning": "n. 佛教",
+          "example": "Buddhism originated in India.",
+          "derivatives": "Buddha (n.) 佛陀 → Buddhist (n./adj.) 佛教徒/佛教的"
+        },
+        {
+          "word": "fusion",
+          "phonetic": "/ˈfjuːʒn/",
+          "meaning": "n. 融合；熔合",
+          "example": "The music is a fusion of jazz and classical.",
+          "derivatives": "fuse (v.) 熔合 → fusion (n.) → fusional (adj.) 融合的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "More than goods, the Silk Road exchanged religions, technologies, and artistic styles.",
+          "zh": "丝绸之路交换的不仅是货物，还有宗教、技术和艺术风格。",
+          "grammar": "More than goods 是状语前置，意为‘不仅限于货物’，more than 表示‘超出’的概念。",
+          "pattern": "More than + 名词，主语 + 谓语 + ...",
+          "note": "More than 放在句首通常表示‘不止是’，后接名词。正常语序为 The Silk Road exchanged more than goods...，前置起强调作用。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "More than goods",
+          "zh": "不仅是货物",
+          "function": "状语（前置的介词短语）"
+        },
+        {
+          "en": "the Silk Road exchanged religions, technologies, and artistic styles",
+          "zh": "丝绸之路交换了宗教、技术和艺术风格",
+          "function": "主句（主语+谓语+宾语）"
+        },
+        {
+          "en": "Buddhism traveled from India to China",
+          "zh": "佛教从印度传入中国",
+          "function": "分句1（主语+谓语+状语）"
+        },
+        {
+          "en": "while Chinese papermaking and printing spread westward",
+          "zh": "而中国的造纸术和印刷术则向西传播",
+          "function": "分句2（while 连接的并列句，表示对比）"
+        },
+        {
+          "en": "This cultural fusion enriched civilizations on both ends of the route",
+          "zh": "这种文化融合丰富了丝绸之路两端的文明",
+          "function": "主句（主语+谓语+宾语+定语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "while 表示对比",
+            "explanation": "while 作为并列连词，连接两个分句，表示‘而，却’。",
+            "example_sentence": "Buddhism traveled from India to China, while Chinese papermaking and printing spread westward.",
+            "common_mistake": "❌ 误用 while 表示时间（当...时），此处应为对比，注意上下文。",
+            "contrast": "whereas 更正式，while 较常见。"
+          },
+          {
+            "structure": "More than 前置强调",
+            "explanation": "More than 短语置于句首，对宾语进行强调，相当于‘超越……’。",
+            "example_sentence": "More than goods, the Silk Road exchanged religions, technologies, and artistic styles.",
+            "common_mistake": "❌ 直接写成 The Silk Road more than goods exchanged...（词序错误）",
+            "contrast": "正常语序：The Silk Road exchanged more than goods. 前置后逗号隔开。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Today, the Silk Road lives on through China's Belt and Road Initiative, which revives the spirit of ancient connectivity. New railways and ports now link countries in trade and infrastructure. The ancient route reminds us that shared prosperity grows when cultures meet and cooperate.",
+      "zh": "今天，丝绸之路通过中国的“一带一路”倡议得以延续，它复兴了古代互联互通的精神。新的铁路和港口如今将各国连接在贸易和基础设施中。这条古老路线提醒我们，当文化相遇并合作时，共同繁荣便会增长。",
+      "vocabulary": [
+        {
+          "word": "initiative",
+          "phonetic": "/ɪˈnɪʃətɪv/",
+          "meaning": "n. 倡议；主动行动",
+          "example": "The government launched a new initiative to reduce pollution.",
+          "derivatives": "initiate (v.) 开始 → initial (adj.) 最初的 → initiative (n.)"
+        },
+        {
+          "word": "connectivity",
+          "phonetic": "/ˌkɒnekˈtɪvəti/",
+          "meaning": "n. 连通性；连接",
+          "example": "The bridge improved connectivity between the two islands.",
+          "derivatives": "connect (v.) 连接 → connective (adj.) 连接的 → connectivity (n.)"
+        },
+        {
+          "word": "prosperity",
+          "phonetic": "/prɒˈsperəti/",
+          "meaning": "n. 繁荣；成功",
+          "example": "Peace brings prosperity to the nation.",
+          "derivatives": "prosper (v.) 繁荣 → prosperous (adj.) 繁荣的 → prosperity (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The ancient route reminds us that shared prosperity grows when cultures meet and cooperate.",
+          "zh": "这条古老路线提醒我们，当文化相遇并合作时，共同繁荣便会增长。",
+          "grammar": "that 引导宾语从句，从句中包含 when 引导的时间状语从句。",
+          "pattern": "主语 + reminds + 间接宾语 + that + 宾语从句（含时间状语从句）",
+          "note": "remind sb that... 是常用结构，that 不可省略。时间状语从句用一般现在时表示将来。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Today",
+          "zh": "今天",
+          "function": "时间状语"
+        },
+        {
+          "en": "the Silk Road lives on through China's Belt and Road Initiative",
+          "zh": "丝绸之路通过中国的“一带一路”倡议得以延续",
+          "function": "主句（主语+谓语+状语）"
+        },
+        {
+          "en": "which revives the spirit of ancient connectivity",
+          "zh": "它复兴了古代互联互通的精神",
+          "function": "非限制性定语从句（补充说明 Initiative）"
+        },
+        {
+          "en": "New railways and ports now link countries in trade and infrastructure",
+          "zh": "新的铁路和港口如今将各国连接在贸易和基础设施中",
+          "function": "主句（主语+谓语+宾语+状语）"
+        },
+        {
+          "en": "The ancient route reminds us that shared prosperity grows when cultures meet and cooperate",
+          "zh": "这条古老路线提醒我们，当文化相遇并合作时，共同繁荣便会增长",
+          "function": "主句（主语+谓语+间接宾语+宾语从句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "which 引导的非限制性定语从句",
+            "explanation": "which 指代前面整个先行词 the Belt and Road Initiative，在从句中作主语。",
+            "example_sentence": "the Silk Road lives on through China's Belt and Road Initiative, which revives the spirit of ancient connectivity.",
+            "common_mistake": "❌ 在 which 前加逗号，但要确保先行词明确。有时误用 that 引导非限制性定语从句（that 不可用于非限制性）。",
+            "contrast": "限制性定语从句不用逗号，非限制性用逗号，且不能用 that。"
+          },
+          {
+            "structure": "宾语从句中含有时间状语从句",
+            "explanation": "remind us that... 中 that 从句内包含 when 引导的时间状语从句，表示条件。",
+            "example_sentence": "The ancient route reminds us that shared prosperity grows when cultures meet and cooperate.",
+            "common_mistake": "❌ 误用 when 从句的位置：...grows when cultures meet and cooperate 正确；切勿写成 when cultures meet and cooperate, shared prosperity grows 当作主句。",
+            "contrast": "时间状语从句可放在主句前或后，但放在主句后更自然。"
+          }
+        ]
+      }
+    }
+  ]
+}
