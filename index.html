@@ -768,6 +768,9 @@ input, textarea, select {
 // 多源数据加载（国内访问 GitHub CDN 不稳定，依次尝试多个源）
 
 const EMBEDDED_DATES_MAP = {
+  "2026-07-27": [
+    {"id":"2026-07-27","title":"The Power of Morning Rituals","titleZh":"晨间习惯的力量"}
+  ],
   "2026-07-26": [
     {"id":"2026-07-26","title":"The Silk Road: A Bridge of Civilizations","titleZh":"丝绸之路：文明的桥梁"}
   ],
@@ -917,7 +920,8 @@ const EMBEDDED_ARTICLE_IDS = [
     "2026-07-23",
     "2026-07-24",
     "2026-07-25",
-    "2026-07-26"
+    "2026-07-26",
+    "2026-07-27"
   ];
 
 // ===== 嵌入式全部文章数据（零网络请求，即时加载） =====
@@ -10889,6 +10893,310 @@ const EMBEDDED_ARTICLES = {
                         "example_sentence": "The ancient route reminds us that shared prosperity grows when cultures meet and cooperate.",
                         "common_mistake": "❌ 误用 when 从句的位置：...grows when cultures meet and cooperate 正确；切勿写成 when cultures meet and cooperate, shared prosperity grows 当作主句。",
                         "contrast": "时间状语从句可放在主句前或后，但放在主句后更自然。"
+                    }
+                ]
+            }
+        }
+    ]
+},
+  "2026-07-27": {
+    "date": "2026-07-27",
+    "title": "The Power of Morning Rituals",
+    "titleZh": "晨间习惯的力量",
+    "url": "",
+    "paragraphs": [
+        {
+            "en": "The way we begin our day often determines how the rest of it unfolds. A well-structured morning ritual can set a positive tone and boost our energy for the hours ahead. Many successful people attribute their productivity to simple habits performed shortly after waking up.",
+            "zh": "我们开始一天的方式往往决定了这一天其余时间的走向。一个结构良好的晨间仪式可以定下积极的基调，并为我们接下来的几个小时注入能量。许多成功人士将其高效率归功于起床后不久进行的一些简单习惯。",
+            "vocabulary": [
+                {
+                    "word": "unfold",
+                    "phonetic": "/ʌnˈfoʊld/",
+                    "meaning": "v. 展开；展现",
+                    "example": "The story unfolds gradually as the film progresses.",
+                    "derivatives": "unfold (v.) → unfolding (adj.) 展开的"
+                },
+                {
+                    "word": "ritual",
+                    "phonetic": "/ˈrɪtʃuəl/",
+                    "meaning": "n. 仪式；惯例",
+                    "example": "His morning ritual includes a cup of tea and ten minutes of meditation.",
+                    "derivatives": "ritual (n.) → ritualistic (adj.) 仪式的 → ritualize (v.) 使仪式化"
+                },
+                {
+                    "word": "attribute to",
+                    "phonetic": "/əˈtrɪbjuːt tuː/",
+                    "meaning": "phr. 把……归因于",
+                    "example": "She attributes her success to hard work and discipline.",
+                    "derivatives": "attribute (v.) → attribution (n.) 归因 → attributable (adj.) 可归因的"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "The way we begin our day",
+                    "zh": "我们开始一天的方式",
+                    "function": "主语从句"
+                },
+                {
+                    "en": "often determines how the rest of it unfolds.",
+                    "zh": "往往决定了这一天其余时间的走向",
+                    "function": "谓语 + 宾语从句"
+                },
+                {
+                    "en": "A well-structured morning ritual",
+                    "zh": "一个结构良好的晨间仪式",
+                    "function": "主语"
+                },
+                {
+                    "en": "can set a positive tone and boost our energy for the hours ahead.",
+                    "zh": "可以定下积极的基调，并为我们接下来的几个小时注入能量",
+                    "function": "谓语 + 宾语"
+                },
+                {
+                    "en": "Many successful people attribute their productivity to simple habits performed shortly after waking up.",
+                    "zh": "许多成功人士将其高效率归功于起床后不久进行的一些简单习惯",
+                    "function": "主句 + 定语（performed...）"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Many successful people attribute their productivity to simple habits performed shortly after waking up.",
+                    "zh": "许多成功人士将其高效率归功于起床后不久进行的一些简单习惯。",
+                    "grammar": "句中“attribute...to...”是固定搭配，意为“把……归因于”；“performed shortly after waking up”是过去分词短语作后置定语，修饰“habits”。",
+                    "pattern": "attribute + 宾语 + to + 名词 (归因于)",
+                    "note": "使用时注意“to”是介词，后接名词或动名词，不可接动词原形。"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "过去分词短语作定语",
+                        "explanation": "过去分词短语（如 performed shortly after waking up）可以用作后置定语，相当于一个定语从句（which are performed...）。",
+                        "example_sentence": "Many successful people attribute their productivity to simple habits performed shortly after waking up.",
+                        "common_mistake": "❌ simple habits performed shortly after wake up → ✅ simple habits performed shortly after waking up（after 后接动名词）",
+                        "contrast": "现在分词短语作定语（如 habits improving health）表示主动或进行，过去分词表示被动或完成。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "A useful first step is to wake up at a consistent time each morning, allowing your body's internal clock to regulate itself. Drinking a glass of water before anything else rehydrates the system and kick-starts your metabolism. Following this with light stretching or a short walk can invigorate your muscles and clear your mind.",
+            "zh": "一个有用的第一步是每天早晨在同一时间醒来，让身体的生物钟自我调节。在做其他事情之前喝一杯水可以补充身体水分并启动新陈代谢。随后进行轻度的拉伸或短途散步可以振奋肌肉、清醒头脑。",
+            "vocabulary": [
+                {
+                    "word": "consistent",
+                    "phonetic": "/kənˈsɪstənt/",
+                    "meaning": "adj. 一致的；固定的",
+                    "example": "She maintains a consistent sleep schedule every day.",
+                    "derivatives": "consistent (adj.) → consistently (adv.) 一贯地 → consistency (n.) 一致性"
+                },
+                {
+                    "word": "kick-start",
+                    "phonetic": "/ˈkɪk stɑːrt/",
+                    "meaning": "v. 启动；使开始",
+                    "example": "A short run can kick-start your energy for the day.",
+                    "derivatives": "kick-start (v.) → kick-starter (n.) 启动者（也可指引擎）"
+                },
+                {
+                    "word": "invigorate",
+                    "phonetic": "/ɪnˈvɪɡəreɪt/",
+                    "meaning": "v. 使充满活力；振奋",
+                    "example": "A cold shower can invigorate you in the morning.",
+                    "derivatives": "invigorate (v.) → invigorating (adj.) 令人振奋的 → invigoration (n.) 活力"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "A useful first step",
+                    "zh": "一个有用的第一步",
+                    "function": "主语"
+                },
+                {
+                    "en": "is to wake up at a consistent time each morning,",
+                    "zh": "是每天早晨在同一时间醒来",
+                    "function": "谓语（系动词 + 不定式表语）"
+                },
+                {
+                    "en": "allowing your body's internal clock to regulate itself.",
+                    "zh": "让身体的生物钟自我调节",
+                    "function": "结果状语（现在分词短语）"
+                },
+                {
+                    "en": "Drinking a glass of water before anything else",
+                    "zh": "在做其他事情之前喝一杯水",
+                    "function": "动名词短语作主语"
+                },
+                {
+                    "en": "rehydrates the system and kick-starts your metabolism.",
+                    "zh": "可以补充身体水分并启动新陈代谢",
+                    "function": "谓语 + 宾语"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "A useful first step is to wake up at a consistent time each morning, allowing your body's internal clock to regulate itself.",
+                    "zh": "一个有用的第一步是每天早晨在同一时间醒来，让身体的生物钟自我调节。",
+                    "grammar": "句中“allowing...”是现在分词短语作结果状语，表示“醒来”所带来的结果；不定式“to wake up”作表语。",
+                    "pattern": "主语 + is + to do sth., doing sth. (不定式作表语 + 现在分词作结果状语)",
+                    "note": "现在分词作结果状语通常位于主句之后，用逗号隔开，��示自然而然的结果。"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "现在分词短语作结果状语",
+                        "explanation": "现在分词短语（动词-ing形式）可以放在主句后，表示由主句动作所导致的结果。",
+                        "example_sentence": "A useful first step is to wake up at a consistent time each morning, allowing your body's internal clock to regulate itself.",
+                        "common_mistake": "❌ to allow your body's internal clock...（不定式常表目的而非结果）→ ✅ allowing（现在分词表结果）",
+                        "contrast": "不定式作目的状语（to allow...）与现在分词作结果状语的区别：目的状语常用to do，结果状语用doing。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "Breakfast deserves careful attention as well. Instead of sugary cereals or pastries, opt for a balanced meal that includes protein, healthy fats, and complex carbohydrates. Oatmeal with nuts and berries, for instance, provides sustained energy and important nutrients to fuel both body and brain until lunch.",
+            "zh": "早餐也值得认真对待。不要选择含糖麦片或糕点，而应选用包含蛋白质、健康脂肪和复合碳水化合物的均衡一餐。例如，燕麦片搭配坚果和浆果能提供持久的能量和重要的营养素，为身体和大脑提供能量直至午餐。",
+            "vocabulary": [
+                {
+                    "word": "opt for",
+                    "phonetic": "/ɒpt fɔːr/",
+                    "meaning": "phr. 选择",
+                    "example": "You should opt for whole-grain bread instead of white bread.",
+                    "derivatives": "opt (v.) → option (n.) 选择 → optional (adj.) 可选的"
+                },
+                {
+                    "word": "sustained",
+                    "phonetic": "/səˈsteɪnd/",
+                    "meaning": "adj. 持续的；持久的",
+                    "example": "Sustained effort is key to mastering a skill.",
+                    "derivatives": "sustain (v.) → sustainable (adj.) 可持续的 → sustenance (n.) 营养"
+                },
+                {
+                    "word": "fuel",
+                    "phonetic": "/ˈfjuːəl/",
+                    "meaning": "v. 给……提供燃料；刺激",
+                    "example": "A good breakfast fuels your body for the morning.",
+                    "derivatives": "fuel (n./v.) → refuel (v.) 补充燃料"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "Breakfast deserves careful attention as well.",
+                    "zh": "早餐也值得认真对待",
+                    "function": "主句"
+                },
+                {
+                    "en": "Instead of sugary cereals or pastries,",
+                    "zh": "不要选择含糖麦片或糕点",
+                    "function": "状语（介词短语）"
+                },
+                {
+                    "en": "opt for a balanced meal that includes protein, healthy fats, and complex carbohydrates.",
+                    "zh": "应选用包含蛋白质、健康脂肪和复合碳水化合物的均衡一餐",
+                    "function": "谓语 + 宾语（含定语从句）"
+                },
+                {
+                    "en": "Oatmeal with nuts and berries, for instance,",
+                    "zh": "例如，燕麦片搭配坚果和浆果",
+                    "function": "主语 + 插入语"
+                },
+                {
+                    "en": "provides sustained energy and important nutrients to fuel both body and brain until lunch.",
+                    "zh": "能提供持久的能量和重要的营养素，为身体和大脑提供能量直至午餐",
+                    "function": "谓语 + 宾语 + 目的状语"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Oatmeal with nuts and berries, for instance, provides sustained energy and important nutrients to fuel both body and brain until lunch.",
+                    "zh": "例如，燕麦片搭配坚果和浆果能提供持久的能量和重要的营养素，为身体和大脑提供能量直至午餐。",
+                    "grammar": "句中“for instance”是插入语；“with nuts and berries”是介词短语作定语修饰“oatmeal”；“to fuel...”是不定式短语作目的状语。",
+                    "pattern": "主语 + 插入语 + 谓语 + 宾语 + to do (目的状语)",
+                    "note": "插入语“for instance”可放在主语后或句首，用逗号隔开，不影响句子主干。"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "不定式作目的状语",
+                        "explanation": "不定式短语（to + 动词原形）可以放在句末，表示谓语动作的目的。",
+                        "example_sentence": "Oatmeal with nuts and berries provides sustained energy to fuel both body and brain.",
+                        "common_mistake": "❌ for fueling both body and brain（for doing 也可表目的，但不如 to do 常用；此处宜用 to do）→ ✅ to fuel",
+                        "contrast": "for doing 通常表示用途（如 a brush for painting），而 to do 更直接表示目的。英语中表目的最常用 to do。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "Consistency is more important than perfection. Even a modest morning routine, when repeated daily, becomes a powerful anchor for health. Over time, these small acts compound into greater energy, improved mood, and a deeper sense of control over one's life. Start tomorrow, and let one good choice lead to another.",
+            "zh": "一致性比完美更重要。即使是一个适度的晨间例行程序，当每天重复时，也会成为健康的有力锚点。随着时间的推移，这些小小的举动会累积成更大的能量、改善的情绪以及对生活更强的掌控感。从明天开始，让一个好的选择引领另一个。",
+            "vocabulary": [
+                {
+                    "word": "anchor",
+                    "phonetic": "/ˈæŋkər/",
+                    "meaning": "n. 锚；精神支柱，靠山",
+                    "example": "Routine can serve as an anchor in a chaotic life.",
+                    "derivatives": "anchor (n./v.) → anchorage (n.) 锚地"
+                },
+                {
+                    "word": "compound",
+                    "phonetic": "/kəmˈpaʊnd/",
+                    "meaning": "v. 使复合；增加，累积",
+                    "example": "Interest compounds over time, just like healthy habits.",
+                    "derivatives": "compound (v.) → compounding (adj.) 复合的 → compound (n.) 化合物"
+                },
+                {
+                    "word": "sense of control",
+                    "phonetic": "/sens əv kənˈtroʊl/",
+                    "meaning": "phr. 控制感",
+                    "example": "Establishing a routine gives you a greater sense of control over your day.",
+                    "derivatives": "control (n./v.) → controllable (adj.) 可控的 → uncontrolled (adj.) 失控的"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "Consistency is more important than perfection.",
+                    "zh": "一致性比完美更重要",
+                    "function": "比较句（主句 + 比较状语）"
+                },
+                {
+                    "en": "Even a modest morning routine,",
+                    "zh": "即使是一个适度的晨间例行程序",
+                    "function": "主语（带修饰）"
+                },
+                {
+                    "en": "when repeated daily,",
+                    "zh": "当每天重复时",
+                    "function": "省略的时间状语从句（when it is repeated daily）"
+                },
+                {
+                    "en": "becomes a powerful anchor for health.",
+                    "zh": "也会成为健康的有力锚点",
+                    "function": "谓语 + 表语"
+                },
+                {
+                    "en": "Over time, these small acts compound into greater energy, improved mood, and a deeper sense of control over one's life.",
+                    "zh": "随着时间的推移，这些小小的举动会累积成更大的能量、改善的情绪以及对生活更强的掌控感",
+                    "function": "时间状语 + 主谓宾"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Even a modest morning routine, when repeated daily, becomes a powerful anchor for health.",
+                    "zh": "即使是一个适度的晨间例行程序，当每天重复时，也会成为健康的有力锚点。",
+                    "grammar": "“when repeated daily”是一个省略了主语和be动词的时间状语从句（when it is repeated daily），相当于“when it is repeated daily”。主句是“Even a modest morning routine becomes a powerful anchor for health.”",
+                    "pattern": "主语 + 省略的时间状语从句（when + 过去分词） + 谓语 + 表语",
+                    "note": "在时间状语从句中，当主语与主句主语一致且从句含有be动词时，可以省略主语和be动词。例如：When (it is) heated, ice melts."
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "省略结构 in time/conditional clause",
+                        "explanation": "在时间或条件状语从句中，若从句主语与主句主语一致且从句谓语含有be动词，可省略从句主语和be动词。本句中“when repeated daily”即省略了“it is”。",
+                        "example_sentence": "Even a modest morning routine, when repeated daily, becomes a powerful anchor.",
+                        "common_mistake": "❌ when repeated it daily（重复主语）→ ✅ when repeated daily",
+                        "contrast": "完全状语从句（when it is repeated daily）与省略形式（when repeated daily）在语法上都正确，但省略形式更简洁，常用于书面语。"
                     }
                 ]
             }
