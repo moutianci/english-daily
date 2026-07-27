@@ -768,6 +768,9 @@ input, textarea, select {
 // 多源数据加载（国内访问 GitHub CDN 不稳定，依次尝试多个源）
 
 const EMBEDDED_DATES_MAP = {
+  "2026-07-28": [
+    {"id":"2026-07-28","title":"The Quiet Observer","titleZh":"安静的观察者"}
+  ],
   "2026-07-27": [
     {"id":"2026-07-27","title":"The Power of Morning Rituals","titleZh":"晨间习惯的力量"}
   ],
@@ -921,7 +924,8 @@ const EMBEDDED_ARTICLE_IDS = [
     "2026-07-24",
     "2026-07-25",
     "2026-07-26",
-    "2026-07-27"
+    "2026-07-27",
+    "2026-07-28"
   ];
 
 // ===== 嵌入式全部文章数据（零网络请求，即时加载） =====
@@ -11197,6 +11201,340 @@ const EMBEDDED_ARTICLES = {
                         "example_sentence": "Even a modest morning routine, when repeated daily, becomes a powerful anchor.",
                         "common_mistake": "❌ when repeated it daily（重复主语）→ ✅ when repeated daily",
                         "contrast": "完全状语从句（when it is repeated daily）与省略形式（when repeated daily）在语法上都正确，但省略形式更简洁，常用于书面语。"
+                    }
+                ]
+            }
+        }
+    ]
+},
+  "2026-07-28": {
+    "date": "2026-07-28",
+    "title": "The Quiet Observer",
+    "titleZh": "安静的观察者",
+    "url": "",
+    "paragraphs": [
+        {
+            "en": "The café was unusually quiet that afternoon, save for the gentle hum of the espresso machine. I sat by the window, watching the rain trace delicate patterns on the glass. A young woman entered, shaking droplets from her umbrella, and ordered a cappuccino with a smile.",
+            "zh": "那天下午咖啡馆异常安静，只有浓缩咖啡机轻柔的嗡嗡声。我坐在窗边，看着雨滴在玻璃上划出精致的图案。一位年轻女子走进来，抖落伞上的水珠，微笑着点了一杯卡布奇诺。",
+            "vocabulary": [
+                {
+                    "word": "save for",
+                    "phonetic": "/seɪv fɔːr/",
+                    "meaning": "prep. 除……之外",
+                    "example": "The room was empty, save for a single chair.",
+                    "derivatives": "save (v.保存/prep.除…之外) → saving (n.节约)"
+                },
+                {
+                    "word": "trace",
+                    "phonetic": "/treɪs/",
+                    "meaning": "v. 描绘；勾画出轮廓",
+                    "example": "The child traced the shape with her finger.",
+                    "derivatives": "trace (v.) → traceable (adj.) → tracing (n.)"
+                },
+                {
+                    "word": "delicate",
+                    "phonetic": "/ˈdelɪkət/",
+                    "meaning": "adj. 精致的；微妙的",
+                    "example": "She wore a delicate necklace of silver.",
+                    "derivatives": "delicate (adj.) → delicacy (n.) → delicately (adv.)"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "The café was unusually quiet that afternoon, save for the gentle hum of the espresso machine.",
+                    "zh": "那天下午咖啡馆异常安静，只有浓缩咖啡机轻柔的嗡嗡声。",
+                    "grammar": "主系表结构，主语The café，系动词was，表语quiet；副词unusually修饰quiet；save for引导介词短语作状语。",
+                    "pattern": "S + be + adj. + save for + n. (除……之外，……很……)",
+                    "note": "save for比except更正式，常用于书面描写。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "The café was unusually quiet that afternoon,",
+                    "zh": "那天下午咖啡馆异常安静",
+                    "function": "主句（主语+系动词+表语+时间状语）"
+                },
+                {
+                    "en": "save for the gentle hum of the espresso machine.",
+                    "zh": "只有浓缩咖啡机轻柔的嗡嗡声",
+                    "function": "状语（介词短语，表示例外）"
+                },
+                {
+                    "en": "I sat by the window,",
+                    "zh": "我坐在窗边",
+                    "function": "主句（主语+谓语+地点状语）"
+                },
+                {
+                    "en": "watching the rain trace delicate patterns on the glass.",
+                    "zh": "看着雨滴在玻璃上划出精致的图案",
+                    "function": "伴随状语（现在分词短语）"
+                },
+                {
+                    "en": "A young woman entered, shaking droplets from her umbrella, and ordered a cappuccino with a smile.",
+                    "zh": "一位年轻女子走进来，抖落伞上的水珠，微笑着点了一杯卡布奇诺。",
+                    "function": "并列主句（主语+谓语+伴随状语+并列谓语+状语）"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "现在分词作伴随状语",
+                        "explanation": "现在分词短语watching...和shaking...分别表示与主句动作同时发生的伴随动作。",
+                        "example_sentence": "I sat by the window, watching the rain trace delicate patterns on the glass.",
+                        "common_mistake": "❌ I sat by the window, and watched the rain...（使用并列连词，但分词结构更简洁）",
+                        "contrast": "分词作状语比分句更紧凑，强调动作同时发生；如果强调先后顺序可用并列句。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "She settled at a corner table, pulled out a worn notebook, and began to write. Her pen moved swiftly, yet her eyes often drifted towards the window, as if searching for inspiration. There was something in her expression — a quiet determination that made me curious.",
+            "zh": "她在角落的一张桌子坐下，拿出一本旧笔记本，开始写作。笔尖移动很快，但她的眼神常常飘向窗户，仿佛在寻找灵感。她的表情中有某种东西——一种安静的决心，让我感到好奇。",
+            "vocabulary": [
+                {
+                    "word": "settled",
+                    "phonetic": "/ˈsetld/",
+                    "meaning": "v. 坐下；安顿下来",
+                    "example": "She settled into the armchair with a book.",
+                    "derivatives": "settle (v.) → settlement (n.) → unsettled (adj.)"
+                },
+                {
+                    "word": "worn",
+                    "phonetic": "/wɔːrn/",
+                    "meaning": "adj. 用旧的；磨损的",
+                    "example": "He wore a worn leather jacket.",
+                    "derivatives": "wear (v.) → worn (adj.) → well-worn (复合adj.)"
+                },
+                {
+                    "word": "drifted",
+                    "phonetic": "/drɪftɪd/",
+                    "meaning": "v. 飘移；转移",
+                    "example": "His mind drifted back to his childhood.",
+                    "derivatives": "drift (v./n.) → drifter (n.) → adrift (adj./adv.)"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Her pen moved swiftly, yet her eyes often drifted towards the window, as if searching for inspiration.",
+                    "zh": "笔尖移动很快，但她的眼神常常飘向窗户，仿佛在寻找灵感。",
+                    "grammar": "并列句由yet连接；后一分句中as if引导省略主语的方式状语从句（省略了she was），searching为现在分词。",
+                    "pattern": "S + V, yet S + V, as if + doing (表示对比和比喻)",
+                    "note": "as if后常接过去虚拟式，但若表示真实情况可用现在分词短语。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "She settled at a corner table,",
+                    "zh": "她在角落的一张桌子坐下",
+                    "function": "主句（主语+谓语+地点状语）"
+                },
+                {
+                    "en": "pulled out a worn notebook,",
+                    "zh": "拿出一本旧笔记本",
+                    "function": "并列谓语（谓语+宾语）"
+                },
+                {
+                    "en": "and began to write.",
+                    "zh": "开始写作",
+                    "function": "并列谓语（谓语+不定式宾语）"
+                },
+                {
+                    "en": "Her pen moved swiftly,",
+                    "zh": "笔尖移动很快",
+                    "function": "分句一（主语+谓语+状语）"
+                },
+                {
+                    "en": "yet her eyes often drifted towards the window,",
+                    "zh": "但她的眼神常常飘向窗户",
+                    "function": "分句二（连词+主语+谓语+状语+地点状语）"
+                },
+                {
+                    "en": "as if searching for inspiration.",
+                    "zh": "仿佛在寻找灵感",
+                    "function": "方式状语从句（省略式）"
+                },
+                {
+                    "en": "There was something in her expression",
+                    "zh": "她的表情中有某种东西",
+                    "function": "主句（there be句型）"
+                },
+                {
+                    "en": "— a quiet determination that made me curious.",
+                    "zh": "——一种安静的决心，让我感到好奇",
+                    "function": "同位语（解释something，内含定语从句）"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "as if + 现在分词短语（省略主语be动词）",
+                        "explanation": "当as if从句主语与主句主语一致，且谓语含be时，可省略主语和be，保留分词。",
+                        "example_sentence": "Her eyes drifted towards the window, as if searching for inspiration.",
+                        "common_mistake": "❌ as if she was searching （口语可用，但书面语中分词更简洁）",
+                        "contrast": "as if + 从句（虚拟语气）表达非真实情况；as if + 分词表示真实或近似的理由。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "As time passed, the rain stopped and the sun broke through the clouds. I noticed that her writing became more fluent; her frown relaxed into a faint smile. It seemed the act of writing had freed her from some invisible weight. Perhaps she was crafting a story, or perhaps the story was crafting her.",
+            "zh": "随着时间的推移，雨停了，阳光穿透云层。我注意到她的写作变得更加流畅；她皱着的眉头放松下来，露出一丝微笑。似乎写作的行为让她摆脱了某种无形的重负。也许她是在构思故事，又或许是故事在塑造她。",
+            "vocabulary": [
+                {
+                    "word": "fluent",
+                    "phonetic": "/ˈfluːənt/",
+                    "meaning": "adj. 流畅的；流利的",
+                    "example": "Her English became more fluent after practice.",
+                    "derivatives": "fluent (adj.) → fluency (n.) → fluently (adv.)"
+                },
+                {
+                    "word": "frown",
+                    "phonetic": "/fraʊn/",
+                    "meaning": "n./v. 皱眉；不悦",
+                    "example": "He frowned at the noisy children.",
+                    "derivatives": "frown (v./n.) → frowning (adj.) → frowningly (adv.)"
+                },
+                {
+                    "word": "crafting",
+                    "phonetic": "/ˈkræftɪŋ/",
+                    "meaning": "v. 精心制作；构思",
+                    "example": "The author spent years crafting the novel.",
+                    "derivatives": "craft (n./v.) → craftsmanship (n.) → crafty (adj.)"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "It seemed the act of writing had freed her from some invisible weight.",
+                    "zh": "似乎写作的行为让她摆脱了某种无形的重负。",
+                    "grammar": "It seemed + (that) 宾语从句；从句主语the act of writing，谓语had freed her from...。",
+                    "pattern": "It seemed (that) + 从句 (似乎……)",
+                    "note": "seem后可接形容词或that从句，it作形式主语。口语中常省略that。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "As time passed,",
+                    "zh": "随着时间的推移",
+                    "function": "时间状语从句"
+                },
+                {
+                    "en": "the rain stopped and the sun broke through the clouds.",
+                    "zh": "雨停了，阳光穿透云层",
+                    "function": "主句（并列句）"
+                },
+                {
+                    "en": "I noticed that her writing became more fluent;",
+                    "zh": "我注意到她的写作变得更加流畅",
+                    "function": "主句+宾语从句（分号连接并列分句）"
+                },
+                {
+                    "en": "her frown relaxed into a faint smile.",
+                    "zh": "她皱着的眉头放松下来，露出一丝微笑",
+                    "function": "并列分句"
+                },
+                {
+                    "en": "It seemed the act of writing had freed her from some invisible weight.",
+                    "zh": "似乎写作的行为让她摆脱了某种无形的重负",
+                    "function": "主句（it seemed+宾语从句）"
+                },
+                {
+                    "en": "Perhaps she was crafting a story, or perhaps the story was crafting her.",
+                    "zh": "也许她是在构思故事，又或许是故事在塑造她",
+                    "function": "并列分句（并列连词or连接两个设想）"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "It seemed that... 省略that",
+                        "explanation": "it形式主语，真正主语是that从句；口语和书面语中that常可省略。",
+                        "example_sentence": "It seemed the act of writing had freed her.",
+                        "common_mistake": "❌ It seemed that he is happy. (时态不一致，应保持过去时) → ✅ It seemed that he was happy.",
+                        "contrast": "It seemed that... 和 It appeared that... 同义，但appear更侧重表面现象。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "Before leaving, she glanced my way and gave a small nod, as if acknowledging a fellow thinker. I returned the gesture. Outside, the world smelled fresh and clean. That chance encounter reminded me how strangers can briefly enter our lives and leave a lasting impression — a reminder that life is made of such quiet moments.",
+            "zh": "离开前，她朝我瞥了一眼，轻轻点了点头，仿佛是在认可一位同行者。我回以同样的姿态。外面，世界散发着清新干净的气味。那次偶然的邂逅提醒我，陌生人如何能短暂地进入我们的生活并留下持久的印象——这提醒着我，生命正是由这样安静的时刻构成的。",
+            "vocabulary": [
+                {
+                    "word": "acknowledging",
+                    "phonetic": "/əkˈnɒlɪdʒɪŋ/",
+                    "meaning": "v. 承认；认可；打招呼",
+                    "example": "He acknowledged the applause with a smile.",
+                    "derivatives": "acknowledge (v.) → acknowledgement (n.) → unacknowledged (adj.)"
+                },
+                {
+                    "word": "chance encounter",
+                    "phonetic": "/tʃɑːns ɪnˈkaʊntər/",
+                    "meaning": "n. 偶遇；邂逅",
+                    "example": "Their chance encounter in Paris changed both their lives.",
+                    "derivatives": "chance (n./adj.) + encounter (n./v.)"
+                },
+                {
+                    "word": "lasting",
+                    "phonetic": "/ˈlæstɪŋ/",
+                    "meaning": "adj. 持久的；长期的",
+                    "example": "The experience left a lasting impression on her.",
+                    "derivatives": "last (v.) → lasting (adj.) → lastingly (adv.)"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "That chance encounter reminded me how strangers can briefly enter our lives and leave a lasting impression — a reminder that life is made of such quiet moments.",
+                    "zh": "那次偶然的邂逅提醒我，陌生人如何能短暂地进入我们的生活并留下持久的印象——这提醒着我，生命正是由这样安静的时刻构成的。",
+                    "grammar": "主句主语That chance encounter，谓语reminded me；how引导宾语从句（how strangers can...and leave...）；破折号后是同位语a reminder，后接that引导的同位语从句。",
+                    "pattern": "S + remind + sb. + how + 从句 + — + n. + that 从句 (同位语补充说明)",
+                    "note": "remind后接how引导的宾语从句，也可接of短语或不定式。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "Before leaving,",
+                    "zh": "离开前",
+                    "function": "时间状语（介词+动名词）"
+                },
+                {
+                    "en": "she glanced my way and gave a small nod,",
+                    "zh": "她朝我瞥了一眼，轻轻点了点头",
+                    "function": "主句（主语+并列谓语+宾语）"
+                },
+                {
+                    "en": "as if acknowledging a fellow thinker.",
+                    "zh": "仿佛是在认可一位同行者",
+                    "function": "方式状语（as if + 分词短语）"
+                },
+                {
+                    "en": "I returned the gesture.",
+                    "zh": "我回以同样的姿态",
+                    "function": "单句"
+                },
+                {
+                    "en": "Outside, the world smelled fresh and clean.",
+                    "zh": "外面，世界散发着清新干净的气味",
+                    "function": "简单句（地点状语+主语+系动词+表语）"
+                },
+                {
+                    "en": "That chance encounter reminded me how strangers can briefly enter our lives and leave a lasting impression",
+                    "zh": "那次偶然的邂逅提醒我，陌生人如何能短暂地进入我们的生活并留下持久的印象",
+                    "function": "主句+宾语从句"
+                },
+                {
+                    "en": "— a reminder that life is made of such quiet moments.",
+                    "zh": "——这提醒着我，生命正是由这样安静的时刻构成的",
+                    "function": "同位语（内含同位语从句）"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "how引导的宾语从句",
+                        "explanation": "how在宾语从句中作方式状语，引导从句说明“如何”。",
+                        "example_sentence": "That chance encounter reminded me how strangers can briefly enter our lives.",
+                        "common_mistake": "❌ I don't know how does he do it.（宾语从句用陈述语序）→ ✅ I don't know how he does it.",
+                        "contrast": "how引导宾语从句与what引导宾语从句：how强调方式/程度，what强调内容。"
                     }
                 ]
             }
