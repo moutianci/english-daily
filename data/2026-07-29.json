@@ -1,0 +1,309 @@
+{
+  "date": "2026-07-29",
+  "title": "The Journey of a Wounded Bird",
+  "titleZh": "一只受伤鸟儿的旅程",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "One chilly morning in early autumn, I discovered a small bird lying motionless on the grass. Its wing was bent at an awkward angle, and its eyes were half-closed. The creature seemed to have lost all hope. Gently, I picked it up and carried it home, knowing that it would need immediate care if it were to survive.",
+      "zh": "初秋一个微凉的早晨，我发现一只小鸟一动不动地躺在草地上。它的翅膀弯曲成别扭的角度，眼睛半闭着。这生灵似乎已经失去了所有希望。我轻轻地把它捡起来带回家，知道如果要让它活下来，就需要立即照料。",
+      "vocabulary": [
+        {
+          "word": "motionless",
+          "phonetic": "/ˈməʊʃənləs/",
+          "meaning": "adj. 不动的；静止的",
+          "example": "The cat lay motionless, pretending to be asleep.",
+          "derivatives": "motion (n.) → motionless (adj.) → motionlessly (adv.)"
+        },
+        {
+          "word": "awkward angle",
+          "phonetic": "/ˈɔːkw��d ˈæŋɡl/",
+          "meaning": "n. 别扭的角度",
+          "example": "He held the camera at an awkward angle, trying to get a better shot.",
+          "derivatives": "常见搭配：at an awkward angle, in an awkward position"
+        },
+        {
+          "word": "immediate care",
+          "phonetic": "/ɪˈmiːdiət keər/",
+          "meaning": "n. 立即照料",
+          "example": "The injured dog required immediate care from a veterinarian.",
+          "derivatives": "immediate (adj.) → immediately (adv.)；care (n./v.) → careful (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "One chilly morning in early autumn",
+          "zh": "初秋一个微凉的早晨",
+          "function": "时间状语"
+        },
+        {
+          "en": "I discovered a small bird lying motionless on the grass",
+          "zh": "我发现一只小鸟一动不动地躺在草地上",
+          "function": "主句（主语+谓语+宾语+宾语补足语）"
+        },
+        {
+          "en": "Its wing was bent at an awkward angle",
+          "zh": "它的翅膀弯曲成别扭的角度",
+          "function": "独立主格/并列句（描述状态）"
+        },
+        {
+          "en": "Gently, I picked it up and carried it home",
+          "zh": "我轻轻地把它捡起来带回家",
+          "function": "主句（方式状语+主语+谓语+宾语+宾语补足语）"
+        },
+        {
+          "en": "knowing that it would need immediate care if it were to survive",
+          "zh": "知道如果要让它活下来，就需要立即照料",
+          "function": "现在分词短语作伴随状语（含条件状语从句）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Gently, I picked it up and carried it home, knowing that it would need immediate care if it were to survive.",
+          "zh": "我轻轻地把它捡起来带回家，知道如果要让它活下来，就需要立即照料。",
+          "grammar": "主句为简单句，后接现在分词短语knowing...作伴随状语，其中包含一个由if引导的虚拟条件句（were to表示对将来情况的假设）。",
+          "pattern": "主句 + 现在分词短语 (knowing + that从句 + if虚拟条件句)",
+          "note": "现在分词短语作状语时，其逻辑主语必须与主句主语一致。这里knowing的逻辑主语是I。if it were to survive使用虚拟语气，强调可能性很小。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "虚拟条件句 (Subjunctive Conditional)",
+            "explanation": "if it were to survive 表示对将来情况的假设，语气比一般过去时虚拟更为委婉、可能性更低。常用于if...were to...结构，从句谓语为were to do，主句常用would/might/could等。",
+            "example_sentence": "Gently, I picked it up and carried it home, knowing that it would need immediate care if it were to survive.",
+            "common_mistake": "❌ if it would survive → ✅ if it were to survive",
+            "contrast": "与if it survived (一般过去时虚拟) 相比，if it were to survive更强调未来发生的可能性极小或纯粹假设。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "At home, I prepared a small box lined with soft cloth. I offered it water and crushed seeds, but it refused to eat. For two days, it remained weak and listless. I kept the room warm and quiet, speaking to it in a soft voice. To my relief, on the third day, it managed to swallow a few drops of water.",
+      "zh": "在家里，我准备了一个铺着软布的小盒子。我给它水和碾碎的种子，但它拒绝进食。整整两天，它都虚弱无力、无精打采。我保持房间温暖安静，用轻柔的声音对它说话。令我欣慰的是，第三天它终于咽下了几滴水。",
+      "vocabulary": [
+        {
+          "word": "listless",
+          "phonetic": "/ˈlɪstləs/",
+          "meaning": "adj. 无精打采的；倦怠的",
+          "example": "The patient felt listless after the long illness.",
+          "derivatives": "listlessness (n.)；listlessly (adv.)"
+        },
+        {
+          "word": "lined with",
+          "phonetic": "/laɪnd wɪð/",
+          "meaning": "v. 铺有……作为衬里",
+          "example": "The drawer was lined with velvet to protect the jewelry.",
+          "derivatives": "常用搭配：line with cloth, line with paper；line (v.) → lining (n.)"
+        },
+        {
+          "word": "to my relief",
+          "phonetic": "/tuː maɪ rɪˈliːf/",
+          "meaning": "短语 令我欣慰的是",
+          "example": "To my relief, the lost child was found safe.",
+          "derivatives": "relief (n.) → relieve (v.) → relieved (adj.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "At home",
+          "zh": "在家里",
+          "function": "地点状语"
+        },
+        {
+          "en": "I prepared a small box lined with soft cloth",
+          "zh": "我准备了一个铺着软布的小盒子",
+          "function": "主句（主语+谓语+宾语+定语）"
+        },
+        {
+          "en": "I offered it water and crushed seeds, but it refused to eat",
+          "zh": "我给它水和碾碎的种子，但它拒绝进食",
+          "function": "并列句（转折关系）"
+        },
+        {
+          "en": "For two days, it remained weak and listless",
+          "zh": "整整两天，它都虚弱无力、无精打采",
+          "function": "主句（时间状语+主语+系动词+表语）"
+        },
+        {
+          "en": "To my relief, on the third day, it managed to swallow a few drops of water",
+          "zh": "令我欣慰的是，第三天它终于咽下了几滴水",
+          "function": "主句（插入语+时间状语+主语+谓语+宾语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "To my relief, on the third day, it managed to swallow a few drops of water.",
+          "zh": "令我欣慰的是，第三天它终于咽下了几滴水。",
+          "grammar": "句首使用To my relief作插入语，表示说话人的情感；on the third day为时间状语；managed to do暗示经过努力成功完成某动作。",
+          "pattern": "To one's + 情感名词 (如relief, surprise, delight), + 时间状语 + 主语 + managed to do + 宾语",
+          "note": "to one's + 名词结构常用于表达个人情感反应，名词前常用my, our, his等。managed to do强调“设法做到”，有别于tried to do（尝试做但不一定成功）。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "独立主格/伴随状语 (现在分词短语作结果状语)",
+            "explanation": "本段中没有直接使用现在分词短语作伴随状语，但前一段中已有。此处可强调插入语“To my relief”作评注性状语，用以传达情感。但语法分析点选择为“managed to do与tried to do的区别”。",
+            "example_sentence": "To my relief, on the third day, it managed to swallow a few drops of water.",
+            "common_mistake": "❌ it tried to swallow → 表达尝试，但本句强调成功，应使用managed to swallow。",
+            "contrast": "managed to do表示成功做成；tried to do表示尝试做但不一定成功。例如：He tried to open the door but failed. vs. He managed to open the door. (成功打开)"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Gradually, the bird regained its strength. It began to hop around the box and flutter its wings. I fed it small insects and fresh berries. One morning, it perched on my finger and chirped energetically. I knew then that the time for release was near. The wild was calling it back.",
+      "zh": "渐渐地，小鸟恢复了体力。它开始在盒子里跳跃并拍动翅膀。我喂它小虫子和新鲜浆果。一天早上，它停在我的手指上，精神抖擞地啾啾叫。我当时就知道放归的时刻近了。旷野在召唤它回去。",
+      "vocabulary": [
+        {
+          "word": "regain strength",
+          "phonetic": "/rɪˈɡeɪn strenθ/",
+          "meaning": "短语 恢复体力",
+          "example": "After a week's rest, she regained her strength.",
+          "derivatives": "regain (v.) → regainable (adj.)；strength (n.) → strengthen (v.) → strong (adj.)"
+        },
+        {
+          "word": "flutter",
+          "phonetic": "/ˈflʌtə(r)/",
+          "meaning": "v. 拍动（翅膀）；飘动",
+          "example": "The butterfly fluttered from flower to flower.",
+          "derivatives": "flutter (v./n.) → fluttery (adj.)"
+        },
+        {
+          "word": "release",
+          "phonetic": "/rɪˈliːs/",
+          "meaning": "n. 放归；释放",
+          "example": "The rescue center arranged the release of the rehabilitated animals.",
+          "derivatives": "release (v./n.) → released (adj.)；release (n.) 常与into连用"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Gradually",
+          "zh": "渐渐地",
+          "function": "方式状语"
+        },
+        {
+          "en": "the bird regained its strength",
+          "zh": "小鸟恢复了体力",
+          "function": "主句"
+        },
+        {
+          "en": "It began to hop around the box and flutter its wings",
+          "zh": "它开始在盒子里跳跃并拍动翅膀",
+          "function": "并列谓语（begin to do + and + do）"
+        },
+        {
+          "en": "One morning, it perched on my finger and chirped energetically",
+          "zh": "一天早上，它停在我的手指上，精神抖擞地啾啾叫",
+          "function": "主句（时间状语+主语+并列谓语）"
+        },
+        {
+          "en": "I knew then that the time for release was near. The wild was calling it back.",
+          "zh": "我当时就知道放归的时刻近了。旷野在召唤它回去。",
+          "function": "复合句（主句+宾语从句）+ 独立句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "One morning, it perched on my finger and chirped energetically.",
+          "zh": "一天早上，它停在我的手指上，精神抖擞地啾啾叫。",
+          "grammar": "简单句，主语it，两个并列谓语perched和chirped，两个副词性修饰成分：时间状语one morning和方式状语energetically。",
+          "pattern": "时间状语 + 主语 + 谓语A (on地点) + and + 谓语B (副词修饰)",
+          "note": "chirp为拟声词，描述小鸟叫声，常与energetically, happily等副词连用。这一句描写生动，使用两个并列动作展现小鸟恢复活力。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "并列谓语 (Compound Predicate)",
+            "explanation": "It began to hop... and flutter...以及 it perched... and chirped... 两个谓语动词并列，用and连接，表示连续或同时发生的动作。注意and后省略了主语，因为主语相同。",
+            "example_sentence": "It began to hop around the box and flutter its wings.",
+            "common_mistake": "❌ It began to hop around the box and to flutter its wings. → 可接受但啰嗦，通常省略第二个to。",
+            "contrast": "与并列复合句不同：并列谓语是同一主语执行多个动作；并列复合句则是两个独立分句由and连接（如I went home, and she stayed.）。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Two weeks later, on a clear morning, I carried the box to the edge of the woods. I opened the lid. The bird hesitated for a moment, then spread its wings and flew into the blue sky. It circled once above my head, as if to say goodbye, before disappearing among the trees. My heart was full of joy and a quiet sorrow.",
+      "zh": "两周后，在一个晴朗的早晨，我把盒子带到树林边缘。我打开盖子。鸟儿迟疑了片刻，然后展开翅膀飞向蓝天。它在我的头顶绕了一圈，仿佛在道别，然后消失在树林中。我的心中充满了喜悦和淡淡的忧伤。",
+      "vocabulary": [
+        {
+          "word": "hesitate",
+          "phonetic": "/ˈhezɪteɪt/",
+          "meaning": "v. 迟疑；犹豫",
+          "example": "She hesitated before answering the question.",
+          "derivatives": "hesitation (n.) → hesitant (adj.) → hesitantly (adv.)"
+        },
+        {
+          "word": "circle",
+          "phonetic": "/ˈsɜːkl/",
+          "meaning": "v. 盘旋；环绕",
+          "example": "The eagle circled slowly in the sky.",
+          "derivatives": "circle (n./v.) → circular (adj.) → circulation (n.)"
+        },
+        {
+          "word": "quiet sorrow",
+          "phonetic": "/ˈkwaɪət ˈsɒrəʊ/",
+          "meaning": "n. 淡淡的忧伤",
+          "example": "Parting always brings a quiet sorrow.",
+          "derivatives": "sorrow (n.) → sorrowful (adj.) → sorrowfully (adv.)"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Two weeks later, on a clear morning",
+          "zh": "两周后，在一个晴朗的早晨",
+          "function": "时间状语"
+        },
+        {
+          "en": "I carried the box to the edge of the woods",
+          "zh": "我把盒子带到树林边缘",
+          "function": "主句"
+        },
+        {
+          "en": "I opened the lid",
+          "zh": "我打开盖子",
+          "function": "独立句（动作描写）"
+        },
+        {
+          "en": "The bird hesitated for a moment, then spread its wings and flew into the blue sky",
+          "zh": "鸟儿迟疑了片刻，然后展开翅膀飞向蓝天",
+          "function": "主句（主语+并列谓语）"
+        },
+        {
+          "en": "It circled once above my head, as if to say goodbye, before disappearing among the trees",
+          "zh": "它在我的头顶绕了一圈，仿佛在道别，然后消失在树林中",
+          "function": "主句（含as if不定式作方式状语 + before介词短语作时间状语）"
+        },
+        {
+          "en": "My heart was full of joy and a quiet sorrow",
+          "zh": "我的心中充满了喜悦和淡淡的忧伤",
+          "function": "独立句（表语形容词短语）"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It circled once above my head, as if to say goodbye, before disappearing among the trees.",
+          "zh": "它在我的头顶绕了一圈，仿佛在道别，然后消失在树林中。",
+          "grammar": "主句为It circled once above my head，后接as if to say goodbye为不定式短语作方式状语，表示动作目的与方式；before disappearing among the trees为介词短语作时间状语。",
+          "pattern": "主语 + 谓语 + 地点/方式状语, as if to do, before + doing/名词",
+          "note": "as if to do 表示“好像要……”，用于描述动作所暗示的意图；disappearing 是动名词，作before的宾语。注意before后面不能接动词原形。"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "as if + 不定式短语 (As if + infinitive phrase)",
+            "explanation": "as if to say goodbye 等于 as if it were to say goodbye，是一种省略主语和be动词的简化结构，表示“好像要做某事”。常用于描写动物或拟人化动作。",
+            "example_sentence": "It circled once above my head, as if to say goodbye.",
+            "common_mistake": "❌ as if saying goodbye → as if to say goodbye（前者强调正在说，而鸟已经飞走，不定式表示目的/意图更合适）",
+            "contrast": "as if doing 表示“好像正在做”，强调同时性；as if to do 表示“好像要做”，强调意图。例如：He stood up, as if to leave.（好像要离开） vs. He stood up, as if waiting for something.（好像正在等什么）"
+          }
+        ]
+      }
+    }
+  ]
+}
