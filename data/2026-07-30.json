@@ -1,0 +1,264 @@
+{
+  "date": "2026-07-30",
+  "title": "The Seed of a True Career",
+  "titleZh": "真正职业的种子",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "For years, Mark had worked as a clerk in a dull office, processing papers with little enthusiasm. Each morning, he dragged himself to work, feeling that his life was slipping away in a sea of routine. He longed for something more meaningful, but did not know where to begin.",
+      "zh": "多年来，马克一直在一间沉闷的办公室里当职员，毫无热情地处理文件。每天早晨，他都拖着脚步去上班，感到自己的生命在日常琐事的海洋中逐渐流逝。他渴望更有意义的事情，却不知从何开始。",
+      "vocabulary": [
+        {
+          "word": "enthusiasm",
+          "phonetic": "/ɪnˈθjuːziæzəm/",
+          "meaning": "n. 热情；热忱",
+          "example": "She showed great enthusiasm for the project.",
+          "derivatives": "enthusiasm (n.) → enthusiastic (adj.) → enthusiastically (adv.)"
+        },
+        {
+          "word": "drag oneself",
+          "phonetic": "/dræɡ wʌnˈself/",
+          "meaning": "v. phr. 拖着身子（走）；勉强去做",
+          "example": "After the long flight, he dragged himself to the hotel.",
+          "derivatives": "drag (v.) 拖 → drag one's feet 拖延"
+        },
+        {
+          "word": "routine",
+          "phonetic": "/ruːˈtiːn/",
+          "meaning": "n. 常规；例行公事",
+          "example": "I got tired of the daily routine.",
+          "derivatives": "routine (n.) → routinize (v.) 常规化 → routinary (adj.) 例行的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Each morning, he dragged himself to work, feeling that his life was slipping away in a sea of routine.",
+          "zh": "每天早晨，他都拖着脚步去上班，感到自己的生命在日常琐事的海洋中逐渐流逝。",
+          "grammar": "主句为 he dragged himself to work，后接现在分词短语 feeling that... 作伴随状语，其中 that 引导宾语从句。",
+          "pattern": "主语 + 谓语 + 宾语，现在分词短语作伴随状语",
+          "note": "现在分词短语作伴随状语时，其逻辑主语必须与主句主语一致。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "For years, Mark had worked as a clerk in a dull office, processing papers with little enthusiasm.",
+          "zh": "多年来，马克一直在一间沉闷的办公室里当职员，毫无热情地处理文件。",
+          "function": "时间状语 + 主句 + 伴随状语"
+        },
+        {
+          "en": "Each morning, he dragged himself to work, feeling that his life was slipping away in a sea of routine.",
+          "zh": "每天早晨，他都拖着脚步去上班，感到自己的生命在日常琐事的海洋中逐渐流逝。",
+          "function": "时间状语 + 主句 + 伴随状语（含宾语从句）"
+        },
+        {
+          "en": "He longed for something more meaningful, but did not know where to begin.",
+          "zh": "他渴望更有意义的事情，却不知从何开始。",
+          "function": "主句（并列句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作伴随状语",
+            "explanation": "现在分词短语 (feeling that...) 表示与主句动作同时发生的伴随状态，主句主语就是分词动作的逻辑主语。",
+            "example_sentence": "Each morning, he dragged himself to work, feeling that his life was slipping away in a sea of routine.",
+            "common_mistake": "❌ He dragged himself, felt his life was slipping. → ✅ He dragged himself, feeling his life was slipping.",
+            "contrast": "现在分词 vs. 过去分词：现在分词表示主动进行，过去分词表示被动完成。如：He sat there, thinking.（主动思考）vs. He sat there, amazed.(被动惊讶)"
+          }
+        ]
+      }
+    },
+    {
+      "en": "One day, a friend invited him to volunteer at a local community center, teaching basic reading to underprivileged children. Mark agreed reluctantly, expecting it to be just another chore. However, the moment he saw the eager eyes of the children, something within him shifted.",
+      "zh": "一天，一位朋友邀请他去当地社区中心做志愿者，教贫困儿童基础阅读。马克勉强同意了，以为这不过是另一件苦差事。然而，当他看到孩子们渴望的眼神时，他内心的某个地方发生了变化。",
+      "vocabulary": [
+        {
+          "word": "volunteer",
+          "phonetic": "/ˌvɒlənˈtɪər/",
+          "meaning": "v. 自愿（做）；n. 志愿者",
+          "example": "She volunteered to help with the event.",
+          "derivatives": "volunteer (v./n.) → voluntary (adj.) → voluntarily (adv.)"
+        },
+        {
+          "word": "underprivileged",
+          "phonetic": "/ˌʌndəˈprɪvɪlɪdʒd/",
+          "meaning": "adj. 贫困的；社会地位低下的",
+          "example": "The charity supports underprivileged families.",
+          "derivatives": "privileged (adj.) 有特权的 → underprivileged (反义词)"
+        },
+        {
+          "word": "shift",
+          "phonetic": "/ʃɪft/",
+          "meaning": "v. 转变；移动",
+          "example": "His attitude shifted after the experience.",
+          "derivatives": "shift (v./n.) → shiftless (adj.) 无能的 → shifting (adj.) 变动的"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "However, the moment he saw the eager eyes of the children, something within him shifted.",
+          "zh": "然而，当他看到孩子们渴望的眼神时，他内心的某个地方发生了变化。",
+          "grammar": "the moment 引导时间状语从句，意为“一……就……”，相当于 as soon as。主句是 something within him shifted。",
+          "pattern": "The moment + 从句, 主句（主句用一般过去时）",
+          "note": "the moment 可作连词，后面直接跟从句，不需要介词。类似的还有 the instant, the minute。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "One day, a friend invited him to volunteer at a local community center, teaching basic reading to underprivileged children.",
+          "zh": "一天，一位朋友邀请他去当地社区中心做志愿者，教贫困儿童基础阅读。",
+          "function": "时间状语 + 主句（含宾语补足语和伴随状语）"
+        },
+        {
+          "en": "Mark agreed reluctantly, expecting it to be just another chore.",
+          "zh": "马克勉强同意了，以为这不过是另一件苦差事。",
+          "function": "主句 + 伴随状语"
+        },
+        {
+          "en": "However, the moment he saw the eager eyes of the children, something within him shifted.",
+          "zh": "然而，当他看到孩子们渴望的眼神时，他内心的某个地方发生了变化。",
+          "function": "转折连词 + 时间状语从句 + 主句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "时间状语从句（the moment引导）",
+            "explanation": "the moment (that) 引导时间状语从句，表示主句动作紧随从句动作发生，相当于 as soon as。",
+            "example_sentence": "However, the moment he saw the eager eyes of the children, something within him shifted.",
+            "common_mistake": "❌ The moment when he saw → ✅ The moment he saw (the moment 本身已是连词，不需要 when)",
+            "contrast": "the moment 与 as soon as 同义，但 the moment 更强调瞬间性，常用于口语和书面语。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Week after week, Mark devoted his evenings to the children, discovering a patience and creativity he never knew he possessed. He began to redesign lessons, turning them into games and stories. The children responded with joy, and Mark felt a deep sense of fulfillment that no paycheck could provide.",
+      "zh": "一周又一周，马克把晚上的时间都投入到孩子们身上，发现自己拥有从未知晓的耐心和创造力。他开始重新设计课程，把它们变成游戏和故事。孩子们用快乐回应，马克感受到一种薪水无法带来的深深满足感。",
+      "vocabulary": [
+        {
+          "word": "devote to",
+          "phonetic": "/dɪˈvəʊt tuː/",
+          "meaning": "v. phr. 把……奉献给；致力于",
+          "example": "She devotes her free time to painting.",
+          "derivatives": "devote (v.) → devoted (adj.) → devotion (n.)"
+        },
+        {
+          "word": "possess",
+          "phonetic": "/pəˈzes/",
+          "meaning": "v. 拥有；具有",
+          "example": "He possesses a great sense of humor.",
+          "derivatives": "possess (v.) → possession (n.) → possessive (adj.)"
+        },
+        {
+          "word": "fulfillment",
+          "phonetic": "/fʊlˈfɪlmənt/",
+          "meaning": "n. 满足感；实现",
+          "example": "Helping others gave her a sense of fulfillment.",
+          "derivatives": "fulfill (v.) → fulfillment (n.) → fulfilling (adj.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Week after week, Mark devoted his evenings to the children, discovering a patience and creativity he never knew he possessed.",
+          "zh": "一周又一周，马克把晚上的时间都投入到孩子们身上，发现自己拥有从未知晓的耐心和创造力。",
+          "grammar": "主句为 Mark devoted his evenings...，后面现在分词短语 discovering... 作结果状语；其中 a patience and creativity 后接定语从句 he never knew he possessed（省略了 that）。",
+          "pattern": "主语 + 谓语 + 宾语 + 状语, 现在分词短语作结果状语（含定语从句）",
+          "note": "现在分词短语作结果状语时，常表示自然而然产生的结果，前面可用逗号隔开。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Week after week, Mark devoted his evenings to the children, discovering a patience and creativity he never knew he possessed.",
+          "zh": "一周又一周，马克把晚上的时间都投入到孩子们身上，发现自己拥有从未知晓的耐心和创造力。",
+          "function": "时间状语 + 主句 + 结果状语（含定语从句）"
+        },
+        {
+          "en": "He began to redesign lessons, turning them into games and stories.",
+          "zh": "他开始重新设计课程，把它们变成游戏和故事。",
+          "function": "主句 + 方式状语（现在分词短语）"
+        },
+        {
+          "en": "The children responded with joy, and Mark felt a deep sense of fulfillment that no paycheck could provide.",
+          "zh": "孩子们用快乐回应，马克感受到一种薪水无法带来的深深满足感。",
+          "function": "并列句：第一个分句 + and + 第二个分句（含定语从句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词短语作结果状语",
+            "explanation": "现在分词短语 discovering... 表示主句动作带来的自然结果。这种结构常出现在文学性描写中。",
+            "example_sentence": "Week after week, Mark devoted his evenings to the children, discovering a patience and creativity he never knew he possessed.",
+            "common_mistake": "❌ He devoted himself, discovered... → ✅ He devoted himself, discovering...",
+            "contrast": "结果状语不定式：too...to.../enough to...；但现在分词强调伴随或自然结果，而不定式常表目的或意料之外的结果（如 only to find）。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Eventually, Mark left his clerical job and trained to become a full-time teacher. He now works in a school where many families face hardships, but he remains cheerful. Looking back, he often says that the true seed of a career is not found in a resume, but in the service of others.",
+      "zh": "最终，马克辞去了文员工作，并接受培训成为了一名全职教师。他现在在一所许多家庭面临困境的学校工作，但他始终保持愉快。回顾过去，他常说，真正职业的种子并不在简历里，而是在为他人的服务中。",
+      "vocabulary": [
+        {
+          "word": "clerical",
+          "phonetic": "/ˈklerɪkəl/",
+          "meaning": "adj. 文书的；办事员的",
+          "example": "He found a clerical position in a law firm.",
+          "derivatives": "clerk (n.) 职员 → clerical (adj.) → clerically (adv.)"
+        },
+        {
+          "word": "full-time",
+          "phonetic": "/ˌfʊl ˈtaɪm/",
+          "meaning": "adj./adv. 全职的/全职地",
+          "example": "She works full-time at the hospital.",
+          "derivatives": "full-time (adj./adv.) 全职 → part-time (adj./adv.) 兼职"
+        },
+        {
+          "word": "service",
+          "phonetic": "/ˈsɜːrvɪs/",
+          "meaning": "n. 服务；贡献",
+          "example": "He devoted his life to public service.",
+          "derivatives": "serve (v.) → service (n.) → servant (n.) 仆人"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Looking back, he often says that the true seed of a career is not found in a resume, but in the service of others.",
+          "zh": "回顾过去，他常说，真正职业的种子并不在简历里，而是在为他人的服务中。",
+          "grammar": "Looking back 是现在分词短语作时间状语；主句 he often says that...，that 引导宾语从句；从句中使用 not...but... 结构连接两个并列的介词短语。",
+          "pattern": "现在分词短语(时间状语)，主句 + that从句（not...but...结构）",
+          "note": "not...but... 连接平行结构，注意所连接的两部分语法形式必须一致。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Eventually, Mark left his clerical job and trained to become a full-time teacher.",
+          "zh": "最终，马克辞去了文员工作，并接受培训成为了一名全职教师。",
+          "function": "时间状语 + 主句（并列谓语）"
+        },
+        {
+          "en": "He now works in a school where many families face hardships, but he remains cheerful.",
+          "zh": "他现在在一所许多家庭面临困境的学校工作，但他始终保持愉快。",
+          "function": "并列句：第一个分句（含地点定语从句）+ but + 第二个分句"
+        },
+        {
+          "en": "Looking back, he often says that the true seed of a career is not found in a resume, but in the service of others.",
+          "zh": "回顾过去，他常说，真正职业的种子并不在简历里，而是在为他人的服务中。",
+          "function": "时间状语（现在分词短语）+ 主句 + 宾语从句（含并列介词短语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "not...but... 并列结构",
+            "explanation": "not...but... 意为“不是……而是……”，用来连接两个平行成分，强调后者。本句连���两个介词短语 in a resume 和 in the service of others。",
+            "example_sentence": "the true seed of a career is not found in a resume, but in the service of others.",
+            "common_mistake": "❌ not in a resume, but in the service → 正确 ✓（平行结构）但注意：如果前面是 not + 名词，后面也应跟名词。本句是介词短语，保持平行。",
+            "contrast": "not only...but also... 表示递进，而 not...but... 表示否定前者肯定后者。"
+          }
+        ]
+      }
+    }
+  ]
+}
