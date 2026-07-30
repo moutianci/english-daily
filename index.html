@@ -768,6 +768,9 @@ input, textarea, select {
 // 多源数据加载（国内访问 GitHub CDN 不稳定，依次尝试多个源）
 
 const EMBEDDED_DATES_MAP = {
+  "2026-07-31": [
+    {"id":"2026-07-31","title":"The Customs of Greeting Around the World","titleZh":"世界各地的问候习俗"}
+  ],
   "2026-07-30": [
     {"id":"2026-07-30","title":"The Seed of a True Career","titleZh":"真正职业的种子"}
   ],
@@ -933,7 +936,8 @@ const EMBEDDED_ARTICLE_IDS = [
     "2026-07-27",
     "2026-07-28",
     "2026-07-29",
-    "2026-07-30"
+    "2026-07-30",
+    "2026-07-31"
   ];
 
 // ===== 嵌入式全部文章数据（零网络请求，即时加载） =====
@@ -12116,6 +12120,290 @@ const EMBEDDED_ARTICLES = {
                         "example_sentence": "the true seed of a career is not found in a resume, but in the service of others.",
                         "common_mistake": "❌ not in a resume, but in the service → 正确 ✓（平行结构）但注意：如果前面是 not + 名词，后面也应跟名词。本句是介词短语，保持平行。",
                         "contrast": "not only...but also... 表示递进，而 not...but... 表示否定前者肯定后者。"
+                    }
+                ]
+            }
+        }
+    ]
+},
+  "2026-07-31": {
+    "date": "2026-07-31",
+    "title": "The Customs of Greeting Around the World",
+    "titleZh": "世界各地的问候习俗",
+    "url": "",
+    "paragraphs": [
+        {
+            "en": "Travelling abroad often reveals fascinating cultural differences. One of the most immediate is the way people greet one another. In many Western countries, a firm handshake is considered polite and confident. However, in Japan, bowing is the traditional form of greeting. The depth of the bow indicates respect, and a shallow bow may be seen as casual. Such customs, though simple, can easily confuse an unprepared traveller.",
+            "zh": "出国旅行常常能揭示出迷人的文化差异。最直接的一种差异就是人们相互问候的方式。在许多西方国家，有力的握手被视为礼貌和自信的表现。然而在日本，鞠躬是传统的问候形式。鞠躬的深度表示尊敬，浅鞠躬可能被视为随意。这些习俗虽然简单，却很容易让毫无准备的旅行者感到困惑。",
+            "vocabulary": [
+                {
+                    "word": "reveal",
+                    "phonetic": "/rɪˈviːl/",
+                    "meaning": "v. 揭示；展现",
+                    "example": "The survey revealed some surprising facts about people's eating habits.",
+                    "derivatives": "reveal (v.) → revelation (n.) 启示；揭露 → revealing (adj.) 有启示作用的"
+                },
+                {
+                    "word": "firm handshake",
+                    "phonetic": "/fɜːm ˈhændʃeɪk/",
+                    "meaning": "n. 有力的握手",
+                    "example": "In many cultures, a firm handshake is a sign of confidence.",
+                    "derivatives": "firm (adj.) + handshake (n.) → 习语搭配：a firm handshake (有力的握手), a weak handshake (无力的握手)"
+                },
+                {
+                    "word": "bow",
+                    "phonetic": "/baʊ/",
+                    "meaning": "v./n. 鞠躬",
+                    "example": "In Japan, people bow when they meet someone for the first time.",
+                    "derivatives": "bow (v./n.) → bowed (adj.) 弯曲的；俯身的 → bowing (n.) 鞠躬行为"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Travelling abroad often reveals fascinating cultural differences.",
+                    "zh": "出国旅行常常能揭示出迷人的文化差异。",
+                    "grammar": "主语为动名词短语 'Travelling abroad'，谓语动词 'reveals' 为第三人称单数，宾语为 'fascinating cultural differences'。",
+                    "pattern": "Doing something often reveals something.",
+                    "note": "动名词作主语时谓语用单数，常用于描述一般性事实。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "Travelling abroad",
+                    "zh": "出国旅行",
+                    "function": "主语"
+                },
+                {
+                    "en": "often reveals",
+                    "zh": "常常揭示",
+                    "function": "谓语部分"
+                },
+                {
+                    "en": "fascinating cultural differences",
+                    "zh": "迷人的文化差异",
+                    "function": "宾语"
+                },
+                {
+                    "en": "One of the most immediate",
+                    "zh": "最直接的一种",
+                    "function": "定语（修饰后文）"
+                },
+                {
+                    "en": "is the way people greet one another",
+                    "zh": "是人们相互问候的方式",
+                    "function": "表语从句"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "动名词作主语",
+                        "explanation": "动名词短语 'Travelling abroad' 作为句子主语，谓语动词用单数 'reveals'。",
+                        "example_sentence": "Travelling abroad often reveals fascinating cultural differences.",
+                        "common_mistake": "❌ Travel abroad often reveals... → ✅ Travelling abroad often reveals... (动名词短语作主语，不能直接用动词原形)",
+                        "contrast": "动名词主语与不定式主语：动名词表示一般性动作或习惯，不定式表示具体某次动作。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "During my first visit to Japan, I experienced this difference firsthand. When I met my host, I extended my hand automatically. To my surprise, he gently took it and gave a slight bow. I quickly realised my mistake and returned a bow. Fortunately, he smiled warmly, showing that he understood. This small incident taught me that local customs should be respected, even if they seem unfamiliar at first.",
+            "zh": "在我第一次访问日本时，我亲身经历了这种差异。当见到我的主人时，我不由自主地伸出了手。令我惊讶的是，他轻轻握住我的手并微微鞠躬。我很快意识到自己的错误，并回鞠了一躬。幸运的是，他温暖地笑了笑，表示理解。这件小事教会我，即使当地习俗起初看起来陌生，也应当尊重。",
+            "vocabulary": [
+                {
+                    "word": "firsthand",
+                    "phonetic": "/ˌfɜːstˈhænd/",
+                    "meaning": "adv. 第一手地；亲身地",
+                    "example": "I learned about the culture firsthand by living with a local family.",
+                    "derivatives": "firsthand (adj./adv.) → at second hand (adv.) 间接地"
+                },
+                {
+                    "word": "extend one's hand",
+                    "phonetic": "/ɪkˈstend wʌnz hænd/",
+                    "meaning": "v. 伸出手（握手）",
+                    "example": "In Western culture, it is common to extend your hand when meeting someone.",
+                    "derivatives": "extend (v.) → extension (n.) 延伸；扩展"
+                },
+                {
+                    "word": "return a bow",
+                    "phonetic": "/rɪˈtɜːn ə baʊ/",
+                    "meaning": "v. 回鞠一躬",
+                    "example": "When someone bows to you, it is polite to return a bow of the same depth.",
+                    "derivatives": "return (v.) + bow (n.) → 固定搭配：return a bow / 同义：bow back"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "This small incident taught me that local customs should be respected, even if they seem unfamiliar at first.",
+                    "zh": "这件小事教会我，即使当地习俗起初看起来陌生，也应当尊重。",
+                    "grammar": "主句 'This small incident taught me'，后接宾语从句 'that local customs should be respected'，从句中带有 'even if' 引导的让步状语从句。",
+                    "pattern": "Something taught someone that + 宾语从句, even if + 让步从句.",
+                    "note": "'teach' 可接双宾语或宾语从句，注意 'that' 不可省略。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "During my first visit to Japan",
+                    "zh": "在我第一次访问日本时",
+                    "function": "时间状语"
+                },
+                {
+                    "en": "I experienced this difference firsthand",
+                    "zh": "我亲身经历了这种差异",
+                    "function": "主谓宾+状语"
+                },
+                {
+                    "en": "When I met my host",
+                    "zh": "当见到我的主人时",
+                    "function": "时间状语从句"
+                },
+                {
+                    "en": "I extended my hand automatically",
+                    "zh": "我不由自主地伸出了手",
+                    "function": "主谓宾+状语"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "even if 引导的让步状语从句",
+                        "explanation": "'even if' 表示“即使”，引导的从句通常用一般现在时表将来。",
+                        "example_sentence": "even if they seem unfamiliar at first",
+                        "common_mistake": "❌ even if they will seem unfamiliar → ✅ even if they seem unfamiliar (在让步从句中用现在时表将来)",
+                        "contrast": "even if 与 even though：even if 强调假设性，even though 强调事实。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "Another greeting custom that can cause misunderstanding is the kiss on the cheek. In countries like France and Italy, friends often greet each other with light kisses on both cheeks. The number of kisses can vary by region — two in Paris, but three in some southern areas. For a foreigner, it is easy to misjudge the distance or the number of kisses. Such nuances remind us that even a simple act can carry deep cultural meaning.",
+            "zh": "另一种可能引起误解的问候习俗是亲吻脸颊。在法国和意大利等国，朋友们常常以轻吻双颊来问候。亲吻的次数因地区而异——巴黎两次，但某些南部地区三次。对于外国人来说，很容易判断错距离或亲吻次数。这些细微差别提醒我们，即使一个简单的举动也可能承载深厚的文化含义。",
+            "vocabulary": [
+                {
+                    "word": "misunderstanding",
+                    "phonetic": "/ˌmɪsʌndəˈstændɪŋ/",
+                    "meaning": "n. 误解",
+                    "example": "Cultural misunderstandings can lead to awkward moments.",
+                    "derivatives": "misunderstand (v.) → misunderstanding (n.) → misunderstood (adj.)"
+                },
+                {
+                    "word": "vary",
+                    "phonetic": "/ˈveəri/",
+                    "meaning": "v. 变化；不同",
+                    "example": "Customs vary from one country to another.",
+                    "derivatives": "vary (v.) → variation (n.) 变化 → variable (adj.) 可变的"
+                },
+                {
+                    "word": "misjudge",
+                    "phonetic": "/ˌmɪsˈdʒʌdʒ/",
+                    "meaning": "v. 判断错误",
+                    "example": "It is easy to misjudge the appropriate distance when greeting someone from another culture.",
+                    "derivatives": "misjudge (v.) → misjudgment (n.) 误判"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "Such nuances remind us that even a simple act can carry deep cultural meaning.",
+                    "zh": "这些细微差别提醒我们，即使一个简单的举动也可能承载深厚的文化含义。",
+                    "grammar": "主句 'Such nuances remind us'，后接宾语从句 'that even a simple act can carry deep cultural meaning'，从句主语 'a simple act' 带有 'even' 强调。",
+                    "pattern": "Remind someone that + 从句",
+                    "note": "'remind' 后接人称代词宾格+that从句，不可省略代词。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "Another greeting custom",
+                    "zh": "另一种问候习俗",
+                    "function": "主语"
+                },
+                {
+                    "en": "that can cause misunderstanding",
+                    "zh": "可能引起误解的",
+                    "function": "定语从句修饰 custom"
+                },
+                {
+                    "en": "is the kiss on the cheek",
+                    "zh": "是亲吻脸颊",
+                    "function": "系表结构"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "定语从句（限制性）",
+                        "explanation": "关系代词 'that' 引导的定语从句修饰 'custom'，'that' 在从句中作主语。",
+                        "example_sentence": "Another greeting custom that can cause misunderstanding is the kiss on the cheek.",
+                        "common_mistake": "❌ Another greeting custom which can cause misunderstanding... → ✅ 口语中 which 也可，但 that 更常见于限制性定语从句",
+                        "contrast": "限制性定语从句与非限制性定语从句：限���性去掉后意思不完整，非限制性用逗号隔开。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "To avoid such awkward situations, it is wise to observe and learn before acting. When in doubt, a simple smile is almost universally understood as a friendly gesture. Many locals appreciate the effort a foreigner makes to follow their customs. Ultimately, travel is not just about seeing new places, but also about understanding different ways of living. With an open mind, every encounter becomes a lesson in cultural awareness.",
+            "zh": "为了避免这种尴尬的情况，明智的做法是在行动之前观察和学习。当不确定时，一个简单的微笑几乎被普遍理解为友好的姿态。许多当地人赞赏外国人努力遵循他们的习俗。归根结底，旅行不仅在于看新的地方，还在于理解不同的生活方式。怀着开放的心态，每一次相遇都成为文化认知的一课。",
+            "vocabulary": [
+                {
+                    "word": "awkward",
+                    "phonetic": "/ˈɔːkwəd/",
+                    "meaning": "adj. 尴尬的；笨拙的",
+                    "example": "An awkward silence fell between them.",
+                    "derivatives": "awkward (adj.) → awkwardly (adv.) → awkwardness (n.)"
+                },
+                {
+                    "word": "universally",
+                    "phonetic": "/ˌjuːnɪˈvɜːsəli/",
+                    "meaning": "adv. 普遍地；全世界地",
+                    "example": "Smiling is universally recognized as a sign of happiness.",
+                    "derivatives": "universal (adj.) → universally (adv.) → universality (n.) 普遍性"
+                },
+                {
+                    "word": "encounter",
+                    "phonetic": "/ɪnˈkaʊntə/",
+                    "meaning": "n./v. 相遇；邂逅",
+                    "example": "Every encounter with a local taught me something new.",
+                    "derivatives": "encounter (n./v.) → encountered (adj.) 被遇到的"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "To avoid such awkward situations, it is wise to observe and learn before acting.",
+                    "zh": "为了避免这种尴尬的情况，明智的做法是在行动之前观察和学习。",
+                    "grammar": "不定式 'To avoid...' 作目的状语；主句为 'it is wise to observe and learn before acting'，其中 'it' 为形式主语，真正主语为不定式短语 'to observe and learn before acting'。",
+                    "pattern": "To do something, it is + adj. + to do...",
+                    "note": "常用句型，'it' 作形式主语，避免头重脚轻。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "To avoid such awkward situations",
+                    "zh": "为了避免这种尴尬的情况",
+                    "function": "目的状语"
+                },
+                {
+                    "en": "it is wise to observe and learn before acting",
+                    "zh": "明智的做法是在行动之前观察和学习",
+                    "function": "主句（形式主语+系表+真正主语）"
+                },
+                {
+                    "en": "When in doubt",
+                    "zh": "当不确定时",
+                    "function": "状语（省略式）"
+                },
+                {
+                    "en": "a simple smile is almost universally understood",
+                    "zh": "一个简单的微笑几乎被普遍理解",
+                    "function": "主谓补"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "不定式作目的状语",
+                        "explanation": "不定式短语 'To avoid...' 放在句首，表示目的，后用逗号隔开。",
+                        "example_sentence": "To avoid such awkward situations, it is wise to observe and learn before acting.",
+                        "common_mistake": "❌ Avoid such awkward situations, it is wise... → ✅ 必须用不定式表目的：To avoid...",
+                        "contrast": "不定式作目的状语与 for doing：不定式更常见且正式，for doing 多用于特定搭配。"
                     }
                 ]
             }
