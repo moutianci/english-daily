@@ -768,6 +768,9 @@ input, textarea, select {
 // 多源数据加载（国内访问 GitHub CDN 不稳定，依次尝试多个源）
 
 const EMBEDDED_DATES_MAP = {
+  "2026-08-13": [
+    {"id":"2026-08-13","title":"The Music in the Rain","titleZh":"雨中的乐曲"}
+  ],
   "2026-07-31": [
     {"id":"2026-07-31","title":"The Customs of Greeting Around the World","titleZh":"世界各地的问候习俗"}
   ],
@@ -937,7 +940,8 @@ const EMBEDDED_ARTICLE_IDS = [
     "2026-07-28",
     "2026-07-29",
     "2026-07-30",
-    "2026-07-31"
+    "2026-07-31",
+    "2026-08-13"
   ];
 
 // ===== 嵌入式全部文章数据（零网络请求，即时加载） =====
@@ -12404,6 +12408,310 @@ const EMBEDDED_ARTICLES = {
                         "example_sentence": "To avoid such awkward situations, it is wise to observe and learn before acting.",
                         "common_mistake": "❌ Avoid such awkward situations, it is wise... → ✅ 必须用不定式表目的：To avoid...",
                         "contrast": "不定式作目的状语与 for doing：不定式更常见且正式，for doing 多用于特定搭配。"
+                    }
+                ]
+            }
+        }
+    ]
+},
+  "2026-08-13": {
+    "date": "2026-08-13",
+    "title": "The Music in the Rain",
+    "titleZh": "雨中的乐曲",
+    "url": "",
+    "paragraphs": [
+        {
+            "en": "On the morning of August 13th, I left home in a hurry. The sky had been overcast since dawn, and a light rain was already falling. I had not brought an umbrella, and soon my coat was wet. I felt annoyed, for I had planned a pleasant walk to the shops.",
+            "zh": "八月十三日早晨，我匆匆忙忙地离开了家。从黎明开始，天空就一直布满阴云，小雨已经下了起来。我没有带雨伞，很快外衣就湿了。我感到很恼火，因为我原本计划高高兴兴地去商店逛一逛。",
+            "vocabulary": [
+                {
+                    "word": "overcast",
+                    "phonetic": "/ˌəʊvəˈkɑːst/",
+                    "meaning": "adj. 阴天的；布满阴云的",
+                    "example": "The sky was overcast, and we decided to stay inside.",
+                    "derivatives": "overcast (adj.) → overcast sky 阴天；overcast (v.) 使变阴"
+                },
+                {
+                    "word": "in a hurry",
+                    "phonetic": "/ɪn ə ˈhʌri/",
+                    "meaning": "adv. 匆忙地；急于",
+                    "example": "He left the house in a hurry and forgot his keys.",
+                    "derivatives": "in a hurry to do sth 急于做某事；in no hurry 不着急"
+                },
+                {
+                    "word": "annoyed",
+                    "phonetic": "/əˈnɔɪd/",
+                    "meaning": "adj. 恼怒的；气恼的",
+                    "example": "She was annoyed with herself for making the same mistake.",
+                    "derivatives": "annoy (v.) 使恼怒 → annoyance (n.) 恼怒 → annoyed (adj.) → annoying (adj.) 烦人的"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "The sky had been overcast since dawn, and a light rain was already falling.",
+                    "zh": "从黎明开始，天空就一直布满阴云，小雨已经下了起来。",
+                    "grammar": "本句为并列句。前半部分用过去完成时 had been overcast 表示从黎明之前就开始并持续到过去某一时刻的状态，since dawn 强调起点。后半部分用过去进行时 was falling 描写当时正在进行的动作。",
+                    "pattern": "had been + 形容词/名词 + since + 时间点，and + 主语 + was/were + 现在分词 (过去时间背景描写)",
+                    "note": "since dawn 用于完成时，表示‘自黎明以来’；而 for dawn 是错误表达。注意过去完成时常与 since 或 for 引导的时间状语连用。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "On the morning of August 13th",
+                    "zh": "在八月十三日早晨",
+                    "function": "时间状语"
+                },
+                {
+                    "en": "I left home in a hurry",
+                    "zh": "我匆匆离开家",
+                    "function": "主句"
+                },
+                {
+                    "en": "The sky had been overcast since dawn, and a light rain was already falling",
+                    "zh": "从黎明起天空一直阴沉，小雨已经落下",
+                    "function": "并列句，交代天气背景"
+                },
+                {
+                    "en": "I had not brought an umbrella, and soon my coat was wet",
+                    "zh": "我没带伞，很快外套就湿了",
+                    "function": "并列句，说明后果"
+                },
+                {
+                    "en": "I felt annoyed, for I had planned a pleasant walk to the shops",
+                    "zh": "我感到恼火，因为我原本计划愉快地走去商店",
+                    "function": "主句 + for 引导的原因状语从句"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "过去完成时",
+                        "explanation": "过去完成时表示‘过去的过去’，常用于说明在某一过去时间之前已经发生的动作或状态。本句 The sky had been overcast since dawn 表明阴天状态在 dawn 之前已经开始，并延续到叙述的过去时刻。",
+                        "example_sentence": "The sky had been overcast since dawn, and a light rain was already falling.",
+                        "common_mistake": "❌ The sky has been overcast since dawn (误用现在完成时) → ✅ The sky had been overcast since dawn (过去时间背景用过去完成时)",
+                        "contrast": "过去完成时与现在完成时：现在完成时强调对现在的影响，过去完成时强调对过去某一时刻的影响。如 I had finished lunch when he came 表示他到来时我已吃完午饭。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "As I turned a corner, I noticed an old man standing beneath a shop awning. He was playing a violin, his eyes closed and his body swaying gently. Most passers-by hurried past without a glance. Yet his music rose above the noise of the traffic, calm and unhurried.",
+            "zh": "当我转过一个街角时，我注意到一位老人站在商店的遮阳篷下。他正在拉小提琴，双眼闭着，身体轻轻摇晃。大多数行人都匆忙走过，看也不看一眼。然而，他的琴声却升腾于交通喧嚣之上，从容而舒缓。",
+            "vocabulary": [
+                {
+                    "word": "awning",
+                    "phonetic": "/ˈɔːnɪŋ/",
+                    "meaning": "n. 遮阳篷；雨篷",
+                    "example": "We sat under the awning to escape the hot sun.",
+                    "derivatives": "shop awning 商店遮阳篷；canvas awning 帆布雨篷"
+                },
+                {
+                    "word": "glance",
+                    "phonetic": "/ɡlɑːns/",
+                    "meaning": "n. 一瞥；扫视",
+                    "example": "He took a quick glance at the headlines before leaving.",
+                    "derivatives": "glance (v.) 瞥一眼 → cast a glance 投以一瞥；at first glance 乍一看"
+                },
+                {
+                    "word": "unhurried",
+                    "phonetic": "/ˌʌnˈhʌrid/",
+                    "meaning": "adj. 从容的；不慌不忙的",
+                    "example": "She walked with an unhurried pace, enjoying the evening air.",
+                    "derivatives": "hurried (adj.) 匆忙的 → unhurried (adj.) 从容的反义词 → unhurriedly (adv.) 从容地"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "As I turned a corner, I noticed an old man standing beneath a shop awning.",
+                    "zh": "当我转过一个街角时，我注意到一位老人站在商店的遮阳篷下。",
+                    "grammar": "句首为 as 引导的时间状语从句，主句谓语 noticed 后接宾语 an old man，再接现在分词短语 standing beneath a shop awning 作宾语补足语，表示主动且正在进行的动作。",
+                    "pattern": "notice + 名词/代词 + 现在分词 (感官动词 + 宾语 + 宾语补足语)",
+                    "note": "感官动词 (see, notice, hear, feel 等) 后接复合宾语时，不定式表全过程，现在分词表正在进行。注意不能说 notice sb doing sth 时省略 to do 的正确形式是 do，不是 to do。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "As I turned a corner",
+                    "zh": "当我转过街角",
+                    "function": "时间状语从句"
+                },
+                {
+                    "en": "I noticed an old man standing beneath a shop awning",
+                    "zh": "我注意到一位老人站在商店遮阳篷下",
+                    "function": "主句 (谓语 + 宾语 + 宾语补足语)"
+                },
+                {
+                    "en": "He was playing a violin, his eyes closed and his body swaying gently",
+                    "zh": "他正拉小提琴，闭着眼，身体轻轻摇摆",
+                    "function": "主句 + 独立主格结构作伴随状语"
+                },
+                {
+                    "en": "Most passers-by hurried past without a glance",
+                    "zh": "多数路人匆匆走过，看也不看",
+                    "function": "主句"
+                },
+                {
+                    "en": "Yet his music rose above the noise of the traffic, calm and unhurried",
+                    "zh": "然而他的琴声升起于交通喧嚣之上，从容而舒缓",
+                    "function": "主句 + 形容词短语作伴随状语"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "独立主格结构",
+                        "explanation": "独立主格结构由名词/代词 + 现在分词/过去分词/形容词/介词短语等构成，在句中作伴随状语，表示动作同时进行。本句 his eyes closed and his body swaying gently 是独立主格，closed 为过去分词，swaying 为现在分词。",
+                        "example_sentence": "He was playing a violin, his eyes closed and his body swaying gently.",
+                        "common_mistake": "❌ He was playing a violin, his eyes closing and his body swaying gently (close 在此是及物动词，眼睛‘被闭上’，应用过去分词) → ✅ his eyes closed",
+                        "contrast": "独立主格与 with 复合结构：两者都可表伴随，但 with 复合结构更口语化，如 with his eyes closed。独立主格多用于书面，句子更简练。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "I stopped and listened. The tune was unfamiliar, but it spoke of patience and quiet joy. For five minutes I forgot my damp coat and my hurried plans. When the music ended, I put a few coins into his open case. He nodded and smiled, as if we shared a secret.",
+            "zh": "我停下来倾听。这支曲子我并不熟悉，但它诉说着耐心与宁静的喜悦。整整五分钟，我忘记了自己潮湿的外衣和匆忙的计划。当音乐停止时，我向他的琴盒里放了几枚硬币。他点点头，笑了笑，仿佛我们共享着一个秘密。",
+            "vocabulary": [
+                {
+                    "word": "tune",
+                    "phonetic": "/tjuːn/",
+                    "meaning": "n. 曲调；旋律",
+                    "example": "The child hummed a cheerful tune all the way home.",
+                    "derivatives": "tune (n.) 曲调 → tune (v.) 调音 → tuneful (adj.) 悦耳的 → tuneless (adj.) 不成调的"
+                },
+                {
+                    "word": "damp",
+                    "phonetic": "/dæmp/",
+                    "meaning": "adj. 潮湿的",
+                    "example": "The towel was still damp from the rain.",
+                    "derivatives": "damp (adj.) 潮湿的 → dampness (n.) 潮湿 → dampen (v.) 使潮湿；使沮丧"
+                },
+                {
+                    "word": "as if",
+                    "phonetic": "/æz ɪf/",
+                    "meaning": "conj. 好像；仿佛",
+                    "example": "She looked at me as if she knew the answer.",
+                    "derivatives": "as if 引导方式状语从句；as though 同义；可用于虚拟语气：as if she were right (真实情况不是这样)"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "He nodded and smiled, as if we shared a secret.",
+                    "zh": "他点点头，笑了笑，仿佛我们共享着一个秘密。",
+                    "grammar": "as if 引导方式状语从句，表示与事实相反或想象中的情况时，从句用虚拟语气。句子用过去式 shared 表示与现在事实相反（实际上我们刚刚认识，并无共同秘密）。",
+                    "pattern": "主语 + 谓语, as if + 主语 + 过去式… (与现在事实相反的虚拟语气)",
+                    "note": "as if = as though。口语中（尤其美式英语）也可用陈述语气表示可能真实的情况，如 It looks as if it is going to rain。但在正式书面语中，非真实情况仍用虚拟语气。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "I stopped and listened",
+                    "zh": "我停下来聆听",
+                    "function": "主句 (两个并列谓语)"
+                },
+                {
+                    "en": "The tune was unfamiliar, but it spoke of patience and quiet joy",
+                    "zh": "曲调不熟悉，却诉说着耐心与宁静的喜悦",
+                    "function": "转折并列句"
+                },
+                {
+                    "en": "For five minutes I forgot my damp coat and my hurried plans",
+                    "zh": "五分钟里，我忘了湿外套和匆忙的计划",
+                    "function": "主句 (For five minutes 为时间状语)"
+                },
+                {
+                    "en": "When the music ended, I put a few coins into his open case",
+                    "zh": "乐声停止时，我向他的琴盒里放了几个硬币",
+                    "function": "时间状语从句 + 主句"
+                },
+                {
+                    "en": "He nodded and smiled, as if we shared a secret",
+                    "zh": "他点头微笑，仿佛我们共享秘密",
+                    "function": "主句 + as if 引导的方式状语从句"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "as if 引导的虚拟方式状语从句",
+                        "explanation": "当 as if 引导的从句表示的内容与事实不符或仅是想象时，从句需用虚拟语气。与现在事实相反用一般过去时，与过去事实相反用过去完成时。本句 as if we shared a secret 用 shared，属于与现在事实相反。",
+                        "example_sentence": "He nodded and smiled, as if we shared a secret.",
+                        "common_mistake": "❌ He nods and smiles, as if we share a secret (在 non-factual 语境中用陈述语气) → ✅ He nods and smiles, as if we shared a secret.",
+                        "contrast": "as if 也可接不定式短语 as if to say，表示‘好像要……’。如 He opened his mouth as if to speak。"
+                    }
+                ]
+            }
+        },
+        {
+            "en": "That morning taught me a simple lesson. We hurry from one place to another, but we rarely notice the world around us. A little pause, a single melody, can change the feel of an entire day. I walked home slowly, with the rain no longer an annoyance but a gentle reminder of the beauty we often miss.",
+            "zh": "那个早晨给我上了简单的一课。我们从一个地方匆匆赶往另一个地方，却很少留意周围的世界。片刻的驻足，一段简单的旋律，就能改变一整天的感受。我慢慢地走回家，雨不再是恼人的事，而是我们常常错过的美丽景色的一种温柔提示。",
+            "vocabulary": [
+                {
+                    "word": "rarely",
+                    "phonetic": "/ˈreəli/",
+                    "meaning": "adv. 很少；难得",
+                    "example": "We rarely visit the museum, even though it is close.",
+                    "derivatives": "rare (adj.) 稀少的 → rarely (adv.) 很少 = seldom → rarity (n.) 稀有"
+                },
+                {
+                    "word": "annoyance",
+                    "phonetic": "/əˈnɔɪəns/",
+                    "meaning": "n. 恼怒；烦恼，讨厌的事",
+                    "example": "The constant noise was a great annoyance to the residents.",
+                    "derivatives": "annoy (v.) 使恼怒 → annoyed (adj.) 恼怒的 → annoying (adj.) 烦人的 → annoyance (n.)"
+                },
+                {
+                    "word": "reminder",
+                    "phonetic": "/rɪˈmaɪndə(r)/",
+                    "meaning": "n. 令人想起……的东西；提示，提醒物",
+                    "example": "The old photograph was a reminder of happier times.",
+                    "derivatives": "remind (v.) 提醒 → reminder (n.) 提示；remind sb of sth 使某人想起某事"
+                }
+            ],
+            "difficult_sentences": [
+                {
+                    "en": "I walked home slowly, with the rain no longer an annoyance but a gentle reminder of the beauty we often miss.",
+                    "zh": "我慢慢地走回家，雨不再是恼人的事，而是我们常常错过的美丽景色的一种温柔提示。",
+                    "grammar": "with + the rain + no longer an annoyance but a gentle reminder 构成 with 复合结构。其中 the rain 是宾语，no longer...but... 连接两个名词短语作宾语补足语。介词短语 of the beauty we often miss 作 reminder 的定语，we often miss 是省略关系代词 that 的定语从句。",
+                    "pattern": "with + 宾语 + 名词短语 (作宾语补足语) + 定语从句 (省略 that)",
+                    "note": "with 复合结构常在句中作伴随状语或原因状语。注意‘不再……而是……’用 no longer...but...，不能误用 not longer。类似结构还有 not...but...。"
+                }
+            ],
+            "chunks": [
+                {
+                    "en": "That morning taught me a simple lesson",
+                    "zh": "那个早晨给我上了一堂简单的课",
+                    "function": "主句 (双宾语结构 me, a lesson)"
+                },
+                {
+                    "en": "We hurry from one place to another, but we rarely notice the world around us",
+                    "zh": "我们匆匆从一处赶往另一处，却很少留意周围的世界",
+                    "function": "转折并列句"
+                },
+                {
+                    "en": "A little pause, a single melody, can change the feel of an entire day",
+                    "zh": "片刻驻足，一段旋律，能改变一整天的感受",
+                    "function": "主句 (并列主语)"
+                },
+                {
+                    "en": "I walked home slowly",
+                    "zh": "我慢慢地走回家",
+                    "function": "主句"
+                },
+                {
+                    "en": "with the rain no longer an annoyance but a gentle reminder of the beauty we often miss",
+                    "zh": "雨水不再是烦恼，而是常被我们错过的美丽的一种温柔提醒",
+                    "function": "with 复合结构作伴随状语"
+                }
+            ],
+            "grammar_analysis": {
+                "points": [
+                    {
+                        "structure": "with 复合结构",
+                        "explanation": "with + 宾语 + 宾语补足语 (名词/形容词/分词/介词短语等) 在句中作伴随状语，使句子紧凑。本句 with the rain no longer an annoyance but a gentle reminder... 中，the rain 为宾语，no longer an annoyance but a gentle reminder 是互补的名词短语作补足语。",
+                        "example_sentence": "I walked home slowly, with the rain no longer an annoyance but a gentle reminder of the beauty we often miss.",
+                        "common_mistake": "❌ with the rain no longer annoyance (缺少冠词) → ✅ with the rain no longer an annoyance (可数名词单数须加冠词)",
+                        "contrast": "with 复合结构既可表伴随，也可表原因、方式等。它与独立主格结构相似，但 with 复合结构更口语化，且逻辑主语前须保留 with。例如：He fell asleep with the light on. (on 为副词)"
                     }
                 ]
             }
