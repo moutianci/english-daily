@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-13",
+  "title": "The Last Swallows of September",
+  "titleZh": "九月的最后一群燕子",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Every September, the swallows that have nested under our eaves begin to gather on the telephone wires. They line up in neat dark rows, chattering as though discussing the journey ahead. Then, one morning, the wires are empty. The birds have gone, leaving behind them a silence that seems to fill the whole village.",
+      "zh": "每年九月，那些在我们屋檐下筑巢的燕子便开始聚集在电话线上。它们排成整齐的黑色行列，叽叽喳喳地叫着，仿佛在商量即将到来的旅程。然后，在某一个清晨，电线上空空如也。鸟儿已经离去，留下一种仿佛要充满整个村庄的寂静。",
+      "vocabulary": [
+        {
+          "word": "eaves",
+          "phonetic": "/iːvz/",
+          "meaning": "n. 屋檐（常用复数形式）",
+          "example": "Swallows build their nests under the eaves of the old farmhouse.",
+          "derivatives": "eaves (n. 复数) 屋檐 → eaved (adj.) 有屋檐的（罕见）；常见搭配：under the eaves 在屋檐下；eaves of a roof 屋顶的檐"
+        },
+        {
+          "word": "chatter",
+          "phonetic": "/ˈtʃætə(r)/",
+          "meaning": "v. （鸟）啁啾；喋喋不休地讲　n. 喋喋不休",
+          "example": "The sparrows chattered in the hedge all afternoon.",
+          "derivatives": "chatter (v./n.) → chatterer (n.) 唠叨的人 → chatty (adj.) 爱说话的 → chattily (adv.)"
+        },
+        {
+          "word": "silence",
+          "phonetic": "/ˈsaɪləns/",
+          "meaning": "n. 寂静；沉默　v. 使沉默",
+          "example": "A strange silence fell over the forest after the storm.",
+          "derivatives": "silent (adj.) 沉默的、寂静的 → silence (n./v.) → silently (adv.) 默默地"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "They line up in neat dark rows, chattering as though discussing the journey ahead.",
+          "zh": "它们排成整齐的黑色行列，叽叽喳喳地叫着，仿佛在商量即将到来的旅程。",
+          "grammar": "主句为 They line up in neat dark rows；chattering 为现在分词作伴随状语，说明主语同时进行的动作；as though discussing... 是 as though 引导的比较状语从句，省略了主语 they 和系动词 were（as though they were discussing...）。",
+          "pattern": "..., doing sth., as though doing sth. （分词伴随状语 + as though 省略式比较状语）",
+          "note": "as though／as if 后接从句时常用虚拟语气；若从句主语与主句一致且含 be 动词，可省略为 as though + 分词／形容词／介词短语。此句省略后使描写更紧凑、更有文学感，但考试中若从句主语不同则不可省略。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Every September",
+          "zh": "每年九月",
+          "function": "时间状语"
+        },
+        {
+          "en": "the swallows that have nested under our eaves",
+          "zh": "那些在我们屋檐下筑过巢的燕子",
+          "function": "主语（含定语从句）"
+        },
+        {
+          "en": "begin to gather on the telephone wires",
+          "zh": "开始聚集在电话线上",
+          "function": "谓语 + 地点状语"
+        },
+        {
+          "en": "They line up in neat dark rows, chattering as though discussing the journey ahead",
+          "zh": "它们排成整齐的黑色行列，叽叽喳喳地仿佛在商量前方的旅程",
+          "function": "主句 + 伴随状语"
+        },
+        {
+          "en": "leaving behind them a silence that seems to fill the whole village",
+          "zh": "在它们身后留下一种似乎充满整个村庄的寂静",
+          "function": "现在分词短语作结果状语（内含定语从句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "定语从句（that 引导，修饰 the swallows）",
+            "explanation": "that have nested under our eaves 修饰主语 the swallows，用现在完成时强调“筑巢”这一动作从过去持续到现在，并对现在产生影响——所以燕子才会在此聚集。",
+            "example_sentence": "Every September, the swallows that have nested under our eaves begin to gather on the telephone wires.",
+            "common_mistake": "❌ the swallows which have nested under our eaves since May begin to gather → ✅ the swallows that / which have nested under our eaves since May begin to gather（其实错在 since May 的位置与逻辑，正确应把 since May 放入从句：the swallows that have nested under our eaves since May）",
+            "contrast": "限制性定语从句（无逗号）提供必要信息，不可删；非限制性定语从句（有逗号）只是补充说明，删后主句仍成立。此句若加逗号，则暗示“所有燕子”都在屋檐下筑巢，意思就变了。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Nobody teaches these small birds where to go. Yet each autumn they fly thousands of miles to southern Africa, crossing deserts and seas without a map. Scientists believe they steer partly by the sun and stars, and partly by an inner magnetic sense that we still do not fully understand.",
+      "zh": "没有人教这些小鸟该飞向何方。然而每年秋天，它们都会飞行数千英里抵达非洲南部，不靠地图便越过沙漠与海洋。科学家认为，它们一部分靠太阳和星辰导航，一部分则依靠一种我们至今仍未完全理解的内在磁感。",
+      "vocabulary": [
+        {
+          "word": "steer",
+          "phonetic": "/stɪə(r)/",
+          "meaning": "v. 驾驶；操纵；引导　n. 建议（a steer）",
+          "example": "Birds can steer by the stars on clear nights.",
+          "derivatives": "steer (v.) → steering (n.) 操舵、转向系统 → steersman (n.) 舵手；常见搭配：steer by 靠……导航；steer clear of 避开"
+        },
+        {
+          "word": "magnetic",
+          "phonetic": "/mæɡˈnetɪk/",
+          "meaning": "adj. 磁的；有吸引力的",
+          "example": "The magnetic field of the earth helps many animals find their way.",
+          "derivatives": "magnet (n.) 磁铁、有吸引力的人或物 → magnetic (adj.) → magnetically (adv.) → magnetism (n.) 磁性、魅力"
+        },
+        {
+          "word": "sense",
+          "phonetic": "/sens/",
+          "meaning": "n. 感觉；意义；判断力　v. 感觉到",
+          "example": "Dogs have a keen sense of smell.",
+          "derivatives": "sense (n./v.) → sensible (adj.) 明智的 → sensitive (adj.) 敏感的 → sensory (adj.) 感觉的 → sensibility (n.) 感受力"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Scientists believe they steer partly by the sun and stars, and partly by an inner magnetic sense that we still do not fully understand.",
+          "zh": "科学家认为，它们一部分靠太阳和星辰导航，一部分则依靠一种我们至今仍未完全理解的内在磁感。",
+          "grammar": "believe 后接省略 that 的宾语从句 they steer...；介词短语 partly by... and partly by... 作方式状语，由 and 并列；an inner magnetic sense 后接 that 引导的定语从句，关系代词 that 在从句中作 understand 的宾语。",
+          "pattern": "sb. believe (that) + 从句, partly by A and partly by B（部分靠A，部分靠B）",
+          "note": "believe 引导的宾语从句中 that 常可省略；但若从句前有插入成分（如 Scientists believe, however, that...），that 必须保留。partly by...and partly by... 是说明“多种原因并列”的简洁结构，写作中很实用。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Nobody teaches these small birds where to go",
+          "zh": "没有人教这些小鸟该飞向何方",
+          "function": "主句（含“疑问词 + 不定式”作宾语）"
+        },
+        {
+          "en": "Yet each autumn they fly thousands of miles to southern Africa",
+          "zh": "然而每年秋天它们却飞行数千英里前往非洲南部",
+          "function": "时间状语 + 主谓 + 距离／方向状语"
+        },
+        {
+          "en": "crossing deserts and seas without a map",
+          "zh": "不靠地图便越过沙漠与海洋",
+          "function": "现在分词短语作伴随状语"
+        },
+        {
+          "en": "Scientists believe they steer partly by the sun and stars",
+          "zh": "科学家认为它们部分靠太阳和星辰导航",
+          "function": "主句 + 宾语从句"
+        },
+        {
+          "en": "and partly by an inner magnetic sense that we still do not fully understand",
+          "zh": "另一部分靠一种我们至今仍未完全理解的内在磁感",
+          "function": "并列方式状语（内含定语从句）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "宾语从句与“疑问词 + 不定式”",
+            "explanation": "teach sb. where to go 中 where to go 相当于 where they should go，是“疑问词 + 不定式”结构，作 teach 的直接宾语；believe 后的 they steer... 是 that 引导（此处省略 that）的宾语从句，用陈述语序。",
+            "example_sentence": "Nobody teaches these small birds where to go.",
+            "common_mistake": "❌ Nobody teaches these birds where should they go. → ✅ Nobody teaches these birds where they should go. / ✅ Nobody teaches these birds where to go.（从句必须用陈述语序，不可倒装）",
+            "contrast": "“疑问词 + 不定式”更简洁，常用于 tell／teach／know／decide 之后；“疑问词 + 从句”则可带情态动词、时态更灵活，如 I don't know how I can thank you."
+          }
+        ]
+      }
+    },
+    {
+      "en": "Last week I found one young swallow lying exhausted in the barn. It had hatched late and was too weak to join the others. I fed it on flies and sugar water for three days. On the fourth morning it perched on my finger, hesitated, and then rose unsteadily into the warm September air.",
+      "zh": "上周，我在谷仓里发现一只年轻的燕子精疲力竭地躺在地上。它孵出得晚，虚弱得无法跟上其他同伴。我用苍蝇和糖水喂了它三天。第四天早晨，它停在我的手指上，迟疑了一下，随后摇摇晃晃地飞入九月温暖的空气中。",
+      "vocabulary": [
+        {
+          "word": "exhausted",
+          "phonetic": "/ɪɡˈzɔːstɪd/",
+          "meaning": "adj. 精疲力竭的；耗尽的",
+          "example": "The little bird lay exhausted on the floor of the barn.",
+          "derivatives": "exhaust (v.) 使疲惫、耗尽 → exhausted (adj.) 感到疲惫的 → exhausting (adj.) 令人疲惫的 → exhaustion (n.) 疲惫"
+        },
+        {
+          "word": "hatch",
+          "phonetic": "/hætʃ/",
+          "meaning": "v. 孵化；出壳；策划　n. 舱口",
+          "example": "The eggs hatch about three weeks after they are laid.",
+          "derivatives": "hatch (v.) → hatching (n.) 孵化 → hatchery (n.) 孵化场；常见搭配：hatch out 孵出；hatch a plot 策划阴谋"
+        },
+        {
+          "word": "perch",
+          "phonetic": "/pɜːtʃ/",
+          "meaning": "v. （鸟）栖息；停留　n. 栖木；高处的位置",
+          "example": "A robin perched on the garden gate and watched us.",
+          "derivatives": "perch (v./n.) → perched (adj.) 栖息的、坐得高高的；常见搭配：perch on 停在……上；be perched on the edge of 坐在……边缘"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "It had hatched late and was too weak to join the others.",
+          "zh": "它孵出得晚，虚弱得无法跟上其他同伴。",
+          "grammar": "had hatched 为过去完成时，表示在“我发现它”之前就已发生的动作；was too weak to join 是 too...to 结构，形式上肯定、意义上否定，意为“太……而不能��…”。",
+          "pattern": "be too + adj. + to do sth.（太……以致不能做某事）",
+          "note": "too...to 本身含否定意义，因此不可再加 not；若要表达肯定结果，用 not too...to（并不太……而能）或 so...that...can。注意与 only too...to（非常愿意……）区别：I'm only too glad to help."
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Last week",
+          "zh": "上周",
+          "function": "时间状语"
+        },
+        {
+          "en": "I found one young swallow lying exhausted in the barn",
+          "zh": "我发现一只年轻的燕子精疲力竭地躺在谷仓里",
+          "function": "主句（find + 宾语 + 现在分词作宾语补足语）"
+        },
+        {
+          "en": "It had hatched late and was too weak to join the others",
+          "zh": "它孵出得晚，虚弱得无法跟上同伴",
+          "function": "并列谓语（过去完成时 + too...to 结构）"
+        },
+        {
+          "en": "On the fourth morning",
+          "zh": "第四天早晨",
+          "function": "时间状语"
+        },
+        {
+          "en": "it perched on my finger, hesitated, and then rose unsteadily into the warm September air",
+          "zh": "它停在我的手指上，迟疑了一下，随后摇摇晃晃地飞入九月温暖的空气中",
+          "function": "三个并列谓语 + 地点／方向状语"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "find + 宾语 + 现在分词（宾语补足语）",
+            "explanation": "find one young swallow lying exhausted 中，lying exhausted 是宾语补足语，说明宾语当时的持续状态；现在分词表示“正在／一直处于”，若用过去分词则表被动或完成（如 found the door locked）。",
+            "example_sentence": "Last week I found one young swallow lying exhausted in the barn.",
+            "common_mistake": "❌ I found the little swallow laid on the floor. → ✅ I found the little swallow lying on the floor.（lie“躺”的过去分词是 lain，现在分词是 lying；lay“放置”才是 laid）",
+            "contrast": "find + sb. doing 强调发现时动作正在进行；find + sb. do 强调发现动作的全过程（较少用）；find + 宾语 + 过去分词 则表被动或状态，如 I found the window broken."
+          }
+        ]
+      }
+    },
+    {
+      "en": "Swallows have returned to this village for centuries, but their numbers are falling. Pesticides have reduced the insects they feed on, and old barns are being repaired or pulled down. Protecting them costs us very little. Perhaps that is why their departure each September feels less like a loss than a promise.",
+      "zh": "几个世纪以来，燕子一直回到这个村庄，但它们的数量正在减少。杀虫剂减少了它们赖以捕食的昆虫，古老的谷仓也在被修��或拆除。保护它们其实花费我们极少。或许正因如此，它们每年九月的离去，与其说是一种失去，不如说是一个承诺。",
+      "vocabulary": [
+        {
+          "word": "pesticide",
+          "phonetic": "/ˈpestɪsaɪd/",
+          "meaning": "n. 杀虫剂；农药",
+          "example": "Heavy use of pesticides has driven many insects away from the fields.",
+          "derivatives": "pest (n.) 害虫 → pesticide (n.) 杀虫剂 → herbicide (n.) 除草剂 → fungicide (n.) 杀菌剂；后缀 -cide 表示“杀……剂”"
+        },
+        {
+          "word": "reduce",
+          "phonetic": "/rɪˈdjuːs/",
+          "meaning": "v. 减少；降低；使沦为",
+          "example": "The new farming methods have reduced the number of insects sharply.",
+          "derivatives": "reduce (v.) → reduction (n.) 减少 → reduced (adj.) 减少的；常见搭配：reduce...to... 使沦为；reduce by 减少了（幅度）"
+        },
+        {
+          "word": "departure",
+          "phonetic": "/dɪˈpɑːtʃə(r)/",
+          "meaning": "n. 离开；出发；背离",
+          "example": "Their departure in September is a sign that autumn has come.",
+          "derivatives": "depart (v.) 离开 → departure (n.) → departed (adj.) 已故的；常见搭配：departure from 背离、偏离；a departure from tradition 对传统的背离"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Perhaps that is why their departure each September feels less like a loss than a promise.",
+          "zh": "或许正因如此，它们每年九月的离去，与其说是一种失去，不如说是一个承诺。",
+          "grammar": "Perhaps 为评注性状语；that is why... 中 why 引导表语从句，说明“结果／原因所在”；less like a loss than a promise 是 less A than B 比较结构，意为“与其说是 A，不如说是 B”。",
+          "pattern": "That is why + 从句（那就是……的原因）／feel less like A than B（与其说像 A，不如说像 B）",
+          "note": "注意区分：That is why... 引出结果，That is because... 引出原因。常见错误为中国学生习惯用 for this reason 直译；英语中更地道的是 That is why。此外 less...than... 表“不如……”，而 not so much A as B 也可表同样意思。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Swallows have returned to this village for centuries",
+          "zh": "几个世纪以来燕子一直回到这个村庄",
+          "function": "主句（现在完成时 + 时间状语）"
+        },
+        {
+          "en": "but their numbers are falling",
+          "zh": "但它们的数量正在减少",
+          "function": "转折并列分句"
+        },
+        {
+          "en": "Pesticides have reduced the insects they feed on",
+          "zh": "杀虫剂减少了它们赖以捕食的昆虫",
+          "function": "主句 + 省略关系词的定语从句"
+        },
+        {
+          "en": "and old barns are being repaired or pulled down",
+          "zh": "古老的谷仓也正被修缮或拆除",
+          "function": "并列分句（现在进行时被动语态）"
+        },
+        {
+          "en": "Perhaps that is why their departure each September feels less like a loss than a promise",
+          "zh": "或许正因如此，它们每年九月的离去与其说是失去，不如说是承诺",
+          "function": "主句 + 表语从句（含比较结构）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在进行时的被动语态（are being repaired）",
+            "explanation": "are being + 过去分词 表示“此刻正在被……”，既强调被动，又强调动作正在进行，常用于描述环境正在遭受的变化，语感比 are repaired 更生动、更有紧迫感。",
+            "example_sentence": "Old barns are being repaired or pulled down.",
+            "common_mistake": "❌ Old barns are being repair. → ✅ Old barns are being repaired.（被动语态必须用过去分词，不能用动词原形）",
+            "contrast": "old barns are repaired 表示习惯性动作或一般事实；are being repaired 强调眼下正在发生；have been repaired 强调已经完成并对现在有影响。三者在新闻与环境类文章中常交替出现，语气各异。"
+          }
+        ]
+      }
+    }
+  ]
+}
