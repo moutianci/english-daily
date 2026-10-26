@@ -1,0 +1,304 @@
+{
+  "date": "2026-10-27",
+  "title": "A Change of Career",
+  "titleZh": "转行",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "For twenty years, Geoffrey had worked as an accountant in a large firm in the city. He was careful, punctual and utterly reliable; his columns of figures balanced to the last penny. Yet when colleagues asked him what he did at weekends, he would hesitate, as though the question had never occurred to him. On Saturday mornings, while the rest of the office slept, he repaired old clocks in a small workshop behind his house.",
+      "zh": "二十年来，杰弗里一直在城里一家大公司当会计。他细心、守时，而且绝对可靠；他做的一栏栏数字分毫不差。然而，每当同事问他周末做些什么，他总会迟疑一下，仿佛这个问题从未在他脑中浮现过。星期六上午，当办公室里其他人还在睡觉时，他就在屋后一间小作坊里修理旧钟。",
+      "vocabulary": [
+        {
+          "word": "accountant",
+          "phonetic": "/əˈkaʊntənt/",
+          "meaning": "n. 会计；会计师",
+          "example": "She qualified as an accountant at the age of twenty-five.",
+          "derivatives": "account (n. 账目 / v. 解释) → accounting (n. 会计学) → accountant (n. 会计) → accountable (adj. 负有责任的)"
+        },
+        {
+          "word": "punctual",
+          "phonetic": "/ˈpʌŋktʃuəl/",
+          "meaning": "adj. 准时的；守时的",
+          "example": "The train is usually punctual to the minute.",
+          "derivatives": "punctual (adj.) → punctually (adv.) → punctuality (n. 守时)"
+        },
+        {
+          "word": "hesitate",
+          "phonetic": "/ˈhezɪteɪt/",
+          "meaning": "v. 犹豫；迟疑",
+          "example": "He hesitated before answering the question.",
+          "derivatives": "hesitate (v.) → hesitation (n.) → hesitant (adj.) → hesitantly (adv.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Yet when colleagues asked him what he did at weekends, he would hesitate, as though the question had never occurred to him.",
+          "zh": "然而，每当同事问他周末做些什么，他总会迟疑一下，仿佛这个问题从未在他脑中浮现过。",
+          "grammar": "when 引导时间状语从句；what he did at weekends 是 asked 的宾语从句（疑问词 what 作 did 的宾语）；主句用 would + 动词表示过去 habitual 的习惯；as though 引导方式状语从句，从句用 had never occurred（过去完成时）表示与过去事实相反的虚拟。",
+          "pattern": "would do sth, as though + 过去完成时（虚拟语气）—— 表示“过去常常……，仿佛……”",
+          "note": "as though / as if 从句若表示与事实相反，需用虚拟语气：与现在事实相反用一般过去时，与过去事实相反用过去完成时。写作中常用来描写人物的心理状态，语气略带文学色彩。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "For twenty years",
+          "zh": "二十年来",
+          "function": "时间状语"
+        },
+        {
+          "en": "Geoffrey had worked as an accountant",
+          "zh": "杰弗里一直当会计",
+          "function": "主语 + 谓语 + 状语（as 引出身份）"
+        },
+        {
+          "en": "in a large firm in the city",
+          "zh": "在城里一家大公司",
+          "function": "地点状语（其中 in the city 作 firm 的定语）"
+        },
+        {
+          "en": "his columns of figures balanced to the last penny",
+          "zh": "他做的一栏栏数字分毫不差",
+          "function": "并列分句（说明“可靠”的具体表现）"
+        },
+        {
+          "en": "while the rest of the office slept",
+          "zh": "当办公室里其他人还在睡觉时",
+          "function": "时间状语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "过去完成时（had + 过去分词）",
+            "explanation": "had worked 表示在过去某一时间点之前已经开始、并一直持续的动作，常与 for / since 引出的时间状语连用，强调“到那时为止已经持续了多久”。",
+            "example_sentence": "For twenty years, Geoffrey had worked as an accountant in a large firm in the city.",
+            "common_mistake": "❌ He has worked there for twenty years before he left. → ✅ He had worked there for twenty years before he left.",
+            "contrast": "现在完成时 (has worked) 以“现在”为参照点；过去完成时 (had worked) 以“过去某一点”为参照点。叙事文中的背景交代几乎都用过去完成时。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Then, one autumn, the firm announced a reorganisation. Departments were merged, and Geoffrey, at forty-nine, was politely offered early retirement. He took the envelope home and set it on the kitchen table. That evening he did not open it. He sat in his workshop instead, listening to the ticking of thirty clocks, and understood, with sudden clarity, what he had been avoiding for half his life.",
+      "zh": "后来，在某一个秋天，公司宣布进行重组。几个部门被合并，而四十九岁的杰弗里被客气地告知可以提前退休。他把那个信封带回家，放在厨房的桌子上。那天晚上他没有拆开它。他反而坐进了自己的作坊，听着三十只钟的滴答声，忽然清楚地明白了一件他半辈子都在回避的事。",
+      "vocabulary": [
+        {
+          "word": "reorganisation",
+          "phonetic": "/ˌriːɔːɡənaɪˈzeɪʃn/",
+          "meaning": "n. 重组；机构调整",
+          "example": "The reorganisation of the department cost several people their jobs.",
+          "derivatives": "organise (v. 组织) → organisation (n. 组织) → organisational (adj.) → reorganise (v. 重组) → reorganisation (n.)"
+        },
+        {
+          "word": "merge",
+          "phonetic": "/mɜːdʒ/",
+          "meaning": "v. 合并；融合",
+          "example": "The two small firms merged to form a single company.",
+          "derivatives": "merge (v.) → merger (n. 合并；并购) → merged (adj. 合并的)；常见搭配：merge with 与……合并 / merge into 并入"
+        },
+        {
+          "word": "clarity",
+          "phonetic": "/ˈklærəti/",
+          "meaning": "n. 清晰；清楚",
+          "example": "She explained the plan with great clarity.",
+          "derivatives": "clear (adj.) → clarify (v. 澄清) → clarification (n.) → clarity (n.)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "He sat in his workshop instead, listening to the ticking of thirty clocks, and understood, with sudden clarity, what he had been avoiding for half his life.",
+          "zh": "他反而坐进了自己的作坊，听着三十只钟的滴答声，忽然清楚地明白了一件他半辈子都在回避的事。",
+          "grammar": "listening to... 为现在分词短语作伴随状语；with sudden clarity 为方式状语（插入于谓语与宾语之间）；what he had been avoiding for half his life 是 what 引导的宾语从句，作 understood 的宾语；从句中用过去完成进行时，表示在“明白”之前一直持续的动作。",
+          "pattern": "主语 + 谓语, doing sth, and did sth —— 分词状语与并列谓语并用，使叙述连贯而有节奏",
+          "note": "英语中“伴随情况”常用现在分词短语表达，其逻辑主语必须与主句主语一致。若分词与主语构成被动关系，则用过去分词：He sat there, surrounded by clocks."
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Then, one autumn",
+          "zh": "后来，在某一个秋天",
+          "function": "时间状语"
+        },
+        {
+          "en": "the firm announced a reorganisation",
+          "zh": "公司宣布进行重组",
+          "function": "主句：主语 + 谓语 + 宾语"
+        },
+        {
+          "en": "Geoffrey, at forty-nine, was politely offered early retirement",
+          "zh": "四十九岁的杰弗里被客气地告知可以提前退休",
+          "function": "并列分句（被动语态）；at forty-nine 为插入语，补充年龄"
+        },
+        {
+          "en": "listening to the ticking of thirty clocks",
+          "zh": "听着三十只钟的滴答声",
+          "function": "现在分词短语作伴随状语"
+        },
+        {
+          "en": "what he had been avoiding for half his life",
+          "zh": "他半辈子一直在回避的事",
+          "function": "宾语从句（作 understood 的宾语）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在分词作伴随状语",
+            "explanation": "分词短语说明主句动作发生时伴随的另一动作，逻辑主语与主句主语一致，且与主语构成主动关系，因此用 -ing 形式。",
+            "example_sentence": "He sat in his workshop instead, listening to the ticking of thirty clocks.",
+            "common_mistake": "❌ Sitting in his workshop, the clocks ticked loudly. → ✅ Sitting in his workshop, he heard the clocks ticking loudly.",
+            "contrast": "现在分词 (-ing) 表主动、进行；过去分词 (-ed) 表被动、完成。比较：Hearing the news, he wept. / Excited by the news, he could not sleep."
+          }
+        ]
+      }
+    },
+    {
+      "en": "The following spring, he rented a narrow shop in a side street and hung a modest sign above the door: \"Clock Repairs. All Welcome.\" The first months were discouraging. Customers were few, and the rent was high. But Geoffrey had never minded waiting; he had spent twenty years waiting for figures to add up. He mended what people brought him, and slowly the shop acquired a reputation for honesty.",
+      "zh": "第二年春天，他在一条小街上租下一间窄小的店铺，并在门上方挂了一块简朴的招牌：“修钟。欢迎光临。”最初几个月令人沮丧。顾客寥寥无几，房租却很高。但杰弗里从不介意等待；他花了二十年等一串数字加起来。他把人们送来的钟一一修好，渐渐地，这家小店因诚实而有了口碑。",
+      "vocabulary": [
+        {
+          "word": "discouraging",
+          "phonetic": "/dɪsˈkʌrɪdʒɪŋ/",
+          "meaning": "adj. 令人沮丧的；使人泄气的",
+          "example": "The first results of the experiment were discouraging.",
+          "derivatives": "discourage (v. 使泄气) → discouragement (n.) → discouraged (adj. 感到沮丧的) → discouraging (adj. 令人沮丧的)；比较 courage (n. 勇气)"
+        },
+        {
+          "word": "modest",
+          "phonetic": "/ˈmɒdɪst/",
+          "meaning": "adj. 朴素的；不大的；谦虚的",
+          "example": "They live in a modest house on the edge of town.",
+          "derivatives": "modest (adj.) → modestly (adv.) → modesty (n. 谦逊；朴素)；常见搭配：a modest income 微薄的收入"
+        },
+        {
+          "word": "reputation",
+          "phonetic": "/ˌrepjuˈteɪʃn/",
+          "meaning": "n. 名声；声誉",
+          "example": "The restaurant has a reputation for excellent service.",
+          "derivatives": "repute (n./v.) → reputable (adj. 声誉好的) → reputation (n.)；常见搭配：acquire / build up a reputation for sth"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "But Geoffrey had never minded waiting; he had spent twenty years waiting for figures to add up.",
+          "zh": "但杰弗里从不介意等待；他花了二十年等一串数字加起来。",
+          "grammar": "mind 后接动名词作宾语（mind doing sth）；分号连接两个意义紧密相关的并列分句，后一分句用 had spent... waiting 构成 spend time (in) doing sth 结构，对前句加以解释。",
+          "pattern": "spend + 时间/金钱 + (in) doing sth —— 花费时间/金钱做某事",
+          "note": "注意 mind 后只能接动名词，不能说 mind to wait。分号而非句号，表示两句在逻辑上仍属一体，是英文散文常用的衔接手段。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "The following spring",
+          "zh": "第二年春天",
+          "function": "时间状语"
+        },
+        {
+          "en": "he rented a narrow shop in a side street",
+          "zh": "他在一条小街上租下一间窄小的铺面",
+          "function": "主句：主语 + 谓语 + 宾语 + 地点状语"
+        },
+        {
+          "en": "and hung a modest sign above the door",
+          "zh": "并在门上方挂了一块简朴的招牌",
+          "function": "并列谓语（与 rented 共用主语 he）"
+        },
+        {
+          "en": "what people brought him",
+          "zh": "人们送来的东西",
+          "function": "宾语从句（作 mended 的宾语）"
+        },
+        {
+          "en": "for honesty",
+          "zh": "因诚实（而获得的）",
+          "function": "介词短语作定语，修饰 reputation"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "spend + 时间 + (in) doing sth",
+            "explanation": "表示“花费时间做某事”，介词 in 常省略，后面必须用动名词。与之相对的“It takes sb + 时间 + to do sth”则用不定式。",
+            "example_sentence": "He had spent twenty years waiting for figures to add up.",
+            "common_mistake": "❌ He spent twenty years to wait. → ✅ He spent twenty years waiting.",
+            "contrast": "spend time (in) doing sth（主语是人）／ It takes sb time to do sth（主语是事）／ waste time (in) doing sth。三者含义相近，但句型不同，不可混用。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Today, customers sometimes ask him whether he regrets leaving the firm. He usually smiles and says that a career, like a clock, is rarely ruined by a single mistake; it is ruined by neglect. What matters, he believes, is not how early one finds the right work, but whether one is still willing to learn it. At fifty-five, he is still learning.",
+      "zh": "如今，顾客有时会问他是否后悔离开那家公司。他通常微微一笑，说职业就像钟表，很少因一次失误而毁掉，却会因疏于照料而毁掉。他认为，重要的不是一个人多早找到合适的工作，而是他是否仍愿意去学它。五十五岁的他，仍在学习。",
+      "vocabulary": [
+        {
+          "word": "regret",
+          "phonetic": "/rɪˈɡret/",
+          "meaning": "v. 后悔；遗憾 n. 遗憾",
+          "example": "She soon regretted having left such a steady job.",
+          "derivatives": "regret (v./n.) → regretful (adj. 后悔的) → regrettable (adj. 令人遗憾的) → regretfully (adv.)；注意 regret doing 后悔做过 / regret to do 遗憾地要做"
+        },
+        {
+          "word": "neglect",
+          "phonetic": "/nɪˈɡlekt/",
+          "meaning": "n. 忽视；疏忽 v. 忽视；疏忽",
+          "example": "The machine broke down through years of neglect.",
+          "derivatives": "neglect (v./n.) → neglectful (adj. 疏忽的) → negligence (n. 过失) → negligible (adj. 微不足道的)"
+        },
+        {
+          "word": "willing",
+          "phonetic": "/ˈwɪlɪŋ/",
+          "meaning": "adj. 愿意的；乐意的",
+          "example": "He is always willing to help a colleague in trouble.",
+          "derivatives": "will (n. 意愿) → willing (adj.) → willingly (adv.) → willingness (n. 意愿)；常见搭配：be willing to do sth"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "What matters, he believes, is not how early one finds the right work, but whether one is still willing to learn it.",
+          "zh": "他认为，重要的不是一个人多早找到合适的工作，而是他是否仍愿意去学它。",
+          "grammar": "What matters 是 what 引导的主语从句，作全句主语；he believes 为插入语，用逗号隔开，不影响句子结构；is 后接 not... but... 连接的两个表语从句，分别由 how early 和 whether 引导。",
+          "pattern": "What matters is not ... but ... —— 重要的不是……而是……",
+          "note": "what 引导的主语从句视为单数，谓语一律用 is/was，不可用 are。插入语 he believes 可置于主语之后、句中或句末，是书面语中表达个人看法的常见方式。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "customers sometimes ask him",
+          "zh": "顾客有时问他",
+          "function": "主句：主语 + 频度状语 + 谓语 + 宾语"
+        },
+        {
+          "en": "whether he regrets leaving the firm",
+          "zh": "他是否后悔离开公司",
+          "function": "宾语从句（whether 引导，作 ask 的直接宾语）"
+        },
+        {
+          "en": "that a career, like a clock, is rarely ruined by a single mistake",
+          "zh": "职业就像钟表，很少因一次失误而毁掉",
+          "function": "宾语从句（作 says 的宾语）；like a clock 为插入语"
+        },
+        {
+          "en": "What matters",
+          "zh": "重要的事情",
+          "function": "主语从句"
+        },
+        {
+          "en": "whether one is still willing to learn it",
+          "zh": "一个人是否仍愿意去学它",
+          "function": "表语从句（与 not how early... 构成 not... but... 结构）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "what 引导的主语从句 + not... but... 表语从句",
+            "explanation": "what 在从句中充当主语，整个从句作全句主语，视为单数；not... but... 是并列连词结构，连接两个平行的表语从句（how early... 与 whether...），形成鲜明对比，是议论文与散文常用的说理句式。",
+            "example_sentence": "What matters, he believes, is not how early one finds the right work, but whether one is still willing to learn it.",
+            "common_mistake": "❌ What matter are whether you try. → ✅ What matters is whether you try.",
+            "contrast": "what 从句中 what 必须充当成分（主语、宾语或表语）；that 引导主语从句时 that 不作成分，但不可省略：That he lied is obvious. 两者不可互换。"
+          }
+        ]
+      }
+    }
+  ]
+}
