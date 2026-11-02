@@ -1,0 +1,304 @@
+{
+  "date": "2026-11-03",
+  "title": "The Man Who Fed the Pigeons",
+  "titleZh": "喂鸽子的人",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "On the first Sunday of November I walked down to the river, as I have done for years. The fog lay low over the water, and the last leaves were falling one by one. There were few people about. The town seemed to be holding its breath, waiting for winter. I pulled my coat closer and walked on.",
+      "zh": "十一月的第一个星期天，我像多年来一样，沿着河岸散步。雾气低低地压在河面上，最后的几片叶子一片一片地飘落。四下里几乎没有人。小镇仿佛屏住了呼吸，等待着冬天的到来。我把外套裹得更紧些，继续往前走。",
+      "vocabulary": [
+        {
+          "word": "fog",
+          "phonetic": "/fɒɡ/",
+          "meaning": "n. 雾；v. （使）模糊不清",
+          "example": "The fog was so thick that we could hardly see the bridge.",
+          "derivatives": "fog (n. 雾) → foggy (adj. 有雾的) → fogged (adj. 起雾的；模糊的) → fog-bound (adj. 因雾受阻的)"
+        },
+        {
+          "word": "hold one's breath",
+          "phonetic": "/həʊld wʌnz breθ/",
+          "meaning": "phr. 屏住呼吸；（引申）紧张地等待",
+          "example": "The whole audience held its breath as the violinist raised her bow.",
+          "derivatives": "hold one's breath (屏息) → take a deep breath (深吸一口气) → be out of breath (上气不接下气) → breathless (adj. 气喘吁吁的)"
+        },
+        {
+          "word": "one by one",
+          "phonetic": "/wʌn baɪ wʌn/",
+          "meaning": "phr. 一个接一个地；逐一地",
+          "example": "The lights in the windows went out one by one.",
+          "derivatives": "one by one (逐一) → step by step (一步一步地) → little by little (渐渐地) → day by day (一天天地)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "The town seemed to be holding its breath, waiting for winter.",
+          "zh": "小镇仿佛屏住了呼吸，等待着冬天的到来。",
+          "grammar": "seem to be doing 表示“似乎正在进行某事”，是 seem 后接不定式进行式的结构；逗号后的 waiting for winter 是现在分词短语，作伴随状语，其逻辑主语与主句主语 the town 一致。",
+          "pattern": "主语 + seem to be doing sth (似乎正在做某事), doing sth (伴随状语)",
+          "note": "seem 后接不定式时，可换成 it seems that 从句：It seemed that the town was holding its breath. 注意分词作状语时，其逻辑主语必须与主句主语一致，否则就成了“垂悬分词”错误。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "On the first Sunday of November",
+          "zh": "在十一月的第一个星期天",
+          "function": "时间状语"
+        },
+        {
+          "en": "I walked down to the river",
+          "zh": "我走到河边",
+          "function": "主句（主语+谓语+状语）"
+        },
+        {
+          "en": "as I have done for years",
+          "zh": "正如我多年来所做的那样",
+          "function": "方式状语从句"
+        },
+        {
+          "en": "The fog lay low over the water",
+          "zh": "雾低低地笼罩在河面上",
+          "function": "并列分句（主句）"
+        },
+        {
+          "en": "and the last leaves were falling one by one",
+          "zh": "最后的叶子正一片片地落下",
+          "function": "并列分句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "as 引导的方式状语从句",
+            "explanation": "as 在此意为“正如……那样”，引导方式状语从句，说明主句动作是以何种���式进行的。从句用现在完成时 have done，与主句“多年来一直如此”的含义相呼应。",
+            "example_sentence": "I walked down to the river, as I have done for years.",
+            "common_mistake": "❌ Like I said yesterday, the river is beautiful. → ✅ As I said yesterday, the river is beautiful.",
+            "contrast": "as 是连词，后面接从句；like 是介词，后面只能接名词或代词。口语中常用 like 代替 as，但正式书面语中应区分：As I said (正如我所说) / Like me (像我一样)。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Near the old bridge, an elderly man sat on a bench with a bag of breadcrumbs. Pigeons gathered around his feet, and he spoke to them softly, as though they were old friends. I had seen him there many times before, always at the same hour, always alone. Curious, I sat down at the other end of the bench.",
+      "zh": "在旧桥附近，一位老人坐在长椅上，身边放着一袋面包屑。鸽子聚集在他脚边，他轻声对它们说话，仿佛它们都是老朋友。我以前多次在那里见过他，总是在同一个时刻，总是一个人。出于好奇，我在长椅的另一头坐了下来。",
+      "vocabulary": [
+        {
+          "word": "breadcrumb",
+          "phonetic": "/ˈbredkrʌm/",
+          "meaning": "n. 面包屑（常用复数 breadcrumbs）",
+          "example": "She scattered breadcrumbs on the grass for the birds.",
+          "derivatives": "bread (n. 面包) → crumb (n. 碎屑) → breadcrumb (n. 面包屑) → crumbly (adj. 易碎的)"
+        },
+        {
+          "word": "gather",
+          "phonetic": "/ˈɡæðə(r)/",
+          "meaning": "v. 聚集；收集；推断",
+          "example": "A small crowd gathered outside the theatre to watch the actors arrive.",
+          "derivatives": "gather (v. 聚集) → gathering (n. 聚会；集会) → together (adv. 一起) → gatherer (n. 采集者)"
+        },
+        {
+          "word": "as though",
+          "phonetic": "/əz ðəʊ/",
+          "meaning": "phr. 好像，仿佛（= as if）",
+          "example": "He looked at me as though I had said something ridiculous.",
+          "derivatives": "as though / as if (仿佛) → even though (尽管) → though (虽然；不过)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Pigeons gathered around his feet, and he spoke to them softly, as though they were old friends.",
+          "zh": "鸽子聚集在他脚边，他轻声对它们说话，仿佛它们是老朋友。",
+          "grammar": "本句由 and 连接两个并列分句。第二个分句中的 as though 引导方式状语从句，从句用 were 而非 are，属虚拟语气，表示与事实相反（鸽子并非他的朋友）。",
+          "pattern": "主句 + as though + 主语 + were/did ... (仿佛……似的)",
+          "note": "as though / as if 从句常用过去式（be 动词用 were）表示与现在事实相反，用过去完成时表示与过去事实相反。若所说不违背事实，也可用陈述语气：It looks as though it is going to rain."
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Near the old bridge",
+          "zh": "在旧桥附近",
+          "function": "地点状语"
+        },
+        {
+          "en": "an elderly man sat on a bench with a bag of breadcrumbs",
+          "zh": "一位老人坐在长椅上，带着一袋面包屑",
+          "function": "主句"
+        },
+        {
+          "en": "and he spoke to them softly",
+          "zh": "他轻声地对它们说话",
+          "function": "并列分句"
+        },
+        {
+          "en": "as though they were old friends",
+          "zh": "仿佛它们是老朋友似的",
+          "function": "方式状语从句"
+        },
+        {
+          "en": "always at the same hour, always alone",
+          "zh": "总是在同一个时刻，总是一个人",
+          "function": "补充说明性状语（省略结构）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "as though 引导的虚拟语气从句",
+            "explanation": "as though（仿佛）引导方式状语从句时，若所述内容与事实相反或可能性极小，从句要用虚拟语气：与现在事实相反用一般过去时（be 用 were），与过去事实相反用过去完成时。",
+            "example_sentence": "He spoke to them softly, as though they were old friends.",
+            "common_mistake": "❌ He spoke to the pigeons as though they are his children. → ✅ He spoke to the pigeons as though they were his children.",
+            "contrast": "as if 与 as though 意思完全相同，as though 略正式、更具文学色彩；而 look/seem + as if 结构中，如果说话人认为情况可能属实，则用陈述语气：He looks as if he has seen a ghost."
+          }
+        ]
+      }
+    },
+    {
+      "en": "He told me that he had fed the birds every morning since his wife died, forty years ago. 'It is not the birds I come for,' he said, smiling. 'It is the hour. When you do the same small thing every day, the day stops running away from you.' I said nothing; there seemed nothing to add.",
+      "zh": "他告诉我，自从四十年前妻子去世后，他每天早上都来喂这些鸟。“我可不是为这些鸟而来的，”他笑着说，“我是为这个时刻而来。当你每天做同一件小事的时候，日子就不再从你身边溜走了。”我什么也没说；似乎也没有什么可补充的。",
+      "vocabulary": [
+        {
+          "word": "feed",
+          "phonetic": "/fiːd/",
+          "meaning": "v. 喂养，饲养（fed, fed）",
+          "example": "She feeds the cat twice a day, whatever the weather.",
+          "derivatives": "feed (v. 喂养) → food (n. 食物) → feeding (n. 喂养；进食) → well-fed (adj. 营养充足的)"
+        },
+        {
+          "word": "run away from",
+          "phonetic": "/rʌn əˈweɪ frəm/",
+          "meaning": "phr. 逃离，躲避；从……溜走",
+          "example": "You cannot run away from your responsibilities for ever.",
+          "derivatives": "run away from (逃离) → run out of (用完) → run into (偶然遇见) → run over (撞倒；辗过)"
+        },
+        {
+          "word": "add",
+          "phonetic": "/æd/",
+          "meaning": "v. 补充说；增添；相加",
+          "example": "'And mind the step,' he added as I left.",
+          "derivatives": "add (v. 增加；补充) → addition (n. 增加；加法) → additional (adj. 额外的) → additionally (adv. 此外)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "He told me that he had fed the birds every morning since his wife died, forty years ago.",
+          "zh": "他告诉我，自从四十年前妻子去世后，他每天早上都来喂这些鸟。",
+          "grammar": "told 后接 that 引导的宾语从句；从句谓语用过去完成时 had fed，与 since 引导的一般过去时时间状语从句 his wife died 相配合，表示从过去某时刻一直延续到过去另一时刻的动作。every morning 表示反复性。",
+          "pattern": "主语 + said/told sb + that + had done sth + since + 一般过去时",
+          "note": "在 since 从句 + 主句的结构中，时态是固定的：since 从句用一般过去时，主句用现在完成时（延续到现在）或过去完成时（延续到过去某一时刻）。切勿写成 ❌ since his wife had died。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "He told me",
+          "zh": "他告诉我",
+          "function": "主句（主语+谓语+间接宾语）"
+        },
+        {
+          "en": "that he had fed the birds every morning since his wife died",
+          "zh": "自从妻子去世后他每天早上都来喂鸟",
+          "function": "宾语从句"
+        },
+        {
+          "en": "It is not the birds I come for",
+          "zh": "我并不是为这些鸟而来的",
+          "function": "主句（强调句，省略 that）"
+        },
+        {
+          "en": "When you do the same small thing every day",
+          "zh": "当你每天做同一件小事时",
+          "function": "时间状语从句"
+        },
+        {
+          "en": "the day stops running away from you",
+          "zh": "日子就不再从你身边溜走",
+          "function": "主句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "强调句 It is ... that/who ...",
+            "explanation": "强调句的基本形式是 It is/was + 被强调部分 + that/who + 其余部分。本课中 'It is not the birds (that) I come for' 省略了 that，被强调的是否定宾语 not the birds，用以引出后面的对比 It is the hour。",
+            "example_sentence": "It is not the birds I come for. It is the hour.",
+            "common_mistake": "❌ It is the birds that I come for them. → ✅ It is the birds that I come for.",
+            "contrast": "强调句去掉 It is ... that 后，句子仍完整成立（I come for the birds），这是判断强调句的可靠方法；而定语从句 It is a book that I bought yesterday 虽形式相似，但意义更接近“那就是我昨天买的那本书”，需依语境辨别。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "I walked home through the gathering dusk, thinking about his words. We tend to measure our lives by great events—weddings, journeys, victories—yet it is the small daily rituals that hold them together. Since that afternoon I have tried to keep one quiet habit of my own, and I have found that the days, curiously, no longer slip past me unnoticed.",
+      "zh": "我穿过渐深的暮色往家走，心里想着他的话。我们往往用大事——婚礼、远行、胜利——来衡量自己的一生，可正是那些日常的小小仪式把这些大事串连起来。那天下午以后，我也试着给自己保留一个安静的日常习惯，而且我发现，奇怪的是，日子不再从我身边悄悄溜走了。",
+      "vocabulary": [
+        {
+          "word": "dusk",
+          "phonetic": "/dʌsk/",
+          "meaning": "n. 黄昏，薄暮",
+          "example": "By dusk the snow had covered the whole garden.",
+          "derivatives": "dusk (n. 黄昏) → dusky (adj. 微暗的) → dawn (n. 黎明，反义词) → twilight (n. 暮色，近义词)"
+        },
+        {
+          "word": "ritual",
+          "phonetic": "/ˈrɪtʃuəl/",
+          "meaning": "n. 仪式；例行公事，老规矩；adj. 仪式性的",
+          "example": "Making tea in the morning is a ritual I never skip.",
+          "derivatives": "ritual (n. 仪式) → rite (n. 典礼) → ritualistic (adj. 拘泥仪式的) → ritually (adv. 按仪式地)"
+        },
+        {
+          "word": "unnoticed",
+          "phonetic": "/ˌʌnˈnəʊtɪst/",
+          "meaning": "adj. 未被注意的，未被察觉的",
+          "example": "He slipped out of the meeting unnoticed.",
+          "derivatives": "notice (v./n. 注意) → noticeable (adj. 显而易见的) → unnoticed (adj. 未被注意的) → noticeably (adv. 显著地)"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Since that afternoon I have tried to keep one quiet habit of my own, and I have found that the days, curiously, no longer slip past me unnoticed.",
+          "zh": "那天下午以后，我也试着给自己保留一个安静的日常习惯，而且我发现，奇怪的是，日子不再从我身边悄悄溜走了。",
+          "grammar": "since 引导的时间状语置于句首，主句用现在完成时 have tried。and 连接第二个并列分句，其中 that 引导宾语从句；curiously 是插入语，用逗号隔开；no longer 是否定意义的时间状语；unnoticed 是形容词，作主语 the days 的补足语（主语补足语）。",
+          "pattern": "Since + 时间点, 主语 + have/has done ..., and 主语 + have found that + 从句",
+          "note": "slip past sb unnoticed 中的 unnoticed 不能改成 unnoticing：这是“主语补足语”，说明主语 the days 的状态，而非主语发出的动作。类似的还有 He sat there unnoticed / She left the room unobserved。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "I walked home through the gathering dusk",
+          "zh": "我穿过渐深的暮色走回家",
+          "function": "主句"
+        },
+        {
+          "en": "thinking about his words",
+          "zh": "心里想着他的话",
+          "function": "现在分词短语作伴随状语"
+        },
+        {
+          "en": "yet it is the small daily rituals that hold them together",
+          "zh": "然而正是那些日常的小小仪式把它们串连起来",
+          "function": "并列分句（强调句）"
+        },
+        {
+          "en": "Since that afternoon",
+          "zh": "自从那天下午以后",
+          "function": "时间状语"
+        },
+        {
+          "en": "I have found that the days no longer slip past me unnoticed",
+          "zh": "我发现日子不再从我身边悄悄溜走",
+          "function": "主句+宾语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "since 引导的时间状语与现在完成时",
+            "explanation": "since 表示“自从”，后面接一个明确的时间点（that afternoon, 2019, he left），主句必须用现在完成时（或现在完成进行时），表示动作从过去某时一直延续到现在。",
+            "example_sentence": "Since that afternoon I have tried to keep one quiet habit of my own.",
+            "common_mistake": "❌ Since that afternoon I try to keep one quiet habit. → ✅ Since that afternoon I have tried to keep one quiet habit.",
+            "contrast": "since + 时间点（自从那一刻起，主句用完成时）；for + 时间段（持续多久，可用于各种时态）：I have lived here for ten years. / I lived there for ten years."
+          }
+        ]
+      }
+    }
+  ]
+}
