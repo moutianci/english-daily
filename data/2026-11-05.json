@@ -1,0 +1,304 @@
+{
+  "date": "2026-11-05",
+  "title": "Good Work Takes Time",
+  "titleZh": "好活儿需要时间",
+  "url": "",
+  "paragraphs": [
+    {
+      "en": "Mr. Bell has repaired clocks in the same narrow shop for forty years. Visitors often wonder how a man can spend a lifetime on so small a thing. He himself never wonders. Each morning he unlocks the door, winds the old regulator on the wall, and sits down at his bench as though the world's business could wait.",
+      "zh": "贝尔先生在同一个狭小的铺子里修了四十年钟表。来客常常纳闷：一个人怎么能把一辈子花在这么小的东西上。他自己却从不纳闷。每天早晨，他开门，给墙上的老调节钟上发条，然后在工作台前坐下，仿佛世上的万事都可以等一等。",
+      "vocabulary": [
+        {
+          "word": "narrow",
+          "phonetic": "/ˈnærəʊ/",
+          "meaning": "adj. 狭窄的；狭隘的",
+          "example": "The shop is narrow but full of light.",
+          "derivatives": "narrow (adj.) → narrowly (adv.) 勉强地；差一点 → narrowness (n.) 狭窄 ｜ 常见搭配：a narrow escape 九死一生；narrow down 缩小（范围）"
+        },
+        {
+          "word": "lifetime",
+          "phonetic": "/ˈlaɪftaɪm/",
+          "meaning": "n. 一生；终身；使用期限",
+          "example": "He has spent a lifetime working with wood.",
+          "derivatives": "life (n.) → lifetime (n.) → lifelong (adj.) 终身的 ｜ 常见搭配：in one's lifetime 在有生之年；the chance of a lifetime 千载难逢的机会"
+        },
+        {
+          "word": "wind",
+          "phonetic": "/waɪnd/",
+          "meaning": "v. 上（发条）；（道路、河流）蜿蜒",
+          "example": "She forgot to wind the clock last night.",
+          "derivatives": "wind (v. /waɪnd/) → wound (过去式/过去分词) → winding (adj.) 蜿蜒的 ｜ 注意：名词 wind /wɪnd/ 意为“风”，读音不同"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Each morning he unlocks the door, winds the old regulator on the wall, and sits down at his bench as though the world's business could wait.",
+          "zh": "每天早晨，他开门，给墙上的老调节钟上发条，然后在工作台前坐下，仿佛世上的万事都可以等一等。",
+          "grammar": "主句含三个并列谓语（unlocks, winds, sits down），主语 he 只出现一次；as though 引导方式状语从句，从句中用 could wait 这一虚拟形式，表示与现��事实相反的设想，含蓄地写出主人公从容、笃定的职业态度。",
+          "pattern": "S + V1, V2, and V3 + as though + 从句（虚拟语气）",
+          "note": "as though / as if 从句表示“与事实不符的设想”时用虚拟语气（过去式或 could/would + 动词原形）；若所述情况很可能发生，则用陈述语气，如 It looks as though it is going to rain. 写作中此结构常用来刻画人物心态。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Mr. Bell has repaired clocks",
+          "zh": "贝尔先生修钟表",
+          "function": "主语 + 谓语 + 宾语（主句）"
+        },
+        {
+          "en": "in the same narrow shop",
+          "zh": "在同一个狭小的铺子里",
+          "function": "地点状语"
+        },
+        {
+          "en": "for forty years",
+          "zh": "四十年之久",
+          "function": "时间状语"
+        },
+        {
+          "en": "Visitors often wonder",
+          "zh": "来客常常纳闷",
+          "function": "主语 + 状语 + 谓语"
+        },
+        {
+          "en": "as though the world's business could wait",
+          "zh": "仿佛世上的万事都可以等一等",
+          "function": "方式状语从句（虚拟语气）"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "现在完成时 + for 表持续",
+            "explanation": "has repaired 是现在完成时，与 for forty years 连用，强调动作从过去开始一��延续到现在，并暗示仍将继续；这类句子常与 for、since 引出的时间状语搭配。",
+            "example_sentence": "Mr. Bell has repaired clocks in the same narrow shop for forty years.",
+            "common_mistake": "❌ He has repaired clocks since forty years. → ✅ He has repaired clocks for forty years. ｜ ❌ He repairs clocks for forty years. → ✅ He has repaired clocks for forty years.",
+            "contrast": "for + 一段时间（for forty years）表持续长度；since + 时间点（since 1986）表起点。现在完成时强调“至今仍如此”，一般过去时（he repaired）只陈述过去事实，不含延续意味。"
+          }
+        ]
+      }
+    },
+    {
+      "en": "Last spring a young man named Daniel came to him for work. He had left a well-paid position in an office and expected, he said, to learn a trade. The first weeks disappointed him. He was given nothing but screws to sort and brass to polish, and he began to doubt whether he had made the right choice.",
+      "zh": "去年春天，一个名叫丹尼尔的年轻人来找他谋一份活儿。他辞掉了办公室里一份薪水不薄的职位，据他说，是想学一门手艺。头几个星期让他失望。派给他的活儿，无非是分拣螺丝、擦亮铜件，于是他开始怀疑自己是否选对了路。",
+      "vocabulary": [
+        {
+          "word": "trade",
+          "phonetic": "/treɪd/",
+          "meaning": "n. 手艺；行业；贸易 v. 交易",
+          "example": "His father taught him the carpenter's trade.",
+          "derivatives": "trade (n./v.) → trader (n.) 商人 → trading (n.) 贸易 → trademark (n.) 商标 ｜ 常见搭配：learn a trade 学一门手艺；by trade 就职业而言"
+        },
+        {
+          "word": "disappoint",
+          "phonetic": "/ˌdɪsəˈpɔɪnt/",
+          "meaning": "v. 使失望；使（希望）落空",
+          "example": "The first weeks disappointed him.",
+          "derivatives": "disappoint (v.) → disappointment (n.) 失望 → disappointed (adj.) 感到失望的 → disappointing (adj.) 令人失望的"
+        },
+        {
+          "word": "doubt",
+          "phonetic": "/daʊt/",
+          "meaning": "v. 怀疑；n. 疑问",
+          "example": "He began to doubt whether he had made the right choice.",
+          "derivatives": "doubt (v./n.) → doubtful (adj.) 怀疑的 → doubtfully (adv.) → doubtless (adv.) 无疑 ｜ 注意：b 不发音；doubt 后接 whether / if 引导的宾语从句"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "He had left a well-paid position in an office and expected, he said, to learn a trade.",
+          "zh": "他辞掉了办公室里一份薪水不薄的职位，据他说，是想学一门手艺。",
+          "grammar": "had left 为过去完成时，表示“过去的过去”，以 came 为参照点；expected 与 had left 并列，共用一个主语 he；he said 是插入语，用逗号隔开，不充当句子成分；expect to do sth 为固定搭配。",
+          "pattern": "had done sth and expected, sb said, to do sth（过去完成时 + 插入语 + 不定式作宾语）",
+          "note": "过去完成时必须有另一个过去时间或动作为参照，不能单独使用；插入语 he said 位置灵活，可置于句中或句末，写作中用来交代消息来源，使叙述更客观。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Last spring",
+          "zh": "去年春天",
+          "function": "时间状语"
+        },
+        {
+          "en": "a young man named Daniel came to him for work",
+          "zh": "一个名叫丹尼尔的年轻人来找他谋活儿",
+          "function": "主句（主语 + 谓语 + 状语）"
+        },
+        {
+          "en": "He had left a well-paid position in an office",
+          "zh": "他辞掉了一份薪水不薄的职位",
+          "function": "并列分句（过去完成时）"
+        },
+        {
+          "en": "and expected, he said, to learn a trade",
+          "zh": "据他说，是想学一门手艺",
+          "function": "并列谓语 + 插入语"
+        },
+        {
+          "en": "whether he had made the right choice",
+          "zh": "自己是否选对了路",
+          "function": "宾语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "过去完成时",
+            "explanation": "had left、had made 都表示在过去某一时刻（came、began to doubt）之前已经完成的动作，即“过去的过去”。这一时态使叙事层次分明，先交代背景，再推进情节。",
+            "example_sentence": "He had left a well-paid position in an office and expected, he said, to learn a trade.",
+            "common_mistake": "❌ He has left his position before he came here. → ✅ He had left his position before he came here. ｜ ❌ After he had left, he had learned a trade. → ✅ After he had left, he learned a trade.",
+            "contrast": "过去完成时常与 before、after、when、by the time 引导的时间状语从句连用；若两个动作紧接发生且先后关系已由连词表明，也可用一般过去时，如 After he left, he learned a trade."
+          }
+        ]
+      }
+    },
+    {
+      "en": "Mr. Bell was in no hurry. \"A clock does not care how you feel,\" he remarked one afternoon. \"It asks only for patience.\" Gradually Daniel learned to listen to the small sounds of a mechanism, and to wait without irritation. By autumn he could take apart a movement and put it together again.",
+      "zh": "贝尔先生并不着急。“钟不在乎你心情如何，”一天下午他说道，“它只要求你有耐心。”渐渐地，丹尼尔学会了倾听机件发出的细微声响，学会了不急不躁地等待。到了秋天，他已经能把一只机芯拆开再装回去。",
+      "vocabulary": [
+        {
+          "word": "remark",
+          "phonetic": "/rɪˈmɑːk/",
+          "meaning": "v. 说道；评论 n. 评论；言辞",
+          "example": "\"A clock does not care how you feel,\" he remarked.",
+          "derivatives": "remark (v./n.) → remarkable (adj.) 非凡的 → remarkably (adv.) 极其 → remark on/upon sth 评论某事"
+        },
+        {
+          "word": "gradually",
+          "phonetic": "/ˈɡrædʒuəli/",
+          "meaning": "adv. 逐渐地；慢慢地",
+          "example": "Gradually Daniel learned to listen to the small sounds of a mechanism.",
+          "derivatives": "grade (n.) → gradual (adj.) 逐渐的 → gradually (adv.) ｜ 常见搭配：gradually increase 逐渐增加；a gradual change 渐变"
+        },
+        {
+          "word": "irritation",
+          "phonetic": "/ˌɪrɪˈteɪʃn/",
+          "meaning": "n. 恼怒；烦躁；刺激（物）",
+          "example": "He waited without irritation for the machine to cool.",
+          "derivatives": "irritate (v.) 使恼怒 → irritated (adj.) 恼火的 → irritating (adj.) 令人恼火的 → irritation (n.) 恼怒"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Gradually Daniel learned to listen to the small sounds of a mechanism, and to wait without irritation.",
+          "zh": "渐渐地，丹尼尔学会了倾听机件发出的细微声响，学会了不急不躁地等待。",
+          "grammar": "learn to do sth 后接两个并列的不定式短语，共用动词 learn；第二个不定式前的 to 必须保留，以免与前面的 listen to 混淆；介词短语 of a mechanism 作定语修饰 sounds，without irritation 作方式状语修饰 wait。",
+          "pattern": "learn to do A and to do B（并列不定式，第二处保留 to）",
+          "note": "中国学生常把第二个 to 省略写成 learn to listen ... and wait ...，虽可理解，但在正式书面语中保留 to 更清晰、更严谨；在长句中，保留 to 还能避免读者把第二个动词误认作与前一个介词宾语并列。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Mr. Bell was in no hurry",
+          "zh": "贝尔先生并不着急",
+          "function": "主句"
+        },
+        {
+          "en": "\"A clock does not care how you feel,\" he remarked one afternoon",
+          "zh": "“钟不在乎你心情如何，”一天下午他说道",
+          "function": "直接引语 + 后置谓语（插入式）"
+        },
+        {
+          "en": "Gradually Daniel learned to listen to the small sounds of a mechanism",
+          "zh": "渐渐地丹尼尔学会了倾听机件的细微声响",
+          "function": "主句（状语 + 主谓宾）"
+        },
+        {
+          "en": "and to wait without irritation",
+          "zh": "学会了不急不躁地等待",
+          "function": "并列不定式（并列宾语）"
+        },
+        {
+          "en": "By autumn he could take apart a movement and put it together again",
+          "zh": "到了秋天，他已能把一只机芯拆开再装回去",
+          "function": "时间状语 + 主句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "by + 时间点（完成意味）",
+            "explanation": "By autumn 意为“到秋天时（之前）”，表示某一动作在将来或过去某一时间点之前已经完成，句中以 could take apart 表达“到那时已具备的能力”。这一介词短语是叙述性文章交代进度的常用手段。",
+            "example_sentence": "By autumn he could take apart a movement and put it together again.",
+            "common_mistake": "❌ Until autumn he could take apart a movement. → ✅ By autumn he could take apart a movement. ｜ ❌ By autumn he can took apart the movement. → ✅ By autumn he could take the movement apart.",
+            "contrast": "by + 时间点 = 到……为止（动作完成）；until + 时间点 = 一直到……（动作持续，常用于否定句）。如 He waited until autumn. / By autumn he had learned the trade."
+          }
+        ]
+      }
+    },
+    {
+      "en": "Career advisers rarely mention patience; they speak of skills, plans and prospects. Yet most work worth doing is learned slowly, and the beginner who expects results too soon gives up too easily. Daniel now keeps his own small workshop. He tells his customers what his master once told him: good work takes time.",
+      "zh": "职业顾问很少提到“耐心”二字；他们谈的是技能、规划与前景。然而，大多数值得做的工作都得慢慢学成；急于见成绩的初学者，往往也最容易放弃。如今丹尼尔有了自己的小作坊。他常对顾客说起师父当年对他说过的话：好活儿需要时间。",
+      "vocabulary": [
+        {
+          "word": "prospect",
+          "phonetic": "/ˈprɒspekt/",
+          "meaning": "n. 前景；前途；（复）成功的机会",
+          "example": "Young graduates often worry about their career prospects.",
+          "derivatives": "prospect (n.) → prospective (adj.) 未来的；可能的 → in prospect 有望 ｜ 注意：prospect 作名词重音在第一音节，作动词 /prəˈspekt/ 意为“勘探”"
+        },
+        {
+          "word": "give up",
+          "phonetic": "/ɡɪv ʌp/",
+          "meaning": "phr. 放弃；认输；让出",
+          "example": "The beginner who expects results too soon gives up too easily.",
+          "derivatives": "give (v.) → gave (过去式) → given (过去分词) → give up on sb 对某人失去信心；give in 屈服；give away 赠送；give out 分发；耗尽"
+        },
+        {
+          "word": "workshop",
+          "phonetic": "/ˈwɜːkʃɒp/",
+          "meaning": "n. 作坊；车间；研讨会",
+          "example": "Daniel now keeps his own small workshop.",
+          "derivatives": "work (n.) + shop (n.) → workshop (n.) → workbench (n.) 工作台；workmanship (n.) 手艺，做工"
+        }
+      ],
+      "difficult_sentences": [
+        {
+          "en": "Yet most work worth doing is learned slowly, and the beginner who expects results too soon gives up too easily.",
+          "zh": "然而，大多数值得做的工作都得慢慢学成；而急于见成绩的初学者，往往也最容易放弃。",
+          "grammar": "worth doing 为形容词性短语，作后置定语修饰 work，相当于 which is worth doing，其中动名词用主动形式表被动���义；who expects results too soon 是限制性定语从句修饰 the beginner，从句谓语 expects 与先行词单复数一致；主句谓语分别为被动式 is learned 和 gives up。",
+          "pattern": "n. + worth doing + be + 过去分词；the + n. + who + V（单数）+ V（单数）",
+          "note": "worth 后接动名词，不能接不定式：❌ worth to do → ✅ worth doing；定语从句的谓语形式必须与先行词一致，遇到 the beginner who ... 这类结构，勿被从句中的复数名词 results 干扰而误用 expect。"
+        }
+      ],
+      "chunks": [
+        {
+          "en": "Career advisers rarely mention patience",
+          "zh": "职业顾问很少提到“耐心”",
+          "function": "主句"
+        },
+        {
+          "en": "they speak of skills, plans and prospects",
+          "zh": "他们谈的是技能、规划与前景",
+          "function": "并列分句"
+        },
+        {
+          "en": "Yet most work worth doing is learned slowly",
+          "zh": "然而大多数值得做的工作都得慢慢学成",
+          "function": "主句（被动语态，含后置定语）"
+        },
+        {
+          "en": "and the beginner who expects results too soon gives up too easily",
+          "zh": "而急于见成绩的初学者也最容易放弃",
+          "function": "并列分句（含限制性定语从句）"
+        },
+        {
+          "en": "what his master once told him",
+          "zh": "师父当年对他说过的话",
+          "function": "宾语从句"
+        }
+      ],
+      "grammar_analysis": {
+        "points": [
+          {
+            "structure": "限制性定语从句与主谓一致",
+            "explanation": "who expects results too soon 紧接先行词 the beginner，起限定作用，不可用逗号隔开；从句谓语 expects 用单数，与先行词一致，不受从句中 results 的影响。这一结构使说理句紧凑有力。",
+            "example_sentence": "The beginner who expects results too soon gives up too easily.",
+            "common_mistake": "❌ The beginner who expect results too soon give up too easily. → ✅ The beginner who expects results too soon gives up too easily.",
+            "contrast": "限制性定语从句（无逗号）提供必要信息，不能删除；非限制性定语从句（有逗号）只是补充说明，如 Daniel, who had once been an office clerk, now keeps a workshop of his own. 后者不能用 that 引导。"
+          }
+        ]
+      }
+    }
+  ]
+}
